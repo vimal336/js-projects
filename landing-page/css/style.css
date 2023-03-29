@@ -371,6 +371,7 @@ nav {
 
 .contact {
   display: flex;
+  flex-direction: column;
 
   width: 90%;
   margin: auto;
@@ -384,7 +385,7 @@ nav {
 
 .contact .col {
   padding: 100px;
-  width: 50vw;
+  width: 100vw;
   height: 100vh;
 }
 
