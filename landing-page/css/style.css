@@ -23,6 +23,10 @@ section {
   width: 100%;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 .header {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../images/img1.jpg");
