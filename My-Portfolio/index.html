@@ -9,6 +9,7 @@
 7. responsive footer
 8. add number, mail id, github id
 9. about me if possible
+10. click to top
 --------------------------------- -->
 <!DOCTYPE html> 
 <html>
@@ -52,6 +53,9 @@
             </div>
         </nav>
 
+       
+      
+
         <div class="hero" id="hero">
 
 
@@ -65,11 +69,25 @@
                     <a href="./images/Vimal.pdf" target="_blank">
                      <button class="btn cv-btn fa fa-download"> Download CV</button>
                     </a>     
+                    <div class="social-ico">
+
+                        <ul class="social-ic">
+                            <li><a href="https://github.com/vimal336" target="_blank"><i class="fa-brands fa-github-alt"></i></a></li>
+                            <li><a href="https://linkedin.com/in/vimal-sbbaaa3214" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                            <li><a href="mailto:asvimal336@gmail.com"><i class="fa-sharp fa-solid fa-envelope"></i></a></li>
+                    </ul>
+        
+                    </div>
             </div>
+
+        
             <div class="hero-img">
                 <img src="images/PngItem_1272138.png">
             </div>
         </div>
+
+       
+    
 
         <!-- <div class="career-container">
 		<div class="career-item">
@@ -203,6 +221,10 @@
         </container>
     </div>
 
+   
+
+
+
  <!-------------------------------------My skils section --------------------------------------------------------------->
     <div class="skills-section">
         <div class="skills-header">
@@ -322,6 +344,10 @@
         </div>
 
     </div>
+
+    <div class="top">
+        <a href="#hero">Top</a>
+     </div>
  
 
 <!-------------------------------------My works section --------------------------------------------------------------->
@@ -375,7 +401,65 @@
         </div>
    </section>
 
-<!-------------------------------------My works section ends --------------------------------------------------------------->
+<!-------------------------------------contact section--------------------------------------------------------------->
+
+<section id="section-wrapper">
+    <div class="box-wrapper">
+        <div class="info-wrap">
+            <h2 class="info-title">Contact Information</h2>
+            
+            <ul class="info-details">
+                <li>
+                    <i class="fas fa-phone-alt"></i>
+                    <span>Phone:</span> <a href="tel:+ 8778402315">+ 8778402315</a>
+                </li>
+                <li>
+                    <i class="fas fa-paper-plane"></i>
+                    <span>Email:</span> <a href="mailto:asvimal336@gmail.com">asvimal336@gmail.com</a>
+                </li>
+                <li>
+                    <i class="fas fa-globe"></i>
+                    <span>Location:</span> <a href="#">villupuram, TamilNadu.</a>
+                </li>
+            </ul>
+            <ul class="social-icons">
+                <li><a href="https://github.com/vimal336" target="_blank"><i class="fa-brands fa-github"></i></i></a></li>
+                <li><a href="https://linkedin.com/in/vimal-sbbaaa3214" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="mailto:asvimal336@gmail.com"><i class="fa-regular fa-envelope"></i></a></li>
+            </ul>
+        </div>
+        <div class="form-wrap">
+            <form action="mailto:asvimal336@gmail.com" method="POST">
+                <h2 class="form-title">Contact Me</h2>
+                <div class="form-fields">
+                    <div class="form-group">
+                        <input type="text" class="fname" placeholder="First Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="lname" placeholder="Last Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="email" placeholder="Mail">
+                    </div>
+                    <div class="form-group">
+                        <input type="number" class="phone" placeholder="Phone">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" id="" placeholder="Write your message"></textarea>
+                    </div>
+                </div>
+                <input type="submit" value="Send Message" class="submit-button">
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-------------------------------------footer section--------------------------------------------------------------->
+<footer>
+    <div class="footer-bottom">
+      <p>Designed and Developed by<a href="mailto:asvimal336@gmail.com"> @Vimal S</a> </p>
+    </div>
+  </footer>
 
 
     <script type="text/javascript" src="script.js"></script>

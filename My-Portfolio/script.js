@@ -1,23 +1,26 @@
 // JavaScript Code
 
-var menuBtn = document.querySelector('.menu-btn');
-var menu = document.querySelector('.nav-links');
+var menuBtn = document.querySelector(".menu-btn");
+var menu = document.querySelector(".nav-links");
 
-menuBtn.addEventListener('click', activeClass);
+menuBtn.addEventListener("click", activeClass);
 
-function activeClass(){
-	menuBtn.classList.toggle('active');
-	menu.classList.toggle('active');
+function activeClass() {
+  menuBtn.classList.toggle("active");
+  menu.classList.toggle("active");
 }
 
-var homeSection = document.querySelector('.home');
-window.addEventListener('scroll', scrollFunction);
+const moveTop = document.querySelector('.top');
+ 
+window.addEventListener('scroll', () => {
 
-function scrollFunction(){
-	if(window.scrollY > 60){
-		homeSection.classList.add('active');
-	}
-	else{
-		homeSection.classList.remove('active');
-	}
+var y = window.scrollY;
+
+if(y >= 700){
+  moveTop.classList.add('Topactive');
+} else{
+  moveTop.classList.remove('Topactive');
 }
+
+
+});
