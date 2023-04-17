@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: gray;
+  background-color: #e3e7e8;
 }
 
 header {
@@ -17,7 +17,7 @@ header {
   left: 0;
   width: 100%;
   z-index: 99;
-  background-color: #ff4757;
+  background-color: #fbff00;
 }
 
 .nav {
@@ -35,13 +35,13 @@ header {
   font-weight: 500;
   text-decoration: none;
   text-transform: uppercase;
-  color: aliceblue;
+  color: rgb(88, 51, 1);
 }
 
 .box {
   width: 30px;
   height: 30px;
-  color: white;
+  color: rgb(161, 3, 3);
   text-align: center;
   position: relative;
 }
@@ -89,14 +89,14 @@ img {
   position: relative;
   background-color: white;
   padding: 10px;
-  box-shadow: 0 1px 4px rgba(40, 37, 37, 0.1);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 h2.title {
   font-size: 1.1rem;
   font-weight: 500;
   margin-bottom: 1.5rem;
-  color: white;
+  color: rgb(5, 5, 5);
 }
 
 .pic {
@@ -278,3 +278,4 @@ margin-left: 1rem;
   width: 60px;
  }
 }
+
