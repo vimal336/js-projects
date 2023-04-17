@@ -49,13 +49,7 @@ function removeItem(){
  this.parentElement.remove();
  loadcontent();
 
-
-
-  }
-
-
-
-
+}
 
 }
 
@@ -158,7 +152,4 @@ const btnBuy = document.querySelector(".btn-buy");
 btnBuy.addEventListener("click", () => {
   alert('Order Placed');
 });
-
-
-
 
