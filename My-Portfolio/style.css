@@ -891,6 +891,10 @@ button.btn{
 		padding: 4px 10px;
 		letter-spacing: 1px;
 	}
+
+	.navbar .logo h1 {
+		font-size: 18px;
+}
 }
 
 /* footer content */
