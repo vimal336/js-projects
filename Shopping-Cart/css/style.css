@@ -274,7 +274,7 @@ margin-left: 1rem;
 }
 
 @media all and (max-width:640px) {
-  .cart-active {
-   left: 0;
-  }
+ .cart-box input{
+  width: 60px;
+ }
 }
