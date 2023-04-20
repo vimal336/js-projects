@@ -856,6 +856,14 @@ ul{
 }
 }
 
+@media all and (max-width:640px) {
+  
+  .header .banner {
+    top: 94px;
+  }
 
+  .header .banner h1 {
+    font-size: 20px;
+  }
 
-
+}
