@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@500&family=Roboto&family=Rubik:ital,wght@0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Poppins:wght@500&family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+html{
+
+    font-size: 22px;
+}
+
+body {
+ 
+  background-color: rgb(221, 201, 23);
+  padding: 1rem;
+  
+}
+
+.box{
+
+    height: 8rem;
+    object-fit: cover;
+    background-position: center;
+    border: 5px solid #3700b8;
+    overflow: hidden;
+
+
+}
+
+.box img{
+
+width: 100%;
+height: 100%;
+background-position: center;
+object-fit: cover;
+transition: 0.5s;
+transform-origin: center;
+}
+
+.box img:hover{
+    transform: scale(1.5);
+    
+    }
+
+.container{
+
+max-width: 1200px;
+margin: 0 auto;
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+gap: 1rem;
+
+}
+
+.control{
+    max-width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .btn-group button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    font-size: 0.7rem;
+    background-color: #3700b8;
+    color:#fff;
+    border: 2px solid #3700b8;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 3px;
+}
+
+.btn-group button:hover,
+.btn-group .btn-clicked
+{
+  background-color: rgb(221, 201, 23);
+}
+
+#Search{
+    width: 200px;
+    height: 30px;
+    outline: none;
+    padding: 0 10px;
+    border:2px solid  #3700b8;;
+    border-radius: 3px;
+    font-size: 0.6rem;
+  }
+
+  .logo{
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(247, 25, 25);
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgb(247, 247, 247);
+    text-transform: uppercase;
+    border: 2px solid rgb(247, 25, 25);
+  }
