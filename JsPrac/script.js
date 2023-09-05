@@ -135,3 +135,7 @@ const data = [
   },
 ];
 
+function getBooks() {
+  return data;
+}
+
