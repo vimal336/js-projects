@@ -147,4 +147,6 @@ function getBook(id) {
 
 const books = getBook(2);
 
+const title = books.title;
 
+title;
