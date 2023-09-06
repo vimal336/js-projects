@@ -150,3 +150,5 @@ const books = getBook(2);
 const title = books.title;
 
 title;
+
+const title2 = books.title;
