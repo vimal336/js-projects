@@ -5,5 +5,7 @@ const myPromise = new Promise((resolve, reject) => {
   });
   
   myPromise
-  
+    .then(handleFulfilledA, handleRejectedA)
+    .then(handleFulfilledB, handleRejectedB)
+    .then(handleFulfilledC, handleRejectedC);
   
