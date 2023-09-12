@@ -4,5 +4,6 @@ const myPromise = new Promise((resolve, reject) => {
     }, 300);
   });
   
- 
+  myPromise
+  
   
