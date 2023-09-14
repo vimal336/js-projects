@@ -11,3 +11,11 @@ async function logMovies() {
   }
 
   console.log('hello')
+
+  function resolveAfter2Seconds(x) {
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        resolve(x);
+      }, 2000);
+    });
+  }
