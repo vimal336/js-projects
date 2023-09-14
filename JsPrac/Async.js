@@ -19,3 +19,11 @@ async function logMovies() {
       }, 2000);
     });
   }
+  
+  async function f1() {
+    const x = await resolveAfter2Seconds(10);
+    console.log(x); // 10
+  }
+  
+  f1();
+  
