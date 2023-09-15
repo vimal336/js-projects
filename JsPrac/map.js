@@ -24,3 +24,9 @@ const kvArray = [
   //   { key: 3, value: 30 }
   // ]
   
+
+const numberss = [1, 4, 9];
+const doubles = numbers.map((num) => num * 2);
+
+console.log(doubles); // [2, 8, 18]
+console.log(numbers); // [1, 4, 9]
