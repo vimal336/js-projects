@@ -1,6 +1,12 @@
-fetch("https://jsonplaceholder.typicode.com/todos")
-  .then((res) => res.json())
-  .then((data) => console.log(data));
+// fetch("https://jsonplaceholder.typicode.com/todos")
+//   .then((res) => res.json())
+//   .then((data) => console.log(data));
+
+//   console.log("hello");
+
+  async function getTodos() {
+   await fetch("https://jsonplaceholder.typicode.com/todos")
+  }
 
 
 
