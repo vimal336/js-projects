@@ -5,9 +5,15 @@
 //   console.log("hello");
 
   async function getTodos() {
-   await fetch("https://jsonplaceholder.typicode.com/todos")
+    const res = await fetch("https://jsonplaceholder.typicode.com/todos")
+    .then((res) => res.json())
+    .then((data) => console.log(data));
   }
 
+  getTodos();
+
+
+  console.log("hello")
 
 
 
