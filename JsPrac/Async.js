@@ -8,9 +8,13 @@
     const res = await fetch("https://jsonplaceholder.typicode.com/todos")
     const data = await res.json();
     console.log(data);
+
+    return data;
   }
 
-  getTodos();
+  const todos = getTodos();
+
+  console.log(todos)
 
 
   console.log("hello")
