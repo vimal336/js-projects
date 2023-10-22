@@ -8,10 +8,10 @@ html{
 	scroll-behavior: smooth;
 
 	/* Variables For Storing Colors */
-	--primary-base-clr: #087098;
-	--primary-light-clr: #1e90ff;
-	--bg-clr-1: #0fd35a;
-	--bg-clr-2: #d6d6d6;
+	--primary-base-clr: #222831; ;
+	--primary-light-clr: #393e46;
+	--bg-clr-1:  #0092ca; ;
+	--bg-clr-2: #eeeeee;;
 	--main-heading-clr: #04501b;
 	--secondary-heading-clr: #000000;
 	--text-clr: #181818;
