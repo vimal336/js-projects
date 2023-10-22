@@ -12,10 +12,10 @@ html{
 	--primary-light-clr: #393e46;
 	--bg-clr-1:  #0092ca; ;
 	--bg-clr-2: #eeeeee;;
-	--main-heading-clr: #04501b;
-	--secondary-heading-clr: #000000;
-	--text-clr: #181818;
-	--dark-text-clr: #000000;
+	--main-heading-clr: #393e46;
+	--secondary-heading-clr: #393e46;
+	--text-clr: #393e46;
+	--dark-text-clr: #393e46;
 }
 body{
 	width: 100%;
