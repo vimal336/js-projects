@@ -3,7 +3,7 @@
 // Home Section Script Starts
 var typingText = document.querySelector('.text2');
 var myArray = 
-["Web Developer", "Programmer"];
+["Web Developer"];
 var arrayIndex = 1;
 
 function textReplace(){
@@ -53,3 +53,43 @@ function pageScrollFunction(){
 		homeSection.classList.remove('active');
 	}
 }
+
+
+var $galleryContainer = $('.gallery').isotope({
+	itemSelector: '.item',
+	  layoutMode: 'fitRows'
+});
+
+$('.button-group .button').on('click', function(){
+	$('.button-group .button').removeClass('active');
+	$(this).addClass('active');
+
+	var value = $(this).attr('data-filter');
+	$galleryContainer.isotope({
+		filter: value 
+	})
+})
+
+// scroll to top code
+
+let calcScrollValue = () => {
+	let scrollProgress = document.getElementById("progress");
+	let progressValue = document.getElementById("progress-value");
+	let pos = document.documentElement.scrollTop;
+	let calcHeight =
+	  document.documentElement.scrollHeight -
+	  document.documentElement.clientHeight;
+	let scrollValue = Math.round((pos * 100) / calcHeight);
+	if (pos > 100) {
+	  scrollProgress.style.display = "grid";
+	} else {
+	  scrollProgress.style.display = "none";
+	}
+	scrollProgress.addEventListener("click", () => {
+	  document.documentElement.scrollTop = 0;
+	});
+	scrollProgress.style.background = `conic-gradient(#03cc65 ${scrollValue}%, #d7d7d7 ${scrollValue}%)`;
+  };
+  
+  window.onscroll = calcScrollValue;
+  window.onload = calcScrollValue;
