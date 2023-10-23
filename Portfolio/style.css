@@ -583,6 +583,31 @@ section.about{
 	}
 }
 
+@media(max-width: 450px) {
+
+	.about .about-contents .about-experience .experience-box .experience-desc h2 p{
+		font-size: 10px;
+	}
+
+	.about-experience .experience-box .experience-desc h2 {
+		font-size: 14px;
+	}
+
+	.about-personal-info div span {
+       font-size: 10px;
+	}
+	
+	}
+	@media(max-width: 350px) {
+	
+		.about-personal-info div span {
+		   font-size: 8px;
+		}
+		
+		}
+	  
+  
+
 /*   === Skills Section Styling Ends ===   */
 
 /*   === Scroll to top Styling starts ===   */
