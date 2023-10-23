@@ -11,11 +11,11 @@ html{
 	scroll-behavior: smooth;
 
 	/* Variables For Storing Colors */
-	--primary-base-clr: #222831; ;
+	--primary-base-clr: #dde6f5; ;
 	--primary-light-clr: #393e46;
 	--bg-clr-1:  #a4d7dd;
 	--bg-clr-2: #eeeeee;
-	--main-heading-clr: #393e46;
+	--main-heading-clr: #0f63e9;
 	--secondary-heading-clr: #393e46;
 	--text-clr: #393e46;
 	--dark-text-clr: #393e46;
@@ -491,7 +491,7 @@ section.about{
 	height: 3px;
 	top: calc(125% - 1px);
 	left: 0;
-	background-color: #d03645;
+	background-color: var(--main-heading-clr);
 }
 .subject{
 	font-size: 18px;
@@ -520,7 +520,7 @@ section.about{
 	position: absolute;
 	width: 0%;
 	height: 7px;
-	background-color: #d03645;
+	background-color: var(--main-heading-clr);
 	border-radius: 15px;
 	top: -1px;
 	animation: animate 1.5s cubic-bezier(1, 0.2, 0.2, 1) forwards;
@@ -802,6 +802,40 @@ section.page-footer{
 	color: var(--main-heading-clr);
 	word-spacing: 2px;
 	letter-spacing: 1px;
+}
+
+.footer-info .social-media{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 40px;
+}
+ .page-footer .social-media a{
+	width: 35px;
+	height: 35px;
+	text-decoration: none;
+	text-align: center;
+	margin-right: 15px;
+	border-radius: 50%;
+	background-color: var(--primary-base-clr);
+	transition: 0.3s;
+}
+ .page-footer .social-media a i{
+	color: var(--main-heading-clr);
+	font-size: 13px;
+	line-height: 35px;
+	border: 5px solid transparent;
+	transition: 0.3s;
+}
+.page-footer .social-media a:hover{
+	transform: translateY(-5px);
+	background-color: transparent;
+	color: var(--primary-light-clr);
+	border: 1px solid var(--primary-light-clr);
+}
+.page-footer .social-media a:hover i{
+	color: var(--primary-light-clr);
 }
 /*   === Page Footer Styling Ends ===   */
 
