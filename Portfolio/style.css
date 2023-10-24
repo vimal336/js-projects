@@ -349,9 +349,10 @@ section.about{
 	grid-template-columns: 1fr 1fr;
 }
 .about-personal-info div span{
-	color: var(--text-clr);
+	color: var(--main-heading-clr);
 	letter-spacing: 1px;
 	word-break: break-all;
+	font-weight: 700;
 }
 .about-info .social-media{
 	display: flex;
@@ -583,32 +584,6 @@ section.about{
 	}
 }
 
-@media(max-width: 450px) {
-
-	.about .about-contents .about-experience .experience-box .experience-desc h2 p{
-		font-size: 10px;
-		font-weight: bolder;
-	}
-
-	.about-experience .experience-box .experience-desc h2 {
-		font-size: 14px;
-		font-weight: 800;
-	}
-
-	.about-personal-info div span {
-       font-size: 10px;
-	}
-	
-	}
-	@media(max-width: 364px) {
-	
-		.about-personal-info div span {
-		   font-size: 8px;
-		}
-		
-		}
-	  
-  
 
 /*   === Skills Section Styling Ends ===   */
 
@@ -911,26 +886,6 @@ section.page-footer{
 }
 /*   === Page Footer Styling Ends ===   */
 
-
-
-
-/*   *** Media Query Starts ***   */
-@media(max-width: 968px){
-	/* Services Section */
-	.services-contents .service-box{
-		flex-basis: 48%;
-	}
-	/* Blog Section */
-	.blog .blog-contents{
-		grid-template-columns: repeat(2, 1fr);
-	}
-	.blog .section-heading .blog-btn{
-		position: relative;
-		right: initial;
-		bottom: initial;
-		margin-bottom: 20px;
-	}
-}
 
 @media(max-width: 868px){
 	/* Home Section */
