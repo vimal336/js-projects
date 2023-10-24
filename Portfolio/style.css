@@ -587,7 +587,7 @@ section.about{
 
 	.about .about-contents .about-experience .experience-box .experience-desc h2 p{
 		font-size: 10px;
-		font-weight: 800;
+		font-weight: bolder;
 	}
 
 	.about-experience .experience-box .experience-desc h2 {
