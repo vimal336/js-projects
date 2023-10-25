@@ -704,9 +704,6 @@ div.gallery .item:hover img {
   color: rgb(250, 24, 24);
 }
 
-.development {
-}
-
 @media (max-width: 1024px) {
   div.gallery .item {
     width: calc(50% - 8px);
@@ -752,6 +749,11 @@ section.contact {
   justify-content: center;
   align-items: center;
 }
+
+.contact-details .contact-item .icon :hover {
+   
+}
+
 .contact-item .icon i {
   font-size: 18px;
   color: var(--main-heading-clr);
