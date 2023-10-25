@@ -750,7 +750,7 @@ section.contact {
   align-items: center;
 }
 
-.contact-details .contact-item .icon :hover {
+.contact-details .contact-item :hover {
   transform: translateY(-5px);
   background-color: #03e9f4;
   color: var(--main-heading-clr);
