@@ -55,8 +55,6 @@ function pageScrollFunction(){
 }
 
 
-
-
 // scroll to top code
 
 let calcScrollValue = () => {
