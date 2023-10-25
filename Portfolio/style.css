@@ -751,7 +751,12 @@ section.contact {
 }
 
 .contact-details .contact-item .icon :hover {
-   
+  transform: translateY(-5px);
+  background-color: #03e9f4;
+  color: var(--main-heading-clr);
+  border: 1px solid 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+    0 0 200px #03e9f4;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
 }
 
 .contact-item .icon i {
