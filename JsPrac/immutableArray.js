@@ -134,9 +134,19 @@ const data = [
       },
     },
   ];
+
+  function getBooks() {
+    return data;
+  }
+  
+  function getBook(id) {
+    return data.find((d) => d.id === id);
+  }
+  
   
 
-  const books = getBooks();
+const books = getBooks();
+
 books;
 
 const x = [1, 2, 3, 4, 5].map((el) => el * 2);
@@ -186,5 +196,5 @@ booksAfterAdd;
 
   const bookAfterAdd = [...books, newBook];
 
- bookAfterAdd;
+ console.log(bookAfterAdd);
   
