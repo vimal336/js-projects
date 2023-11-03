@@ -135,21 +135,6 @@ const data = [
     },
   ];
   
-  function getBooks() {
-    return data;
-  }
-  
-  function getBook(id) {
-    return data.find((d) => d.id === id);
-  }
-  
-  //destructuring
-  
-  const books = getBook(2);
-  
-  const title = books.title;
-  
-  title;
 
   const newBook = {
     id:6,
