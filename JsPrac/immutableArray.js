@@ -157,5 +157,5 @@ const data = [
     auther: "J. K. Rowling",
   };
 
-  const bookAfterAdd = []
+  const bookAfterAdd = [...books, newBook];
   
