@@ -159,5 +159,5 @@ const data = [
 
   const bookAfterAdd = [...books, newBook];
 
-  bookAfterAdd; 
+ console.log(bookAfterAdd);
   
