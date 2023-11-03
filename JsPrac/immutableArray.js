@@ -186,5 +186,5 @@ booksAfterAdd;
 
   const bookAfterAdd = [...books, newBook];
 
- console.log(bookAfterAdd);
+ bookAfterAdd;
   
