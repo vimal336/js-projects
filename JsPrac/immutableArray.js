@@ -150,4 +150,10 @@ const data = [
   const title = books.title;
   
   title;
+
+  const newBook = {
+    id:6,
+    title: "Harry Potter and the Chamber of Secrets",
+    auther: "J. K. Rowling",
+  };
   
