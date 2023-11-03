@@ -158,4 +158,6 @@ const data = [
   };
 
   const bookAfterAdd = [...books, newBook];
+
+  bookAfterAdd; 
   
