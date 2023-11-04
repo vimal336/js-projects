@@ -327,5 +327,7 @@ const data = [
 
 console.log(objects);
 
-const addObjects = [...RealObjects, newBoook]
+const addObjects = [...RealObjects, objects];
+
+
 
