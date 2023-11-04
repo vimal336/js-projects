@@ -319,3 +319,5 @@ const data = [
 
 console.log(objects);
 
+const addObjects = [...objects, newBoook]
+
