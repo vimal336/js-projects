@@ -308,7 +308,15 @@ const data = [
   console.log(todos);
   
   console.log("jonas");
+
   
+  const objects = [
+    { id: 1, name: 'Object 1', place: 'Location A' },
+    { id: 2, name: 'Object 2', place: 'Location B' },
+    { id: 3, name: 'Object 3', place: 'Location C' },
+    { id: 4, name: 'Object 4', place: 'Location A' },
+    { id: 5, name: 'Object 5', place: 'Location D' }
+];
   const objects = [
     { id: 1, name: 'Object 1', place: 'Location A' },
     { id: 2, name: 'Object 2', place: 'Location B' },
