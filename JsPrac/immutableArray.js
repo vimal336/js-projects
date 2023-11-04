@@ -329,5 +329,7 @@ console.log(objects);
 
 const addObjects = [...RealObjects, objects];
 
+addObjects;
+
 
 
