@@ -320,7 +320,7 @@ const b = { id: 6, name: "Object 6", place: "Location E" };
 const Addab = [...a, b];
 Addab;
 
-const afterAddab = booksAfterAdd.filter((book) => book.id !== 3);
+const afterAddab = Addab.filter((book) => book.id !== 3);
 booksAfterDelete;
 
 // 3) Update book object in the array
