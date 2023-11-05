@@ -310,19 +310,20 @@ const data = [
   console.log("jonas");
 
 
-  const RealObjects = [
-    { id: 6, name: 'Object 6', place: 'Location E' },
-    { id: 7, name: 'Object 7', place: 'Location F' },
-    { id: 8, name: 'Object 8', place: 'Location G' },
-    { id: 9, name: 'Object 9', place: 'Location H' },
-    { id: 10, name: 'Object 10', place: 'Location I' }
-];
   const objects = [
     { id: 1, name: 'Object 1', place: 'Location A' },
     { id: 2, name: 'Object 2', place: 'Location B' },
     { id: 3, name: 'Object 3', place: 'Location C' },
     { id: 4, name: 'Object 4', place: 'Location D' },
     { id: 5, name: 'Object 5', place: 'Location E' }
+];
+
+const RealObjects = [
+  { id: 6, name: 'Object 6', place: 'Location E' },
+  { id: 7, name: 'Object 7', place: 'Location F' },
+  { id: 8, name: 'Object 8', place: 'Location G' },
+  { id: 9, name: 'Object 9', place: 'Location H' },
+  { id: 10, name: 'Object 10', place: 'Location I' }
 ];
 
 console.log(objects);
@@ -334,4 +335,6 @@ addObjects;
 
 console.log(addObjects)
 
-const DeleteObjects = addObjects.filter((addObjects) => book.id !== 3);
+const DeleteObjects = addObjects.filter((addObjects) => objects.id !== 3);
+
+DeleteObjects;
