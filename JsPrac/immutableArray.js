@@ -335,6 +335,6 @@ addObjects;
 
 console.log(addObjects)
 
-const DeleteObjects = addObjects.filter((addObject) => addObject.id !==id);
+const DeleteObjects = addObjects.filter((addObject) => addObject.id !== 3);
 
 DeleteObjects;
