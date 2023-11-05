@@ -333,3 +333,5 @@ addObjects;
 
 
 console.log(addObjects)
+
+const DeleteObjects = [...addObjects]
