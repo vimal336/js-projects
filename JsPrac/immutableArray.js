@@ -310,7 +310,7 @@ const data = [
   console.log("jonas");
 
 
-  const objects = [
+  const a = [
     { id: 1, name: 'Object 1', place: 'Location A' },
     { id: 2, name: 'Object 2', place: 'Location B' },
     { id: 3, name: 'Object 3', place: 'Location C' },
@@ -318,11 +318,25 @@ const data = [
     { id: 5, name: 'Object 5', place: 'Location E' }
 ];
 
-const RealObjects = [
+const b = [
   { id: 6, name: 'Object 6', place: 'Location E' },
-  { id: 7, name: 'Object 7', place: 'Location F' },
-  { id: 8, name: 'Object 8', place: 'Location G' },
-  { id: 9, name: 'Object 9', place: 'Location H' },
-  { id: 10, name: 'Object 10', place: 'Location I' }
 ];
+
+const newBook = {
+  id: 6,
+  title: "Harry Potter and the Chamber of Secrets",
+  author: "J. K. Rowling",
+};
+const booksAfterAdd = [...books, newBook];
+booksAfterAdd;
+
+
+const booksAfterDelete = booksAfterAdd.filter((book) => book.id !== 3);
+booksAfterDelete;
+
+// 3) Update book object in the array
+const booksAfterUpdate = booksAfterDelete.map((book) =>
+  book.id === 1 ? { ...book, pages: 1210 } : book
+);
+booksAfterUpdate;
 
