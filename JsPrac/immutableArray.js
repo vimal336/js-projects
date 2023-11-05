@@ -334,4 +334,4 @@ addObjects;
 
 console.log(addObjects)
 
-const DeleteObjects = [...addObjects]
+const DeleteObjects = addObjects.filter((addObjects) => book.id !== 3);
