@@ -326,15 +326,3 @@ const RealObjects = [
   { id: 10, name: 'Object 10', place: 'Location I' }
 ];
 
-console.log(objects);
-
-const addObjects = [...RealObjects, objects];
-
-addObjects;
-
-
-console.log(addObjects)
-
-const DeleteObjects = addObjects.filter((addObject) => addObject.id !== 3);
-
-DeleteObjects;
