@@ -18,3 +18,16 @@ function isPrime(num) {
 }
 
 console.log(array.filter(isPrime)); // [2, 3, 5, 7, 11, 13]
+
+
+const arr = [
+  { id: 15 },
+  { id: -1 },
+  { id: 0 },
+  { id: 3 },
+  { id: 12.2 },
+  {},
+  { id: null },
+  { id: NaN },
+  { id: "undefined" },
+];
