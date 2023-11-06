@@ -60,4 +60,6 @@ obj = [
 {id:3, name:'vinith', place:'cbe'}
 ]
 
-filterbyid = 
+filterbyid = obj.filter(()=>{
+   if(id==2)
+});
