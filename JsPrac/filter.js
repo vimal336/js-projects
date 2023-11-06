@@ -42,3 +42,10 @@ function filterByID(item) {
   invalidEntries++;
   return false;
 }
+
+
+const arrByID = arr.filter(filterByID);
+
+console.log("Filtered Array\n", arrByID);
+// Filtered Array
+// [{ id: 15 }, { id: -1 }, { id: 3 }, { id: 12.2 }]
