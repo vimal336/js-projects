@@ -32,3 +32,9 @@ const arr = [
   { id: "undefined" },
 ];
 let invalidEntries = 0;
+
+
+function filterByID(item) {
+  if (Number.isFinite(item.id) && item.id !== 0) {
+    return true;
+  }
