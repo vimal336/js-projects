@@ -52,3 +52,11 @@ console.log("Filtered Array\n", arrByID);
 
 console.log("Number of Invalid Entries =", invalidEntries);
 // Number of Invalid Entries = 5
+
+
+obj = [
+{id:1, name:'vimal', place:'vpm'},
+{},
+{}
+
+]
