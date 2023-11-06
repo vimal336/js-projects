@@ -56,7 +56,8 @@ console.log("Number of Invalid Entries =", invalidEntries);
 
 obj = [
 {id:1, name:'vimal', place:'vpm'},
-{},
-{}
-
+{id:2, name:'vinoth', place:'ooty'},
+{id:3, name:'vinith', place:'cbe'}
 ]
+
+filterbyid = 
