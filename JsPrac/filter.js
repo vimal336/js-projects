@@ -31,3 +31,4 @@ const arr = [
   { id: NaN },
   { id: "undefined" },
 ];
+let invalidEntries = 0;
