@@ -67,7 +67,9 @@ obj2 = [
   {id:3, name:'vinith', place:'cbe'}
   ]
 
-let f2 = obj.filter((matchess) => matchess.id == Obj2.id);
+let f2 = obj.filter((matchess) => matchess.id);
+
+
 
 let f = obj.filter((matches) => matches.id == f2.id);
 
