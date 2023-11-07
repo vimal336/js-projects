@@ -61,12 +61,14 @@ obj = [
 ]
 
 
-object = [
+obj2 = [
   {id:1, name:'vimal', place:'vpm'},
   {id:2, name:'vinoth', place:'ooty'},
   {id:3, name:'vinith', place:'cbe'}
   ]
 
-let f = obj.filter((matches) => matches.id == id);
+let f2 = obj.filter((matchess) => matchess.id == Obj2.id);
+
+let f = obj.filter((matches) => matches.id == f2.id);
 
 console.log(f);
