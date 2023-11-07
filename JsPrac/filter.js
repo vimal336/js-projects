@@ -69,7 +69,7 @@ obj2 = [
 
 let f2 = obj2.filter((matchess) => matchess.id >= 1);
 
-// console.log(f2);
+console.log(f2);
 
 
 let f = obj.filter((matches) => matches.id == f2.id);
