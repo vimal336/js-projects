@@ -60,6 +60,6 @@ obj = [
 {id:3, name:'vinith', place:'cbe'}
 ]
 
-filterbyid = obj.filter(()=>{
-   if(id==2)
-});
+let f = obj.filter((matches) => matches.id !== 2);
+
+console.log(f);
