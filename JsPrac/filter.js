@@ -69,6 +69,7 @@ obj2 = [
 
 let f2 = obj.filter((matchess) => matchess.id);
 
+console.log(f2);
 
 
 let f = obj.filter((matches) => matches.id == f2.id);
