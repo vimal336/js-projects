@@ -60,6 +60,13 @@ obj = [
 {id:3, name:'vinith', place:'cbe'}
 ]
 
+
+object = [
+  {id:1, name:'vimal', place:'vpm'},
+  {id:2, name:'vinoth', place:'ooty'},
+  {id:3, name:'vinith', place:'cbe'}
+  ]
+
 let f = obj.filter((matches) => matches.id == id);
 
 console.log(f);
