@@ -67,11 +67,20 @@ obj2 = [
   {id:6, name:'vinith', place:'cbe'}
   ]
 
-let f2 = obj2.filter((matchess) => matchess.id >= 1);
+let f2 = obj2.filter((matchess) => matchess.id >= 3);
 
 console.log(f2);
 
 
-let f = obj.filter((matches) => matches.id == f2.id);
+let f = obj.filter((matches) => matches.id == f2);
 
 console.log(f);
+
+let close = () => 
+{
+  let c = 1 + 2
+
+  console.log(c);
+}
+
+console.log(close);
