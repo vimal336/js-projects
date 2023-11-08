@@ -87,3 +87,5 @@ let close = () =>
 }
 
 console.log(close);
+
+closure();
