@@ -76,7 +76,7 @@ let f = obj.filter((matches) => matches.id == f2);
 
 console.log(f);
 
-let close = () => 
+ function outer() 
 {
   let a = 10;
   {
@@ -86,6 +86,8 @@ let close = () =>
   }
 }
 
-console.log(close);
+outer();
 
-closure();
+console.log(outer);
+
+
