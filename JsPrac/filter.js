@@ -76,18 +76,5 @@ let f = obj.filter((matches) => matches.id == f2);
 
 console.log(f);
 
- function outer() 
-{
-  var a = 'hello';
-  {
-    function calling(){
-       console.log(a);
-    }
-  }
-}
-
-outer();
-
-console.log(outer);
 
 
