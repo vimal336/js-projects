@@ -78,9 +78,12 @@ console.log(f);
 
 let close = () => 
 {
-  let c = 1 + 2
-
-  console.log(c);
+  let a = 10;
+  {
+    let b = function(){
+       d = 2+a;
+    }
+  }
 }
 
 console.log(close);
