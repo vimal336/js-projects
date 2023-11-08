@@ -7,10 +7,8 @@ function outer()
     function calling(){
        console.log(a);
     }
-  
+ calling(); 
 }
 
 outer();
-
-console.log(outer);
 
