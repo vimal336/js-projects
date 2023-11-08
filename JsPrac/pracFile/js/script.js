@@ -1,3 +1,5 @@
+console.log('js concepts practice')
+
 function outer() 
 {
   var a = 'hello';
