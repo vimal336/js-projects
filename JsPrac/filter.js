@@ -80,8 +80,8 @@ console.log(f);
 {
   var a = 'hello';
   {
-    let b = function(){
-       d = 2+ a;
+    function calling(){
+       console.log(a);
     }
   }
 }
