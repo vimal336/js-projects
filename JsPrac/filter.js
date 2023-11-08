@@ -78,10 +78,10 @@ console.log(f);
 
  function outer() 
 {
-  let a = 10;
+  var a = 'hello';
   {
     let b = function(){
-       d = 2+a;
+       d = 2+ a;
     }
   }
 }
