@@ -6,3 +6,5 @@ console.log(age, index, array)
 }
 
 const value = arr.find(checkAge);
+
+console.log(value);
