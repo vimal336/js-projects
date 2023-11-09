@@ -5,4 +5,4 @@ function checkAge(age){
 }
 
 
-arr.find();
+arr.find(checkAge);
