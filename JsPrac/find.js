@@ -5,4 +5,4 @@ console.log(age, index, array)
   return age > 18;
 }
 
-arr.find(checkAge);
+const value = arr.find(checkAge);
