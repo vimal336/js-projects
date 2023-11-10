@@ -339,5 +339,5 @@ const person = {
 };
 
 const updated = {
-  
+  ...person, Pname : 'alex',
 }
