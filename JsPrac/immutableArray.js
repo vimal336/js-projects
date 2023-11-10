@@ -329,13 +329,11 @@ const afterupdateab = afterAddab.map((nw) =>
 );
 afterupdateab;
 
-
 const person = {
-  Pname : 'vimal',
-  age : 20,
-  place : {
-    country : india,
-    city : bangalore,
-
-  }
-}
+  Pname: "vimal",
+  age: 20,
+  place: {
+    country: 'india',
+    city: 'bangalore',
+  },
+};
