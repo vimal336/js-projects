@@ -340,11 +340,9 @@ const person = {
 
 const updated = {
   ...person, address : {
-    ...person.address, city = 'bangalore'
+    ...person.address, city : 'chennai'
   }, Pname : 'alex',
 }
-
-updated.place.city = 'chennai'
 
 console.log(person);
 console.log(updated);
