@@ -332,7 +332,10 @@ afterupdateab;
 
 const person = {
   Pname : 'vimal',
+  age : 20,
   place : {
+    country : india,
+    city : bangalore,
 
   }
 }
