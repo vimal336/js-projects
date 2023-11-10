@@ -341,3 +341,5 @@ const person = {
 const updated = {
   ...person, Pname : 'alex',
 }
+
+console.log(person);
