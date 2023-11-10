@@ -338,4 +338,6 @@ const person = {
   },
 };
 
-const updated = 
+const updated = {
+  
+}
