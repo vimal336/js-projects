@@ -343,3 +343,4 @@ const updated = {
 }
 
 console.log(person);
+console.log(updated);
