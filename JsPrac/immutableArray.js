@@ -342,5 +342,7 @@ const updated = {
   ...person, Pname : 'alex',
 }
 
+updated.place.city = 'chennai'
+
 console.log(person);
 console.log(updated);
