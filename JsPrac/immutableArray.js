@@ -349,5 +349,7 @@ console.log(updated);
 
 
 function press(){
-  
+  return function() {
+    console.log('liked')
+  }
 }
