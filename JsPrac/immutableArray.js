@@ -364,4 +364,4 @@ let doub = arr.map((double)=>{
 })
 
 console.log(arr);
-cl
+console.log(doub);
