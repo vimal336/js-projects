@@ -359,8 +359,9 @@ let message = fn()
 
 arr = [1,2,3]
 
-arr.map((double)=>{
+let doub = arr.map((double)=>{
   return double*2
 })
 
-console.log()
+console.log(arr);
+cl
