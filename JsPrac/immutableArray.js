@@ -353,3 +353,6 @@ function press(){
     console.log('liked')
   }
 }
+
+let fn = press()
+let message = fn()
