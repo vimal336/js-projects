@@ -360,5 +360,7 @@ let message = fn()
 arr = [1,2,3]
 
 arr.map((double)=>{
-  double*2
+  return double*2
 })
+
+console.log()
