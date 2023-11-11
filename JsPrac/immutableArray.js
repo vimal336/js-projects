@@ -357,7 +357,7 @@ function press(){
 let fn = press()
 let message = fn()
 
-arr = [1,2,3]
+let arra = [1,2,3]
 
 let doub = arr.map((double)=>{
   return double*2
