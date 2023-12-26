@@ -18,25 +18,7 @@ body {
   background-position: center;
 }
 
-year {
-  font-family: "Inspiration", cursive;
-  font-size: 50px;
-  font-weight: 400;
-  margin-top: 30px;
-}
-
-.p {
-  font-size: 13px;
-}
-
-.box {
-  width: 100px;
-  height: 70px;
-  text-align: center;
-}
-
-.box small {
-  font-size: 10px;
+font-size: 10px;
 }
 
 .box h2 {
