@@ -23,4 +23,4 @@ function reload() {
   // 1000ms = 1s,  60s = 1m, 60m = 1hr
 }
 
-setInterval(reload, 1000);
+
