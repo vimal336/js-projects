@@ -18,15 +18,7 @@ body {
   background-position: center;
 }
 
-.counter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 30px;
-  gap: 10px;
-}
-
-.newyear {
+year {
   font-family: "Inspiration", cursive;
   font-size: 50px;
   font-weight: 400;
