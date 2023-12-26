@@ -19,20 +19,3 @@ body {
 }
 
 
-    font-size: 25px;
-  }
-  .box h2 {
-    font-size: 50px;
-  }
-
-  .box{
-
-    width: 150px;
-    height: 100px;
-  }
-
-  .box small{
-    font-size: 20px;
-  }
-}
-
