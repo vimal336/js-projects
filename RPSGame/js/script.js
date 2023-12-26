@@ -16,11 +16,6 @@ function reload() {
 
   days.innerHTML=d<10?"0"+d:d;
   hours.innerHTML=h<10?"0"+h:h;
-  minutes.innerHTML=m<10?"0"+m:m;
-  seconds.innerHTML=s<10?"0"+s:s;
 
-  // console.log(d + " " + h + " " + m + " " + s);
-  // 1000ms = 1s,  60s = 1m, 60m = 1hr
-}
 
 
