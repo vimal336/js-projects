@@ -20,7 +20,7 @@ body {
 
 @keyframes firework {
   0%{
-    transform: ;
+    transform: translate(-50%,) ;
   }
 }
 
