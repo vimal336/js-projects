@@ -41,6 +41,7 @@ body {
 .firework::after{
   --top: 60vh;
   content:"";
+  position: absolute;
 }
 
 
