@@ -36,8 +36,8 @@ body {
   }
 }
 
-.firework
-.firework::before
+.firework,
+.firework::before,
 .firework::after
 
 
