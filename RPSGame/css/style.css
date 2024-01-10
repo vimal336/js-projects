@@ -38,7 +38,9 @@ body {
 
 .firework,
 .firework::before,
-.firework::after
+.firework::after{
+  
+}
 
 
 
