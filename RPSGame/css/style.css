@@ -28,6 +28,7 @@ body {
   }
   30%{
     width: 0.5vmin;
+    opacity: 1;
   }
 }
 
