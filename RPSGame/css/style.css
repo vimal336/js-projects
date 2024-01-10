@@ -42,6 +42,7 @@ body {
   --top: 60vh;
   content:"";
   position: absolute;
+  top: 50%
 }
 
 
