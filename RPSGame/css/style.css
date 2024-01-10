@@ -32,6 +32,7 @@ body {
   }
   100%{
     width: 45vmin;
+    opacity: 0;
   }
 }
 
