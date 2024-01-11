@@ -1,2 +1,2 @@
-roundSelect = document.querySelector('#roundselect');
+roundSelect = document.querySelector('#roundSelect');
 roundsSelectContainer = document.querySelector('#roundsSelectContainer')
