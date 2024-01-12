@@ -3,3 +3,5 @@ console.log(roundsSelect)
 roundsSelectContainer = document.querySelector('#roundsSelectContainer')
 
 errorMessagePara = document.querySelector("#errorMessagePara");
+
+popup = document
