@@ -5,6 +5,6 @@ roundsSelectContainer = document.querySelector('#roundsSelectContainer')
 errorMessagePara = document.querySelector("#errorMessagePara");
 
 popup = document.querySelector('#popup');
-closeButton = document
+closeButton = document.querySelector
 
 popup = 
