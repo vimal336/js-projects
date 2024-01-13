@@ -7,3 +7,4 @@ errorMessagePara = document.querySelector("#errorMessagePara");
 popup = document.querySelector('#popup');
 closeButton = document.querySelector("#closeButton")
 
+playButton
