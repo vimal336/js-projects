@@ -13,3 +13,5 @@ nextRoundButton = document.querySelector('#nextRoundButton');
 
 initButton = document.querySelector('#initButton');
 
+gameControls = 
+
