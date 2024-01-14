@@ -11,3 +11,5 @@ playButton = document.querySelector('#playButton');
 
 nextRoundButton = document.querySelector('#nextRoundButton')
 
+initButton 
+
