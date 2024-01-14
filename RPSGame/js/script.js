@@ -9,7 +9,7 @@ closeButton = document.querySelector("#closeButton");
 
 playButton = document.querySelector('#playButton');
 
-nextRoundButton = document.querySelector('#nextRoundButton')
+nextRoundButton = document.querySelector('#nextRoundButton');
 
-initButton = document.querySelector('#initButton')
+initButton = document.querySelector('#initButton');
 
