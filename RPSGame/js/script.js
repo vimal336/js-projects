@@ -11,5 +11,5 @@ playButton = document.querySelector('#playButton');
 
 nextRoundButton = document.querySelector('#nextRoundButton')
 
-initButton = document.querySelector
+initButton = document.querySelector('')
 
