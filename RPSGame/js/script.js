@@ -9,3 +9,5 @@ closeButton = document.querySelector("#closeButton");
 
 playButton = document.querySelector('#playButton');
 
+nextRoundButton
+
