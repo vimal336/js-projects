@@ -13,5 +13,5 @@ nextRoundButton = document.querySelector('#nextRoundButton');
 
 initButton = document.querySelector('#initButton');
 
-gameControls = document.querySelector('')
+gameControls = document.querySelectorAll('')
 
