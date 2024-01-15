@@ -15,5 +15,5 @@ initButton = document.querySelector('#initButton');
 
 gameControls = document.querySelectorAll('.gameControls');
 userControls = document.querySelectorAll('.userControls');
-Controls = document.querySelectorAll('.gameControls');
+computerControls = document.querySelectorAll('.gameControls');
 
