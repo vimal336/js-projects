@@ -17,3 +17,4 @@ gameControls = document.querySelectorAll('.gameControls');
 userControls = document.querySelectorAll('.userControls');
 computerControls = document.querySelectorAll('.computerControls');
 
+computerControls = document.querySelectorAll('.computerControls');
