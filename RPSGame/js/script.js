@@ -19,3 +19,5 @@ computerControls = document.querySelectorAll('.computerControls');
 
 roundID = document.querySelector('#roundID');
 roundsSpan = roundID.querySelector('span');
+
+roundsSpan = roundID.querySelector('span');
