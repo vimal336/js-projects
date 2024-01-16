@@ -17,4 +17,4 @@ gameControls = document.querySelectorAll('.gameControls');
 userControls = document.querySelectorAll('.userControls');
 computerControls = document.querySelectorAll('.computerControls');
 
-computerControl = document.querySelectorAll('.computerControls');
+roundID = document.querySelectorAll('.computerControls');
