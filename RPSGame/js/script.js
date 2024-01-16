@@ -20,4 +20,4 @@ computerControls = document.querySelectorAll('.computerControls');
 roundID = document.querySelector('#roundID');
 roundsSpan = roundID.querySelector('span');
 
-countDown = roundID.querySelector('span');
+countDown = roundID.querySelector('#countDown');
