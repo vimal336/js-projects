@@ -18,4 +18,4 @@ userControls = document.querySelectorAll('.userControls');
 computerControls = document.querySelectorAll('.computerControls');
 
 roundID = document.querySelector('#roundID');
-roundsSpan = roundID.querySelector
+roundsSpan = roundID.querySelector('span')
