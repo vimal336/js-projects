@@ -21,4 +21,4 @@ roundID = document.querySelector('#roundID');
 roundsSpan = roundID.querySelector('span');
 
 countDown = roundID.querySelector('#countDown');
-userFirework 
+userFireWork 
