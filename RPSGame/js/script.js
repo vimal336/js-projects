@@ -22,4 +22,4 @@ roundsSpan = roundID.querySelector('span');
 
 countDown = roundID.querySelector('#countDown');
 userFireWork = document.querySelector('#userFireWork');
-userScore = document.querySelector('#userFireWork');
+userScore = document.querySelector('#userScore');
