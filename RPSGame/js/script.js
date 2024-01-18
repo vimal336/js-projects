@@ -24,4 +24,4 @@ countDown = roundID.querySelector('#countDown');
 userFireWork = document.querySelector('#userFireWork');
 userScore = document.querySelector('#userScore');
 
-computerScore = document.querySelector('#userScore');
+computerScore = document.querySelector('#computerScore');
