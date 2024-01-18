@@ -27,4 +27,4 @@ userScore = document.querySelector('#userScore');
 computerScore = document.querySelector('#computerScore');
 console.log(computerScore);
 
-computerFireWork = document.querySelector('')
+computerFireWork = document.querySelector('#computer')
