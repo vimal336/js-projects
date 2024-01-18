@@ -25,3 +25,4 @@ userFireWork = document.querySelector('#userFireWork');
 userScore = document.querySelector('#userScore');
 
 computerScore = document.querySelector('#computerScore');
+console.log()
