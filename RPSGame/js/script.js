@@ -33,4 +33,4 @@ isGameStarted = false;
 
 numberOfRounds = undefined;
 
-currentRound = 
+currentRound = undefined;
