@@ -34,3 +34,5 @@ isGameStarted = false;
 numberOfRounds = undefined;
 
 currentRound = undefined;
+
+isKeysEnabled
