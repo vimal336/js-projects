@@ -31,4 +31,4 @@ computerFireWork = document.querySelector('#computerFireWork');
 
 isGameStarted = false;
 
-numberOfRounds
+numberOfRounds = undefined;
