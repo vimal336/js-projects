@@ -37,4 +37,6 @@ currentRound = undefined;
 
 isGameControlKeysEnabled = false;
 
-LONG_DELAY = 300
+LONG_DELAY = 300;
+
+DELAY = 1000;
