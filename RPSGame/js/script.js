@@ -29,4 +29,4 @@ console.log(computerScore);
 
 computerFireWork = document.querySelector('#computerFireWork');
 
-isGameStarted = 
+isGameStarted = false;
