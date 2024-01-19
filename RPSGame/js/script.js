@@ -36,3 +36,5 @@ numberOfRounds = undefined;
 currentRound = undefined;
 
 isGameControlKeysEnabled = false;
+
+LONG-DELAY = 300
