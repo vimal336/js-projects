@@ -35,4 +35,4 @@ numberOfRounds = undefined;
 
 currentRound = undefined;
 
-isKeysEnabled
+isGameControlKeysEnabled
