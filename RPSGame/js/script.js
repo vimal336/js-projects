@@ -30,3 +30,5 @@ console.log(computerScore);
 computerFireWork = document.querySelector('#computerFireWork');
 
 isGameStarted = false;
+
+numberOfRounds
