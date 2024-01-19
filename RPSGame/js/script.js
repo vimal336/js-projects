@@ -28,3 +28,5 @@ computerScore = document.querySelector('#computerScore');
 console.log(computerScore);
 
 computerFireWork = document.querySelector('#computerFireWork');
+
+isGameStarted
