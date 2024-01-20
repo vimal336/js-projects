@@ -48,5 +48,6 @@ init();
 setUpKeyDownEvents();
 
 function init(){
-    
+isGameStarted = 
+
 }
