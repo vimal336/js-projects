@@ -46,3 +46,5 @@ SHORT_DELAY = 300;
 init();
 
 setUpKeyDownEvents();
+
+function init()
