@@ -51,5 +51,6 @@ function init(){
 isGameStarted = false;
 userScore.innerText = "0";
 computerScore.innerText = "0";
+show
 
 }
