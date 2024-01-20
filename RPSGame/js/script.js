@@ -49,5 +49,6 @@ setUpKeyDownEvents();
 
 function init(){
 isGameStarted = false;
+userScore.inn
 
 }
