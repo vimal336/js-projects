@@ -50,5 +50,6 @@ setUpKeyDownEvents();
 function init(){
 isGameStarted = false;
 userScore.innerText = 0;
+computer
 
 }
