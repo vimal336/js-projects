@@ -42,3 +42,5 @@ LONG_DELAY = 300;
 DELAY = 1000;
 
 SHORT_DELAY = 300;
+
+init();
