@@ -47,4 +47,6 @@ init();
 
 setUpKeyDownEvents();
 
-function init()
+function init(){
+    
+}
