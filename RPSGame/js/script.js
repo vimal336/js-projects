@@ -52,5 +52,5 @@ isGameStarted = false;
 userScore.innerText = "1";
 computerScore.innerText = "0";
 show([roundsSelectContainer, playButton])
-hide([countDown, playBut])
+hide([countDown, playButons])
 }
