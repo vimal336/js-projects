@@ -48,7 +48,7 @@ init();
 setUpKeyDownEvents();
 
 function init(){
-isGameStarted = false;
+isGameStarted = true;
 userScore.innerText = "0";
 computerScore.innerText = "0";
 show([roundsSelectContainer, playButton])
