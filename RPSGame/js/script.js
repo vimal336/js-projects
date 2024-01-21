@@ -51,6 +51,6 @@ function init(){
 isGameStarted = false;
 userScore.innerText = "1";
 computerScore.innerText = "0";
-show([roundsSelectContainer, playButton])
+show([roundsSelectContainer, playBu])
 hide([countDown, playButon])
 }
