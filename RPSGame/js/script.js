@@ -39,7 +39,7 @@ isGameControlKeysEnabled = false;
 
 LONG_DELAY = 300;
 
-DELAY = 1000;
+DELAY = 1500;
 
 SHORT_DELAY = 300;
 
