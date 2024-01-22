@@ -59,5 +59,7 @@ rounsSelect.value = "5";
 }
 
 function startGame() {
-    if (roundsSelect.value === "")
+    if (roundsSelect.value === "") {
+        
+    }
 }
