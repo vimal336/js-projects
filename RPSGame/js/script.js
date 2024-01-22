@@ -58,4 +58,6 @@ hide([countDown, playButon]);
 rounsSelect.value = "5";
 }
 
-function startGame()
+function startGame() {
+    
+}
