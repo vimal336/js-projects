@@ -60,6 +60,6 @@ rounsSelect.value = "5";
 
 function startGame() {
     if (roundsSelect.value === "") {
-        displayError("")
+        displayError("Choose number of rounds above")
     }
 }
