@@ -63,4 +63,5 @@ function startGame() {
         displayError("Choose number of rounds above");
         return;
     }
+    numberOfRounds
 }
