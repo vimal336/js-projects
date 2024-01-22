@@ -55,5 +55,5 @@ computerScore.innerText = "0";
 show([roundsSelectContainer, playButton]);
 hide([countDown, playButon]);
 
-rounsSelect.value = "5"
+rounsSelect.value = "5";
 }
