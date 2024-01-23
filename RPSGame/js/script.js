@@ -70,4 +70,5 @@ function startGame() {
     hide([countDown, playButon]);
 
     currentRound = 1;
+    resetCountDown 
 }
