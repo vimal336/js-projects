@@ -68,4 +68,6 @@ function startGame() {
 
     hide([roundsSelectContainer, playButton]);
     hide([countDown, playButon]);
+
+    currentRound = 1;
 }
