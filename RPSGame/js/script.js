@@ -65,4 +65,6 @@ function startGame() {
     }
     numberOfRounds = +roundsSelect.value;
     isGameStarted = true;
+
+    hide([roundsSelectContainer, playButton]);
 }
