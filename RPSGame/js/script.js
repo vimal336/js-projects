@@ -67,4 +67,5 @@ function startGame() {
     isGameStarted = true;
 
     hide([roundsSelectContainer, playButton]);
+    hide([countDown, playButon]);
 }
