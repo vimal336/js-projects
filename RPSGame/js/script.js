@@ -64,4 +64,5 @@ function startGame() {
         return;
     }
     numberOfRounds = +roundsSelect.value;
+    isGameStarted
 }
