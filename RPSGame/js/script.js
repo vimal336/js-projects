@@ -53,7 +53,7 @@ userScore.innerText = "0";
 computerScore.innerText = "0";
 
 show([roundsSelectContainer, playButton]);
-hide([countDown, roundID playButon]);
+hide([countDown, roundID, nextRoundButton, playButon]);
 
 rounsSelect.value = "5";
 }
