@@ -71,5 +71,5 @@ function startGame() {
 
     currentRound = 1;
     resetCountDown();
-    triggerCountDown
+    triggerCountDown();
 }
