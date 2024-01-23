@@ -74,4 +74,6 @@ function startGame() {
     triggerCountDown();
 }
 
-function countDown()
+function countDown(){
+    
+}
