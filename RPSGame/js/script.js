@@ -76,5 +76,5 @@ function startGame() {
 
 function resetcountDown(){
     countDown.innerText = "4";
-    addClasses([]);
+    addClasses([countdown,]);
 }
