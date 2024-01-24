@@ -75,5 +75,5 @@ function startGame() {
 }
 
 function resetcountDown(){
-    countDown
+    countDown.innerText
 }
