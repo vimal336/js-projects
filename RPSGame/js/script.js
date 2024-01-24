@@ -79,4 +79,4 @@ function resetcountDown(){
     addClasses([countDown,] ["animate-[bounce_1s_ease-in-out_infinite]"]);
 }
 
-function triggerCountDown
+function triggerCountDown()
