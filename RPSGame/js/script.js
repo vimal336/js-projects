@@ -80,5 +80,5 @@ function resetcountDown(){
 }
 
 function triggerCountDown(){
-    
+ if()   
 }
