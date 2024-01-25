@@ -82,7 +82,7 @@ function resetcountDown(){
 function triggerCountDown(){
  if(+countDown.innerText > 1){
   countDown.innerText = +countDown.innerText - 1;
-  setTimeout(())
+  setTimeout(() =>)
  }else{
 
     
