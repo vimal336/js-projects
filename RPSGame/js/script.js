@@ -80,7 +80,7 @@ function resetcountDown(){
 }
 
 function triggerCountDown(){
- if(+countDown){
+ if(+countDown.innerText ){
 
  }else{
 
