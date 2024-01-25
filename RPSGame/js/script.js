@@ -84,7 +84,7 @@ function triggerCountDown(){
   countDown.innerText = +countDown.innerText - 1;
   setTimeout(() =>{
     triggerCountDown();
-  })
+  }, DELAY )
  }else{
 
     
