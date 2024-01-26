@@ -88,6 +88,6 @@ function triggerCountDown(){
  }else{
 
     countDown.innerText = "Go!!!";
-    removeClasses([countDown], ["animate-[bounce_]"])
+    removeClasses([countDown], ["animate-[bounce_1s-]"])
  }
 }
