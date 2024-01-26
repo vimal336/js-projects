@@ -87,6 +87,6 @@ function triggerCountDown(){
   }, DELAY)
  }else{
 
-    countDown
+    countDown.innerText
  }
 }
