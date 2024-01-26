@@ -87,6 +87,6 @@ function triggerCountDown(){
   }, DELAY)
  }else{
 
-    countDown.innerText = "Draw"
+    countDown.innerText = "Go!!!"
  }
 }
