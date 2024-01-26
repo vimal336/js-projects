@@ -88,5 +88,6 @@ function triggerCountDown(){
  }else{
 
     countDown.innerText = "Go!!!";
+    removeClasses
  }
 }
