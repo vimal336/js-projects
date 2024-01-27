@@ -90,6 +90,6 @@ function triggerCountDown(){
     countDown.innerText = "Go!!!";
     removeClasses([countDown], ["animate-[bounce_1s_ease-in-out]"])
 
-    enable();
+    enable(gameControls);
  }
 }
