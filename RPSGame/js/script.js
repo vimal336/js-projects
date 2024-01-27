@@ -91,6 +91,6 @@ function triggerCountDown(){
     removeClasses([countDown], ["animate-[bounce_1s_ease-in-out]"])
 
     enable(gameControls);
-    isGameControlKeysEnabled
+    isGameControlKeysEnabled = true;
  }
 }
