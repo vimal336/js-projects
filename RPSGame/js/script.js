@@ -96,5 +96,5 @@ function triggerCountDown(){
 }
 
 function select(userInput){
-  showSelection(userControls)
+  showSelection(userControls[])
 }
