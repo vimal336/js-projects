@@ -95,6 +95,6 @@ function triggerCountDown(){
  }
 }
 
-function select(){
+function select(userInput){
 
 }
