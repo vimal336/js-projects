@@ -97,5 +97,5 @@ function triggerCountDown(){
 
 function select(userInput){
   showSelection(userControls[userInput - 1])
-  let computerInput
+  let computerInput = math.random()
 }
