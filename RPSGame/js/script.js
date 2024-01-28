@@ -106,7 +106,7 @@ function select(userInput){
   if(userInput === computerInput ){
 
   }else if{
-    
+    (userInput === )
   }
 
 }
