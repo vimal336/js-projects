@@ -100,6 +100,6 @@ function select(userInput){
   let computerInput = math.floor(math.random()*3) + 1;
   showSelection(computerControls[computerInput-1])
 
-  disable(gameControls)
+  disable(gameControls, SHORT_DELAY)
 
 }
