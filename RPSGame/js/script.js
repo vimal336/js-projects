@@ -104,6 +104,8 @@ function select(userInput){
   isGameControlKeysEnabled = false;
 
   if(userInput === computerInput ){
+
+  }else if{
     
   }
 
