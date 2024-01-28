@@ -101,6 +101,6 @@ function select(userInput){
   showSelection(computerControls[computerInput-1])
 
   disable(gameControls, SHORT_DELAY)
-  isGameControlKeysEnabled
+  isGameControlKeysEnabled = false;
 
 }
