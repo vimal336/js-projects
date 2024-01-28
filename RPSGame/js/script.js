@@ -103,6 +103,8 @@ function select(userInput){
   disable(gameControls, SHORT_DELAY)
   isGameControlKeysEnabled = false;
 
-  if(userInput === computerInput )
+  if(userInput === computerInput ){
+    
+  }
 
 }
