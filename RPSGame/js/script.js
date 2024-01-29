@@ -107,7 +107,7 @@ function select(userInput){
 
   }else if{
     (userInput === 1 & computerInput === 2)
-    (userInput === 1 & computerInput === 2)
+    (userInput === 2 & computerInput === 1)
     (userInput === 3 & computerInput === 2)
   }
 
