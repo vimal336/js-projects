@@ -111,7 +111,8 @@ function select(userInput){
     (userInput === 3 & computerInput === 2)
   ) {
     updateScore(userScore);
-    show([userFireWork])
+    show([userFireWork]);
+    hide([userFireWork])
   }
 
 }
