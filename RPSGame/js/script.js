@@ -112,7 +112,7 @@ function select(userInput){
   ) {
     updateScore(userScore);
     show([userFireWork]);
-    hide([userFireWork]);
+    hide([userFireWork], DELAY);
   }
 
 }
