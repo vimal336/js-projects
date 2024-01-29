@@ -104,7 +104,7 @@ function select(userInput){
   isGameControlKeysEnabled = false;
 
   if(userInput === computerInput ){
-
+     countDown.innerText
   }else if{
     (userInput === 1 & computerInput === 2)
     (userInput === 2 & computerInput === 1)
