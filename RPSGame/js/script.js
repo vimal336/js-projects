@@ -116,6 +116,7 @@ function select(userInput){
   } else {
     updateScore(computerScore);
     show([userFireWork]);
+    hide([])
   }
 
 }
