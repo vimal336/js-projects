@@ -127,3 +127,7 @@ if (currentRound < numberOfRounds){
 }
 
 }
+
+function gameOver(){
+  
+}
