@@ -119,4 +119,6 @@ function select(userInput) {
   }
 }
 
-if (currentRound < numberOfRounds)
+if (currentRound < numberOfRounds){
+  prepareForNextRound();
+}
