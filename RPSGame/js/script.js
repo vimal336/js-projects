@@ -123,6 +123,7 @@ if (currentRound < numberOfRounds){
   prepareForNextRound();
 }else{
   gameOver();
+  show([])
 }
 
 }
