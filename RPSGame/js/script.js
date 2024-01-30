@@ -119,4 +119,4 @@ function select(userInput) {
   }
 }
 
-if ()
+if (currentRound)
