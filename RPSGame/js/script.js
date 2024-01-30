@@ -117,8 +117,12 @@ function select(userInput) {
     show([computerFireWork]);
     hide([computerFireWork], DELAY);
   }
-}
+
 
 if (currentRound < numberOfRounds){
   prepareForNextRound();
+}else{
+
+}
+
 }
