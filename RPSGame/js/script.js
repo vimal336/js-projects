@@ -114,7 +114,7 @@ function select(userInput){
     show([userFireWork]);
     hide([userFireWork], DELAY);
   } else {
-    updateScore
+    updateScore(computerScore);
   }
 
 }
