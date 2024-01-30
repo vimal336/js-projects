@@ -122,7 +122,7 @@ function select(userInput) {
 if (currentRound < numberOfRounds){
   prepareForNextRound();
 }else{
-
+  gameOver();
 }
 
 }
