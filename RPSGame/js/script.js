@@ -130,5 +130,5 @@ if (currentRound < numberOfRounds){
 
 function gameOver(){
   const userScoreValue = +this.userScore.innerText;
-  const computerScoreValue = +this.computerScore
+  const computerScoreValue = +this.computerScore.innerText;
 }
