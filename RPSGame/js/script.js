@@ -132,5 +132,5 @@ function gameOver(){
   const userScoreValue = +this.userScore.innerText;
   const computerScoreValue = +this.computerScore.innerText;
 
-  if (userScoreValue)
+  if (userScoreValue == )
 }
