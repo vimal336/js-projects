@@ -129,5 +129,5 @@ if (currentRound < numberOfRounds){
 }
 
 function gameOver(){
-  const userScoreValue = +this.userScore.innerText
+  const userScoreValue = +this.userScore.innerText;
 }
