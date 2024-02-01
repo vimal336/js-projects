@@ -129,7 +129,7 @@ if (currentRound < numberOfRounds){
 }
 
 function showSelection(control){
-
+ addClasses()
 }
 
 function gameOver(){
