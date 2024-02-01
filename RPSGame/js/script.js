@@ -137,6 +137,6 @@ function gameOver(){
   } else if (userScoreValue > computerScoreValue){
      countDown.innerText = "Game over. You Won!";
   } else {
-     countDown.innerText = "Game over"
+     countDown.innerText = "Game over. You Lost"
   }
 }
