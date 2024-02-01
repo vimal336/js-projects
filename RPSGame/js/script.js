@@ -128,7 +128,9 @@ if (currentRound < numberOfRounds){
 
 }
 
-function showSelection()
+function showSelection(){
+  
+}
 
 function gameOver(){
   const userScoreValue = +this.userScore.innerText;
