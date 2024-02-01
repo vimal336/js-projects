@@ -128,8 +128,8 @@ if (currentRound < numberOfRounds){
 
 }
 
-function showSelection(){
-  
+function showSelection(control){
+
 }
 
 function gameOver(){
