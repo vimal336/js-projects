@@ -128,6 +128,8 @@ if (currentRound < numberOfRounds){
 
 }
 
+function showSelection()
+
 function gameOver(){
   const userScoreValue = +this.userScore.innerText;
   const computerScoreValue = +this.computerScore.innerText;
@@ -140,3 +142,4 @@ function gameOver(){
      countDown.innerText = "Game over. You Lost!"
   }
 }
+
