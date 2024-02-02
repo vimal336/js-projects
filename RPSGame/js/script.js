@@ -111,7 +111,7 @@ function select(userInput) {
   ) {
     updateScore(userScore);
     show([userFireWork]);
-    hide([userFireWork], DELL);
+    hide([userFireWork], DELAY);
   } else {
     updateScore(computerScore);
     show([computerFireWork]);
