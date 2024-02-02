@@ -137,7 +137,7 @@ function gameOver(){
   const computerScoreValue = +this.computerScore.innerText;
 
   if (userScoreValue == computerScoreValue){
-    countDown.innerText ="Game over. It was a Drawl";
+    countDown.innerText ="Game over. It was a Draw";
   } else if (userScoreValue > computerScoreValue){
      countDown.innerText = "Game over. You Won!";
   } else {
