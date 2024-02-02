@@ -105,7 +105,7 @@ function select(userInput) {
   if (userInput === computerInput) {
     countDown.innerText = "Draw!";
   } else if (
-    (userInput === ) & (computerInput === 2) ||
+    (userInput === 1) & (computerInput === 2) ||
     (userInput === 2) & (computerInput === 1) ||
     (userInput === 3) & (computerInput === 2)
   ) {
