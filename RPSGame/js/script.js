@@ -129,7 +129,7 @@ if (currentRound < numberOfRounds){
 }
 
 function showSelection(control){
- addClasses([control, ["bg-green-200", "border-green-600"]])
+ addClasses([control, ["bg-green-200", "border-green-600. border-red"]])
 }
 
 function gameOver(){
