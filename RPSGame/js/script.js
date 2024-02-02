@@ -124,7 +124,7 @@ if (currentRound < numberOfRounds){
 }else{
   gameOver();
   show([initButon]);
-  close([])
+  close([init])
 }
 
 }
