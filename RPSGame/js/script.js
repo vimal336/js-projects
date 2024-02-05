@@ -148,7 +148,7 @@ function gameOver(){
 function prepareForNextRound(){
   setTimeout( () =>{
    currentRound++;
-   roundsSpan
+   roundsSpan.innerText
   })
 
 }
