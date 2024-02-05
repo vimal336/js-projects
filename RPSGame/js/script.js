@@ -146,7 +146,9 @@ function gameOver(){
 }
 
 function prepareForNextRound(){
-  setTimeout( () =>){
+  setTimeout( () =>{
+    
+  }){
 
   }
 }
