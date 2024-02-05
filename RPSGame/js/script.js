@@ -145,5 +145,7 @@ function gameOver(){
   }
 }
 
-function prepareForNextRound
+function prepareForNextRound(){
+  
+}
 
