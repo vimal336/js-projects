@@ -149,6 +149,7 @@ function prepareForNextRound(){
   setTimeout( () =>{
    currentRound++;
    roundsSpan.innerText = currentRound;
+   show
   })
 
 }
