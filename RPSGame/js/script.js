@@ -147,9 +147,8 @@ function gameOver(){
 
 function prepareForNextRound(){
   setTimeout( () =>{
-    
-  }){
 
-  }
+  })
+
 }
 
