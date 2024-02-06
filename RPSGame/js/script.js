@@ -151,4 +151,4 @@ function prepareForNextRound() {
   }, DELAY);
 }
 
-function
+function updateScore
