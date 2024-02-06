@@ -153,4 +153,5 @@ function prepareForNextRound() {
 
 function updateScore(element){
   countDown.innerText = "";
+  element.innerText
 }
