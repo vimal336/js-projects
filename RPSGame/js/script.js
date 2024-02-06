@@ -150,7 +150,7 @@ function prepareForNextRound(){
    currentRound++;
    roundsSpan.innerText = currentRound;
    show[(nextRoundButton)];
-  })
+  }, DELAY)
 
 }
 
