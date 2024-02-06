@@ -156,4 +156,4 @@ function updateScore(element){
   element.innerText = +element.innerText + 1;
 }
 
-function 
+function enable
