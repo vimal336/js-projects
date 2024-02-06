@@ -155,3 +155,5 @@ function updateScore(element){
   countDown.innerText = "";
   element.innerText = +element.innerText + 1;
 }
+
+function 
