@@ -151,6 +151,6 @@ function prepareForNextRound() {
   }, DELAY);
 }
 
-function updateScore(){
-  
+function updateScore(element){
+
 }
