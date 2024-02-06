@@ -118,39 +118,37 @@ function select(userInput) {
     hide([computerFireWork], DELAY);
   }
 
-
-if (currentRound < numberOfRounds){
-  prepareForNextRound();
-}else{
-  gameOver();
-  show([initButon]);
-}
-
-}
-
-function showSelection(control){
- addClasses([control, ["bg-green-200", "border-green-600"]])
-}
-
-function gameOver(){
-  const userScoreValue = +this.userScore.innerText;
-  const computerScoreValue = +this.computerScore.innerText;
-
-  if (userScoreValue == computerScoreValue){
-    countDown.innerText ="Game over. It was a Draw";
-  } else if (userScoreValue > computerScoreValue){
-     countDown.innerText = "Game over. You Won!";
+  if (currentRound < numberOfRounds) {
+    prepareForNextRound();
   } else {
-     countDown.innerText = "Game over. You Lose!"
+    gameOver();
+    show([initButon]);
   }
 }
 
-function prepareForNextRound(){
-  setTimeout( () =>{
-   currentRound++;
-   roundsSpan.innerText = currentRound;
-   show[(nextRoundButton)];
-  }, DELAY)
-
+function showSelection(control) {
+  addClasses([control, ["bg-green-200", "border-green-600"]]);
 }
 
+function gameOver() {
+  const userScoreValue = +this.userScore.innerText;
+  const computerScoreValue = +this.computerScore.innerText;
+
+  if (userScoreValue == computerScoreValue) {
+    countDown.innerText = "Game over. It was a Draw";
+  } else if (userScoreValue > computerScoreValue) {
+    countDown.innerText = "Game over. You Won!";
+  } else {
+    countDown.innerText = "Game over. You Lose!";
+  }
+}
+
+function prepareForNextRound() {
+  setTimeout(() => {
+    currentRound++;
+    roundsSpan.innerText = currentRound;
+    show[nextRoundButton];
+  }, DELAY);
+}
+
+function
