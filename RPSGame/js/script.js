@@ -152,5 +152,5 @@ function prepareForNextRound() {
 }
 
 function updateScore(element){
-
+  countDown.innerText
 }
