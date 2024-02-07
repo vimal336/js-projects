@@ -157,5 +157,5 @@ function updateScore(element){
 }
 
 function enable(elements, delay){
-
+   delay
 }
