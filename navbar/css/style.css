@@ -15,7 +15,7 @@ nav{
 }
 
 nav>ul{
- display: flex;
+ display: inline-block;
 justify-content: space-between;
 list-style-type: none;
 }
