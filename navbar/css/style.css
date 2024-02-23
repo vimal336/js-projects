@@ -13,5 +13,7 @@ nav{
 }
 
 nav>ul{
-  display: inline;
+ display: flex;
+justify-content: space-between;
+width: 30px;
 }
