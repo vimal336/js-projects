@@ -12,9 +12,10 @@ nav{
   display: flex;
   justify-content: space-between;
   background-color: aqua;
+  width: 100%;
 }
 
-nav>ul{
+nav li{
  display: inline-block;
 justify-content: space-between;
 list-style-type: none;
