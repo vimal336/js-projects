@@ -37,6 +37,6 @@ margin: 0 8px;
     flex-direction: column;
   }
   nav li{
-    
+    display: block;
   }
 }
