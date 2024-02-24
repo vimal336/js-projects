@@ -28,5 +28,5 @@ margin: 0 8px;
 }
 
 .menu{
-  display: none;
+  cursor: pointer;
 }
