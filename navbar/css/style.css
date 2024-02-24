@@ -26,3 +26,7 @@ margin: 0 8px;
   background-color: blueviolet;
   margin-bottom: 3px;
 }
+
+.menu{
+  display: none;
+}
