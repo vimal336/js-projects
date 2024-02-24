@@ -43,4 +43,7 @@ margin: 0 8px;
   ul{
     text-align: center;
   }
+  .logo{
+    align-self: flex-start;
+  }
 }
