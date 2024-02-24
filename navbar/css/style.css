@@ -9,6 +9,7 @@
 
 nav{
   display: flex;
+  align-items: center;
   justify-content: space-between;
   background-color: aqua;
   width: 100%;
@@ -38,5 +39,8 @@ margin: 0 8px;
   }
   nav li{
     display: block;
+  }
+  ul{
+    text-align: center;
   }
 }
