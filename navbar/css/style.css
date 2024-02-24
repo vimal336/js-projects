@@ -36,7 +36,7 @@ margin: 0 8px;
   nav{
     flex-direction: column;
   }
-  *{
-    background-color: blue;
+  nav li{
+    
   }
 }
