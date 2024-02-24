@@ -1,0 +1,23 @@
+*{
+    background-color: rgb(145, 145, 145);
+}
+
+.card{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(60, 60, 207);
+    margin: 20px;
+}
+
+.cards{
+display: grid;
+align-items: center;
+justify-content: center;
+grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 640px){
+    .cards{
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
