@@ -50,6 +50,7 @@ margin: 0 8px;
   .menu{
     display: block;
     position: absolute;
+    top: 20px;
   }
 
 }
