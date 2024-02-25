@@ -1,4 +1,4 @@
-const days=document.querySelector('#days');
+const menu = document.getElementById
 
 
 
