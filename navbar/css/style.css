@@ -50,11 +50,11 @@ margin: 0 8px;
   .menu{
     display: block;
     position: absolute;
-    top: 10px;
+    top: 5px;
     right: 10px;
   }
 
-  .ul{
+  ul{
     display: none;
   }
 
