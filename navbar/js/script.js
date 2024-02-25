@@ -1,4 +1,4 @@
-const menu = document.querySelector
+const menu = document.querySelector('.menu')
 
 }
 
