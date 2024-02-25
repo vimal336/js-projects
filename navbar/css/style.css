@@ -33,7 +33,7 @@ margin: 0 8px;
   display: none;
 }
 
-@media (max-width:400px){
+@media (max-width:700px){
   nav{
     flex-direction: column;
   }
@@ -47,3 +47,4 @@ margin: 0 8px;
     align-self: flex-start;
   }
 }
+
