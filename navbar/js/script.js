@@ -1,4 +1,4 @@
-const menu = document.getElementById
+const menu = document.getElementById('menu')
 
 
 
