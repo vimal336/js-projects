@@ -31,7 +31,7 @@ margin: 0 8px;
 .menu{
   cursor: pointer;
   display: none;
-  transition: all 0.5s ease-in;
+ 
 }
 
 @media (max-width:900px){
@@ -53,6 +53,7 @@ margin: 0 8px;
     position: absolute;
     top: 5px;
     right: 10px;
+  
    
   
   }
