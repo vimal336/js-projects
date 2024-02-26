@@ -60,7 +60,7 @@ margin: 0 8px;
   ul{
     display: none;
     transition: all 2s ease;
-    transition-timing-function: 2s;
+    
   }
 
   .showmenu{
