@@ -8,7 +8,7 @@
 }
 
 body{
-  b
+  background-image: url("../image/img2.jpg");
 }
 nav {
   display: flex;
