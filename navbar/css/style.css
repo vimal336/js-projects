@@ -9,7 +9,7 @@
 
 body{
   background-image: url("../image/img2.jpg");
-  width: 100vw;
+  object-fit: cover;
 }
 nav {
   display: flex;
