@@ -7,6 +7,9 @@
   font-family: "Poppins", sans-serif;
 }
 
+body{
+  b
+}
 nav {
   display: flex;
   align-items: center;
@@ -54,8 +57,6 @@ nav li {
     top: 5px;
     right: 10px;
   }
-
-  
 
   ul {
     display: none;
