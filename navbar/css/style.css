@@ -76,3 +76,7 @@ section h1{
   align-items: center;
   justify-content: center;
 }
+
+section p{
+  text-align: center;
+}
