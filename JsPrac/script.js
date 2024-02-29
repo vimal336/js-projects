@@ -152,3 +152,8 @@ const title = books.title;
 title;
 
 const title2 = books.title;
+
+fetch("https://jsonplaceholder.typicode.com/todos")
+  .then((res) => res.json())
+  .then((data) => console.log(data));
+

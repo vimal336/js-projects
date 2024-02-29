@@ -75,3 +75,5 @@ let doub = arra.map((double)=>{
 
 console.log(arra);
 console.log(doub);
+
+let str = " hello javascript";
