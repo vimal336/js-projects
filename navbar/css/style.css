@@ -41,7 +41,7 @@ nav li {
   display: none;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1900px) {
   nav {
     flex-direction: column;
   }
