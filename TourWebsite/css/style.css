@@ -52,5 +52,8 @@ body{
   filter: brightness(85%);
 }
 
+.banner{
+  z-index: -10;
+}
 
 
