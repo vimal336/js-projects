@@ -63,6 +63,17 @@
   text-align: center;
 }
 
+.banner h1{
+  color: #fff;
+  text-align: center;
+}
+
+.banner button{
+  background-color: rgb(61, 248, 61);
+  color: #fff;
+}
+
+
 
 
 
