@@ -6,14 +6,12 @@
   margin: 0;
 }
 
-
-
-.hamburger{
+.hamburger {
   margin-top: 20px;
   margin-left: -12px;
 }
 
-.logo img{
+.logo img {
   margin-bottom: 20px;
 }
 
@@ -24,56 +22,51 @@
   margin: 4px 0;
 }
 
-.menu{
+.menu {
   display: flex;
   background-color: rgb(255, 255, 255);
   justify-content: space-around;
 }
 
-.menu .contact span{
+.menu .contact span {
   font-weight: 900;
 }
 
-.contact{
+.contact {
   padding: 20px 30px;
-    border: 1px solid rgba(159, 205, 50, 0.7);
-    background-color: #fff;
-    color: #000;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    font-family: "Font Awesome 6 Free Solid";
-    font-weight: 900;
-    font-size: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+  border: 1px solid rgba(159, 205, 50, 0.7);
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-family: "Font Awesome 6 Free Solid";
+  font-weight: 900;
+  font-size: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.contact:hover{
+.contact:hover {
   filter: brightness(85%);
 }
 
-.banner{
+.banner {
   background: url(../images/hero-banner.jpg);
-  height:100vh;
+  height: 100vh;
 }
 
-.banner h3{
+.banner h3 {
   color: #fff;
   text-align: center;
 }
 
-.banner h1{
+.banner h1 {
   color: #fff;
   text-align: center;
 }
 
-.banner button{
+.banner button {
   background-color: rgb(61, 248, 61);
   color: #fff;
 }
-
-
-
-
-
