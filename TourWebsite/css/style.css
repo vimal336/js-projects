@@ -84,8 +84,15 @@
 }
 
 @media (max-width: 624px) {
-  .logo {
-    flex-direction: column;
-    align-items: center;
+  .menu .hamburger {
+     flex: 50%;
   }
+
+  .menu .logo {
+    flex: 50%;
+ }
+
+ .menu .contact {
+  flex: 50%;
+}
 }
