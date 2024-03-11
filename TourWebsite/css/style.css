@@ -1,9 +1,14 @@
 @import url(https://db.onlinewebfonts.com/c/115792e2e8292773cdb8dd0ab76459f2?family=Font+Awesome+6+Free+Solid);
+@import url(https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Montserrat&family=Open+Sans:wght@500&display=swap);
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+:root{
+  font-family:
 }
 
 .hamburger {
