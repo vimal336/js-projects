@@ -5,6 +5,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  background-size: cover;
 }
 
 :root{
@@ -101,11 +102,13 @@
 }
 
 .fa-solid {
-   font-size: 100px;
+   font-size: 60px;
+   padding: 35px;
 }
 
 .fas {
-  font-size: 100px;
+  font-size: 60px;
+  padding: 35px;
 }
 
 @media (max-width: 624px) {
