@@ -83,6 +83,14 @@
   border: none;
 }
 
+/* trip section */
+
+.trip{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (max-width: 624px) {
   .menu .hamburger {
      flex: 50%;
@@ -96,3 +104,5 @@
   flex: 50%;
 }
 }
+
+
