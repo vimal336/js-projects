@@ -91,6 +91,10 @@
   align-items: center;
 }
 
+.trip_icon{
+  
+}
+
 @media (max-width: 624px) {
   .menu .hamburger {
      flex: 50%;
