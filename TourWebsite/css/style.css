@@ -28,16 +28,18 @@ img{
   
 .hamburger {
   margin-top: 30px;
-  margin-left: -5px;
+  margin-left: -4px;
 }
 
 .logo img {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  padding-right: 20px;
+  padding-bottom: 20px;
 }
 
 .ham {
   width: 30px;
-  height: 5px;
+  height: 6px;
   background-color: black;
   margin: 4px 0;
 }
@@ -106,7 +108,6 @@ img{
   text-align: center;
   font-size: 55px;
  font-family: var(--source-serif);
- padding-right: 540px;
  font-weight: 500px;
  line-height: 108px;
 }
@@ -118,7 +119,6 @@ img{
   font-weight: 500px;
   font-size: 55px;
  font-family: var(--source-serif);
- padding-right: 470px;
  line-height: 108px;
 }
 
@@ -130,7 +130,6 @@ img{
   font-family: var(--lexend-deca); 
   font-weight: 900;
   border: none;
-  margin-left: 200px;
 }
 
 /* nav section */
