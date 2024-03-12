@@ -74,6 +74,8 @@ img{
   object-fit: cover;
   padding-top: 100px;
   background-size: cover;
+  filter: brightness(64%);
+  z-index: +20;
 }
 
 .banner h3 {
@@ -85,6 +87,7 @@ img{
   font-style: normal;
   line-height: 48px;
   padding-right: 470px;
+  z-index: +22;
  
 }
 
