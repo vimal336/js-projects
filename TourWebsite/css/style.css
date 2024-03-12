@@ -162,7 +162,7 @@ img{
 }
 
 .active{
-  
+  display: none;
 }
 
 /* trip section */
