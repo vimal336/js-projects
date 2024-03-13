@@ -288,6 +288,9 @@ img{
 
 /* Gallery section */
 
+.gallery-head{
+  text-align: center;
+}
 .Gallery{
   display: grid;
  
