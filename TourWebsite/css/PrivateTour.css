@@ -151,7 +151,7 @@ img{
 
   }
  .banner img{
-     width: 100%;
+     width: 100VW;
      height: 70vh;
      filter: brightness(75%);
  }
