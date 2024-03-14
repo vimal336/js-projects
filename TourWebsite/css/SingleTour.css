@@ -138,32 +138,81 @@ img{
   .active{
     display: none;
   }
-/* 
-  destination banner */
+/* Banner Section */
+.banner .content h3 {
+  color: white;
+  font-weight: 300;
+  line-height: 48px;
+  size: 30px;
+}
 
-   .banner{
-     margin: 0px 10px 50px 0px;
-    position: relative;
-   }
+.banner .content h1 {
+  color: white;
+  font-family: var(--lexend-deca);
+  font-size: 55px;
+  line-height: 88px;
+}
 
-   .bannerImage {
-   width: 100%;
-   height: 250px;
+.banner .content button {
+  background: #9fcd32;
+  outline: none;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-top: 38px;
+  padding: 12px 30px;
+  border-radius: 0px;
+  cursor: pointer;
+  color: white;
+  font-weight: 900;
+  transition: 0.5s;
+}
 
-   }
-  .banner img{
-      width: 100%;
-      height: 70vh;
-      filter: brightness(75%);
-  }
+.banner .content button:hover {
+  background-color: #577909;
+}
+.banner {
+  background: url(../images/SingleTourPage/singtour-banner.jpg);
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  object-fit: cover;
+  background-size: cover;
+  padding: 0 200px;
+}
 
-  .bannerImage h1{
-    position: absolute;
-   
-    top: 200px;
-    left: 250px;
-    color: white;
-  }
+.banner .content h3 {
+  color: white;
+  font-weight: 300;
+  line-height: 48px;
+  size: 30px;
+}
+
+.banner .content h1 {
+  color: white;
+  font-family: var(--lexend-deca);
+  font-size: 55px;
+  line-height: 88px;
+}
+
+.banner .content button {
+  background: #9fcd32;
+  outline: none;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-top: 38px;
+  padding: 12px 30px;
+  border-radius: 0px;
+  cursor: pointer;
+  color: white;
+  font-weight: 900;
+  transition: 0.5s;
+}
+
+.banner .content button:hover {
+  background-color: #577909;
+}
 
   .bannerImage h3{
     position: absolute;
