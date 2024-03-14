@@ -100,6 +100,11 @@ ends */
   padding-bottom: 20px;
 }
 
+#logo-size{
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+
 .ham {
   width: 30px;
   height: 4px;
@@ -139,7 +144,7 @@ ends */
 }
 
 .banner {
-  background: url(../images/hero-banner.jpg);
+  background: url(../images/HomePage/hero-banner.jpg);
   height: 100vh;
   display: flex;
   align-items: center;
