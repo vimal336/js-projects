@@ -282,6 +282,15 @@ img {
   justify-content: space-around;
   margin: 20px 0px 0px 0px;
   border-radius: 50%;
+  
+}
+
+.Tour-icons .icon-Text{
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+  background-color: #577909;
+  width: 200px;
+  height: 200px;
 }
 
 .Tour-icons .Tour-icon .trip-icon {
