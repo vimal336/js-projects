@@ -34,6 +34,7 @@ img {
 .hamburger {
   margin-top: 30px;
   margin-left: -4px;
+  cursor: pointer;
 }
 
 .logo img {
@@ -102,6 +103,7 @@ img {
   line-height: 16px;
   font-weight: 500;
   font-style: normal;
+  cursor: pointer;
 }
 
 .nav-list {
@@ -256,8 +258,7 @@ img {
   font-size: 15px;
 }
 
-
-.trip-section h1{
+.trip-section h1 {
   color: #4f7000;
   font-family: var(--source-serif);
   font-size: 30px;
@@ -265,34 +266,61 @@ img {
   font-style: normal;
 }
 
-.trip-box h1{
+.trip-box h1 {
   font-size: 20px;
 }
 
-
-.trip-box{
+.trip-box {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
   text-align: center;
-  margin: 200px;
+  margin: 80px;
   column-gap: 20px;
 }
 
-
-.trip-box1{
-  background-color: #ccff54;
-  color: white;
-  font-size: 20px;
-  align-items: center;
- 
+.trip-box h1 {
+  font-family: var(--source-serif);
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 48px;
 }
 
-.trip-box2{
-  background-color: #598000;
+.trip-box1 {
+  background-color: #9fcd32;
   color: white;
   font-size: 20px;
+  margin: 20px;
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+  font-weight: 300;
+  padding: 50px;
 }
 
+.trip-box2 {
+  background-color: #417703;
+  color: white;
+  font-size: 20px;
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+  font-weight: 300;
+  margin: 20px;
+  padding: 50px;
+}
 
+/* booking section */
+
+.booking-section{
+  background: url(../images/PrivateTour/privtour-intro.jpg);
+  width: 100vw;
+  height: 100vh;
+  filter: brightness(60%);
+  z-index: -9;
+}
+
+.booking-section h1{
+  color: white;
+  text-align: center;
+  z-index: +10;
+}
