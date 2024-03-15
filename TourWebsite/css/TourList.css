@@ -242,7 +242,9 @@ img{
   /* Tour-list */
 
   .Tour-info{
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
 
