@@ -288,9 +288,9 @@ img {
 .Tour-icons .icon-Text{
   font-family: var(--lexend-deca);
   font-size: 14px;
-  height: 100px;
+  /* height: 150px;
   width: 200px;
-  background-color: #577909;
+  background-color: #577909; */
 
 }
 
@@ -303,6 +303,6 @@ img {
   font-size: 55px;
   text-align: center;
   padding: 18%;
-  color: #ffffff;
+  color: #000000;
  
 }

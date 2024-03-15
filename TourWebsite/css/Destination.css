@@ -138,8 +138,8 @@ img{
   .active{
     display: none;
   }
-/* 
-  destination banner */
+
+/* destination banner */
 
    .banner{
      margin: 0px 10px 50px 0px;
@@ -175,7 +175,7 @@ img{
   }
 
   .bannerImage button{
-    background: #9fcd32;
+  background: #9fcd32;
   outline: none;
   border: none;
   font-size: 0.8rem;
@@ -199,12 +199,47 @@ img{
    margin-top: 200px;
    text-align: center;
    align-content: center;
-   width: 50vw;
 
 }
 
+.dest-brief h3{
+  font-family: var(--source-serif);
+  line-height: 48px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
 .dest-brief p{
- font-size: 15px;
+  margin-top: 20px;
+ font-family: var(--lexend-deca);
+ font-size: 14px;
+ line-height: 22px;
+ font-style: normal;
+ width: 40%;
+}
+
+/* Collage Section */
+
+/* .collage{
+   display: grid;
+   grid-template-columns: (3fr, 200px);
+} */
+
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 33.33%;
 }
 
 
