@@ -2,14 +2,14 @@
 @import url(https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Montserrat&family=Open+Sans:wght@500&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap);
 
-*{
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   background-size: cover;
 }
 
- body{
+body {
   /* background: url(../images/Home.png);
   opacity: 0.5;
   background-repeat: no-repeat; */
@@ -18,19 +18,19 @@
   font-size: 1.4rem;
   line-height: 1.6;
   font-weight: 300;
-} 
+}
 
-img{
+img {
   object-fit: cover;
 }
 
-:root{
-  --lexend-deca: 'Lexend Deca', sans-serif;
+:root {
+  --lexend-deca: "Lexend Deca", sans-serif;
   --source-serif: "Source Serif 4", serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
+  font-weight: 500;
+  font-style: normal;
+}
+
 .hamburger {
   margin-top: 30px;
   margin-left: -4px;
@@ -83,61 +83,57 @@ img{
 
 /* nav section */
 
-.nav{
-    background-color: #9FCD32;
-    width: 300px;
-    height: 600px;
-    top: 0px;
-    position:fixed;
-    z-index: +25;
-  }
-  
-  .close{
-    position: absolute;
-    right: 0;
-    color: rgb(255, 255, 255);
-    font-family: var(--lexend-deca);
-    background-color: rgb(214, 19, 19);
-    font-size: 16px;
-    padding: 12px;
-    line-height: 16px;
-    font-weight: 500;
-    font-style: normal;
-    cursor: pointer;
-    
-  
-  }
-  
-  .nav-list{
-    padding: 20px;
-    list-style: none;
-    text-align: center;
-    display: inline;
-    line-height: 70px;
-  
-  }
-  
-  .nav-list a{
-    text-decoration: none;
-    color: #fff;
-    font-family: var(--lexend-deca);
-    margin: 10px 80px;
-    padding-top: 30px;
-    text-align: center;
-    font-weight: 500;
-    line-height: 26px;
-    font-size: 16px;
-  }
-  
-  .nav-list a:hover{
-      background-color: #577909;
-      padding: 10px;
-      
-  }
-  
-  .active{
-    display: none;
-  }
+.nav {
+  background-color: #9fcd32;
+  width: 300px;
+  height: 600px;
+  top: 0px;
+  position: fixed;
+  z-index: +25;
+}
+
+.close {
+  position: absolute;
+  right: 0;
+  color: rgb(255, 255, 255);
+  font-family: var(--lexend-deca);
+  background-color: rgb(214, 19, 19);
+  font-size: 16px;
+  padding: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  font-style: normal;
+  cursor: pointer;
+}
+
+.nav-list {
+  padding: 20px;
+  list-style: none;
+  text-align: center;
+  display: inline;
+  line-height: 70px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #fff;
+  font-family: var(--lexend-deca);
+  margin: 10px 80px;
+  padding-top: 30px;
+  text-align: center;
+  font-weight: 500;
+  line-height: 26px;
+  font-size: 16px;
+}
+
+.nav-list a:hover {
+  background-color: #577909;
+  padding: 10px;
+}
+
+.active {
+  display: none;
+}
 
 /* Banner Section */
 .banner .content h3 {
@@ -215,17 +211,17 @@ img{
   background-color: #577909;
 }
 
-  .bannerImage h3{
-    position: absolute;
-    top: 100px;
-    left: 243px;
-    color: white;
-    text-transform: uppercase;
-    margin-top: 30px;
-  }
+.bannerImage h3 {
+  position: absolute;
+  top: 100px;
+  left: 243px;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
 
-  .bannerImage button{
-    background: #9fcd32;
+.bannerImage button {
+  background: #9fcd32;
   outline: none;
   border: none;
   font-size: 0.8rem;
@@ -237,25 +233,31 @@ img{
   color: white;
   font-weight: 900;
   transition: 0.5s;
-  }
+}
 
-  /* Tour-list */
+/* Tour-list */
 
-  .Tour-info{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-  }
+.Tour-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
 
-  .Tour-info h1{
-font-family: var(--source-serif);
-font-style: normal;
-font-size: 30px;
-line-height: 48px;
-font-weight: 500;
-  }
+.Tour-info h1 {
+  font-family: var(--source-serif);
+  font-style: normal;
+  font-size: 30px;
+  line-height: 48px;
+  font-weight: 500;
+}
 
-
+.Tour-info b {
+  font-family: var(--lexend-deca);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 600;
+}
 
