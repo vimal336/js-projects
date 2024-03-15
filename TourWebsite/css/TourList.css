@@ -250,7 +250,11 @@ img{
   }
 
   .Tour-info h1{
-    
+font-family: var(--source-serif);
+font-style: normal;
+font-size: 30px;
+line-height: 48px;
+font-weight: 500;
   }
 
 
