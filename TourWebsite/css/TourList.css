@@ -251,7 +251,7 @@ img {
   font-size: 30px;
   line-height: 48px;
   font-weight: 500;
-  margin: 80px 0px 20px 0px ;
+  margin: 80px 0px 20px 0px;
 }
 
 .Tour-info b {
@@ -261,10 +261,10 @@ img {
   line-height: 22px;
   font-weight: 600;
   width: 70%;
-  margin: 0px 0px 20px 0px ;
+  margin: 0px 0px 20px 0px;
 }
 
-.Tour-info p{
+.Tour-info p {
   font-family: var(--lexend-deca);
   font-style: normal;
   font-size: 14px;
@@ -275,16 +275,18 @@ img {
 
 /* Travel-icons Section */
 
-.Tour-icons{
+.Tour-icons {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-around;
   margin: 20px 0px 0px 0px;
-  
-
+  background-color: rgba(159, 205, 50, 0.3);
+  border-radius: 50%;
 }
 
-
-
-
+.Tour-icon {
+  margin: 20px 0px 0px 0px;
+  background-color: rgba(159, 205, 50, 0.3);
+  border-radius: 50%;
+}
