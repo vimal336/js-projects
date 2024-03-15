@@ -220,12 +220,6 @@ img{
 
 /* Collage Section */
 
-/* .collage{
-   display: grid;
-   grid-template-columns: (3fr, 200px);
-} */
-
-
 div.gallery{
   margin-top: 50px;
 }
@@ -235,10 +229,56 @@ div.gallery img {
   height: 50vh;
 }
 
-.responsive {
+/* .responsive {
   float: left;
   width: 33.33%;
+} */
+
+/* Geography Section */
+
+.geography{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  background-color:#E0E0E0;
+  padding: 20px;
 }
+
+.geography h1{
+  font-family: var(--lexend-deca);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 48px;
+  font-style: normal;
+}
+
+
+.geography p{
+  margin: 30px 0px 30px 0px ;
+  font-family: var(--lexend-deca);
+ font-size: 14px;
+ font-weight: 300;
+ line-height: 22px;
+ font-style: normal;
+} 
+
+.geography-right img{
+  width: 300px;
+  height: 300px;
+}
+
+.geography-right p{
+  background-color: #fff;
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  font-style: normal;
+  padding: 20px;
+  text-align: center;
+}
+
 
 
 
