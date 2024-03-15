@@ -226,6 +226,10 @@ img{
 } */
 
 
+div.gallery{
+  margin-top: 50px;
+}
+
 div.gallery img {
   width: 100%;
   height: auto;
