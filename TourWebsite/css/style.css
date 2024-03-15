@@ -216,7 +216,8 @@ ends */
 }
 
 .banner .content button:hover {
-  background-color: #577909;
+  background-color: #545e3c;
+  
 }
 
 /* nav section */
@@ -266,7 +267,7 @@ ends */
 .nav-list a:hover {
   background-color: #577909;
   padding: 10px;
-}
+} 
 
 .active {
   display: none;
