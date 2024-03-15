@@ -242,15 +242,20 @@ div.gallery img {
   justify-content: center;
   align-items: center;
   background-color:#E0E0E0;
-  padding: 20px;
+  padding: 100px;
+  
 }
 
 .geography h1{
-  font-family: var(--lexend-deca);
+  font-family: var(--source-serif);
   font-size: 30px;
   font-weight: 500;
   line-height: 48px;
   font-style: normal;
+}
+
+.geography-left{
+  margin-right: 30px;
 }
 
 
@@ -280,7 +285,11 @@ div.gallery img {
 }
 
 .geography .map-icon{
-  color: #9FCD32;
+   position: absolute;
+  color: #618C2F;
+  font-size: 50px;
+ top: 2170px;
+ right: 530px;
 }
 
 
