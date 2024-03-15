@@ -284,6 +284,7 @@ img {
   border-radius: 50%;
 }
 
+
 .Tour-icons .Tour-icon .trip-icon {
   margin: 20px 0px 0px 0px;
   background-color: rgba(159, 205, 50, 0.3);
@@ -291,4 +292,5 @@ img {
   background-color: rgb(0, 59, 40);
   width: 100px;
   height: 100px;
+  font-size: 30px;
 }
