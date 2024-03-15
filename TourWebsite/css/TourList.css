@@ -278,7 +278,8 @@ img {
 .Tour-icons{
   display: flex;
   align-items: center;
-  
+  flex-direction: column;
+
 }
 
 
