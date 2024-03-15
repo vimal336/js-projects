@@ -260,14 +260,19 @@ img {
   font-size: 14px;
   line-height: 22px;
   font-weight: 600;
+  width: 70%;
+  margin: 0px 0px 20px 0px ;
 }
 
-.Tour-info b {
+.Tour-info p{
   font-family: var(--lexend-deca);
   font-style: normal;
   font-size: 14px;
   line-height: 22px;
   font-weight: 300;
+  width: 70%;
 }
+
+
 
 
