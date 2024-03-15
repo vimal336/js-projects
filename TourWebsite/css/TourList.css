@@ -288,19 +288,21 @@ img {
 .Tour-icons .icon-Text{
   font-family: var(--lexend-deca);
   font-size: 14px;
-  background-color: #577909;
+  height: 100px;
   width: 200px;
-  height: 200px;
+  background-color: #577909;
+
 }
 
 .Tour-icons .Tour-icon .trip-icon {
   margin: 20px 0px 0px 0px;
-  background-color: rgba(159, 205, 50, 0.3);
+  background-color: rgba(180, 250, 17,0.4);
   border-radius: 50%;
   width: 100px;
   height: 100px;
   font-size: 55px;
   text-align: center;
   padding: 18%;
-
+  color: #ffffff;
+ 
 }
