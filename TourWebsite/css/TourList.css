@@ -276,7 +276,7 @@ img {
 /* Travel-icons Section */
 
 .Tour-icons{
-  
+  display: flex;
 }
 
 
