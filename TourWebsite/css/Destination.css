@@ -292,6 +292,20 @@ div.gallery img {
  right: 530px;
 }
 
+/* breif section */
+
+.brief{
+  width: 100%;
+  height: 1000px;
+  background: url(../images/DestinationPage/dest-brief-2.jpg);
+  object-fit: cover;
+  background-image: ;
+}
+
+.brief p{
+  color: #fff;
+}
+
 
 
 
