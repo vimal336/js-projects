@@ -322,6 +322,11 @@ div.gallery img {
     width: 50%;
     padding: 10px;
     box-sizing: border-box;
+    font-family: var(--lexend-deca);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    font-style: normal;
   }
 }
 
