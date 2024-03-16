@@ -312,7 +312,7 @@ div.gallery img {
   flex-wrap: wrap;
 }
 
-.History-Brief p{
+.History-Brief .paragraph{
   .paragraph {
     flex: 1;
     width: 50%;
