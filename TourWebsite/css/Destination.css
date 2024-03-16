@@ -307,6 +307,10 @@ div.gallery img {
 
 /* History Section */
 
+.History{
+
+}
+
 .History-Brief{
   display: flex;
   flex-direction: row;
