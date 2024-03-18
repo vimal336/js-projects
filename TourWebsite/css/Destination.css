@@ -340,7 +340,7 @@ div.gallery img {
 }
 
 .Date-section .booking h1{
-  tex
+  text-align: center;
   font-family: var(--source-serif);
   font-size: 30px;
   font-weight: 500;
