@@ -347,4 +347,17 @@ div.gallery img {
   font-style: normal;
 }
 
+.Date-section .booking h1 span{
+  font-family: var(--source-serif);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  font-style: normal;
+  color:rgb(65, 119, 3);
+}
+
+
+
+
+
 
