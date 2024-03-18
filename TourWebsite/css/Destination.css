@@ -337,6 +337,10 @@ div.gallery img {
 .Date-section{
   background-color: #9FCD32;
   color: white;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .booking{
@@ -368,7 +372,7 @@ div.gallery img {
 .Date-section .booking h1 .Date-icon{
   color:rgb(255, 255, 255);
   font-family: var(--lexend-deca);
-  font-size: 35px;
+  font-size: 45px;
   font-weight: 500;
   line-height: 13px;
   font-style: normal;
@@ -383,11 +387,11 @@ div.gallery img {
   background-color: #fff;
   font-style: normal;
   color: #000000;
-  padding: 20px 20px 20px 20px;
+  padding: 15px 35px 15px 35px;
 }
 
 .Date-section .booking .Date-Details{
-  margin-right: 40px;
+  margin-right: 100px;
 }
 
 
