@@ -375,8 +375,9 @@ div.gallery img {
 
 }
 
-.Date-section .booking .Date-Button{
+.Date-section .booking .Date-Button button{
   border: none;
+  color: #000000;
 }
 
 
