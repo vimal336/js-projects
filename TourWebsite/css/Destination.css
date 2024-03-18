@@ -383,11 +383,14 @@ div.gallery img {
   background-color: #fff;
   font-style: normal;
   color: #000000;
+  padding: 20px 20px 20px 20px;
 }
 
 .Date-section .booking .Date-Details{
-  
+  margin-right: 40px;
 }
+
+
 
 
 
