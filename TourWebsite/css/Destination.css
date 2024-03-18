@@ -372,7 +372,6 @@ div.gallery img {
   font-weight: 500;
   line-height: 13px;
   font-style: normal;
-
 }
 
 .Date-section .booking .Date-Button button{
@@ -381,6 +380,7 @@ div.gallery img {
   font-size: 13px;
   font-weight: 700;
   line-height: 21px;
+  background-color: #fff;
   font-style: normal;
   color: #000000;
 }
