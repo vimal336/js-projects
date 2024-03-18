@@ -324,3 +324,38 @@ img {
   text-align: center;
   z-index: +10;
 }
+
+/* Guides Section */
+
+
+.guide{
+  margin: 7rem 0;
+  display: grid;
+  gap: 3vw;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr))
+}
+
+.reviews{
+  padding: 50px 50px 50px 50px;
+  background-color: #fff;
+}
+
+.guides h1{
+  font-weight: 500;
+  font-size: 30px;
+  font-family: var(--source-serif);
+  text-align: center;
+}
+
+.reviews p{
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+  line-height: 22px;
+  font-style: normal;
+}
+
+.guides img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
