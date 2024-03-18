@@ -407,14 +407,21 @@ p {
   font-style: normal;
 }
 
-.Text-Box Button{
+
+ 
+.Text-Box Button {
   position: absolute;
+  font-family: var(--lexend-deca);
   background-color: #9fcd32;
+  font-weight: 700;
+  padding: 15px 35px 15px 35px;
   border: none;
   color: #fff;
   right: 0;
-
+  margin-top: -16px;
 }
+
+
 
 #video-file{
   position: absolute;
