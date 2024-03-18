@@ -301,10 +301,9 @@ div.gallery img {
 
 .History {
   text-align: center;
- 
 }
 
-.History h1{
+.History h1 {
   font-family: var(--source-serif);
   font-size: 30px;
   font-weight: 500;
@@ -331,31 +330,19 @@ div.gallery img {
 
 /*Video Section */
 
-.Video-section{
-   background: url(../images/DestinationPage/dest-info.jpg);
-   height: 90vh;
+.Video-section {
+  position: relative;
+  background: url(../images/DestinationPage/dest-info.jpg);
+  height: 90vh;
 }
 
-/* Date-Section */
-
-.Date-section{
-  background-color: #9FCD32;
-  color: white;
-  height: 40vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.Text-Box {
+  position: absolute;
+  background-color: #ffffff;
+  top: 10px;
 }
 
-.booking{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-}
-
-
-.Date-section .booking h1{
+.Text-Box h1 {
   font-family: var(--source-serif);
   font-size: 30px;
   font-weight: 500;
@@ -363,18 +350,51 @@ div.gallery img {
   font-style: normal;
 }
 
-.Date-section .booking h1 span{
+.Text-Box h3 {
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  font-style: normal;
+}
+
+/* Date-Section */
+
+.Date-section {
+  background-color: #9fcd32;
+  color: white;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.booking {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.Date-section .booking h1 {
+  font-family: var(--source-serif);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 48px;
+  font-style: normal;
+}
+
+.Date-section .booking h1 span {
   font-family: var(--source-serif);
   font-size: 30px;
   font-weight: 500;
   line-height: 45px;
   font-style: normal;
-  color:rgb(65, 119, 3);
- 
+  color: rgb(65, 119, 3);
 }
 
-.Date-section .booking h1 .Date-icon{
-  color:rgb(255, 255, 255);
+.Date-section .booking h1 .Date-icon {
+  color: rgb(255, 255, 255);
   font-family: var(--lexend-deca);
   font-size: 45px;
   font-weight: 500;
@@ -382,7 +402,7 @@ div.gallery img {
   font-style: normal;
 }
 
-.Date-section .booking .Date-Button button{
+.Date-section .booking .Date-Button button {
   border: none;
   font-family: var(--lexend-deca);
   font-size: 13px;
@@ -394,18 +414,6 @@ div.gallery img {
   padding: 15px 35px 15px 35px;
 }
 
-.Date-section .booking .Date-Details{
+.Date-section .booking .Date-Details {
   margin-right: 100px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
