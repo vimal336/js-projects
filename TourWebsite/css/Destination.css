@@ -329,10 +329,14 @@ div.gallery img {
   font-style: normal;
 }
 
+/*Video Section */
+
 .Video-section{
    background: url(../images/DestinationPage/dest-info.jpg);
    height: 90vh;
 }
+
+/* Date-Section */
 
 .Date-section{
   background-color: #9FCD32;
