@@ -318,45 +318,73 @@ ends */
   padding: 35px;
 }
 
-/* info section  */
+/*Video Section */
 
-.info {
-  /* background: url(../images/banner3.jpg); */
+.Video-section {
   position: relative;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 644px;
+  background: url(../images/HomePage/wp9355894.webp);
+  height: 100vh;
+  width: 100vw;
 }
 
-.info-item {
+.Text-Box {
   position: absolute;
   background-color: #ffffff;
+  top: 100px;
+  padding: 50px 20px 30px 50px;
+  left: 90px;
+  z-index: +10;
+}
+
+.Text-Box h1 {
+  font-family: var(--source-serif);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 48px;
+  font-style: normal;
+  margin-bottom: 20px;
+}
+
+.Text-Box h3 {
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  font-style: normal;
+  margin-bottom: 20px;
+}
+
+.Text-Box .Text-Bold {
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  font-style: normal;
+  margin-bottom: 30px;
+}
+
+.Text-Box Button{
+  position: absolute;
+  font-family: var(--lexend-deca);
+  background-color: #9fcd32;
+  font-weight: 700;
+  padding: 15px 35px 15px 35px;
+  border: none;
+  color: #fff;
+  right: 0;
+  margin-top: -16px;
+
+}
+
+#video-file{
+  position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  left: 8vw;
-  padding: 3vw 3vw 6rem 3vw;
-  width: 40%;
-  z-index: 10;
+  right: 8vw;
+  width: 55%;
+  z-index: +9;
 }
 
-.info img {
-  width: 100%;
-  height: 90vh;
-}
-
-.info h3 {
-  font-family: var(--lexend-deca);
-  font-weight: 300;
-}
-
-.info-video {
-  position: absolute;
-  top: -10%;
-  width: 10px;
-  height: 10px;
-  width: 100%;
-  height: auto;
-}
 
 /* Gallery section */
 
@@ -414,4 +442,70 @@ ends */
 .img8{
   grid-row: 1/1;
 }
+
+
+
+/* Date-Section */
+
+.Date-section {
+  background-color: #9fcd32;
+  color: white;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.booking {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.Date-section .booking h1 {
+  font-family: var(--source-serif);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 48px;
+  font-style: normal;
+}
+
+
+.Date-section .booking h1 span {
+  font-family: var(--source-serif);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  font-style: normal;
+  color: rgb(65, 119, 3);
+}
+
+.Date-section .booking h1 .Date-icon {
+  color: rgb(255, 255, 255);
+  font-family: var(--lexend-deca);
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 13px;
+  font-style: normal;
+}
+
+.Date-section .booking .Date-Button button {
+  border: none;
+  font-family: var(--lexend-deca);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 21px;
+  background-color: #fff;
+  font-style: normal;
+  color: #000000;
+  padding: 15px 35px 15px 35px;
+}
+
+.Date-section .booking .Date-Details {
+  margin-right: 100px;
+}
+
+
+
 

@@ -306,3 +306,134 @@ img {
   color: #000000;
  
 }
+
+/* Tour Cards Section */
+
+.tour-cards{
+  margin-top: 100px;
+}
+
+
+
+/* Date-Section */
+
+.Date-section {
+  background-color: #9fcd32;
+  color: white;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.booking {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.Date-section .booking h1 {
+  font-family: var(--source-serif);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 48px;
+  font-style: normal;
+}
+
+
+.Date-section .booking h1 span {
+  font-family: var(--source-serif);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  font-style: normal;
+  color: rgb(65, 119, 3);
+}
+
+.Date-section .booking h1 .Date-icon {
+  color: rgb(255, 255, 255);
+  font-family: var(--lexend-deca);
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 13px;
+  font-style: normal;
+}
+
+.Date-section .booking .Date-Button button {
+  border: none;
+  font-family: var(--lexend-deca);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 21px;
+  background-color: #fff;
+  font-style: normal;
+  color: #000000;
+  padding: 15px 35px 15px 35px;
+}
+
+.Date-section .booking .Date-Details {
+  margin-right: 100px;
+}
+
+/* footer Section */
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  background-color: #577909;
+}
+
+.footer1{
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  color: #fff;
+  font-style: normal;
+  text-align: center;
+}
+
+.footer2{
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  color: #fff;
+  font-style: normal;
+}
+
+.footer3{
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  color: #fff;
+  font-style: normal;
+}
+
+.footer4{
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  color: #fff;
+  font-style: normal;
+}
+
+.footer5{
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  color: #fff;
+  font-style: normal;
+}
+
+.footer1 img{
+  font-size: 14px;
+}
+
+
