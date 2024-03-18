@@ -337,11 +337,15 @@ div.gallery img {
 .Date-section{
   background-color: #9FCD32;
   color: white;
+}
+
+.booking{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
 }
+
 
 .Date-section .booking h1{
   font-family: var(--source-serif);
