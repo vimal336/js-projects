@@ -378,6 +378,10 @@ div.gallery img {
 .Date-section .booking .Date-Button button{
   border: none;
   font-family: var(--lexend-deca);
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 13px;
+  font-style: normal;
   color: #000000;
 }
 
