@@ -377,6 +377,7 @@ div.gallery img {
 
 .Date-section .booking .Date-Button button{
   border: none;
+  font-family: var(--lexend-deca);
   color: #000000;
 }
 
