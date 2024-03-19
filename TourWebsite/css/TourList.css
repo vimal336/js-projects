@@ -473,18 +473,21 @@ img {
   background: url(../images/TourList/home-gal-8.jpg);
   width: 350px;
   height: 300px;
+  background-position: center;
 }
 
-.tour-image1{
-  background: url(../images/TourList/home-gal-8.jpg);
+.tour-image2{
+  background: url(../images/TourList/home-gal-6.jpg);
   width: 350px;
   height: 300px;
+  background-position: center;
 }
 
-.tour-image1{
-  background: url(../images/TourList/home-gal-8.jpg);
+.tour-image3{
+  background: url(../images/TourList/home-gal-5.jpg);
   width: 350px;
   height: 300px;
+  background-position: center;
 }
 
 
