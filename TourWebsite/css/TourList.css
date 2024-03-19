@@ -344,10 +344,20 @@ img {
   font-weight: 600;
 }
 
+.card-right .card-icons .right-icons .dollar{
+  background-color: #9fcd32;
+  height: 50px;
+  color: #fff;
+  width: 70px;
+  padding: 3px;
+  margin: 3px;
+}
+
 .card-icons{
  display: flex;
  align-items: center;
- justify-content: center;
+ justify-content: space-around;
+
 }
 
 .booking-button{
