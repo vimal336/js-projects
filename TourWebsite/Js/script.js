@@ -1,31 +1,24 @@
-const nav = document.querySelector('.nav');
+// const nav = document.querySelector('.nav');
+// const navList = document.querySelector('.nav-list');
+// const closeBtn = document.querySelector('.close');
+
+// closeBtn.addEventListener('click', ()=>{
+//   nav.classList.toggle('active')
+// })
+
+
+const navbar = document.querySelector('.nav');
+const hamburger = document.querySelector('.hamburger');
 const navList = document.querySelector('.nav-list');
 const closeBtn = document.querySelector('.close');
 
 closeBtn.addEventListener('click', ()=>{
-  nav.classList.toggle('active')
+  navbar.classList.add('active')
 })
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+hamburger.addEventListener('click', ()=>{
+  navbar.classList.remove('active')
+})
 
 
 
