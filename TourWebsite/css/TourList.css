@@ -379,9 +379,7 @@ img {
    height: 100vh;
 }
 
-.cards:hover{
-  
-}
+
 
 .booking{
   background: #9fcd32;
@@ -460,6 +458,42 @@ img {
 .Date-section .booking .Date-Details {
   margin-right: 100px;
 }
+
+/* Gallery section */
+
+.tour-gallery{
+  margin: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.tour-image1{
+  background: url(../images/TourList/home-gal-8.jpg);
+  width: 350px;
+  height: 300px;
+}
+
+.tour-image1{
+  background: url(../images/TourList/home-gal-8.jpg);
+  width: 350px;
+  height: 300px;
+}
+
+.tour-image1{
+  background: url(../images/TourList/home-gal-8.jpg);
+  width: 350px;
+  height: 300px;
+}
+
+
+
+/* .tour-gallery img{
+ width: 350px;
+ height: 300px;
+ background-position: center;
+} */
 
 /* footer Section */
 
