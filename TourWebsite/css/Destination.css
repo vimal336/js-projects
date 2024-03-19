@@ -208,6 +208,7 @@ img {
   font-family: var(--lexend-deca);
   font-size: 14px;
   line-height: 22px;
+  font-weight: 300;
   font-style: normal;
   width: 40%;
 }
