@@ -360,12 +360,27 @@ img {
 
 }
 
+.bottom-icon{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .booking-button{
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 30px;
   padding: 50px 0px 50px 0px;
+}
+
+/* cards hover effect */
+.cards:hover{
+   height: 100vh;
+}
+
+.cards:hover{
+  
 }
 
 .booking{
