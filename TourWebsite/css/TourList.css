@@ -465,9 +465,8 @@ img {
 
 .footer{
   display: grid;
-  align-items: center;
-  justify-content: space-around;
-  flex-direction: row;
+  grid-template-columns: repeat(5,1fr);
+  gap: 30px;
   background-color: #577909;
 }
 
