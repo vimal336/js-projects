@@ -229,9 +229,8 @@ ends */
   top: 0px;
   position: fixed;
   z-index: +25;
-  display: block;
+  display: none;
 }
-
 .close {
   position: absolute;
   right: 0;
@@ -271,7 +270,7 @@ ends */
 }
 
 .active {
-  display: none;
+  display: block;
 }
 
 /* trip section */

@@ -7,18 +7,19 @@
 // })
 
 
+
 const navbar = document.querySelector('.nav');
 const hamburger = document.querySelector('.hamburger');
-const navList = document.querySelector('.nav-list');
 const closeBtn = document.querySelector('.close');
 
 closeBtn.addEventListener('click', ()=>{
   navbar.classList.toggle('active')
-})
+});
 
 hamburger.addEventListener('click', ()=>{
   navbar.classList.toggle('active')
-})
+});
+
 
 
 
