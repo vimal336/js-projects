@@ -495,6 +495,10 @@ ends */
   transition: 0.5s;
 }
 
+.opinion-button:hover{
+  background-color: #577909;
+}
+
 
 
 /* Date-Section */
