@@ -464,7 +464,7 @@ img {
 /* footer Section */
 
 .footer{
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: space-around;
   flex-direction: row;
