@@ -468,3 +468,127 @@ img {
 .Date-section .booking .Date-Details {
   margin-right: 100px;
 }
+
+/* footer Section */
+
+.footer{
+  display: grid;
+  place-content: center;
+  grid-template-columns:repeat(5,1fr);
+  background-color: #417703;
+}
+
+.footer .footer-head{
+  color: #9fcd32;
+  font-weight: 700;
+}
+
+.footer1 img{
+  width: 200px;
+}
+
+.footer1{
+  font-family: var(--lexend-deca);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  color: #fff;
+  font-style: normal;
+  text-align: center;
+  margin:50px;
+}
+
+.footer p{
+  padding: 10px;
+}
+
+.footer2{
+  font-family: var(--lexend-deca);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  color: #fff;
+  font-style: normal;
+  margin:50px;
+}
+
+.footer3{
+  font-family: var(--lexend-deca);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  color: #fff;
+  font-style: normal;
+  margin:50px;
+}
+
+.footer4{
+  font-family: var(--lexend-deca);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  color: #fff;
+  font-style: normal;
+  margin:50px;
+}
+
+.footer5{
+  font-family: var(--lexend-deca);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  color: #fff;
+  font-style: normal;
+  margin:50px;
+}
+
+.footer5 a{
+  color: white;
+  margin: 8px;
+}
+
+.footer1 img{
+  font-size: 14px;
+}
+
+/*  ----------------------------------------click to top------------------------------------------ */
+
+.top {
+  position: fixed;
+  bottom: 0;
+  right: 0px;
+  padding: 5px;
+  margin: 10px;
+  background-color:#618c2f;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 2px 5px -1px;
+  display: none;
+  z-index: +99;
+}
+
+
+.top:hover {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.top.Topactive {
+  display: block;
+}
+
+.top a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.top a:hover {
+  color: #417703;
+  font-weight: 600;
+}

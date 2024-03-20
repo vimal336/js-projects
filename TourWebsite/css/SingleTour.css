@@ -240,6 +240,31 @@ img{
 
 /* SingleTour Button section */
 
+.singleTour{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0px 50px 0px;
+}
+
+.singleTour button {
+  background: #9fcd32;
+  outline: none;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-top: 38px;
+  padding: 15px 30px;
+  border-radius: 0px;
+  cursor: pointer;
+  color: white;
+  font-weight: 900;
+  transition: 0.5s;
+}
+
+.singleTour button:hover{
+  background-color: #577909;
+}
 
   
 /* footer Section */
@@ -329,6 +354,42 @@ img{
   font-size: 14px;
 }
 
+/*  ----------------------------------------click to top------------------------------------------ */
+
+.top {
+  position: fixed;
+  bottom: 0;
+  right: 0px;
+  padding: 5px;
+  margin: 10px;
+  background-color:#618c2f;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 2px 5px -1px;
+  display: none;
+  z-index: +99;
+}
+
+
+.top:hover {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.top.Topactive {
+  display: block;
+}
+
+.top a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.top a:hover {
+  color: #01176f;
+  font-weight: 600;
+}
 
 
 
