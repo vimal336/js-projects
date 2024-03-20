@@ -465,8 +465,8 @@ img {
 
 .footer{
   display: grid;
+  place-content: center;
   grid-template-columns: repeat(5,1fr);
-  gap: 30px;
   background-color: #577909;
 }
 
@@ -478,6 +478,7 @@ img {
   color: #fff;
   font-style: normal;
   text-align: center;
+  margin:100px;
 }
 
 .footer2{
@@ -487,6 +488,7 @@ img {
   line-height: 22px;
   color: #fff;
   font-style: normal;
+  margin:100px;
 }
 
 .footer3{
@@ -496,6 +498,7 @@ img {
   line-height: 22px;
   color: #fff;
   font-style: normal;
+  margin:100px;
 }
 
 .footer4{
@@ -505,6 +508,7 @@ img {
   line-height: 22px;
   color: #fff;
   font-style: normal;
+  margin:100px;
 }
 
 .footer5{
@@ -514,6 +518,7 @@ img {
   line-height: 22px;
   color: #fff;
   font-style: normal;
+  margin:100px;
 }
 
 .footer1 img{
