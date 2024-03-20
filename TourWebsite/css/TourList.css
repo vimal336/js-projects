@@ -470,6 +470,11 @@ img {
   background-color: #577909;
 }
 
+.footer .footer-head{
+  color: #9fcd32;
+  font-weight: 700;
+}
+
 .footer1 img{
   width: 200px;
 }
