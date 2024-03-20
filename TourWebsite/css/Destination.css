@@ -312,7 +312,7 @@ img {
   top: 50%;
 }
 
-p {
+.brief .content p {
   font-size: 36px;
   font-weight: bold;
   text-align: center;
@@ -480,6 +480,11 @@ p {
 }
 
 /* footer Section */
+
+
+  
+/* footer Section */
+
 
 .footer{
   display: grid;
