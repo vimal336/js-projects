@@ -242,6 +242,8 @@ ends */
   line-height: 16px;
   font-weight: 500;
   font-style: normal;
+  cursor: pointer;
+  
 }
 
 .nav-list {
@@ -480,6 +482,20 @@ ends */
 
 /* opinion section */
 
+
+.user-photo img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+
+.user-review{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .opinion-button{
   background: #9fcd32;
   outline: none;
@@ -495,8 +511,29 @@ ends */
   transition: 0.5s;
 }
 
+.one-opinion{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
 .opinion-button:hover{
   background-color: #577909;
+}
+
+.opinion-para{
+  font-family: var(--lexend-deca);
+  font-weight: 600;
+  line-height: 22px;
+  font-size: 14px;
+}
+
+.opinion-para2{
+  font-family: var(--lexend-deca);
+  font-weight: 600;
+  line-height: 22px;
+  font-size: 14px;
 }
 
 
