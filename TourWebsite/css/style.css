@@ -478,6 +478,23 @@ ends */
   font-style: normal;
 }
 
+/* opinion section */
+
+.opinion-button{
+  background: #9fcd32;
+  outline: none;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-top: 38px;
+  padding: 12px 30px;
+  border-radius: 0px;
+  cursor: pointer;
+  color: white;
+  font-weight: 900;
+  transition: 0.5s;
+}
+
 
 
 /* Date-Section */
