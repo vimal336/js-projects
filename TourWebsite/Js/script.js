@@ -13,11 +13,11 @@ const navList = document.querySelector('.nav-list');
 const closeBtn = document.querySelector('.close');
 
 closeBtn.addEventListener('click', ()=>{
-  navbar.classList.add('active')
+  navbar.classList.toggle('active')
 })
 
 hamburger.addEventListener('click', ()=>{
-  navbar.classList.remove('active')
+  navbar.classList.toggle('active')
 })
 
 
