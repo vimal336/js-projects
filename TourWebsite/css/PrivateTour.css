@@ -354,6 +354,33 @@ img {
   top: 50%;
 }
 
+.pt-booking-button{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.booking-btn{
+  
+    background: #9fcd32;
+    outline: none;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-top: 38px;
+    padding: 12px 30px;
+    border-radius: 0px;
+    cursor: pointer;
+    color: white;
+    font-weight: 900;
+    transition: 0.5s;
+  
+}
+
+.booking-btn:hover {
+  background-color: #577909;
+}
+
 
 .brief .content .Ecotour-icon{
   z-index: -5;
