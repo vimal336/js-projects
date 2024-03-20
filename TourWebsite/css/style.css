@@ -391,6 +391,11 @@ ends */
 
 .gallery-head {
   text-align: center;
+  font-family: var(--source-serif);
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 48px;
+
 }
 .Gallery {
   /* margin: 0px 100px 0px 100px; */
