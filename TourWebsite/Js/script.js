@@ -38,8 +38,9 @@ window.addEventListener("scroll", () => {
 
 let TotalSlider = 0;
 
-const Sliders = document.querySelectorAll('.')
+const Sliders = document.querySelectorAll('.SliderImages')
 
+console.log(Sliders);
 
 
 
