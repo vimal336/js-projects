@@ -450,11 +450,16 @@ img {
 
 
 .guide{
-  margin: 7rem 0;
+  margin: 100px;
   display: grid;
-  gap: 3vw;
+  gap: 30px;
   grid-template-columns: repeat(2, 1fr)
 }
+
+/* .guide .guides{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr)
+} */
 
 .reviews{
   padding: 50px 50px 50px 50px;
