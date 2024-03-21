@@ -252,7 +252,11 @@ img{
 }
 
 .slider .slider-right, .slider-left{
+   font-weight: 500;
+   border: none;
    width: 30px;
+   padding: 20px;
+   border-radius: 40%;
    height: 30px;
    background-color: #9FCD32;
 }
