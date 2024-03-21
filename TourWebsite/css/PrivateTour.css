@@ -449,8 +449,11 @@ img {
 /* Guides Section */
 
 
+.guide-section{
+  background-color: rgb(202, 201, 201);
+}
+
 .guide{
-  background-color: rgb(216, 208, 208);
   margin: 100px;
   display: grid;
   gap: 30px;
