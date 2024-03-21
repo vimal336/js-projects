@@ -449,21 +449,17 @@ img {
 /* Guides Section */
 
 
-.guide-section{
-  background-color: rgb(202, 201, 201);
-}
-
 .guide{
-  margin: 100px;
+  background-color: rgb(218, 211, 211);
   display: grid;
   gap: 30px;
   grid-template-columns: repeat(2, 1fr)
 }
 
-/* .guide .guides{
+.guide .guides{
   display: grid;
   grid-template-columns: repeat(2, 1fr)
-} */
+} 
 
 .reviews{
   padding: 50px 50px 50px 50px;
