@@ -255,6 +255,7 @@ img{
 .slider .slider-right, .slider-left{
   color: #417703;
   transform: translateY(-50px);
+  border: none;
   font-size: 20px;
   font-weight: bold;
   padding: 18px;
@@ -264,6 +265,7 @@ img{
   top: 50%;
   border-radius: 20px;
   cursor: pointer;
+  margin : 20px;
 }
 
 .slider-left{
