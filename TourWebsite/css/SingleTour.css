@@ -238,6 +238,20 @@ img{
   transition: 0.5s;
   }
 
+/* Tab section */
+
+.tab{
+  margin: 100px;
+}
+
+.tab .tab-head{
+  font-family: var(--source-serif);
+   text-align: left;
+   font-weight: 500;
+   line-height: 48px;
+   font-size: 30px;
+}
+
 /* Slider Section */
 .slider{
   position: relative;
