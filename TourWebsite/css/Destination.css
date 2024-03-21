@@ -277,10 +277,10 @@ img {
 }
 
 .geography .map-icon {
-  position: absolute;
+  position: relative;
   color: #618c2f;
   font-size: 50px;
-  top: 2170px;
+  top: 0;
   right: 530px;
 }
 
