@@ -238,6 +238,11 @@ img{
   transition: 0.5s;
   }
 
+/* Slider Section */
+.slider{
+  display: grid;
+}
+
 /* SingleTour Button section */
 
 .singleTour{
