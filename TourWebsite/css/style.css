@@ -438,7 +438,7 @@ ends */
   height: 800px;
   background-image: url(../images/HomePage/home-intro.jpg);
   background-size: cover;
-  filter: brightness(50%); 
+  filter: brightness(70%); 
   object-fit: cover;
 }
 
@@ -459,7 +459,8 @@ ends */
 }
 
 .brief .content {
-  /* filter: blur(5px); */
+  backdrop-filter: blur(50px);
+  margin: 100px;
   position: relative;
   z-index: +1;
   padding: 20px;

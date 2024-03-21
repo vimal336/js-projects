@@ -293,7 +293,6 @@ img {
 }
 
 .brief-image {
-  backdrop-filter: blur(50px);
   position: absolute;
   top: 30%;
   left: 0;
