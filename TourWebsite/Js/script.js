@@ -6,41 +6,39 @@
 //   nav.classList.toggle('active')
 // })
 
+const navbar = document.querySelector(".nav");
+const hamburger = document.querySelector(".hamburger");
+const closeBtn = document.querySelector(".close");
 
-
-const navbar = document.querySelector('.nav');
-const hamburger = document.querySelector('.hamburger');
-const closeBtn = document.querySelector('.close');
-
-closeBtn.addEventListener('click', ()=>{
-  navbar.classList.toggle('active')
+closeBtn.addEventListener("click", () => {
+  navbar.classList.toggle("active");
 });
 
-hamburger.addEventListener('click', ()=>{
-  navbar.classList.toggle('active')
+hamburger.addEventListener("click", () => {
+  navbar.classList.toggle("active");
 });
-
-
 
 // click to top button script
 
-const moveTop = document.querySelector('.top');
- 
-window.addEventListener('scroll', () => {
+const moveTop = document.querySelector(".top");
 
-var y = window.scrollY;
+window.addEventListener("scroll", () => {
+  var y = window.scrollY;
 
-if(y >= 700){
-  moveTop.classList.add('Topactive');
-} else{
-  moveTop.classList.remove('Topactive');
-}
-
-
+  if (y >= 700) {
+    moveTop.classList.add("Topactive");
+  } else {
+    moveTop.classList.remove("Topactive");
+  }
 });
 
 
 
+//Slider Section Code
+
+let TotalSlider = 0;
+
+const Sliders = document.querySelectorAll('.')
 
 
 
@@ -53,5 +51,3 @@ if(y >= 700){
 //     lazyLoad.classList.remove("lazy-load")
 //   );
 // });
-
-

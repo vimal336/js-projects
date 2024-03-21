@@ -460,7 +460,7 @@ ends */
 
 .brief .content {
   backdrop-filter: blur(50px);
-  margin: 100px;
+  margin: 0px 100px 0px 100px;
   position: relative;
   z-index: +1;
   padding: 20px;
