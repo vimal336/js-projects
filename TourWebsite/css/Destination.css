@@ -614,7 +614,7 @@ img {
 /* Media Query */
 
 @media(max-width: 600px) {
- 
+
   .banner .bannerImage img{
     height: 40vh;
   }
