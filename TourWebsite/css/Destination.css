@@ -280,8 +280,8 @@ img {
   position: relative;
   color: #618c2f;
   font-size: 50px;
-  top: 0;
-  right: 530px;
+  top: 65px;
+  right:5%;
 }
 
 /* brief section */
@@ -609,4 +609,16 @@ img {
   color: #417703;
   font-weight: 600;
 }
+
+
+/* Media Query */
+
+@media(max-width: 600px) {
+ 
+  .banner .bannerImage img{
+    height: 40vh;
+  }
+
+}
+
 
