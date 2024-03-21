@@ -351,7 +351,9 @@ img {
 }
 
 .brief .content{
-  backdrop-filter: blur(20px);
+  text-align: center;
+  backdrop-filter: blur(50px);
+  height: 50vh;
   margin: 0px 80px 0px 80px;
   position: relative;
   z-index: +1;
@@ -374,7 +376,7 @@ img {
     font-size: 0.8rem;
     font-weight: 500;
     margin-top: 38px;
-    padding: 12px 30px;
+    padding: 18px 40px;
     border-radius: 0px;
     cursor: pointer;
     color: white;
