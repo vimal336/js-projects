@@ -294,14 +294,15 @@ img {
 
 .brief-image {
   position: absolute;
-  top: 200px;
+  top: 30%;
   left: 0;
   width: 100%;
-  height: 800px;
+  height: 100vh;
   background-image: url(../images/DestinationPage/dest-brief-2.jpg);
   background-size: cover;
   filter: brightness(50%);
   object-fit: cover;
+  background-position: bottom center;
 }
 
 .brief .content {
