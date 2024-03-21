@@ -241,6 +241,7 @@ img{
 /* Slider Section */
 .slider{
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .slider img{
