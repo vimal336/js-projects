@@ -453,7 +453,7 @@ img {
   margin: 7rem 0;
   display: grid;
   gap: 3vw;
-  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr))
+  grid-template-columns: repeat(2, 1fr)
 }
 
 .reviews{
