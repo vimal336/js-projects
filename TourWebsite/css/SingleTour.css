@@ -258,13 +258,13 @@ img{
 
 #nav-tab li{
   display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 #nav-tab li a{
   text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+ 
 }
 
 /* Slider Section */
