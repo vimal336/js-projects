@@ -262,6 +262,9 @@ img{
 
 #nav-tab li a{
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* Slider Section */
