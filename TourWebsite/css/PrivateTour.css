@@ -107,28 +107,30 @@ img {
 }
 
 .nav-list {
-  padding: 20px;
+  margin-top: 50px;
+  padding: 0px;
   list-style: none;
   text-align: center;
-  display: inline;
+  display: block;
   line-height: 70px;
 }
 
-.nav-list a {
+.nav-list li a {
   text-decoration: none;
   color: #fff;
   font-family: var(--lexend-deca);
-  margin: 10px 80px;
-  padding-top: 30px;
-  text-align: center;
   font-weight: 500;
-  line-height: 26px;
   font-size: 16px;
 }
 
-.nav-list a:hover {
+.nav-list li:hover {
   background-color: #577909;
-  padding: 10px;
+  width: 100%;
+  padding: 0;
+}
+
+.nav-list li:hover a {
+  color: #fff;
 }
 
 .active {
