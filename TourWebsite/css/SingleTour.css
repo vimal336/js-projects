@@ -254,6 +254,9 @@ img{
 
 #nav-tab{
   list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 #nav-tab li{
@@ -265,7 +268,6 @@ img{
 #nav-tab li a{
   text-decoration: none;
   margin-right: 15vw;
- 
 }
 
 /* Slider Section */
