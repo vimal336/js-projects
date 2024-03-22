@@ -4,7 +4,7 @@
 
 // OPEN & CLOSE IMPLEMENTATION
 document
-  .querySelector(".header__nav-btn")
+  .querySelector(".header-nav-btn")
   .addEventListener("click", function () {
     document.querySelector(".nav--main").classList.remove("hidden");
   });

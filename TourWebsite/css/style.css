@@ -67,7 +67,7 @@ img {
     justify-content: space-around;
   }
 
-  .header__nav {
+  .header-nav {
     grid-area: 1/1/2/2;
   }
 
