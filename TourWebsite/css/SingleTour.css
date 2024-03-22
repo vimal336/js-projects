@@ -260,6 +260,10 @@ img{
   display: inline-flex;
 }
 
+#nav-tab li a{
+  text-decoration: none;
+}
+
 /* Slider Section */
 .slider{
   position: relative;
