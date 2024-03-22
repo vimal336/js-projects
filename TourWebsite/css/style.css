@@ -405,15 +405,20 @@ img {
   place-items: center; 
   width: 100%; 
   height: 100vh; 
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 300px;
-  grid-row-gap: 20px;
-  grid-column-gap: 20px ;
-  height: 1000px;
-  
+  grid-template-rows: repeat(7, 10vw);
+  gap: 1vw;
+  grid-template-areas:
+      "itm-1 itm-2 itm-3"
+      "itm-1 itm-2 itm-3"
+      "itm-4 itm-2 itm-5"
+      "itm-4 itm-7 itm-5"
+      "itm-6 itm-7 itm-8"
+      "itm-6 itm-7 itm-8";
 }
 
-.img2{
+.img5{
   grid-row-start: 1;
   grid-row-end: 3;
 }

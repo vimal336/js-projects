@@ -32,18 +32,13 @@ window.addEventListener("scroll", () => {
   }
 });
 
-
-
 //Slider Section Code
 
 let TotalSlider = 0;
 
-const Sliders = document.querySelectorAll('.SliderImages')
+const Sliders = document.querySelectorAll(".SliderImages");
 
 console.log(Sliders);
-
-
-
 
 // window.addEventListener("load", () => {
 //   const lazyLoad = document.querySelector(".lazy-load");
