@@ -423,6 +423,16 @@ img {
   
 }
 
+#item-1 {
+        
+  grid-row-start: 3;
+  grid-column-start: 1;
+
+  grid-row-end: 5;
+  grid-column-end: 2;
+  
+}
+
 
 
 
