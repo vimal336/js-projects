@@ -399,7 +399,28 @@ img {
   margin: 100px 50px 100px 50px;
 
 }
-.gallery {}
+.gallery {
+
+  .gallery {
+    display: grid; 
+    margin: 20px auto;
+    grid-template-rows: repeat(6,1fr);
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    height:140vh;
+    width:90vw;
+
+    
+ }
+
+
+
+
+
+
+
+
+}
   
 .img5{
   grid-row-start: 1;
