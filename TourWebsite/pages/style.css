@@ -401,7 +401,6 @@ img {
 }
 .gallery {
 
-  .gallery {
     display: grid; 
     margin: 20px auto;
     grid-template-rows: repeat(6,1fr);
@@ -409,9 +408,8 @@ img {
     gap: 10px;
     height:140vh;
     width:90vw;
+}
 
-    
- }
 
  .gallery img{
   width: 100%;
@@ -498,15 +496,6 @@ img {
   grid-row-end: 7;
   grid-column-end: 4;
   
-}
-
-
-
-
-
-
-
-
 }
   
 .img5{
