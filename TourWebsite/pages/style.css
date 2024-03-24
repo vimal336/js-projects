@@ -402,7 +402,7 @@ img {
 
 .home-gallery {
   display: grid; 
-  grid-template-columns: repeat(100px,1fr);
+  grid-template-rows: repeat(100px,1fr);
   background-color: #9fcd32;
  
 
@@ -416,7 +416,7 @@ img {
 }
 
  
-#item-0 {
+/* #item-0 {
 
   grid-row-start: 1;
   grid-column-start: 1;
@@ -488,7 +488,7 @@ img {
   grid-row-end: 7;
   grid-column-end: 4;
   
-}
+} */
 
 
 /* Ecotour section */
