@@ -258,17 +258,43 @@ img{
   display: flex;
   align-items: center;
   justify-content: space-around;
+  border-bottom: 2px solid #9FCD32;
 }
 
 #nav-tab li{
   display: inline-flex;
   align-items: center;
   justify-content: space-around;
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+  line-height: 22px;
+
 }
 
 #nav-tab li a{
+  border-bottom: 5px solid transparent;
+  color: #000000;
+  font-weight: 300;
   text-decoration: none;
 }
+
+#nav-tab li.opening a {
+  border-bottom: 5px solid #9FCD32;
+  color: #000;
+  font-weight: 500;
+}
+
+.tab-page{
+  display: none;
+  min-height: 100vh;
+}
+
+.tab-page.opening{
+  display: block;
+}
+
+
+
 
 /* Slider Section */
 .slider{
