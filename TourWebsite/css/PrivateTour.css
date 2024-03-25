@@ -437,7 +437,7 @@ img {
   display: grid; 
   margin: 20px auto;
   grid-template-rows: repeat(3,1fr);
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(16,1fr);
   gap: 10px;
   height:140vh;
   width:90vw;
