@@ -455,66 +455,11 @@ img {
   grid-row-start: 1;
   grid-column-start: 1;
 
-  grid-row-end: 3;
+  grid-row-end: 8;
   grid-column-end: 2;
   
 }
-#gal-1 {
 
-  grid-row-start: 3;
-  grid-column-start: 1;
-
-  grid-row-end: 5;
-  grid-column-end: 2;
-  
-}
-#gal-2 {
-
-
-  grid-row-start: 5;
-  grid-column-start: 1;
-
-  grid-row-end: 7;
-  grid-column-end: 2;
-  
-}
-#gal-3 {
-
-
-  grid-row-start: 1;
-  grid-column-start: 2;
-
-  grid-row-end: 4;
-  grid-column-end: 3;
-  
-}
-#gal-4 {
-
-
-  grid-row-start: 4;
-  grid-column-start: 2;
-
-  grid-row-end: 7;
-  grid-column-end: 3;
-  
-}
-#gal-5 {
-
-  grid-row-start: 1;
-  grid-column-start: 3;
-
-  grid-row-end: 3;
-  grid-column-end: 4;
-  
-}
-#gal-6 {
-  grid-row-start: 3;
-  grid-column-start: 3;
-
-  grid-row-end: 5;
-  grid-column-end: 4;
-  
-}
 
 .gallery img{
    width: 100%;
