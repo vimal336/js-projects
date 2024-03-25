@@ -433,27 +433,93 @@ img {
   line-height: 22px;
 }
 
-.Gallery-images{
-  margin-top: 40px;
-  display: grid;
-  place-items: center; 
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 200px;
-  grid-row-gap: 20px;
-  grid-column-gap: 20px ;
+.tour-gallery {
+  display: grid; 
+  margin: 20px auto;
+  grid-template-rows: repeat(6,1fr);
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+  height:140vh;
+  width:90vw;
+   
 }
 
-.Gallery-images img{
+.tour-gallery img{
   width: 100%;
   height: 100%;
+  object-fit: cover;
+}
+ 
+#gal-0 {
+
+  grid-row-start: 1;
+  grid-column-start: 1;
+
+  grid-row-end: 3;
+  grid-column-end: 2;
+  
+}
+#gal-1 {
+
+  grid-row-start: 3;
+  grid-column-start: 1;
+
+  grid-row-end: 5;
+  grid-column-end: 2;
+  
+}
+#gal-2 {
+
+
+  grid-row-start: 5;
+  grid-column-start: 1;
+
+  grid-row-end: 7;
+  grid-column-end: 2;
+  
+}
+#gal-3 {
+
+
+  grid-row-start: 1;
+  grid-column-start: 2;
+
+  grid-row-end: 4;
+  grid-column-end: 3;
+  
+}
+#gal-4 {
+
+
+  grid-row-start: 4;
+  grid-column-start: 2;
+
+  grid-row-end: 7;
+  grid-column-end: 3;
+  
+}
+#gal-5 {
+
+  grid-row-start: 1;
+  grid-column-start: 3;
+
+  grid-row-end: 3;
+  grid-column-end: 4;
+  
+}
+#gal-6 {
+  grid-row-start: 3;
+  grid-column-start: 3;
+
+  grid-row-end: 5;
+  grid-column-end: 4;
+  
 }
 
-.img1{
-  grid-column: 1/3;
-} 
-
-.img6{
-  grid-column: 3/5;
+.gallery img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
 }
 
 /* Guides Section */
