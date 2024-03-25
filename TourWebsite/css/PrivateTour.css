@@ -436,8 +436,8 @@ img {
 .tour-gallery {
   display: grid; 
   margin: 20px auto;
-  grid-template-rows: repeat(3,1fr);
-  grid-template-columns: repeat(16,1fr);
+  grid-template-rows: repeat(2,1fr);
+  grid-template-columns: repeat(15,1fr);
   gap: 1px;
   height:140vh;
   width:90vw;
