@@ -446,8 +446,8 @@ img {
    grid-template-columns: repeat(15,1fr);
    
    gap: 0px;
-   height:400px;
-   width:400px;
+   height:80vh;
+   width:80vw;
 }
   
 #gal-0 {
