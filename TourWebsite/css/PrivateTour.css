@@ -451,8 +451,6 @@ img {
 }
   
 #gal-0 {
-
-   background-color: #6a994e; 
    grid-row-start: 2;
    grid-column-start: 1;
 
@@ -461,8 +459,6 @@ img {
    
 }
 #gal-1 {
-
-   background-color: #C56E8C; 
    grid-row-start: 1;
    grid-column-start: 1;
 
@@ -472,7 +468,6 @@ img {
 }
 #gal-2 {
 
-   background-color: #DBB7D6; 
    grid-row-start: 1;
    grid-column-start: 8;
 
@@ -481,8 +476,6 @@ img {
    
 }
 #gal-3 {
-
-   background-color: #8BB9A5; 
    grid-row-start: 1;
    grid-column-start: 12;
 
@@ -491,8 +484,6 @@ img {
    
 }
 #gal-4 {
-
-   background-color: #597DAA; 
    grid-row-start: 2;
    grid-column-start: 4;
 
@@ -502,7 +493,6 @@ img {
 }
 #gal-5 {
 
-   background-color: #59FFAE; 
    grid-row-start: 2;
    grid-column-start: 8;
 
