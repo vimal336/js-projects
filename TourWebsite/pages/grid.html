@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
- .angry-grid {
+ /* .angry-grid {
     display: grid;
     grid-template-rows: repeat(2, 16vw);
     grid-template-columns: repeat(15, 1fr);
@@ -50,14 +50,61 @@
     grid-row: 2 / 3;
     grid-column: 8 / 16;
 }
+   */
+
+   .grid1 {
+    display: grid;
+    grid-template-rows: repeat(2, 16vw);
+    grid-template-columns: repeat(15, 1fr);
+    gap: 1px;
+    width: 90vw;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.grid1 figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#item-0 {
+    grid-row: 2 / 3;
+    grid-column: 1 / 4;
+}
+
+#item-1 {
+    grid-row: 1 / 2;
+    grid-column: 1 / 8;
+}
+
+#item-2 {
+    grid-row: 1 / 2;
+    grid-column: 8 / 12;
+}
+
+#item-3 {
+    grid-row: 1 / 2;
+    grid-column: 12 / 16;
+}
+
+#item-4 {
+    grid-row: 2 / 3;
+    grid-column: 4 / 8;
+}
+
+#item-5 {
+    grid-row: 2 / 3;
+    grid-column: 8 / 16;
+}
   
       
-      </style>
+</style>
       
 </head>
 <body> 
  
-   <div class="angry-grid">
+   <!-- <div class="angry-grid">
       <div id="item-0"><img src="../images/PrivateTour/home-gal-1.jpg" alt=""></div>
       <div id="item-1"><img src="../images/PrivateTour/home-gal-7.jpg" alt=""></div>
       <div id="item-2"><img src="../images/PrivateTour/home-gal-2.jpg" alt=""></div>
@@ -65,7 +112,55 @@
       <div id="item-4"><img src="../images/PrivateTour/home-gal-5.jpg" alt=""></div>
       <div id="item-5"><img src="../images/PrivateTour/home-gal-6.jpg" alt=""></div>
   </div>
-  
+   -->
+
+   <div class="grid1">
+      <figure>
+         <img src="../images/PrivateTour/home-gal-1.jpg" id="item-0" alt="">
+         <figcaption>
+            Garden of Eden
+         </figcaption>
+      </figure>
+
+      <figure>
+         <img src="../images/PrivateTour/home-gal-2.jpg" id="item-1" alt="">
+         <figcaption>
+            Garden of Eden
+         </figcaption>
+      </figure>
+
+      <figure>
+         <img src="../images/PrivateTour/home-gal-4.jpg" id="item-2" alt="">
+         <figcaption>
+            Garden of Eden
+         </figcaption>
+      </figure>
+
+      <figure>
+         <img src="../images/PrivateTour/home-gal-5.jpg" id="item-3" alt="">
+         <figcaption>
+            Garden of Eden
+         </figcaption>
+      </figure>
+
+      <figure>
+         <img src="../images/PrivateTour/home-gal-6.jpg" id="item-4" alt="">
+         <figcaption>
+            Garden of Eden
+         </figcaption>
+      </figure>
+
+      
+      <figure>
+         <img src="../images/PrivateTour/home-gal-7.jpg" id="item-5" alt="">
+         <figcaption>
+            Garden of Eden
+         </figcaption>
+      </figure>
+
+
+
+  </div>
       
         
          
