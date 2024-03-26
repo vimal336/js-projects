@@ -322,6 +322,27 @@ img{
 }
 
 
+.tab .tab-content .tab-page .right-gallery{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab .tab-content .tab-page .right-gallery img{
+  height: 20vh;
+  width: 10vw;
+}
+
+.tab .tab-content .tab-page .left-gallery img{
+  height: 50vh;
+  width: 50vh;
+}
+
+
+
+
+
+
 
 
 
