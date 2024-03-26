@@ -295,6 +295,16 @@ img{
 
 /* tab 1 - hightlights*/
 
+.tab .tab-content .tab-page .location{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tab .tab-content .tab-page .location .location-info{
+  background-color: #EEEEEE;
+}
+
 
 
 
