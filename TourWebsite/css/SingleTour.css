@@ -296,9 +296,14 @@ img{
 /* tab 1 - hightlights*/
 
 .tab .tab-content .tab-page .location{
+  margin: 20px;
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+.tab .tab-content .tab-page .location .location-info{
+  padding: 25px;
 }
 
 .tab .tab-content .tab-page .location .location-info p{
@@ -307,6 +312,7 @@ img{
   font-style: normal;
   line-height: 22px;
   font-size: 14px;
+  margin: 20px;
 }
 
 
