@@ -28,8 +28,6 @@ body{
     opacity: 0;
     transition: opacity 0.3s, transform 0.3s;
     margin-left: 30px;
-
-
 }
 
 .hover-head:hover{
@@ -40,11 +38,12 @@ body{
 
 .hover-text:hover{
    opacity: 1;
-   transform: translateY(-100%); 
+   transform: translateY(-100%);
 }
 
 #item-0:hover{
-  filter: brightness(60%);
+  background-blend-mode:darken;
+    transition: all 1s ease;
 }
 
 .hover-head{
@@ -60,7 +59,7 @@ body{
 }
 
 
-.angry-grid {
+.gal-grid {
     display: grid;
     grid-template-rows: repeat(2, 16vw);
     grid-template-columns: repeat(15, 1fr);
@@ -69,24 +68,24 @@ body{
     margin: 0 auto;
 }
 
-.angry-grid div img {
+.gal-grid div img {
     width: 100%;
     height: 100%;
 }
 
-.angry-grid div p{
+.gal-grid div p{
     color:white;
 
 }
 
-.angry-grid div p:hover{
+.gal-grid div p:hover{
     color:white;
     
 }
 
 
 #item-0 {
-    background: url(./images/PrivateTour/home-gal-5.jpg);
+    background: url(./images/HomePage/travel-images/home-gal-5.jpg);
     grid-row: 2 / 3;
     grid-column: 1 / 5;
     background-position: center;
@@ -127,13 +126,6 @@ body{
     background-position: center;
 } 
 
-.container {
-  position: relative;
-  width: 200px;
-  height: 50px;
-  overflow: hidden;
-}
-
 .anim-head {
   color: black;
   background-color: brown;
@@ -145,29 +137,6 @@ body{
   opacity: 1;
   transition: opacity 0.3s, transform 0.3s;
 }
-
-.container:hover .anim-head {
-  transform: translateY(-100%);
-}
-
-
-
-.hidden-text {
-  color: black;
-  background-color: brown;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  margin: 0;
-  opacity: 0;
-  transition: opacity 0.3s, transform 0.3s;
-}
-
-.container:hover .hidden-text {
-  opacity: 1;
-  transform: translateY(-100%);
-}
-
       
 </style>
       
@@ -175,7 +144,7 @@ body{
 <body> 
  
 
- <div class="angry-grid">
+ <div class="gal-grid">
       <div id="item-0">
         <p  class="hover-head">Lorem, ipsum dolor.</p>
         <p class="hover-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure vitae perspiciatis. Este colom suptle!</p>
@@ -202,12 +171,6 @@ body{
       </div>
   </div> 
 
-  <div class="container">
-    <h1 class="anim-head">Lorem Epsom Sit.</h1>
-    <p class="hidden-text">Hidden Text</p>
-  </div>
-
-   
         
          
 </body>
