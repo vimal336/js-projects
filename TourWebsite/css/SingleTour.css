@@ -308,6 +308,25 @@ img{
   justify-content: space-around;
 }
 
+.desc-button{
+  background: #9fcd32;
+    outline: none;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-top: 38px;
+    padding: 12px 30px;
+    border-radius: 0px;
+    cursor: pointer;
+    color: white;
+    font-weight: 900;
+    transition: 0.5s;
+}
+
+.desc-button:hover{
+  background-color: #417703;
+}
+
 .tab .tab-content .tab-page .location{
   display: flex;
   align-items: center;
@@ -318,33 +337,30 @@ img{
 .tab .tab-content .tab-page .tab-gallery{
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: space-around;
 }
 
 
 .tab .tab-content .tab-page .right-gallery{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-right: 0;
+  flex: 0 0 35rem;
+  height: 52rem;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: repeat(3, 17.33333rem);
+  gap: 2px;
 }
 
 .tab .tab-content .tab-page .right-gallery img{
-  height: 30vh;
-  width: 15vw;
+  height: 100%;
+  width: 100%;
 }
 
 .tab .tab-content .tab-page .left-gallery img{
   height: 50vh;
   width: 50vh;
 }
-
-
-
-
-
-
-
-
 
 
 .tab .tab-content .tab-page .route .route-info{
