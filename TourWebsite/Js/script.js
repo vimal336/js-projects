@@ -53,11 +53,19 @@ const openingTabs = document.querySelectorAll('.opening');
 
 openingTabs.forEach((tab)=>{
   tab.classList.remove('opening');
-})
+});
+
+const pages = document.querySelectorAll('.tab-page');
+
+pages.forEach((page)=>{
+  page.classList.remove('page-opening');
+});
 
 event.target.parentElement.classList.add('opening');
 
 let id = event.target.href.split("#")[1];
+const page=document.getElementById(id);
+page.classList.add('page-opening');
 }
 
 // window.addEventListener("load", () => {
