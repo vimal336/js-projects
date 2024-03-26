@@ -48,6 +48,9 @@ const navtab = document.querySelector("#nav-tab");
 navtab.addEventListener('click', tabclick);
 
 function tabclick(event) {
+
+  const openingTabs = document.querySelector
+
 event.target.parentElement.className+='opening'
 }
 
