@@ -74,6 +74,8 @@ img {
    
 }
 
+/* item 0 */
+
 #item-0 .hover-head{
   margin: 150px 0px 0px 27px;
   color: white;
@@ -91,11 +93,10 @@ img {
 
 
 #item-0 .hover-text{
-  margin: 24px 0px 0px 27px;
+  margin: 40px 0px 0px 27px;
   color: white;
   font-family: var(--lexend-deca);
   font-size: 14px;
-  visibility: hidden;
 }
 
 #item-0 .hover-time{
@@ -103,12 +104,25 @@ img {
   color: white;
   font-family: var(--lexend-deca);
   font-size: 14px;
-  visibility: hidden;
+
+}
+
+#item-0 .hover-head,
+#item-0 .hover-price,
+#item-0 .hover-text,
+#item-0 .hover-time {
+  transition: all 0.3s ease; 
 }
 
 #item-0 .hover-head:hover{
   margin: 50px 0px 0px 27px;
 }
+
+
+#item-0 .hover-price:hover{
+  margin: 60px 0px 0px 27px;
+}
+ 
 
 #item-0 .hover-text:hover{
   visibility: visible;
@@ -119,10 +133,68 @@ img {
 
 }
 
-#item-0 .hover-price:hover{
+/* item 1 */
+
+#item-1 .hover-head{
+  margin: 150px 0px 0px 27px;
+  color: white;
+  font-family: var(--source-serif);
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+#item-1 .hover-price{
+  background-color: #9FCD32;
+  padding: 3px 20px 3px 20px ;
+  margin: 130px 0px 0px 27px;
+  color: white;
+}
+
+
+#item-1 .hover-text{
+  margin: 40px 0px 0px 27px;
+  color: white;
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+}
+
+#item-1 .hover-time{
+  margin: 10px 10px 0px 27px;
+  color: white;
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+
+}
+
+#item-1 .hover-head,
+#item-1 .hover-price,
+#item-1 .hover-text,
+#item-1 .hover-time {
+  transition: all 0.3s ease; 
+}
+
+#item-1 .hover-head:hover{
+  margin: 50px 0px 0px 27px;
+}
+
+#item-1 .hover-price:hover{
   margin: 60px 0px 0px 27px;
 }
  
+
+#item-1 .hover-text:hover{
+  visibility: visible;
+}
+
+#item-1 .hover-time:hover{
+ visibility: visible;
+
+}
+
+
+
+
 #item-0 {
   color: white;
   background: url(../images/HomePage/travel-images/home-gal-1.jpg);
@@ -232,8 +304,11 @@ img {
          <i class="fa-solid fa-stopwatch hover-time">2-3 hours</i>
         </div>
         <div id="item-1">
-          <p  class="hover-head">Lorem, ipsum dolor.</p>
-          <p class="hover-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure vitae perspiciatis. Este colom suptle!</p>
+          <p  class="hover-head">Boating</p>
+          <span class="hover-price">$30</span>
+         <p class="hover-text">
+          Departing from: Barahona-Lakehouse</p>
+         <i class="fa-solid fa-stopwatch hover-time">2-3 hours</i>
         </div>
         <div id="item-2">
           <p  class="hover-head">Lorem, ipsum dolor.</p>

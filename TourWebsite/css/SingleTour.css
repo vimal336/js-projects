@@ -301,6 +301,14 @@ img{
   justify-content: space-around;
 }
 
+.tab .tab-content .tab-page .location .location-info p{
+  font-family: var(--lexend-deca);
+  font-weight: 300;
+  font-style: normal;
+  line-height: 22px;
+  font-size: 14px;
+}
+
 
 .tab .tab-content .tab-page .route{
   display: flex;
