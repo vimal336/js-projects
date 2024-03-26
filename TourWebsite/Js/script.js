@@ -57,7 +57,7 @@ openingTabs.forEach((tab)=>{
 
 event.target.parentElement.classList.add('opening');
 
-let id = event.target.href
+let id = event.target.href;
 }
 
 // window.addEventListener("load", () => {
