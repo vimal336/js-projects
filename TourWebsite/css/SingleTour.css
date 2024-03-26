@@ -335,23 +335,27 @@ img{
   font-weight: 500;
   font-size: 18px;
   padding: 4px 13px 4px 13px;
+  margin-right: 5px;
 }
 
 .tab .tab-content .tab-page .location .location-info .location-rate .rate-2{
   font-weight: 500;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
 }
   
-
-  
-
-
 
 .tab .tab-content .tab-page .route{
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+.tab .tab-content .tab-page .route p{
+  font-size: 14px;
+  line-height: 22px;
+  font-family: var(--lexend-deca);
+  margin-bottom: 20px;
 }
 
 .desc-button{
@@ -383,29 +387,30 @@ img{
 .tab .tab-content .tab-page .tab-gallery{
   display: flex;
   align-items: center;
-  flex-direction: column;
   justify-content: space-around;
 }
 
 
 .tab .tab-content .tab-page .right-gallery{
-  margin-right: 0;
+  margin-right: -320px;
   flex: 0 0 35rem;
-  height: 52rem;
   display: grid;
-  grid-template-columns: repeat(2, 50%);
-  grid-template-rows: repeat(3, 17.33333rem);
+  grid-template-columns: repeat(2, 150px);
+  grid-template-rows: repeat(3, 150px);
   gap: 2px;
 }
 
 .tab .tab-content .tab-page .right-gallery img{
+  margin-top: 20px;
   height: 100%;
   width: 100%;
 }
 
 .tab .tab-content .tab-page .left-gallery img{
-  height: 50vh;
-  width: 50vh;
+  margin-top: 20px;
+  height: 480px;
+  width: 95vh;
+  margin-right: 20px;
 }
 
 .tab .tab-content .tab-page .route .route-info{
