@@ -307,7 +307,8 @@ img{
   margin: 10px 100px 50px 3px;
 }
 
-.tab .tab-content .tab-page .location .location-info p{
+.tab .tab-content .tab-page .location .location-info i{
+  display: block;
   font-family: var(--lexend-deca);
   font-weight: 300;
   font-style: normal;
@@ -319,7 +320,32 @@ img{
 
 .tab .tab-content .tab-page .location .location-info .location-rate p{
   border-bottom: none;
+  font-family: var(--lexend-deca);
+  font-weight: 300;
+  font-style: normal;
+  line-height: 22px;
+  font-size: 14px;
+  text-align: center;
+  padding: 20px;
 }
+
+.tab .tab-content .tab-page .location .location-info .location-rate .rate-1{
+  background-color: #9FCD32;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 4px 13px 4px 13px;
+}
+
+.tab .tab-content .tab-page .location .location-info .location-rate .rate-2{
+  font-weight: 500;
+  font-size: 18px;
+  font-weight: bold;
+}
+  
+
+  
+
 
 
 .tab .tab-content .tab-page .route{
