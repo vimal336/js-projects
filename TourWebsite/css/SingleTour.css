@@ -308,6 +308,24 @@ img{
   justify-content: space-around;
 }
 
+.tab .tab-content .tab-page .location{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.tab .tab-content .tab-page .tab-gallery{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+
+
+
+
 .tab .tab-content .tab-page .route .route-info{
   background-color: #EEEEEE;
 }

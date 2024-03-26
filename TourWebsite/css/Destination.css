@@ -10,11 +10,7 @@
 }
 
 body {
-  /* background: url(../images/Home.png);
-  opacity: 0.5;
-  background-repeat: no-repeat; */
-
-  font-family: var(--lexend-deca);
+ font-family: var(--lexend-deca);
   font-size: 1.4rem;
   line-height: 1.6;
   font-weight: 300;
