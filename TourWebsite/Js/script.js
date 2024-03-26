@@ -49,13 +49,15 @@ navtab.addEventListener('click', tabclick);
 
 function tabclick(event) {
 
-const openingTabs = document.querySelectorAll('opening')
+const openingTabs = document.querySelectorAll('.opening');
 
-openingTabs.forEach(()=>{
-  
+openingTabs.forEach((tab)=>{
+  tab.classList.remove('opening');
 })
 
-event.target.parentElement.className+='opening'
+event.target.parentElement.classList.add('opening');
+
+let id = event.target.href
 }
 
 // window.addEventListener("load", () => {
