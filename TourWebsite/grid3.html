@@ -12,27 +12,53 @@
 
 :root{
     --lexend-deca: "Lexend Deca", sans-serif;
-  --source-serif: "Source Serif 4", serif;
-  font-weight: 500;
-  font-style: normal;
+    --source-serif: "Source Serif 4", serif;
+     font-weight: 500;
+     font-style: normal;
 }
+
 
 body{
     font-family: var(--source-serif);
-    font-size: 36px;
 }
 
 .hover-text{
     font-size: 14px;
     font-family: var(--lexend-deca);
     opacity: 0;
+    transition: opacity 0.3s, transform 0.3s;
+    margin-left: 30px;
+
+
+}
+
+.hover-head:hover{
+  /* transform: translateY(-100%); */
+  margin-top: 10px;
+
 }
 
 .hover-text:hover{
    opacity: 1;
-    transform: translateY(0); 
+   transform: translateY(-100%); 
+}
+
+#item-0:hover{
+  filter: brightness(60%);
+}
+
+.hover-head{
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 500;
+    font-family: var(--source-serif);
+    opacity: 1;
+    transition: opacity 0.3s, transform 0.3s;
+    margin-top: 100px;
+    margin-left: 30px;
 
 }
+
 
 .angry-grid {
     display: grid;
@@ -55,7 +81,6 @@ body{
 
 .angry-grid div p:hover{
     color:white;
-    margin-bottom: 1.2rem;
     
 }
 
@@ -100,7 +125,49 @@ body{
     grid-row: 2 / 3;
     grid-column: 9 / 16;
     background-position: center;
+} 
+
+.container {
+  position: relative;
+  width: 200px;
+  height: 50px;
+  overflow: hidden;
 }
+
+.anim-head {
+  color: black;
+  background-color: brown;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 36px;
+  margin: 0;
+  opacity: 1;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.container:hover .anim-head {
+  transform: translateY(-100%);
+}
+
+
+
+.hidden-text {
+  color: black;
+  background-color: brown;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  opacity: 0;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.container:hover .hidden-text {
+  opacity: 1;
+  transform: translateY(-100%);
+}
+
       
 </style>
       
@@ -110,29 +177,34 @@ body{
 
  <div class="angry-grid">
       <div id="item-0">
-        <p>Lorem, ipsum dolor.</p>
+        <p  class="hover-head">Lorem, ipsum dolor.</p>
         <p class="hover-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure vitae perspiciatis. Este colom suptle!</p>
       </div>
       <div id="item-1">
-        <p>Lorem, ipsum dolor.</p>
+        <p  class="hover-head">Lorem, ipsum dolor.</p>
         <p class="hover-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure vitae perspiciatis. Este colom suptle!</p>
       </div>
       <div id="item-2">
-        <p>Lorem, ipsum dolor.</p>
+        <p  class="hover-head">Lorem, ipsum dolor.</p>
         <p class="hover-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure vitae perspiciatis. Este colom suptle!</p>
       </div>
       <div id="item-3">
-        <p>Lorem, ipsum dolor.</p>
+        <p class="hover-head">Lorem, ipsum dolor.</p>
         <p class="hover-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure vitae perspiciatis. Este colom suptle!</p>
       </div>
       <div id="item-4">
-        <p>Lorem, ipsum dolor.</p>
+        <p class="hover-head">Lorem, ipsum dolor.</p>
         <p class="hover-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure vitae perspiciatis. Este colom suptle!</p>
       </div>
       <div id="item-5">
-        <p>Lorem, ipsum dolor.</p>
+        <p class="hover-head">Lorem, ipsum dolor.</p>
         <p class="hover-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure vitae perspiciatis. Este colom suptle!</p>
       </div>
+  </div> 
+
+  <div class="container">
+    <h1 class="anim-head">Lorem Epsom Sit.</h1>
+    <p class="hidden-text">Hidden Text</p>
   </div>
 
    
