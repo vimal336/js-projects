@@ -320,6 +320,60 @@ header a{
   padding: 35px;
 }
 
+/* Media Query for Trip Section*/
+
+@media all and (max-width: 916px) {
+
+  .trip {
+    margin: 0px 100px;
+  }
+
+  .trip_icon {
+    background-color: #ddebbc;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+
+  }
+
+  .trip .trip_icon p {
+    margin-top: 5px;
+    font-family: var(--lexend-deca);
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 22px;
+    font-style: normal;
+    text-align: center;
+  }
+  
+  .fa-solid {
+    font-size: 60px;
+  }
+  
+  .trip_icons {
+    font-size: 30px;
+    padding: 18px;
+  }
+  
+  .contact_icon {
+    font-size: 10px;
+    padding: 24px;
+  }
+  
+  .fas {
+    font-size: 30px;
+    padding: 20px;
+  }
+}
+
+@media all and (max-width: 608px) { 
+
+  .trip {
+    margin: 0px 10px;
+  }
+
+}
+
 /*Video Section */
 
 .Video-section {
