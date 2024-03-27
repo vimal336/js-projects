@@ -16,20 +16,24 @@
   </head>
   <!-- Your HTML content goes here -->
   <body>
-    <!-- header section-->
-    <div class="menu">
-      <div class="hamburger">
-        <div class="ham"></div>
-        <div class="ham"></div>
-        <div class="ham"></div>
-      </div>
-      <div class="logo">
-        <img src="../images/logo.webp" alt="logo" />
-      </div>
-      <div class="contact">
-        <i class="fa-solid contact_icon phone fa-phone">Get in touch</i>
-      </div>
+ <!-- Header section -->
+ <header class="header" id="header">
+  <div class="header-nav">
+    <div class="header-nav-btn hamburger">
+      <span class="ham-one"></span>
+      <span class="ham-two"></span>
+      <span class="ham-three"></span>
     </div>
+  </div>
+  <img src="../images/logo.webp" alt="logo" class="header__logo">
+  <a href="#" class="header__btn btn-header">
+   
+   
+    <i class="fa-solid fa-phone" id="logo-size"></i>
+    <span class="get-in-touch">get in touch</span>
+   </a> 
+
+</header>
 
     <!-- nav bar -->
 
@@ -141,13 +145,14 @@
 
     <!-- Brief Section -->
      <div class="brief">
-      <div class="brief-image"></div>
+      <div class="brief-image">
       <div class="content">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing <br>
           elit. Nulla commodi officia iusto modi, dolore <br> 
           voluptatum perferendis? Aperiam veniam consequatur <br>
           nostrum officia minus.</p>
       </div>
+    </div>
     </div>
 
     <!-- History Section -->
