@@ -212,15 +212,18 @@ header a{
     font-size: 28px;
     line-height: 54px;
   }
+
+  .banner .content .banner-btn{
+    margin-top: 20px;
+  }
 }
 
-
-
+/* Media Query for Banner content Ends*/
 
 .nav {
   background-color: #9fcd32;
   width: 300px;
-  height: 600px;
+  height: 100vh;
   top: 0px;
   position: fixed;
   z-index: +25;
