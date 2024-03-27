@@ -316,12 +316,31 @@ header a {
   right: 5%;
 }
 
+/* Media Query for Geography Section */
+
+@media all and (max-width: 608px) {
+
+
+  .geography {
+    display: flex;
+     flex-direction: column;
+  }
+
+  .geography-right img {
+    width: 90vw;
+    height: 400px;
+  }
+  
+  
+}
+
+
+
 /* brief section */
 
 .brief {
-  /* position: relative; */
   width: 100%;
-  height: 1000px;
+  height: 720px;
 }
 
 .brief-image {
@@ -354,6 +373,7 @@ header a {
 /* History Section */
 
 .History {
+  margin-top: 0;
   text-align: center;
 }
 
@@ -368,6 +388,9 @@ header a {
 .History-Brief {
   display: flex;
   flex-direction: row;
+  margin: 100px auto;
+  width: 90%;
+  text-align: left;
 }
 
 .History-Brief .paragraph {

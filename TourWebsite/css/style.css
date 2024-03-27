@@ -668,6 +668,15 @@ header a {
 
 /* Ecotour section */
 
+
+.Ecotour{
+  display: flex ;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+
 .brief {
   position: relative;
   width: 100%;
@@ -680,7 +689,7 @@ header a {
   left: 0;
   width: 100%;
   height: 800px;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)),
     url("../images/HomePage/home-intro.jpg");
   background-size: cover;
   object-fit: cover;
@@ -703,7 +712,7 @@ header a {
 }
 
 .brief .content {
-  backdrop-filter: blur(50px);
+
   text-align: center;
   margin: 0px 100px 0px 100px;
   position: relative;
@@ -718,12 +727,14 @@ header a {
 }
 
 .brief .content .Ecotour {
+  backdrop-filter: blur(80px);
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
 .brief .content .Ecotour .Ecotour-icon p {
+  
   text-align: center;
   font-size: 14px;
   font-weight: 300;
@@ -734,6 +745,10 @@ header a {
 /* Media Query for Ecotour section */
 
 @media all and (max-width: 680px){
+
+  .brief-image{
+    height: 100vh;
+  }
 
   .brief .content {
     text-align: center;
@@ -750,19 +765,29 @@ header a {
     margin-right: 10px;
     text-align: center;
   }
+
+  .Ecotour{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
   
   .brief .Ecotour .Ecotour-icons {
     font-size: 40px;
   }
+
+  .brief .content .Ecotour {
+    backdrop-filter: blur(80px);
+  }
+  
   
   .brief .content {
-    backdrop-filter: blur(50px);
-    margin: 0px 30px 0px 30px;
     position: relative;
     z-index: +1;
     padding: 20px;
+    top: 20%;
     color: white;
-    top: 50%;
   }
 }
 
