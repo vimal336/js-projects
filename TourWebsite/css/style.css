@@ -298,11 +298,11 @@ header a{
   font-weight: 300;
   line-height: 22px;
   font-style: normal;
+  text-align: center;
 }
 
 .fa-solid {
   font-size: 60px;
-  padding: 35px;
 }
 
 .trip_icons {
