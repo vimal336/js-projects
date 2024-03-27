@@ -10,10 +10,6 @@
 }
 
 body {
-  /* background: url(../images/Home.png);
-  opacity: 0.5;
-  background-repeat: no-repeat; */
-
   font-family: var(--lexend-deca);
   font-size: 1.4rem;
   line-height: 1.6;
@@ -31,10 +27,10 @@ img {
   font-style: normal;
 }
 
-/* trial */
+/* menu bar cp */
 
 .header {
-  padding: 2rem 0;
+  padding: 1.3rem 0;
   display: grid;
   grid-auto-flow: column;
   align-items: center;
@@ -45,19 +41,19 @@ img {
   cursor: pointer;
 }
 
-.hamburger-top,
-.hamburger-middle,
-.hamburger-bottom {
+.ham-one,
+.ham-two,
+.ham-three {
   display: block;
   width: 30px;
   height: 4px;
   background-color: #000;
 }
 
-.hamburger-top:not(:last-child),
-.hamburger-middle:not(:last-child),
-.hamburger-bottom:not(:last-child) {
-  margin-bottom: 0.6rem;
+.ham-one:not(:last-child),
+.ham-two:not(:last-child),
+.hamb-three:not(:last-child) {
+  margin-bottom: 0.4rem;
 }
 
 @media only screen and (max-width: 600px) {
@@ -87,18 +83,7 @@ img {
   }
 }
 
-/* ends */
-
-.hamburger {
-  margin-top: 30px;
-  margin-left: 3px;
-}
-
-.logo img {
-  margin-bottom: 15px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-}
+/* menu bar ends */
 
 #logo-size {
   padding: 2px;
@@ -194,7 +179,7 @@ header a{
   background-color: #577909;
 }
 .banner {
-  background: url(../images/HomePage/hero-banner.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.2)), url('../images/HomePage/hero-banner.jpg');
   height: 100vh;
   display: flex;
   align-items: center;
