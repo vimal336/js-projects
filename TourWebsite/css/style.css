@@ -116,7 +116,7 @@ header a{
   align-items: center;
   object-fit: cover;
   background-size: cover;
-  padding: 0 200px;
+  padding: 0 100px;
 }
 
 .banner .content h3 {
@@ -172,6 +172,7 @@ header a{
   .banner{
     height: 60vh;
     object-fit: cover;
+    padding: 0 50px;
   } 
   .banner .content h3{
     font-size : 19px;
