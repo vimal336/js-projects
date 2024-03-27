@@ -465,7 +465,7 @@ img {
 .footer{
   display: grid;
   place-content: center;
-  grid-template-columns:repeat(5,1fr);
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
   background-color: #417703;
 }
 
