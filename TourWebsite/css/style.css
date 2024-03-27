@@ -107,77 +107,8 @@ header a{
   padding: 2px 30px 2px 30px ;
 }
 
-.ham {
-  width: 30px;
-  height: 4px;
-  background-color: black;
-  margin: 6px 0;
-}
-
-.menu {
-  display: flex;
-  background-color: rgb(255, 255, 255);
-  justify-content: space-around;
-}
-
-.menu .contact span {
-  font-weight: 900;
-}
-
-.contact {
-  padding: 20px 30px;
-  border: 1px solid rgba(159, 205, 50, 0.7);
-  background-color: #fff;
-  color: #000;
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  font-family: var(--lexend-deca);
-  font-weight: 700;
-  line-height: 21px;
-  font-size: 13px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-}
-
-.contact:hover {
-  filter: brightness(85%);
-}
-
 /* Banner Section */
-.banner .content h3 {
-  color: white;
-  font-weight: 300;
-  line-height: 48px;
-  size: 30px;
-}
 
-.banner .content h1 {
-  color: white;
-  font-family: var(--lexend-deca);
-  font-size: 55px;
-  line-height: 88px;
-}
-
-.banner .content button {
-  background: #9fcd32;
-  outline: none;
-  border: none;
-  font-size: 0.8rem;
-  font-weight: 500;
-  margin-top: 38px;
-  padding: 12px 30px;
-  border-radius: 0px;
-  cursor: pointer;
-  color: white;
-  font-weight: 900;
-  transition: 0.5s;
-}
-
-.banner .content button:hover {
-  background-color: #577909;
-}
 .banner {
   background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.2)), url('../images/HomePage/hero-banner.jpg');
   height: 100vh;
@@ -192,36 +123,72 @@ header a{
   color: white;
   font-weight: 300;
   line-height: 48px;
+  font-family: var(--lexend-deca);
   size: 30px;
 }
 
-.banner .content h1 {
+.banner .content .head1 {
   color: white;
-  font-family: var(--lexend-deca);
+  font-family: var(--source-serif);
   font-size: 55px;
   line-height: 88px;
 }
 
-.banner .content button {
+.banner .content .head2{
+  color: white;
+  font-family: var(--source-serif);
+  font-size: 55px;
+  line-height: 88px;
+}
+
+.banner .content .banner-btn{
   background: #9fcd32;
   outline: none;
   border: none;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 500;
   margin-top: 38px;
-  padding: 12px 30px;
+  padding: 20px 40px;
   border-radius: 0px;
   cursor: pointer;
   color: white;
-  font-weight: 900;
+  font-weight: 800;
   transition: 0.5s;
 }
+
+.banner .content .banner-btn:hover {
+  background-color: #8bbb1b;
+}
+
 
 .banner .content button:hover {
   background-color: #545e3c;
 }
 
-/* nav section */
+/* Media Query for Banner content */
+
+@media (max-width: 913px) {
+
+  .banner{
+    height: 60vh;
+    object-fit: cover;
+  } 
+  .banner .content h3{
+    margin-bottom: 30px;
+    font-size : 19px;
+    line-height: 30px;
+  }
+  .banner .content .head1{
+    margin-bottom: 30px;
+    font-size : 37px;
+    line-height: 59px;
+  }
+  .banner .content .head2{
+    margin-bottom: 30px;
+    font-size : 37px;
+    line-height: 59px;
+  }
+}
 
 .nav {
   background-color: #9fcd32;
