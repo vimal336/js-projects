@@ -174,19 +174,20 @@ header a{
     object-fit: cover;
   } 
   .banner .content h3{
-    margin-bottom: 30px;
     font-size : 19px;
     line-height: 30px;
   }
   .banner .content .head1{
-    margin-bottom: 30px;
     font-size : 37px;
     line-height: 59px;
   }
   .banner .content .head2{
-    margin-bottom: 30px;
     font-size : 37px;
     line-height: 59px;
+  }
+  .banner .content .banner-btn{
+    font-size : 12px;
+    line-height: 19px;
   }
 }
 
