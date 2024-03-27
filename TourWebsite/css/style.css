@@ -194,21 +194,23 @@ header a{
 }
 
 @media all and (max-width: 617px){
+  .banner .content {
+    padding: 10px 60px;
+    text-align: center;
+    font-size: 34px;
+    line-height: 54px;
+  }
+
   .banner .content h3{
-    padding: 10px 20px;
-    text-align: center;
+    margin-top: 50px;
+    font-size: 17px;
+    line-height: 27px;
   }
-  .banner .content .head1{
-    padding: 10px 20px;
-    text-align: center;
-  }
-  .banner .content .head2{
-    padding: 10px 20px;
-    text-align: center;
-  }
-  .banner .content .banner-btn{
-    padding: 10px 20px;
-    text-align: center;
+
+  .banner .content .head1,
+  .banner .content .head2 {
+    font-size: 28px;
+    line-height: 54px;
   }
 }
 
