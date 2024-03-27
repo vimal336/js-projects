@@ -705,6 +705,19 @@ header a {
 
 @media all and (max-width: 600px) {
  
+.user-review {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.one-opinion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+}
+
 }
 
 /* Date-Section */
