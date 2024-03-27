@@ -69,7 +69,7 @@ img {
 
   .header__logo {
     grid-area: 2/1/3/3;
-    height: 6rem;
+    height: 3rem;
   }
 
   .header__btn {
@@ -192,6 +192,28 @@ header a{
     padding: 10px 20px;
   }
 }
+
+@media all and (max-width: 617px){
+  .banner .content h3{
+    padding: 10px 20px;
+    text-align: center;
+  }
+  .banner .content .head1{
+    padding: 10px 20px;
+    text-align: center;
+  }
+  .banner .content .head2{
+    padding: 10px 20px;
+    text-align: center;
+  }
+  .banner .content .banner-btn{
+    padding: 10px 20px;
+    text-align: center;
+  }
+}
+
+
+
 
 .nav {
   background-color: #9fcd32;
