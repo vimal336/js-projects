@@ -861,7 +861,21 @@ header a {
   font-size: 30px;
 }
 
+.opinion .one-opinion .user-review i{
+  margin-right: 20px;
+}
+
 /* Media Query for Opinion section */
+
+@media all and (max-width: 600px) {
+ 
+  .opinion .one-opinion .user-review .para2{
+    line-height: 19px;
+    font-size: 12px;
+  }
+
+}
+  
 
 @media all and (max-width: 600px) {
  
