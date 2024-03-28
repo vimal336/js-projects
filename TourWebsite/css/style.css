@@ -799,6 +799,7 @@ header a {
   color: white;
   font-weight: 900;
   transition: 0.5s;
+  white-space: nowrap;
 }
 
 .one-opinion {
@@ -817,6 +818,7 @@ header a {
   font-weight: 600;
   line-height: 22px;
   font-size: 14px;
+  white-space: nowrap;
 }
 
 .opinion-para2 {
@@ -824,6 +826,7 @@ header a {
   font-weight: 300;
   line-height: 22px;
   font-size: 14px;
+  white-space: nowrap;
 }
 
 .all-opinion {
@@ -835,6 +838,7 @@ header a {
   font-weight: 500;
   line-height: 48px;
   font-size: 30px;
+  white-space: nowrap;
 }
 
 .opinion .one-opinion .user-review i {
@@ -942,6 +946,7 @@ header a {
   line-height: 45px;
   font-style: normal;
   color: rgb(65, 119, 3);
+  white-space: nowrap;
 }
 
 .Date-section .booking h1 .Date-icon {

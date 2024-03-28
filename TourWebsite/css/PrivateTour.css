@@ -250,7 +250,7 @@ header a {
   .bannerImage h1 {
     font-family: var(--source-serif);
     top: 100px;
-    left: 50px;
+    left: 30%;
     color: white;
     align-items: center;
     font-size: 34px;
@@ -267,7 +267,7 @@ header a {
     font-size: 17px;
     font-style: normal;
     line-height: 27px;
-    left: 50px;
+    left: 30%;
     color: white;
     text-transform: uppercase;
     margin-top: 30px;
@@ -283,7 +283,7 @@ header a {
   justify-content: center;
   margin-top: 200px;
   align-items: center;
-  text-align: left;
+  text-align: center;
 }
 
 .trip-section p {
@@ -324,10 +324,12 @@ header a {
   color: white;
   font-size: 20px;
   margin: 20px;
+  line-height: 22px;
   font-family: var(--lexend-deca);
   font-size: 14px;
   font-weight: 300;
   padding: 50px;
+  text-align: left;
 }
 
 .trip-box2 {
@@ -336,10 +338,27 @@ header a {
   font-size: 20px;
   font-family: var(--lexend-deca);
   font-size: 14px;
+  line-height: 22px;
   font-weight: 300;
   margin: 20px;
   padding: 50px;
+  text-align: left;
 }
+
+/* Media Query for Trip Section */
+
+@media (max-width: 600px) {
+  .trip-box2, .trip-box1 {
+  font-size: 12px;
+  line-height: 19px;
+}
+
+.trip-box h1 {
+  font-size: 25px ;
+  line-height: 41px;
+}
+}
+
 
 /* private tour booking section */
 
@@ -414,6 +433,8 @@ header a {
     color: white;
     font-weight: 900;
     transition: 0.5s;
+    white-space: nowrap;
+  
   
 }
 
