@@ -557,8 +557,6 @@ url("../images/DestinationPage/dest-banner.jpg");
   }
 }
 
-
-
 /* brief section */
 
 .brief {
@@ -628,6 +626,15 @@ url("../images/DestinationPage/dest-banner.jpg");
   font-weight: 300;
   line-height: 22px;
   font-style: normal;
+}
+
+/* Media Query for history section */
+
+@media all and (max-width: 600px){
+  .History-Brief .paragraph {
+    font-size: 12px;
+    line-height: 19px;
+  }
 }
 
 /*Video Section */
