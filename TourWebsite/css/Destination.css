@@ -246,6 +246,22 @@ header a {
   width: 40%;
 }
 
+/* Media Query for Brief Section */
+@media all and (max-width: 1160px){
+  .dest-brief p {
+    font-family: var(--lexend-deca);
+    font-size: 12px;
+    line-height: 19px;
+    width: 80%;
+  }
+
+  .dest-brief {
+    margin-top: 40px;
+  }
+}
+
+
+
 /* Collage Section */
 
 .gallery-section {
