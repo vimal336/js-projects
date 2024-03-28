@@ -110,7 +110,6 @@ header a {
   padding: 2px 30px 2px 30px;
 }
 
-
 /* nav section */
 
 .nav {
@@ -348,14 +347,12 @@ header a {
 /* Media Query for Trip Section */
 
 @media (max-width: 800px) {
-
-  
   .trip-section p {
     margin-top: 20px;
     font-size: 12px;
     line-height: 19px;
   }
-  
+
   .trip-section h1 {
     margin-top: 40px;
     color: #4f7000;
@@ -364,30 +361,25 @@ header a {
     line-height: 48px;
     font-style: normal;
   }
-  
-  .trip-section{
+
+  .trip-section {
     margin: 0 auto;
     width: 80vw;
   }
-
 }
-
 
 @media (max-width: 600px) {
-  .trip-box2, .trip-box1 {
-  font-size: 12px;
-  line-height: 19px;
+  .trip-box2,
+  .trip-box1 {
+    font-size: 12px;
+    line-height: 19px;
+  }
+
+  .trip-box h1 {
+    font-size: 25px;
+    line-height: 41px;
+  }
 }
-
-
-.trip-box h1 {
-  font-size: 25px ;
-  line-height: 41px;
-}
-
-
-}
-
 
 /* private tour booking section */
 
@@ -405,11 +397,11 @@ header a {
   height: 800px;
   background-image: url(../images/PrivateTour/privtour-intro.jpg);
   background-size: cover;
-  filter: brightness(50%); 
+  filter: brightness(50%);
   object-fit: cover;
 }
 
-.brief .content h1{
+.brief .content h1 {
   font-family: var(--source-serif);
   text-align: center;
   font-size: 30px;
@@ -419,18 +411,22 @@ header a {
   margin-bottom: 80px;
 }
 
-.brief .Ecotour .Ecotour-icons{
+.brief .Ecotour .Ecotour-icons {
   font-size: 50px;
   font-weight: 900;
   line-height: 50px;
   font-style: normal;
 }
 
-.brief .Ecotour #hand, #volume{
-  font-size: 50px;
+.brief .Ecotour #hand,
+.brief .Ecotour #magnifyer,
+.brief .Ecotour #volume
+ {
+  font-size: 30px;
 }
 
-.brief .content{
+
+.brief .content {
   text-align: center;
   backdrop-filter: blur(50px);
   height: 50vh;
@@ -438,52 +434,47 @@ header a {
   position: relative;
   z-index: +1;
   padding: 20px;
-  color: white; 
+  color: white;
   top: 50%;
 }
 
-.pt-booking-button{
- display: flex;
- align-items: center;
- justify-content: center;
+.pt-booking-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.booking-btn{
-  
-    background: #9fcd32;
-    outline: none;
-    border: none;
-    font-size: 0.8rem;
-    font-weight: 500;
-    margin-top: 38px;
-    padding: 18px 40px;
-    border-radius: 0px;
-    cursor: pointer;
-    color: white;
-    font-weight: 900;
-    transition: 0.5s;
-    white-space: nowrap;
-  
-  
+.booking-btn {
+  background: #9fcd32;
+  outline: none;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-top: 38px;
+  padding: 18px 40px;
+  border-radius: 0px;
+  cursor: pointer;
+  color: white;
+  font-weight: 900;
+  transition: 0.5s;
+  white-space: nowrap;
 }
 
 .booking-btn:hover {
   background-color: #577909;
 }
 
-
-.brief .content .Ecotour-icon{
+.brief .content .Ecotour-icon {
   z-index: -5;
 }
 
-
-.brief .content .Ecotour{
+.brief .content .Ecotour {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 
-.brief .content .Ecotour .Ecotour-icon p{
+.brief .content .Ecotour .Ecotour-icon p {
   font-size: 14px;
   font-weight: 300;
   line-height: 22px;
@@ -492,30 +483,40 @@ header a {
 
 /*Media Query for  private tour booking section */
 
-
 @media (max-width: 600px) {
-  .brief .content .Ecotour{
+  .brief .content .Ecotour {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column !important;
   }
 
-  .brief .content{
+  .brief .content {
     height: 80vh;
     top: 35%;
   }
-  
-}
 
+  .brief .Ecotour #hand,
+  #volume {
+    font-size: 30px;
+  }
+
+  .booking-btn {
+    font-size: 0.8rem;
+    padding: 14px 30px;
+    border-radius: 0px;
+    white-space: nowrap;
+  }
+}
 
 /* Gallery section */
 
-.gallery-head, .gallery-para{
+.gallery-head,
+.gallery-para {
   text-align: center;
 }
 
-.gallery-head{
+.gallery-head {
   margin: 50px 0px 50px 0px;
   font-family: var(--source-serif);
   font-size: 30px;
@@ -525,7 +526,7 @@ header a {
   text-align: center;
 }
 
-.gallery-para{
+.gallery-para {
   font-family: var(--lexend-deca);
   font-size: 14px;
   font-weight: 300;
@@ -533,7 +534,7 @@ header a {
   margin-bottom: 30px;
 }
 
-.hover-text{
+.hover-text {
   font-size: 14px;
   font-family: var(--lexend-deca);
   opacity: 0;
@@ -541,24 +542,21 @@ header a {
   margin-left: 30px;
 }
 
-.hover-head:hover{
-/* transform: translateY(-100%); */
-margin-top: 10px;
-
+.hover-head:hover {
+  /* transform: translateY(-100%); */
+  margin-top: 10px;
 }
 
-.hover-text:hover{
- opacity: 1;
- transform: translateY(-100%);
+.hover-text:hover {
+  opacity: 1;
+  transform: translateY(-100%);
 }
 
-
-
-#item-0:hover{
+#item-0:hover {
   transition: all 1s ease;
 }
 
-.hover-head{
+.hover-head {
   font-size: 30px;
   line-height: 36px;
   font-weight: 500;
@@ -567,9 +565,7 @@ margin-top: 10px;
   transition: opacity 0.3s, transform 0.3s;
   margin-top: 100px;
   margin-left: 30px;
-
 }
-
 
 .gal-grid {
   display: grid;
@@ -585,16 +581,13 @@ margin-top: 10px;
   height: 100%;
 }
 
-.gal-grid div p{
-  color:white;
-
+.gal-grid div p {
+  color: white;
 }
 
-.gal-grid div p:hover{
-  color:white;
-  
+.gal-grid div p:hover {
+  color: white;
 }
-
 
 #item-0 {
   background: url(../images/HomePage/travel-images/home-gal-5.jpg);
@@ -636,45 +629,43 @@ margin-top: 10px;
   grid-row: 2 / 3;
   grid-column: 9 / 16;
   background-position: center;
-} 
+}
 
 .anim-head {
-color: black;
-background-color: brown;
-position: absolute;
-bottom: 0;
-left: 0;
-font-size: 36px;
-margin: 0;
-opacity: 1;
-transition: opacity 0.3s, transform 0.3s;
+  color: black;
+  background-color: brown;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 36px;
+  margin: 0;
+  opacity: 1;
+  transition: opacity 0.3s, transform 0.3s;
 }
 
 /* Guides Section */
 
-
-.guide{
+.guide {
   height: auto;
-  margin :300px 0px 300px 0px ;
-  background-color:#EEEEEE;
+  margin: 300px 0px 300px 0px;
+  background-color: #eeeeee;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-
-.guides{
+.guides {
   margin-right: 300px;
 }
 
-.reviews{
+.reviews {
   width: 1000px;
   margin-right: 50px;
   padding: 50px 50px 50px 50px;
   background-color: #fff;
 }
 
-.brand-review{
+.brand-review {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -683,20 +674,19 @@ transition: opacity 0.3s, transform 0.3s;
   right: 23%;  */
 }
 
-
-.brand-review img{
+.brand-review img {
   height: 4rem;
   margin-right: 20px;
 }
 
-.brand-review .brand-rating p{
+.brand-review .brand-rating p {
   font-size: 14px;
   line-height: 22px;
   font-family: var(--lexend-deca);
   font-weight: 700;
 }
 
-.brand-review .brand-rating span{
+.brand-review .brand-rating span {
   font-size: 14px;
   line-height: 22px;
   font-family: var(--lexend-deca);
@@ -704,11 +694,11 @@ transition: opacity 0.3s, transform 0.3s;
   color: #417703;
 }
 
-.guide .guides .booking-btn{
+.guide .guides .booking-btn {
   padding: 18px 40px;
 }
 
-.brand-review .brand-rating .review-count{
+.brand-review .brand-rating .review-count {
   font-size: 11px;
   line-height: 18px;
   font-weight: 300;
@@ -716,15 +706,14 @@ transition: opacity 0.3s, transform 0.3s;
   color: #595a58;
 }
 
-.guide-gallery{
+.guide-gallery {
   margin: 6rem 0;
   display: grid;
   gap: 3vw;
   grid-template-columns: repeat(3, 1fr);
-
 }
 
-.guides h1{
+.guides h1 {
   margin-top: 45px;
   margin-right: -400px;
   font-weight: 500;
@@ -733,66 +722,59 @@ transition: opacity 0.3s, transform 0.3s;
   text-align: center;
 }
 
-.reviews p{
+.reviews p {
   font-family: var(--lexend-deca);
   font-size: 14px;
   line-height: 22px;
   font-style: normal;
 }
 
-.guide .guides{
+.guide .guides {
   display: grid;
-  grid-template-columns: repeat(2, 1fr)
-} 
-
-.guide-head{
- text-align: center;
+  grid-template-columns: repeat(2, 1fr);
 }
 
-.guide-gallery img{
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    margin-top: 30px;
+.guide-head {
+  text-align: center;
+}
+
+.guide-gallery img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-top: 30px;
 }
 
 /* Media Query for Guide Section */
 
-@media all and (max-width: 1300px){
-  .guide-gallery{
+@media all and (max-width: 1300px) {
+  .guide-gallery {
     grid-template-columns: repeat(2, 1fr);
-  
   }
 }
 
 @media all and (max-width: 900px) {
-
-  .guide{
+  .guide {
     height: auto;
-    margin :300px 0px 300px 0px ;
-    background-color:#EEEEEE;
+    margin: 300px 0px 300px 0px;
+    background-color: #eeeeee;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
   }
 
-  .reviews{
+  .reviews {
     width: 500px;
     margin-right: 50px;
     padding: 50px 50px 50px 50px;
     background-color: #fff;
   }
 
-  .guide-gallery{
+  .guide-gallery {
     grid-template-columns: repeat(3, 1fr);
-  
   }
-  
-  
-  
 }
-
 
 /* Date-Section */
 
@@ -819,7 +801,6 @@ transition: opacity 0.3s, transform 0.3s;
   line-height: 48px;
   font-style: normal;
 }
-
 
 .Date-section .booking h1 span {
   font-family: var(--source-serif);
@@ -891,26 +872,25 @@ transition: opacity 0.3s, transform 0.3s;
   }
 }
 
-
 /* footer Section */
 
-.footer{
+.footer {
   display: grid;
   place-content: center;
   grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
   background-color: #417703;
 }
 
-.footer .footer-head{
+.footer .footer-head {
   color: #9fcd32;
   font-weight: 700;
 }
 
-.footer1 img{
+.footer1 img {
   width: 200px;
 }
 
-.footer1{
+.footer1 {
   font-family: var(--lexend-deca);
   text-align: center;
   font-size: 14px;
@@ -919,14 +899,14 @@ transition: opacity 0.3s, transform 0.3s;
   color: #fff;
   font-style: normal;
   text-align: center;
-  margin:50px;
+  margin: 50px;
 }
 
-.footer p{
+.footer p {
   padding: 10px;
 }
 
-.footer2{
+.footer2 {
   font-family: var(--lexend-deca);
   text-align: center;
   font-size: 14px;
@@ -934,10 +914,10 @@ transition: opacity 0.3s, transform 0.3s;
   line-height: 22px;
   color: #fff;
   font-style: normal;
-  margin:50px;
+  margin: 50px;
 }
 
-.footer3{
+.footer3 {
   font-family: var(--lexend-deca);
   text-align: center;
   font-size: 14px;
@@ -945,10 +925,10 @@ transition: opacity 0.3s, transform 0.3s;
   line-height: 22px;
   color: #fff;
   font-style: normal;
-  margin:50px;
+  margin: 50px;
 }
 
-.footer4{
+.footer4 {
   font-family: var(--lexend-deca);
   text-align: center;
   font-size: 14px;
@@ -956,10 +936,10 @@ transition: opacity 0.3s, transform 0.3s;
   line-height: 22px;
   color: #fff;
   font-style: normal;
-  margin:50px;
+  margin: 50px;
 }
 
-.footer5{
+.footer5 {
   font-family: var(--lexend-deca);
   text-align: center;
   font-size: 14px;
@@ -967,15 +947,15 @@ transition: opacity 0.3s, transform 0.3s;
   line-height: 22px;
   color: #fff;
   font-style: normal;
-  margin:50px;
+  margin: 50px;
 }
 
-.footer5 a{
+.footer5 a {
   color: white;
   margin: 8px;
 }
 
-.footer1 img{
+.footer1 img {
   font-size: 14px;
 }
 
@@ -987,7 +967,7 @@ transition: opacity 0.3s, transform 0.3s;
   right: 0px;
   padding: 5px;
   margin: 10px;
-  background-color:#618c2f;
+  background-color: #618c2f;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
@@ -995,7 +975,6 @@ transition: opacity 0.3s, transform 0.3s;
   display: none;
   z-index: +99;
 }
-
 
 .top:hover {
   background-color: white;
