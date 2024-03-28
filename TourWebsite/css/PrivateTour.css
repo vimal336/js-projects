@@ -347,16 +347,45 @@ header a {
 
 /* Media Query for Trip Section */
 
+@media (max-width: 800px) {
+
+  
+  .trip-section p {
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 19px;
+  }
+  
+  .trip-section h1 {
+    margin-top: 40px;
+    color: #4f7000;
+    font-family: var(--source-serif);
+    font-size: 30px;
+    line-height: 48px;
+    font-style: normal;
+  }
+  
+  .trip-section{
+    margin: 0 auto;
+    width: 80vw;
+  }
+
+}
+
+
 @media (max-width: 600px) {
   .trip-box2, .trip-box1 {
   font-size: 12px;
   line-height: 19px;
 }
 
+
 .trip-box h1 {
   font-size: 25px ;
   line-height: 41px;
 }
+
+
 }
 
 
@@ -460,6 +489,25 @@ header a {
   line-height: 22px;
   font-style: normal;
 }
+
+/*Media Query for  private tour booking section */
+
+
+@media (max-width: 600px) {
+  .brief .content .Ecotour{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column !important;
+  }
+
+  .brief .content{
+    height: 80vh;
+    top: 30%;
+  }
+  
+}
+
 
 /* Gallery section */
 

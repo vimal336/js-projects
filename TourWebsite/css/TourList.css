@@ -299,6 +299,12 @@ header a {
   margin: 0px 0px 20px 0px;
 }
 
+
+.Tour-info h1 {
+  font-size: 26px;
+  line-height: 41px;
+}
+
 .Tour-info p {
   font-family: var(--lexend-deca);
   font-style: normal;
@@ -306,6 +312,21 @@ header a {
   line-height: 22px;
   font-weight: 300;
   width: 70%;
+}
+
+/* Media Query for Tour info section */
+
+@media all and (max-width: 600px){
+  .Tour-info b {
+    font-size: 12px;
+    line-height: 19px;
+  }
+  
+  .Tour-info p {
+    font-size: 12px;
+    line-height: 19px;
+  }
+  
 }
 
 /* Travel-icons Section */
