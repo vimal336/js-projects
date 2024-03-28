@@ -217,6 +217,60 @@ header a {
   transition: 0.5s;
 }
 
+/* Media Query for Destination Banner content */
+
+@media (max-width: 913px) {
+  .banner {
+    height: 60vh;
+    object-fit: cover;
+    padding: 0 50px;
+  }
+  .banner .content h3 {
+    font-size: 19px;
+    line-height: 30px;
+  }
+  .banner .content .head1 {
+    font-size: 37px;
+    line-height: 59px;
+  }
+  .banner .content .head2 {
+    font-size: 37px;
+    line-height: 59px;
+  }
+  .banner .content .banner-btn {
+    font-size: 12px;
+    line-height: 19px;
+    padding: 10px 20px;
+  }
+}
+
+@media all and (max-width: 617px) {
+  .banner .content {
+    padding: 10px 60px;
+    text-align: center;
+    font-size: 34px;
+    line-height: 54px;
+  }
+
+  .banner .bannerImage h3 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 17px;
+    line-height: 27px;
+  }
+
+  .banner .bannerImage img{
+     width: 100vw;
+  }
+
+  .banner .bannerImage h1
+  {
+    font-size: 28px;
+    line-height: 54px;
+  }
+
+}
+
 /* brief */
 
 .dest-brief {
