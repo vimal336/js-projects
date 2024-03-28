@@ -170,7 +170,7 @@ header a {
 
 /* destination banner */
 
-.banner {
+/* .banner {
   margin: 0px 10px 50px 0px;
   position: relative;
 }
@@ -219,7 +219,7 @@ header a {
 
 /* Media Query for Destination Banner content */
 
-@media (max-width: 913px) {
+/* @media (max-width: 913px) {
   .banner {
     height: 60vh;
     object-fit: cover;
@@ -270,7 +270,119 @@ header a {
     line-height: 54px;
   }
 
+}  */
+
+/* Banner Section */
+
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+url("../images/DestinationPage/dest-banner.jpg");
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  object-fit: cover;
+  background-size: cover;
+  padding: 0 100px;
 }
+
+.banner .content h3 {
+  color: white;
+  font-weight: 300;
+  line-height: 48px;
+  font-family: var(--lexend-deca);
+  size: 30px;
+}
+
+.banner .content .head1 {
+  color: white;
+  font-family: var(--source-serif);
+  font-size: 55px;
+  line-height: 88px;
+}
+
+.banner .content .head2 {
+  color: white;
+  font-family: var(--source-serif);
+  font-size: 55px;
+  line-height: 88px;
+}
+
+.banner .content .banner-btn {
+  background: #9fcd32;
+  outline: none;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-top: 38px;
+  padding: 20px 40px;
+  border-radius: 0px;
+  cursor: pointer;
+  color: white;
+  font-weight: 800;
+  transition: 0.5s;
+}
+
+.banner .content .banner-btn:hover {
+  background-color: #8bbb1b;
+}
+
+.banner .content button:hover {
+  background-color: #545e3c;
+}
+
+/* Media Query for Banner content */
+
+@media (max-width: 913px) {
+  .banner {
+    height: 60vh;
+    object-fit: cover;
+    padding: 0 50px;
+  }
+  .banner .content h3 {
+    font-size: 19px;
+    line-height: 30px;
+  }
+  .banner .content .head1 {
+    font-size: 37px;
+    line-height: 59px;
+  }
+  .banner .content .head2 {
+    font-size: 37px;
+    line-height: 59px;
+  }
+  .banner .content .banner-btn {
+    font-size: 12px;
+    line-height: 19px;
+    padding: 10px 20px;
+  }
+}
+
+@media all and (max-width: 617px) {
+  .banner .content {
+    padding: 10px 60px;
+    text-align: center;
+    font-size: 34px;
+    line-height: 54px;
+  }
+
+  .banner .content h3 {
+    margin-top: 50px;
+    font-size: 17px;
+    line-height: 27px;
+  }
+
+  .banner .content .head1,
+  .banner .content .head2 {
+    font-size: 28px;
+    line-height: 54px;
+  }
+
+  .banner .content .banner-btn {
+    margin-top: 20px;
+  }
+}
+
 
 /* brief */
 
