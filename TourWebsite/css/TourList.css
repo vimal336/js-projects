@@ -112,16 +112,15 @@ header a {
 
 
 /* nav section */
-
 .nav {
   background-color: #9fcd32;
   width: 300px;
-  height: 600px;
+  height: 200vh;
   top: 0px;
   position: fixed;
   z-index: +25;
+  display: none;
 }
-
 .close {
   position: absolute;
   right: 0;
@@ -162,9 +161,12 @@ header a {
 .nav-list li:hover a {
   color: #fff;
 }
+
 .active {
-  display: none;
+  display: block;
 }
+
+
 /* Banner Section */
 
 .banner {

@@ -113,15 +113,16 @@ header a {
 
 /* nav section */
 
+
 .nav {
   background-color: #9fcd32;
   width: 300px;
-  height: 600px;
+  height: 200vh;
   top: 0px;
   position: fixed;
   z-index: +25;
+  display: none;
 }
-
 .close {
   position: absolute;
   right: 0;
@@ -163,10 +164,9 @@ header a {
   color: #fff;
 }
 
-.active{
-  display: none;
+.active {
+  display: block;
 }
-
 
 /* destination banner */
 
@@ -378,6 +378,7 @@ header a {
 }
 
 .History h1 {
+  margin: 0;
   font-family: var(--source-serif);
   font-size: 30px;
   font-weight: 500;
@@ -386,6 +387,7 @@ header a {
 }
 
 .History-Brief {
+  margin-top: 10px !important;
   display: flex;
   flex-direction: row;
   margin: 100px auto;

@@ -113,15 +113,16 @@ header a {
 
 /* nav section */
 
+
 .nav {
   background-color: #9fcd32;
   width: 300px;
-  height: 600px;
+  height: 200vh;
   top: 0px;
   position: fixed;
   z-index: +25;
+  display: none;
 }
-
 .close {
   position: absolute;
   right: 0;
@@ -164,7 +165,7 @@ header a {
 }
 
 .active {
-  display: none;
+  display: block;
 }
 
 /* banner section */
@@ -585,6 +586,7 @@ transition: opacity 0.3s, transform 0.3s;
 
 
 .guide{
+  height: auto;
   margin :300px 0px 300px 0px ;
   background-color:#EEEEEE;
   display: flex;
@@ -592,25 +594,71 @@ transition: opacity 0.3s, transform 0.3s;
   justify-content: space-between;
 }
 
+
 .guides{
   margin-right: 300px;
 }
 
 .reviews{
-  margin-right: 100px;
+  width: 1000px;
+  margin-right: 50px;
   padding: 50px 50px 50px 50px;
   background-color: #fff;
+}
+
+.brand-review{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: absolute;
+  top: 590%;
+  right: 23%;  */
+}
+
+
+.brand-review img{
+  height: 4rem;
+  margin-right: 20px;
+}
+
+.brand-review .brand-rating p{
+  font-size: 14px;
+  line-height: 22px;
+  font-family: var(--lexend-deca);
+  font-weight: 700;
+}
+
+.brand-review .brand-rating span{
+  font-size: 14px;
+  line-height: 22px;
+  font-family: var(--lexend-deca);
+  font-weight: 700;
+  color: #417703;
+}
+
+.guide .guides .booking-btn{
+  padding: 18px 40px;
+}
+
+.brand-review .brand-rating .review-count{
+  font-size: 11px;
+  line-height: 18px;
+  font-weight: 300;
+  font-family: var(--lexend-deca);
+  color: #595a58;
 }
 
 .guide-gallery{
   margin: 6rem 0;
   display: grid;
   gap: 3vw;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 
 }
 
 .guides h1{
+  margin-top: 45px;
+  margin-right: -400px;
   font-weight: 500;
   font-size: 30px;
   font-family: var(--source-serif);
@@ -637,6 +685,44 @@ transition: opacity 0.3s, transform 0.3s;
     width: 120px;
     height: 120px;
     border-radius: 50%;
+    margin-top: 30px;
+}
+
+/* Media Query for Guide Section */
+
+@media all and (max-width: 1300px){
+  .guide-gallery{
+    grid-template-columns: repeat(2, 1fr);
+  
+  }
+}
+
+@media all and (max-width: 900px) {
+
+  .guide{
+    height: auto;
+    margin :300px 0px 300px 0px ;
+    background-color:#EEEEEE;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .reviews{
+    width: 500px;
+    margin-right: 50px;
+    padding: 50px 50px 50px 50px;
+    background-color: #fff;
+  }
+
+  .guide-gallery{
+    grid-template-columns: repeat(3, 1fr);
+  
+  }
+  
+  
+  
 }
 
 
