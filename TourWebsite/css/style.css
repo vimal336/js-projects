@@ -863,7 +863,7 @@ header a {
 
 }
 
-/* item 1 */
+/* item 5 */
 
 #item-1 .hover-head{
   margin: 150px 0px 0px 27px;
@@ -921,6 +921,128 @@ header a {
  visibility: visible;
 
 }
+
+/* item 6 */
+
+#item-1 .hover-head{
+  margin: 150px 0px 0px 27px;
+  color: white;
+  font-family: var(--source-serif);
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+#item-1 .hover-price{
+  background-color: #9FCD32;
+  padding: 3px 20px 3px 20px ;
+  margin: 130px 0px 0px 27px;
+  color: white;
+}
+
+
+#item-1 .hover-text{
+  margin: 40px 0px 0px 27px;
+  color: white;
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+}
+
+#item-1 .hover-time{
+  margin: 10px 10px 0px 27px;
+  color: white;
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+
+}
+
+#item-1 .hover-head,
+#item-1 .hover-price,
+#item-1 .hover-text,
+#item-1 .hover-time {
+  transition: all 0.3s ease; 
+}
+
+#item-1 .hover-head:hover{
+  margin: 50px 0px 0px 27px;
+}
+
+#item-1 .hover-price:hover{
+  margin: 60px 0px 0px 27px;
+}
+ 
+
+#item-1 .hover-text:hover{
+  visibility: visible;
+}
+
+#item-1 .hover-time:hover{
+ visibility: visible;
+
+}
+
+/* item 7 */
+
+#item-1 .hover-head{
+  margin: 150px 0px 0px 27px;
+  color: white;
+  font-family: var(--source-serif);
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+#item-1 .hover-price{
+  background-color: #9FCD32;
+  padding: 3px 20px 3px 20px ;
+  margin: 130px 0px 0px 27px;
+  color: white;
+}
+
+
+#item-1 .hover-text{
+  margin: 40px 0px 0px 27px;
+  color: white;
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+}
+
+#item-1 .hover-time{
+  margin: 10px 10px 0px 27px;
+  color: white;
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+
+}
+
+#item-1 .hover-head,
+#item-1 .hover-price,
+#item-1 .hover-text,
+#item-1 .hover-time {
+  transition: all 0.3s ease; 
+}
+
+#item-1 .hover-head:hover{
+  margin: 50px 0px 0px 27px;
+}
+
+#item-1 .hover-price:hover{
+  margin: 60px 0px 0px 27px;
+}
+ 
+
+#item-1 .hover-text:hover{
+  visibility: visible;
+}
+
+#item-1 .hover-time:hover{
+ visibility: visible;
+
+}
+
+
+
+
 
 
 
