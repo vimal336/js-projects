@@ -643,6 +643,20 @@ header a {
   transition: opacity 0.3s, transform 0.3s;
 }
 
+/* Media Query for gallery section */
+
+@media only screen and (max-width: 900px){
+ .gal-grid{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 30vw);
+    grid-template-areas: 
+        "pg-1 pg-2"
+        "pg-3 pg-4"
+        "pg-5 pg-6"
+ }
+}
+
+
 /* Guides Section */
 
 .guide {
