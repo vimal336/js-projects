@@ -824,6 +824,12 @@ header a {
   }
 }
 
+@media all and (max-width: 500px) {
+  .brief-image {
+    height: 140vh;
+  }
+}
+
 /* opinion section */
 
 .opinion {
