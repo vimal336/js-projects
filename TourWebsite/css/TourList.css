@@ -314,6 +314,22 @@ header a {
   width: 70%;
 }
 
+.card-section .icon-Text .Tour-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color:  #D4D4D4;
+}
+
+.card-section .icon-Text .BGgreen{
+  background-color: #417703;
+ 
+}
+
+
+
+
 /* Media Query for Tour info section */
 
 @media all and (max-width: 600px){

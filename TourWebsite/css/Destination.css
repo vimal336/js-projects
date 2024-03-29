@@ -510,14 +510,29 @@ url("../images/DestinationPage/dest-banner.jpg");
 
 /* Media Query for Geography Section */
 
+
+
+@media all and (max-width: 1200px) {
+  .geography {
+    padding: 100px 150px;
+  }
+  
+}
+@media all and (max-width: 950px) {
+  .geography {
+    padding: 100px 70px;
+  }
+  
+}
+
 @media all and (max-width: 850px) {
+  .geography {
+    padding: 100px 60px;
+  }
+
   .geography-right img {
     width: 30vw;
     height: auto;
-  }
-
-  .geography {
-    padding: 100px 250px;
   }
 
   
@@ -562,6 +577,20 @@ url("../images/DestinationPage/dest-banner.jpg");
     right: 0%;
   }
 }
+
+
+@media all and (max-width: 500px){
+  .geography-right img{
+    left: 0;
+  }
+
+  .geography .map-icon {
+    right: -4%;
+  }
+}
+
+
+
 
 /* brief section */
 
