@@ -308,7 +308,7 @@ header a {
   flex-direction: row;
   text-align: center;
   margin: 80px;
-  column-gap: 20px;
+  column-gap: 0px;
 }
 
 .trip-box h1 {
@@ -322,7 +322,7 @@ header a {
   background-color: #9fcd32;
   color: white;
   font-size: 20px;
-  margin: 20px;
+  margin: 20px 0px;
   line-height: 22px;
   font-family: var(--lexend-deca);
   font-size: 14px;
@@ -339,7 +339,7 @@ header a {
   font-size: 14px;
   line-height: 22px;
   font-weight: 300;
-  margin: 20px;
+  margin: 20px 50px;
   padding: 50px;
   text-align: left;
 }
