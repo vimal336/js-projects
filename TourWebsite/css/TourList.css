@@ -333,13 +333,15 @@ header a {
 /* Travel-icons Section */
 
 .Tour-icons {
+  padding: 100px;
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-around;
-  margin: 20px 0px 0px 0px;
+  margin: 50px 0px 0px 0px;
   border-radius: 50%;
-  
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .Tour-icons .icon-Text{
@@ -359,7 +361,7 @@ header a {
   height: 100px;
   font-size: 55px;
   text-align: center;
-  padding: 18%;
+  padding: 10%;
   color: #000000;
  
 }
@@ -388,6 +390,23 @@ header a {
 
 .Tour-icons .Tour-icon .trip-icon:hover{
   background-color: transparent;
+}
+
+/* Media Query for tour icons section */
+
+@media all and (max-width: 1097px){
+  
+.Tour-icons {
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 50px 0px 0px 0px;
+  border-radius: 50%;
+  flex-wrap: wrap;
+  gap: 20px;
+}
 }
 
 
