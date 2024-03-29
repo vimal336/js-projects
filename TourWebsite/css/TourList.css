@@ -424,14 +424,14 @@ header a {
 @media all and (max-width: 1097px){
   
   .Tour-icons .icon-Text{
-    font-size: 12px;
+    font-size: 10px;
   }
   
   .Tour-icons .Tour-icon .trip-icon {
-    width: 80px;
-    height: 80px;
-    font-size: 45px;
-    padding: 10%;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    padding: 12%;
   }
   
   .card-section .icon-Text .Tour-icon{
