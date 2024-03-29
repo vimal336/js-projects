@@ -808,7 +808,7 @@ url("../images/DestinationPage/dest-banner.jpg");
   .Video-section .Text-Box {
     top: 10%;
     padding: 20px 20px 30px 20px;
-    width: 150vw;
+    width: 100vw;
     height: 49vh;
     z-index: +10;
     left: 10%;
@@ -827,14 +827,14 @@ url("../images/DestinationPage/dest-banner.jpg");
   }
 
   .Video-section .Text-Box {
-    margin: 0 auto;
     background-color: #ffffff;
     top: 90px;
     padding: 20px 20px 30px 20px;
+    width: 100vw;
     height: 37vh;
     z-index: +10;
-    left: 100px;
-    width: 1000px;
+    left: 0;
+    margin-bottom: 20px;
   }
 
 
