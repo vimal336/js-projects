@@ -511,7 +511,8 @@ header a {
 
 /* Gallery section */
 
-.gallery-head{
+.gallery-head,
+.gallery-para {
   text-align: center;
 }
 
@@ -525,12 +526,34 @@ header a {
   text-align: center;
 }
 
+.gallery-para {
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  margin-bottom: 30px;
+}
+
 .hover-text {
   font-size: 14px;
   font-family: var(--lexend-deca);
   opacity: 0;
   transition: opacity 0.3s, transform 0.3s;
   margin-left: 30px;
+}
+
+.hover-head:hover {
+  /* transform: translateY(-100%); */
+  margin-top: 10px;
+}
+
+.hover-text:hover {
+  opacity: 1;
+  transform: translateY(-100%);
+}
+
+#item-0:hover {
+  transition: all 1s ease;
 }
 
 .hover-head {
@@ -558,10 +581,13 @@ header a {
   height: 100%;
 }
 
- .gal-grid div p {
+.gal-grid div p {
   color: white;
 }
 
+.gal-grid div p:hover {
+  color: white;
+}
 
 #item-0 {
   background: url(../images/HomePage/travel-images/home-gal-5.jpg);

@@ -693,15 +693,19 @@ url("../images/DestinationPage/dest-banner.jpg");
 .Video-section {
   position: relative;
   background: url(../images/DestinationPage/dest-info.jpg);
-  height: 90vh;
+  height: 80vh;
+  width: 100vw;
+  background-size: cover;
 }
 
-.Text-Box {
+.Video-section .Text-Box {
   position: absolute;
   background-color: #ffffff;
-  top: 100px;
-  padding: 40px 20px 30px 40px;
-  left: 90px;
+  top: 90px;
+  padding: 20px 20px 30px 20px;
+  left: 20%;
+  max-width: 500px;
+  height: 48vh;
   z-index: +10;
 }
 
@@ -729,6 +733,7 @@ url("../images/DestinationPage/dest-banner.jpg");
   font-weight: 500;
   line-height: 22px;
   font-style: normal;
+  margin-bottom: 30px;
 }
 
 .Text-Box Button {
@@ -736,11 +741,11 @@ url("../images/DestinationPage/dest-banner.jpg");
   font-family: var(--lexend-deca);
   background-color: #9fcd32;
   font-weight: 700;
-  padding: 15px 35px 15px 35px;
+  padding: 15px 35px 10px 35px;
   border: none;
   color: #fff;
   right: 0;
-  margin-top: -16px;
+  margin-top: -3px;
 }
 
 #video-file {
@@ -751,6 +756,108 @@ url("../images/DestinationPage/dest-banner.jpg");
   width: 55%;
   z-index: +9;
 }
+
+/* Media Query for Video Section*/
+
+@media all and (max-width: 918px) {
+  .Video-section {
+    position: relative;
+    background: url(../images/DestinationPage/dest-info.jpg);
+    height: 135vh;
+    width: 100vw;
+    background-size: cover;
+  }
+
+  .Text-Box {
+    background-color: #ffffff;
+    top: 90px;
+    padding: 20px 20px 30px 20px;
+    left: 90px;
+    width: 80vw;
+    height: 52vh;
+    z-index: +10;
+    margin-top: -40px;
+  }
+
+  #video-file {
+    margin: 0 auto;
+    position: absolute;
+    top: 0%;
+    left: 0;
+    transform: translateY(50%);
+    height: 100vh;
+    width: 100vw;
+    z-index: +9;
+  }
+}
+
+@media all and (max-width: 900px){
+  .Text-Box {
+    top: 10%;
+    padding: 20px 20px 30px 20px;
+    width: 100vw;
+    height: 52vh;
+    z-index: +10;
+    left: 18%;
+ 
+  }
+}
+
+
+@media all and (max-width: 700px){
+  .Video-section .Text-Box {
+    top: 10%;
+    padding: 20px 20px 30px 20px;
+    width: 150vw;
+    height: 49vh;
+    z-index: +10;
+    left: 10%;
+ 
+  }
+}
+
+@media all and (max-width: 616px){
+  .Video-section{
+    top: -30px;
+    background: url(../images/HomePage/homfo.jpg);
+  }
+
+  #video-file {
+    top:-180px;
+  }
+
+  .Video-section .Text-Box {
+    margin: 0 auto;
+    background-color: #ffffff;
+    top: 90px;
+    padding: 20px 20px 30px 20px;
+    height: 37vh;
+    z-index: +10;
+    left: 100px;
+    width: 1000px;
+  }
+
+
+  .Text-Box h1 {
+    font-size: 25px;
+    line-height: 41px;
+    margin-bottom: 20px;
+  }
+  
+  .Text-Box h3 {
+    font-size: 12px;
+    line-height: 19px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+  }
+  
+  .Text-Box .Text-Bold {
+    font-size: 12px;
+    line-height: 19px;
+    margin-bottom: 0;
+  }
+  
+} 
 
 /* Date-Section */
 
