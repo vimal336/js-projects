@@ -421,6 +421,33 @@ header a {
 
 }
 
+@media all and (max-width: 1097px){
+  
+  .Tour-icons .icon-Text{
+    font-size: 12px;
+  }
+  
+  .Tour-icons .Tour-icon .trip-icon {
+    width: 80px;
+    height: 80px;
+    font-size: 45px;
+    padding: 10%;
+  }
+  
+  .card-section .icon-Text .Tour-icon{
+    width: 100px;
+    height: 100px;
+  }
+  
+  .card-section .icon-Text .BGgreen{
+    width: 100px;
+    height: 100px;
+  }
+
+
+}
+
+
 
 
 /* Tour Cards Section */
