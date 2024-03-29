@@ -649,11 +649,59 @@ header a {
  .gal-grid{
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 30vw);
-    grid-template-areas: 
-        "pg-1 pg-2"
-        "pg-3 pg-4"
-        "pg-5 pg-6"
  }
+   
+ #item-0 {
+ 
+    background-color: #AF5795; 
+    grid-row-start: 1;
+    grid-column-start: 1;
+ 
+    grid-row-end: 2;
+    grid-column-end: 2;
+    
+ }
+ #item-1 {
+    grid-row-start: 1;
+    grid-column-start: 2;
+ 
+    grid-row-end: 2;
+    grid-column-end: 3;
+    
+ }
+ #item-2 {
+    grid-row-start: 2;
+    grid-column-start: 1;
+ 
+    grid-row-end: 3;
+    grid-column-end: 2;
+    
+ }
+ #item-3 {
+    grid-row-start: 2;
+    grid-column-start: 2;
+ 
+    grid-row-end: 3;
+    grid-column-end: 3;
+    
+ }
+ #item-4 {
+    grid-row-start: 3;
+    grid-column-start: 1;
+ 
+    grid-row-end: 4;
+    grid-column-end: 2;
+    
+ }
+ #item-5 {
+    grid-row-start: 3;
+    grid-column-start: 2;
+ 
+    grid-row-end: 4;
+    grid-column-end: 3;
+    
+ }
+
 }
 
 
