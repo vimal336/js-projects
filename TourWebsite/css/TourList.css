@@ -370,19 +370,24 @@ header a {
   justify-content: center;
   flex-direction: column;
   background-color:  #D4D4D4;
+  width: 200px;
+  height: 200px;
 }
 
 .card-section .icon-Text .BGgreen{
   background-color: #417703;
+  width: 200px;
+  height: 200px;
   color: #fff;
 }
+
 
 .card-section .icon-Text .Tour-icon:hover{
   background-color: yellowgreen;
 }
 
 .Tour-icons .Tour-icon .trip-icon:hover{
-  background-color: none;
+  background-color: transparent;
 }
 
 
