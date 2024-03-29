@@ -568,6 +568,8 @@ header a {
    
 }
 
+/* Gallery Hover Effects Starts */
+
 /* item 0 */
 
 #item-0 .hover-head{
@@ -688,7 +690,7 @@ header a {
 
 /* item 2 */
 
-#item-1 .hover-head{
+#item-2 .hover-head{
   margin: 150px 0px 0px 27px;
   color: white;
   font-family: var(--source-serif);
@@ -697,7 +699,7 @@ header a {
   line-height: 36px;
 }
 
-#item-1 .hover-price{
+#item-2 .hover-price{
   background-color: #9FCD32;
   padding: 3px 20px 3px 20px ;
   margin: 130px 0px 0px 27px;
@@ -705,14 +707,14 @@ header a {
 }
 
 
-#item-1 .hover-text{
+#item-2 .hover-text{
   margin: 40px 0px 0px 27px;
   color: white;
   font-family: var(--lexend-deca);
   font-size: 14px;
 }
 
-#item-1 .hover-time{
+#item-2 .hover-time{
   margin: 10px 10px 0px 27px;
   color: white;
   font-family: var(--lexend-deca);
@@ -720,34 +722,34 @@ header a {
 
 }
 
-#item-1 .hover-head,
-#item-1 .hover-price,
-#item-1 .hover-text,
-#item-1 .hover-time {
+#item-2 .hover-head,
+#item-2 .hover-price,
+#item-2 .hover-text,
+#item-2 .hover-time {
   transition: all 0.3s ease; 
 }
 
-#item-1 .hover-head:hover{
+#item-2 .hover-head:hover{
   margin: 50px 0px 0px 27px;
 }
 
-#item-1 .hover-price:hover{
+#item-2 .hover-price:hover{
   margin: 60px 0px 0px 27px;
 }
  
 
-#item-1 .hover-text:hover{
+#item-2 .hover-text:hover{
   visibility: visible;
 }
 
-#item-1 .hover-time:hover{
+#item-2 .hover-time:hover{
  visibility: visible;
 
 }
 
 /* item 3 */
 
-#item-1 .hover-head{
+#item-3 .hover-head{
   margin: 150px 0px 0px 27px;
   color: white;
   font-family: var(--source-serif);
@@ -756,7 +758,7 @@ header a {
   line-height: 36px;
 }
 
-#item-1 .hover-price{
+#item-3 .hover-price{
   background-color: #9FCD32;
   padding: 3px 20px 3px 20px ;
   margin: 130px 0px 0px 27px;
@@ -764,14 +766,14 @@ header a {
 }
 
 
-#item-1 .hover-text{
+#item-3 .hover-text{
   margin: 40px 0px 0px 27px;
   color: white;
   font-family: var(--lexend-deca);
   font-size: 14px;
 }
 
-#item-1 .hover-time{
+#item-3 .hover-time{
   margin: 10px 10px 0px 27px;
   color: white;
   font-family: var(--lexend-deca);
@@ -779,34 +781,34 @@ header a {
 
 }
 
-#item-1 .hover-head,
-#item-1 .hover-price,
-#item-1 .hover-text,
-#item-1 .hover-time {
+#item-3 .hover-head,
+#item-3 .hover-price,
+#item-3 .hover-text,
+#item-3 .hover-time {
   transition: all 0.3s ease; 
 }
 
-#item-1 .hover-head:hover{
+#item-3 .hover-head:hover{
   margin: 50px 0px 0px 27px;
 }
 
-#item-1 .hover-price:hover{
+#item-3 .hover-price:hover{
   margin: 60px 0px 0px 27px;
 }
  
 
-#item-1 .hover-text:hover{
+#item-3 .hover-text:hover{
   visibility: visible;
 }
 
-#item-1 .hover-time:hover{
+#item-3 .hover-time:hover{
  visibility: visible;
 
 }
 
 /* item 4 */
 
-#item-1 .hover-head{
+#item-4 .hover-head{
   margin: 150px 0px 0px 27px;
   color: white;
   font-family: var(--source-serif);
@@ -815,7 +817,7 @@ header a {
   line-height: 36px;
 }
 
-#item-1 .hover-price{
+#item-4 .hover-price{
   background-color: #9FCD32;
   padding: 3px 20px 3px 20px ;
   margin: 130px 0px 0px 27px;
@@ -823,14 +825,14 @@ header a {
 }
 
 
-#item-1 .hover-text{
+#item-4 .hover-text{
   margin: 40px 0px 0px 27px;
   color: white;
   font-family: var(--lexend-deca);
   font-size: 14px;
 }
 
-#item-1 .hover-time{
+#item-4 .hover-time{
   margin: 10px 10px 0px 27px;
   color: white;
   font-family: var(--lexend-deca);
@@ -838,34 +840,34 @@ header a {
 
 }
 
-#item-1 .hover-head,
-#item-1 .hover-price,
-#item-1 .hover-text,
-#item-1 .hover-time {
+#item-4 .hover-head,
+#item-4 .hover-price,
+#item-4 .hover-text,
+#item-4 .hover-time {
   transition: all 0.3s ease; 
 }
 
-#item-1 .hover-head:hover{
+#item-4 .hover-head:hover{
   margin: 50px 0px 0px 27px;
 }
 
-#item-1 .hover-price:hover{
+#item-4 .hover-price:hover{
   margin: 60px 0px 0px 27px;
 }
  
 
-#item-1 .hover-text:hover{
+#item-4 .hover-text:hover{
   visibility: visible;
 }
 
-#item-1 .hover-time:hover{
+#item-4 .hover-time:hover{
  visibility: visible;
 
 }
 
 /* item 5 */
 
-#item-1 .hover-head{
+#item-5 .hover-head{
   margin: 150px 0px 0px 27px;
   color: white;
   font-family: var(--source-serif);
@@ -874,7 +876,7 @@ header a {
   line-height: 36px;
 }
 
-#item-1 .hover-price{
+#item-5 .hover-price{
   background-color: #9FCD32;
   padding: 3px 20px 3px 20px ;
   margin: 130px 0px 0px 27px;
@@ -882,14 +884,14 @@ header a {
 }
 
 
-#item-1 .hover-text{
+#item-5 .hover-text{
   margin: 40px 0px 0px 27px;
   color: white;
   font-family: var(--lexend-deca);
   font-size: 14px;
 }
 
-#item-1 .hover-time{
+#item-5 .hover-time{
   margin: 10px 10px 0px 27px;
   color: white;
   font-family: var(--lexend-deca);
@@ -897,34 +899,34 @@ header a {
 
 }
 
-#item-1 .hover-head,
-#item-1 .hover-price,
-#item-1 .hover-text,
-#item-1 .hover-time {
+#item-5 .hover-head,
+#item-5 .hover-price,
+#item-5 .hover-text,
+#item-5 .hover-time {
   transition: all 0.3s ease; 
 }
 
-#item-1 .hover-head:hover{
+#item-5 .hover-head:hover{
   margin: 50px 0px 0px 27px;
 }
 
-#item-1 .hover-price:hover{
+#item-5 .hover-price:hover{
   margin: 60px 0px 0px 27px;
 }
  
 
-#item-1 .hover-text:hover{
+#item-5 .hover-text:hover{
   visibility: visible;
 }
 
-#item-1 .hover-time:hover{
+#item-5 .hover-time:hover{
  visibility: visible;
 
 }
 
 /* item 6 */
 
-#item-1 .hover-head{
+#item-6 .hover-head{
   margin: 150px 0px 0px 27px;
   color: white;
   font-family: var(--source-serif);
@@ -933,7 +935,7 @@ header a {
   line-height: 36px;
 }
 
-#item-1 .hover-price{
+#item-6 .hover-price{
   background-color: #9FCD32;
   padding: 3px 20px 3px 20px ;
   margin: 130px 0px 0px 27px;
@@ -941,14 +943,14 @@ header a {
 }
 
 
-#item-1 .hover-text{
+#item-6 .hover-text{
   margin: 40px 0px 0px 27px;
   color: white;
   font-family: var(--lexend-deca);
   font-size: 14px;
 }
 
-#item-1 .hover-time{
+#item-6 .hover-time{
   margin: 10px 10px 0px 27px;
   color: white;
   font-family: var(--lexend-deca);
@@ -956,34 +958,34 @@ header a {
 
 }
 
-#item-1 .hover-head,
-#item-1 .hover-price,
-#item-1 .hover-text,
-#item-1 .hover-time {
+#item-6 .hover-head,
+#item-6 .hover-price,
+#item-6 .hover-text,
+#item-6 .hover-time {
   transition: all 0.3s ease; 
 }
 
-#item-1 .hover-head:hover{
+#item-6 .hover-head:hover{
   margin: 50px 0px 0px 27px;
 }
 
-#item-1 .hover-price:hover{
+#item-6 .hover-price:hover{
   margin: 60px 0px 0px 27px;
 }
  
 
-#item-1 .hover-text:hover{
+#item-6 .hover-text:hover{
   visibility: visible;
 }
 
-#item-1 .hover-time:hover{
+#item-6 .hover-time:hover{
  visibility: visible;
 
 }
 
 /* item 7 */
 
-#item-1 .hover-head{
+#item-7 .hover-head{
   margin: 150px 0px 0px 27px;
   color: white;
   font-family: var(--source-serif);
@@ -992,7 +994,7 @@ header a {
   line-height: 36px;
 }
 
-#item-1 .hover-price{
+#item-7 .hover-price{
   background-color: #9FCD32;
   padding: 3px 20px 3px 20px ;
   margin: 130px 0px 0px 27px;
@@ -1000,14 +1002,14 @@ header a {
 }
 
 
-#item-1 .hover-text{
+#item-7 .hover-text{
   margin: 40px 0px 0px 27px;
   color: white;
   font-family: var(--lexend-deca);
   font-size: 14px;
 }
 
-#item-1 .hover-time{
+#item-7 .hover-time{
   margin: 10px 10px 0px 27px;
   color: white;
   font-family: var(--lexend-deca);
@@ -1015,45 +1017,33 @@ header a {
 
 }
 
-#item-1 .hover-head,
-#item-1 .hover-price,
-#item-1 .hover-text,
-#item-1 .hover-time {
+#item-7 .hover-head,
+#item-7 .hover-price,
+#item-7 .hover-text,
+#item-7 .hover-time {
   transition: all 0.3s ease; 
 }
 
-#item-1 .hover-head:hover{
+#item-7 .hover-head:hover{
   margin: 50px 0px 0px 27px;
 }
 
-#item-1 .hover-price:hover{
+#item-7 .hover-price:hover{
   margin: 60px 0px 0px 27px;
 }
  
 
-#item-1 .hover-text:hover{
+#item-7 .hover-text:hover{
   visibility: visible;
 }
 
-#item-1 .hover-time:hover{
+#item-7 .hover-time:hover{
  visibility: visible;
 
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* gallery Hover effect ends */
 
 #item-0 {
   color: white;
