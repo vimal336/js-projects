@@ -1447,6 +1447,9 @@ header a {
 }
 
 @media all and (max-width: 600px) {
+  .opinion{
+    margin-top: 200px;
+  }
   .user-review {
     margin-bottom: 50px;
   }
