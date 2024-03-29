@@ -460,7 +460,7 @@ url("../images/DestinationPage/dest-banner.jpg");
   justify-content: center;
   align-items: center;
   background-color: #e0e0e0;
-  padding: 100px;
+  padding: 100px 100px;
 }
 
 .geography h1 {
