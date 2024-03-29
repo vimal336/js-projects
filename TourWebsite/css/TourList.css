@@ -549,24 +549,33 @@ header a {
 }
 
 .tour-image1{
-  background: url(../images/TourList/home-gal-8.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+    url("../images/TourList/home-gal-8.jpg");
   width: 350px;
   height: 300px;
   background-position: center;
 }
 
 .tour-image2{
-  background: url(../images/TourList/home-gal-6.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+  url("../images/TourList/home-gal-6.jpg");
+  width: 350px;
+  height: 300px;
+  background-position: center;
+  transition: 1s;
+}
+
+.tour-image3{
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+  url("../images/TourList/home-gal-5.jpg");
   width: 350px;
   height: 300px;
   background-position: center;
 }
 
-.tour-image3{
-  background: url(../images/TourList/home-gal-5.jpg);
-  width: 350px;
-  height: 300px;
-  background-position: center;
+
+.tour-image2:hover{
+  
 }
 
 .tour-gallery .tour-image1, .tour-image2, .tour-image3{
@@ -586,13 +595,32 @@ header a {
   font-size: 30px;
   line-height: 36px;
   font-style: normal;
+  margin: 100px 10px 10px 10px;
 
 }
 
 .tour-gallery .tour-image1 span, .tour-image2 span, .tour-image3 span{
   background-color: #9fcd32;
+  margin-left: 20px;
+  padding: 10px 10px 10px 10px;
 }
 
+.tour-gallery .tour-image1 span, .tour-image2 span, .tour-image3 span{
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.tour-gallery .tour-image1 i, .tour-image2 i, .tour-image3 i{
+  font-size: 12px;
+  margin-left: 20px;
+   
+}
+
+.tour-gallery .tour-image1 p, .tour-image2 p, .tour-image3 p{
+  font-size: 12px;
+  margin-left: 20px;
+   
+}
 
 
 
