@@ -666,6 +666,12 @@ url("../images/DestinationPage/dest-banner.jpg");
 /* Media Query for history section */
 
 @media all and (max-width: 600px){
+  .History-Brief{
+    margin-top: 50px;
+  }
+}
+
+@media all and (max-width: 600px){
   .History-Brief .paragraph {
     font-size: 12px;
     line-height: 19px;
