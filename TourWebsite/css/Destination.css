@@ -626,6 +626,16 @@ url("../images/DestinationPage/dest-banner.jpg");
   text-align: center;
 }
 
+/* Media Query for Brief SEction */
+
+@media all and (max-width: 600px){
+  .brief-image {
+    height: 70vh;
+  }
+  
+}
+
+
 /* History Section */
 
 .History {
