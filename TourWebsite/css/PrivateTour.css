@@ -511,8 +511,7 @@ header a {
 
 /* Gallery section */
 
-.gallery-head,
-.gallery-para {
+.gallery-head{
   text-align: center;
 }
 
@@ -526,34 +525,12 @@ header a {
   text-align: center;
 }
 
-.gallery-para {
-  font-family: var(--lexend-deca);
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 22px;
-  margin-bottom: 30px;
-}
-
 .hover-text {
   font-size: 14px;
   font-family: var(--lexend-deca);
   opacity: 0;
   transition: opacity 0.3s, transform 0.3s;
   margin-left: 30px;
-}
-
-.hover-head:hover {
-  /* transform: translateY(-100%); */
-  margin-top: 10px;
-}
-
-.hover-text:hover {
-  opacity: 1;
-  transform: translateY(-100%);
-}
-
-#item-0:hover {
-  transition: all 1s ease;
 }
 
 .hover-head {
@@ -581,13 +558,10 @@ header a {
   height: 100%;
 }
 
-.gal-grid div p {
+ .gal-grid div p {
   color: white;
 }
 
-.gal-grid div p:hover {
-  color: white;
-}
 
 #item-0 {
   background: url(../images/HomePage/travel-images/home-gal-5.jpg);
@@ -631,16 +605,40 @@ header a {
   background-position: center;
 }
 
-.anim-head {
-  color: black;
-  background-color: brown;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  font-size: 36px;
-  margin: 0;
-  opacity: 1;
-  transition: opacity 0.3s, transform 0.3s;
+/* Gallery Hover Effect */
+
+
+/* item 5 */
+
+#item-5 .hover-head{
+  margin: 150px 0px 0px 27px;
+  color: white;
+  font-family: var(--source-serif);
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+
+#item-5 .hover-text{
+  margin: 40px 0px 0px 27px;
+  color: white;
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+}
+
+
+#item-5 .hover-head,
+#item-5 .hover-text{
+  transition: all 0.3s ease; 
+}
+
+#item-5 .hover-head:hover{
+  margin: 50px 0px 0px 27px;
+}
+
+#item-5 .hover-text:hover{
+  visibility: visible;
 }
 
 /* Media Query for gallery section */
@@ -652,8 +650,6 @@ header a {
  }
    
  #item-0 {
- 
-    background-color: #AF5795; 
     grid-row-start: 1;
     grid-column-start: 1;
  
