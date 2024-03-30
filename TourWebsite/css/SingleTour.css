@@ -509,32 +509,35 @@ header a {
 
 
 .tab .tab-content .tab-page .tab-gallery{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+    height: 52rem;
+    display: flex;
+    gap: 3rem;
 }
 
 
-.tab .tab-content .tab-page .right-gallery{
-  margin-right: -320px;
-  flex: 0 0 35rem;
-  display: grid;
-  grid-template-columns: repeat(2, 150px);
-  grid-template-rows: repeat(3, 150px);
-  gap: 2px;
+.tab .tab-content .tab-page .left-gallery{
+    flex: 0 0 35rem;
+    height: 52rem;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(3, 13.33333rem);
+    gap: 2px;
 }
 
-.tab .tab-content .tab-page .right-gallery img{
+.tab .tab-content .tab-page .left-gallery img{
   margin-top: 20px;
   height: 100%;
   width: 100%;
 }
 
-.tab .tab-content .tab-page .left-gallery img{
+.tab .tab-content .tab-page .right-gallery{
+ flex: 1;
+}
+
+.tab .tab-content .tab-page .right-gallery img{
   margin-top: 20px;
-  height: 480px;
-  width: 95vh;
-  margin-right: 20px;
+  height: 77%;
+  width: 100%;
 }
 
 .tab .tab-content .tab-page .route .route-info{
@@ -577,6 +580,21 @@ header a {
     margin: 0 auto;
   }
   
+}
+
+@media only screen and (max-width: 900px) {
+  .tab-gallery {
+      flex-direction:column;
+      height: 120rem;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .route{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 }
 
 
