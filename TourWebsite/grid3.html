@@ -8,46 +8,6 @@
   <link rel="stylesheet" href="css/style.css">
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <style>
-    
-  </style>
-</head>
-<body>
-  <div class="slider">
-
-    <div class="slider-item active">
-      <img src="images/1.jpg" alt="Slider-1">
-    </div>
-    <div class="slider-item">
-      <img src="images/2.jpg" alt="Slider-2">
-    </div>
-    <div class="slider-item">
-      <img src="images/3.jpg" alt="Slider-3">
-    </div>
-    <div class="slider-item">
-      <img src="images/4.jpg" alt="Slider-4">
-    </div>
-    <div class="slider-item">
-      <img src="images/5.jpg" alt="Slider-5">
-    </div>
-
-    <div class="slider-btns">
-      <button id="btn-prev">
-        <ion-icon name="chevron-back-outline"></ion-icon>
-      </button>
-      <button id="btn-next">
-        <ion-icon name="chevron-forward-outline"></ion-icon>
-      </button>
-    </div>
-
-    <div class="dots">
-      
-    </div>
-
-  </div>
-  <script src="js/script.js"></script>
-</body>
-</html>
-css/style.css
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 *{
@@ -60,8 +20,9 @@ css/style.css
 body{
   width: 100vw;
   height: 100vh;
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
 }
 
 
@@ -89,7 +50,7 @@ display: none;
 }
 .slider-btns{
   position: absolute;
-  top:50%;
+  top:180%;
   transform: translateY(-50%);
   width: 100%;
   display: flex;
@@ -122,42 +83,44 @@ visibility: visible;
   }
 }
 
-.dots{
-  background-color: rgba(0,0,0,0.5);
-  width: 100%;
-  height: 15px;
-  position: absolute;
-  bottom: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap:10px;
-}
 
-.dot{
-  width: 20px;
-  height: 3px;
-  background-color: rgba(241,241,241,0.2);
-  cursor: pointer;
-}
+  </style>
+</head>
+<body>
+  <div class="slider">
 
-.dot-active{
-  background-color:#fff;
-}
-This JavaScript code creates an image carousel by using the document.querySelectorAll() method to select all elements with the class "slider-item" and store them in the sliders variable. The totalSlider variable is used to store the total number of images in the carousel.
+    <div class="slider-item active">
+      <img src="./images/SingleTourPage/1.jpg" alt="Slider-1">
+    </div>
+    <div class="slider-item active">
+      <img src="./images/SingleTourPage/2.jpg" alt="Slider-2">
+    </div>
+    <div class="slider-item">
+      <img src="./images/SingleTourPage/3.jpg" alt="Slider-3">
+    </div>
+    <div class="slider-item">
+      <img src="./images/SingleTourPage/4.jpg" alt="Slider-4">
+    </div>
+    <div class="slider-item">
+      <img src="./images/SingleTourPage/5.jpg" alt="Slider-5">
+    </div>
 
-The code also creates two variables, btnPrev and btnNext, which select the elements with the ids "btn-prev" and "btn-next" respectively. These elements are used as buttons to navigate between the images in the carousel. The addEventListener() method is used to attach click event handlers to these buttons, which call the PrevSlide() and NextSlide() functions when clicked.
+    <div class="slider-btns">
+      <button id="btn-prev">
+        <ion-icon name="chevron-back-outline"></ion-icon>
+      </button>
+      <button id="btn-next">
+        <ion-icon name="chevron-forward-outline"></ion-icon>
+      </button>
+    </div>
 
+    <div class="dots">
+      
+    </div>
 
-The PrevSlide() and NextSlide() functions are used to navigate between the images in the carousel. The PrevSlide() function decreases the value of the slidePosition variable by 1, or sets it to the last image if it is currently at the first image. The NextSlide() function increases the value of the slidePosition variable by 1, or sets it to the first image if it is currently at the last image.
+  </div>
+  <script>
 
-The updatePosition() function is called after each button click, it loops through all the sliders elements and removes the class "active" and add 'hidden' class, then it adds the class "active" to the current slide, determined by the value of the slidePosition variable.
-
-The code also creates dots for each slide and append them to an element with class 'dots' and attach click event to each dot, when clicked it sets slide position to the index of dot, and call the updatePosition() function to update the active slide.
-
-Additionally, the code uses setInterval() function to automatically navigate through the images in the carousel every 5 seconds. This function increments the value of the slidePosition variable and calls the updatePosition() function to update the active slide.
-
-js/script.js
 let slidePosition=0;
 const sliders=document.querySelectorAll('.slider-item');
 const totalSlider=sliders.length;
@@ -189,14 +152,14 @@ function updatePosition(){
 
 function PrevSlide(){
   if(slidePosition==0){
-    slidePosition=totalSlider-1;
+    slidePosition=totalSlider-2;
   }else{
     slidePosition--;
   }
   updatePosition();
 }
 function NextSlide(){
-  if(slidePosition==totalSlider-1){
+  if(slidePosition==totalSlider-2){
     slidePosition=0;
   }else{
     slidePosition++;
@@ -205,30 +168,7 @@ function NextSlide(){
 }
 
 
-const dotContainer=document.querySelector('.dots');
-sliders.forEach(slide=>{
- const dot=document.createElement('div');
- dot.classList.add('dot');
- dotContainer.appendChild(dot);
-});
+  </script>
+</body>
+</html>
 
-const dots=document.querySelectorAll('.dot');
-dots[slidePosition].classList.add('dot-active');
-
-
-dots.forEach((dot,index)=>{
-  dot.addEventListener('click',function(){
-    slidePosition=index;
-    updatePosition();
-  });
-});
-
-
-setInterval(()=>{
-  if(slidePosition==totalSlider-1){
-    slidePosition=0;
-  }else{
-    slidePosition++;
-  }
-  updatePosition();
-},5000);

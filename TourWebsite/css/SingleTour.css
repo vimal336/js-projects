@@ -588,9 +588,32 @@ header a {
   margin : 20px;
 }
 
+.slider-images,
+.hidden
+{
+display: none;
+
+}
+
+.show{
+  display: block;
+  animation: fadeAnimation 1s;
+}
+
 .slider-left{
   right: 0;
 }
+
+@keyframes fadeAnimation {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+    transition: opacity linear;
+  }
+}
+
 
 /* SingleTour Button section */
 

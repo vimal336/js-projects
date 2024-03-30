@@ -32,13 +32,55 @@ window.addEventListener("scroll", () => {
   }
 });
 
-//Slider Section Code
+//--------------------------------Slider Section Code------------------------------------------//
 
-// let TotalSlider = 0;
+let slidePosition = 0;
+const sliders = document.querySelectorAll('.slider-images');
+const totalSlider = sliders.length;
+const btnPrev = document.querySelector('.slider-right');
+const btnNext = document.querySelector('.slider-left');
 
-// const Sliders = document.querySelectorAll(".SliderImages");
+// Update slide position and show two images at a time
+function updatePosition() {
+  sliders.forEach((slide, index) => {
+    if (index >= slidePosition && index < slidePosition + 2) {
+      slide.classList.add('show');
+      slide.classList.remove('hidden');
+    } else {
+      slide.classList.remove('show');
+      slide.classList.add('hidden');
+    }
+  });
+}
 
-// console.log(Sliders);
+// Move to the previous slide
+function PrevSlide() {
+  if (slidePosition === 0) {
+    slidePosition = totalSlider - 1;
+  } else {
+    slidePosition--;
+  }
+  updatePosition();
+}
+
+// Move to the next slide
+function NextSlide() {
+  if (slidePosition === totalSlider - 2) {
+    slidePosition = 0;
+  } else {
+    slidePosition++;
+  }
+  updatePosition();
+}
+
+btnPrev.addEventListener('click', PrevSlide);
+btnNext.addEventListener('click', NextSlide);
+
+// Initial position setup
+updatePosition();
+
+
+//--------------------------------Slider Section Code ends------------------------------------------//
 
 
 //Tab-Section
