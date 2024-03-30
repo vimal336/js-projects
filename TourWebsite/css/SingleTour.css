@@ -384,20 +384,101 @@ header a {
   font-size: 14px;
   font-weight: bold;
 }
+
+/* Timeline */
   
 
-.tab .tab-content .tab-page .route{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+.route-description p{
+	font-size: 14px;
+	line-height: 22px;
+	font-family: var(--lexend-deca);
+	margin-bottom: 20px;
+  }
+  
+  .desc-button{
+	background: #9fcd32;
+	  outline: none;
+	  border: none;
+	  font-size: 0.8rem;
+	  font-weight: 500;
+	  margin-top: 38px;
+	  padding: 12px 30px;
+	  border-radius: 0px;
+	  cursor: pointer;
+	  color: white;
+	  font-weight: 900;
+	  transition: 0.5s;
+  }
+
+  .route{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px 50px;
+  }
+
+  .tab-route-item{
+		display: grid;
+		grid-template-columns: 30% 10% 1fr;
+  }
+
+  .tab-route-box{
+	margin-top: 0;
+	margin-right: 2%;
+	font-family: var(--lexend-deca);
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: 300;
+	width: 30vw;
+	background-color: #EEEEEE;
+  }
+
+  .tab-route-box li{
+	list-style: none;
+	width: 30vw;
+	background-color: #EEEEEE;
+	margin:30px 10px;
+  }
+
+  .tab-route-marker{
+	position: relative;
+  }
+
+  .tab-route-marker::before{
+	content: "";
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 50%;
+    background-color: #9fcd32;
 }
 
-.tab .tab-content .tab-page .route p{
-  font-size: 14px;
-  line-height: 22px;
-  font-family: var(--lexend-deca);
-  margin-bottom: 20px;
+.tab-route-marker::after{
+		content: "";
+		width: 2px;
+		height: 7rem;
+		position: absolute;
+		left: 0.4rem;
+		top: 1rem;
+		background-color: #9fcd32;
 }
+
+.tab-route-time{
+	align-self: center;
+    text-align: right;
+    margin-right: 2rem;
+    color: #9fcd32;
+    font-weight: bold;
+}
+
+
+.route-description{
+	width: 70vw;
+  }
+
+
 
 .desc-button{
   background: #9fcd32;
@@ -417,6 +498,8 @@ header a {
 .desc-button:hover{
   background-color: #417703;
 }
+
+/* timeline ends */
 
 .tab .tab-content .tab-page .location{
   display: flex;
@@ -466,65 +549,6 @@ header a {
   background-color: #DADADA;
 }
 
-/* Tab TImeline cp*/
-
-.tab__route-box {
-  flex: 0 0 10rem;
-  padding: 3rem;
-  background-color: #eeeeee
-}
-
-.tab__route {
-  margin-top: 2.5rem;
-  list-style: none
-}
-
-.tab__route-item {
-  display: grid;
-  grid-template-columns: 30% 10% 1fr
-}
-
-.tab__route-item:not(:last-child) {
-  height: 8rem;
-  margin-bottom: 0.6rem
-}
-
-.tab__route-time {
-  align-self: center;
-  text-align: right;
-  margin-right: 2rem;
-  color: #9fcd32;
-  font-weight: bold
-}
-
-.tab__route-marker {
-  position: relative
-}
-
-.tab__route-marker::before {
-  content: "";
-  width: 1rem;
-  height: 1rem;
-  position: absolute;
-  left: 0;
-  top: 0;
-  border-radius: 50%;
-  background-color: #9fcd32
-}
-
-.tab__route-marker::after {
-  content: "";
-  width: 2px;
-  height: 7rem;
-  position: absolute;
-  left: 0.4rem;
-  top: 1rem;
-  background-color: #9fcd32
-}
-
-.tab__route-marker--end::after {
-  content: none
-}
 
 /* Media Query for tab section */
 

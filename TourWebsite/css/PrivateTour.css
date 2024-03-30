@@ -730,8 +730,9 @@ header a {
 /* Guides Section */
 
 .guide {
+
   height: auto;
-  margin: 300px 0px 300px 0px;
+  margin: 100px 0px 0px 0px;
   background-color: #eeeeee;
   display: flex;
   align-items: center;
@@ -743,6 +744,13 @@ header a {
 }
 
 .reviews {
+  position: relative;
+  left: -250px;
+  display: flex;
+  flex: 0 0 40%;
+  padding: 3rem;
+  flex-direction: column;
+  margin-bottom: 6rem;
   width: 1000px;
   margin-right: 50px;
   padding: 50px 50px 50px 50px;
@@ -753,9 +761,6 @@ header a {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* position: absolute;
-  top: 590%;
-  right: 23%;  */
 }
 
 .brand-review img {
@@ -791,20 +796,21 @@ header a {
 }
 
 .guide-gallery {
-  margin: 6rem 0;
+  margin: 6rem 2rem;
   display: grid;
+  place-items: center;
   gap: 3vw;
   grid-template-columns: repeat(3, 1fr);
 }
 
-.guides h1 {
+/* .guides h1 {
   margin-top: 45px;
   margin-right: -400px;
   font-weight: 500;
   font-size: 30px;
   font-family: var(--source-serif);
   text-align: center;
-}
+} */
 
 .reviews p {
   font-family: var(--lexend-deca);
@@ -812,6 +818,14 @@ header a {
   line-height: 22px;
   font-style: normal;
 }
+
+.reviews span {
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+  line-height: 22px;
+  font-style: normal;
+}
+
 
 .guide .guides {
   display: grid;
@@ -849,14 +863,29 @@ header a {
   }
 
   .reviews {
-    width: 500px;
+    position: static;
+    width: 400px;
     margin-right: 50px;
+    margin: 0 auto;
     padding: 50px 50px 50px 50px;
     background-color: #fff;
   }
 
   .guide-gallery {
-    grid-template-columns: repeat(3, 1fr);
+    margin-left: 30%;
+    place-items: center;
+    grid-template-columns: repeat(3, 33.33vw);
+  }
+
+  .guide-gallery img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 30px;
+  }
+
+  .guide-gallery .booking-btn{
+    margin-right: -200%;
   }
 }
 
