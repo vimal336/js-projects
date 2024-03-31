@@ -210,7 +210,7 @@ header a {
   font-size: 0.9rem;
   font-weight: 500;
   margin-top: 38px;
-  padding: 20px 40px;
+  padding: 15px 30px;
   border-radius: 0px;
   cursor: pointer;
   color: white;
@@ -682,7 +682,7 @@ display: none;
   font-size: 0.8rem;
   font-weight: 500;
   margin-top: 38px;
-  padding: 15px 30px;
+  padding: 10px 20px;
   border-radius: 0px;
   cursor: pointer;
   color: white;
