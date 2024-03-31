@@ -527,7 +527,7 @@ header a {
 }
 
 .gallery-head {
-  margin: 50px 0px 50px 0px;
+  margin-top: 50px;
   font-family: var(--source-serif);
   font-size: 30px;
   line-height: 48px;
@@ -537,29 +537,12 @@ header a {
 }
 
 .gallery-para {
+  margin-top: 50px;
   font-family: var(--lexend-deca);
   font-size: 14px;
   font-weight: 300;
   line-height: 22px;
   margin-bottom: 30px;
-}
-
-.hover-text {
-  font-size: 14px;
-  font-family: var(--lexend-deca);
-  opacity: 0;
-  transition: opacity 0.3s, transform 0.3s;
-  margin-left: 30px;
-}
-
-.hover-head {
-  font-size: 30px;
-  line-height: 36px;
-  font-weight: 500;
-  font-family: var(--source-serif);
-  transition: opacity 0.3s, transform 0.3s;
-  margin-top: 100px;
-  margin-left: 30px;
 }
 
 .gal-grid {
@@ -574,10 +557,6 @@ header a {
 .gal-grid div img {
   width: 100%;
   height: 100%;
-}
-
-.gal-grid div p {
-  color: white;
 }
 
 #item-0 {
@@ -618,6 +597,17 @@ header a {
 
 /* Gallery Hover Effect */
 
+.image-item {
+  position: relative;
+  overflow: hidden
+}
+
+#item-0, #item-1, #item-2, #item-3, #item-4, #item-5 {
+  width: 100%;
+  height: 100%;
+  filter: brightness(90%);
+  transition: filter 0.3s
+}
 
 .image-caption {
   width: 80%;
@@ -630,42 +620,41 @@ header a {
   transition: all 0.3s
 }
 
-.image-caption .hover-head{
-  margin-bottom: 1.2rem
+.image-item .image-caption .hover-head{
+  margin-bottom: 1.2rem;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 500;
+  font-family: var(--source-serif);
+  margin-top: 100px;
+  margin-left: 30px;
 }
 
-.image-item .small-text {
+.image-item .small-text .hover-text {
   position: absolute;
   left: 0;
-  bottom: -10rem;
-  transition: all 0.3s
+  bottom: -6rem;
+  transition: all 0.3s;
+  overflow: hidden;
 }
 
 .small-text .hover-text {
-  margin-bottom: 1.2rem
+  margin-bottom: 1.2rem;
+  font-size: 14px;
+  font-family: var(--lexend-deca);
+  margin-left: 30px;
 }
 
 .image-item:hover .image-caption {
-  padding-bottom: 7rem
+  padding-bottom: 2rem
 }
 
-.image-item:hover .small-text {
-  bottom: 0
+.image-item:hover .hover-text {
+  bottom: 0.1rem
 }
 
 .image-item:hover img{
   filter: brightness(40%)
-}
-
-#item-0 {
-  width: 100%;
-  height: 100%;
-  filter: brightness(75%);
-  transition: filter 0.3s
-}
-
-.image-item:hover #item-0{
-filter: brightness(40%)
 }
 
 @media only screen and (max-width: 1200px) {
@@ -675,230 +664,26 @@ filter: brightness(40%)
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
   .image-item:hover .image-caption {
-      padding-bottom:9rem
+      padding-bottom:1.8rem;
   }
 
-  .image-item:hover .small-text {
+  .image-item .image-caption .hover-head {
+    padding-bottom:1rem;
+    font-size: 20px;
+}
+
+
+  .image-item:hover .hover-text {
       bottom: 0
   }
 
-  .hover-head {
-      font-size: 2.5rem
-  }
-}
-
-/* item 1 */
-
-#item-1 .hover-head{
-margin: 150px 0px 0px 27px;
-color: white;
-font-family: var(--source-serif);
-font-weight: 500;
-font-size: 30px;
-line-height: 36px;
-}
-
-#item-1 .hover-price{
-background-color: #9FCD32;
-padding: 3px 20px 3px 20px ;
-margin: 130px 0px 0px 27px;
-color: white;
-}
-
-
-#item-1 .hover-text{
-margin: 40px 0px 0px 27px;
-color: white;
-font-family: var(--lexend-deca);
-font-size: 14px;
-}
-
-#item-1 .hover-time{
-margin: 10px 10px 0px 27px;
-color: white;
-font-family: var(--lexend-deca);
-font-size: 14px;
-
-}
-
-#item-1 .hover-head,
-#item-1 .hover-price,
-#item-1 .hover-text,
-#item-1 .hover-time {
-transition: all 0.3s ease; 
-}
-
-
-/* item 2 */
-
-#item-2 .hover-head{
-margin: 150px 0px 0px 27px;
-color: white;
-font-family: var(--source-serif);
-font-weight: 500;
-font-size: 30px;
-line-height: 36px;
-}
-
-#item-2 .hover-price{
-background-color: #9FCD32;
-padding: 3px 20px 3px 20px ;
-margin: 130px 0px 0px 27px;
-color: white;
-}
-
-
-#item-2 .hover-text{
-margin: 40px 0px 0px 27px;
-color: white;
-font-family: var(--lexend-deca);
-font-size: 14px;
-}
-
-#item-2 .hover-time{
-margin: 10px 10px 0px 27px;
-color: white;
-font-family: var(--lexend-deca);
-font-size: 14px;
-
-}
-
-#item-2 .hover-head,
-#item-2 .hover-price,
-#item-2 .hover-text,
-#item-2 .hover-time {
-transition: all 0.3s ease; 
-}
-
-
-/* item 3 */
-
-#item-3 .hover-head{
-margin: 150px 0px 0px 27px;
-color: white;
-font-family: var(--source-serif);
-font-weight: 500;
-font-size: 30px;
-line-height: 36px;
-}
-
-#item-3 .hover-price{
-background-color: #9FCD32;
-padding: 3px 20px 3px 20px ;
-margin: 130px 0px 0px 27px;
-color: white;
-}
-
-
-#item-3 .hover-text{
-margin: 40px 0px 0px 27px;
-color: white;
-font-family: var(--lexend-deca);
-font-size: 14px;
-}
-
-#item-3 .hover-time{
-margin: 10px 10px 0px 27px;
-color: white;
-font-family: var(--lexend-deca);
-font-size: 14px;
-
-}
-
-#item-3 .hover-head,
-#item-3 .hover-price,
-#item-3 .hover-text,
-#item-3 .hover-time {
-transition: all 0.3s ease; 
-}
-
-
-/* item 4 */
-
-#item-4 .hover-head{
-margin: 150px 0px 0px 27px;
-color: white;
-font-family: var(--source-serif);
-font-weight: 500;
-font-size: 30px;
-line-height: 36px;
-}
-
-#item-4 .hover-price{
-background-color: #9FCD32;
-padding: 3px 20px 3px 20px ;
-margin: 130px 0px 0px 27px;
-color: white;
-}
-
-
-#item-4 .hover-text{
-margin: 40px 0px 0px 27px;
-color: white;
-font-family: var(--lexend-deca);
-font-size: 14px;
-}
-
-#item-4 .hover-time{
-margin: 10px 10px 0px 27px;
-color: white;
-font-family: var(--lexend-deca);
-font-size: 14px;
-
-}
-
-#item-4 .hover-head,
-#item-4 .hover-price,
-#item-4 .hover-text,
-#item-4 .hover-time {
-transition: all 0.3s ease; 
-}
-
-
-/* item 5 */
-
-#item-5 .hover-head{
-margin: 150px 0px 0px 27px;
-color: white;
-font-family: var(--source-serif);
-font-weight: 500;
-font-size: 30px;
-line-height: 36px;
-}
-
-#item-5 .hover-price{
-background-color: #9FCD32;
-padding: 3px 20px 3px 20px ;
-margin: 130px 0px 0px 27px;
-color: white;
-}
-
-
-#item-5 .hover-text{
-margin: 40px 0px 0px 27px;
-color: white;
-font-family: var(--lexend-deca);
-font-size: 14px;
-}
-
-#item-5 .hover-time{
-margin: 10px 10px 0px 27px;
-color: white;
-font-family: var(--lexend-deca);
-font-size: 14px;
-
-}
-
-#item-5 .hover-head,
-#item-5 .hover-price,
-#item-5 .hover-text,
-#item-5 .hover-time {
-transition: all 0.3s ease; 
 }
 
 /* gallery Hover effect ends */
+
+
 
 /* Media Query for gallery section */
 
