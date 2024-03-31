@@ -552,26 +552,11 @@ header a {
   margin-left: 30px;
 }
 
-.hover-head:hover {
-  /* transform: translateY(-100%); */
-  margin-top: 10px;
-}
-
-.hover-text:hover {
-  opacity: 1;
-  transform: translateY(-100%);
-}
-
-#item-0:hover {
-  transition: all 1s ease;
-}
-
 .hover-head {
   font-size: 30px;
   line-height: 36px;
   font-weight: 500;
   font-family: var(--source-serif);
-  opacity: 1;
   transition: opacity 0.3s, transform 0.3s;
   margin-top: 100px;
   margin-left: 30px;
@@ -592,10 +577,6 @@ header a {
 }
 
 .gal-grid div p {
-  color: white;
-}
-
-.gal-grid div p:hover {
   color: white;
 }
 
@@ -638,38 +619,286 @@ header a {
 /* Gallery Hover Effect */
 
 
+.image-caption {
+  width: 80%;
+  position: absolute;
+  left: 4rem;
+  bottom: 4rem;
+  color: #fff;
+  line-height: 1.2;
+  overflow: hidden;
+  transition: all 0.3s
+}
+
+.image-caption .hover-head{
+  margin-bottom: 1.2rem
+}
+
+.image-item .small-text {
+  position: absolute;
+  left: 0;
+  bottom: -10rem;
+  transition: all 0.3s
+}
+
+.small-text .hover-text {
+  margin-bottom: 1.2rem
+}
+
+.image-item:hover .image-caption {
+  padding-bottom: 7rem
+}
+
+.image-item:hover .small-text {
+  bottom: 0
+}
+
+.image-item:hover img{
+  filter: brightness(40%)
+}
+
+#item-0 {
+  width: 100%;
+  height: 100%;
+  filter: brightness(75%);
+  transition: filter 0.3s
+}
+
+.image-item:hover #item-0{
+filter: brightness(40%)
+}
+
+@media only screen and (max-width: 1200px) {
+  .image-caption {
+      left:1.5rem;
+      bottom: 1.5rem
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .image-item:hover .image-caption {
+      padding-bottom:9rem
+  }
+
+  .image-item:hover .small-text {
+      bottom: 0
+  }
+
+  .hover-head {
+      font-size: 2.5rem
+  }
+}
+
+/* item 1 */
+
+#item-1 .hover-head{
+margin: 150px 0px 0px 27px;
+color: white;
+font-family: var(--source-serif);
+font-weight: 500;
+font-size: 30px;
+line-height: 36px;
+}
+
+#item-1 .hover-price{
+background-color: #9FCD32;
+padding: 3px 20px 3px 20px ;
+margin: 130px 0px 0px 27px;
+color: white;
+}
+
+
+#item-1 .hover-text{
+margin: 40px 0px 0px 27px;
+color: white;
+font-family: var(--lexend-deca);
+font-size: 14px;
+}
+
+#item-1 .hover-time{
+margin: 10px 10px 0px 27px;
+color: white;
+font-family: var(--lexend-deca);
+font-size: 14px;
+
+}
+
+#item-1 .hover-head,
+#item-1 .hover-price,
+#item-1 .hover-text,
+#item-1 .hover-time {
+transition: all 0.3s ease; 
+}
+
+
+/* item 2 */
+
+#item-2 .hover-head{
+margin: 150px 0px 0px 27px;
+color: white;
+font-family: var(--source-serif);
+font-weight: 500;
+font-size: 30px;
+line-height: 36px;
+}
+
+#item-2 .hover-price{
+background-color: #9FCD32;
+padding: 3px 20px 3px 20px ;
+margin: 130px 0px 0px 27px;
+color: white;
+}
+
+
+#item-2 .hover-text{
+margin: 40px 0px 0px 27px;
+color: white;
+font-family: var(--lexend-deca);
+font-size: 14px;
+}
+
+#item-2 .hover-time{
+margin: 10px 10px 0px 27px;
+color: white;
+font-family: var(--lexend-deca);
+font-size: 14px;
+
+}
+
+#item-2 .hover-head,
+#item-2 .hover-price,
+#item-2 .hover-text,
+#item-2 .hover-time {
+transition: all 0.3s ease; 
+}
+
+
+/* item 3 */
+
+#item-3 .hover-head{
+margin: 150px 0px 0px 27px;
+color: white;
+font-family: var(--source-serif);
+font-weight: 500;
+font-size: 30px;
+line-height: 36px;
+}
+
+#item-3 .hover-price{
+background-color: #9FCD32;
+padding: 3px 20px 3px 20px ;
+margin: 130px 0px 0px 27px;
+color: white;
+}
+
+
+#item-3 .hover-text{
+margin: 40px 0px 0px 27px;
+color: white;
+font-family: var(--lexend-deca);
+font-size: 14px;
+}
+
+#item-3 .hover-time{
+margin: 10px 10px 0px 27px;
+color: white;
+font-family: var(--lexend-deca);
+font-size: 14px;
+
+}
+
+#item-3 .hover-head,
+#item-3 .hover-price,
+#item-3 .hover-text,
+#item-3 .hover-time {
+transition: all 0.3s ease; 
+}
+
+
+/* item 4 */
+
+#item-4 .hover-head{
+margin: 150px 0px 0px 27px;
+color: white;
+font-family: var(--source-serif);
+font-weight: 500;
+font-size: 30px;
+line-height: 36px;
+}
+
+#item-4 .hover-price{
+background-color: #9FCD32;
+padding: 3px 20px 3px 20px ;
+margin: 130px 0px 0px 27px;
+color: white;
+}
+
+
+#item-4 .hover-text{
+margin: 40px 0px 0px 27px;
+color: white;
+font-family: var(--lexend-deca);
+font-size: 14px;
+}
+
+#item-4 .hover-time{
+margin: 10px 10px 0px 27px;
+color: white;
+font-family: var(--lexend-deca);
+font-size: 14px;
+
+}
+
+#item-4 .hover-head,
+#item-4 .hover-price,
+#item-4 .hover-text,
+#item-4 .hover-time {
+transition: all 0.3s ease; 
+}
+
+
 /* item 5 */
 
 #item-5 .hover-head{
-  margin: 150px 0px 0px 27px;
-  color: white;
-  font-family: var(--source-serif);
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 36px;
+margin: 150px 0px 0px 27px;
+color: white;
+font-family: var(--source-serif);
+font-weight: 500;
+font-size: 30px;
+line-height: 36px;
+}
+
+#item-5 .hover-price{
+background-color: #9FCD32;
+padding: 3px 20px 3px 20px ;
+margin: 130px 0px 0px 27px;
+color: white;
 }
 
 
 #item-5 .hover-text{
-  margin: 40px 0px 0px 27px;
-  color: white;
-  font-family: var(--lexend-deca);
-  font-size: 14px;
+margin: 40px 0px 0px 27px;
+color: white;
+font-family: var(--lexend-deca);
+font-size: 14px;
 }
 
+#item-5 .hover-time{
+margin: 10px 10px 0px 27px;
+color: white;
+font-family: var(--lexend-deca);
+font-size: 14px;
+
+}
 
 #item-5 .hover-head,
-#item-5 .hover-text{
-  transition: all 0.3s ease; 
+#item-5 .hover-price,
+#item-5 .hover-text,
+#item-5 .hover-time {
+transition: all 0.3s ease; 
 }
 
-#item-5 .hover-head:hover{
-  margin: 50px 0px 0px 27px;
-}
-
-#item-5 .hover-text:hover{
-  visibility: visible;
-}
+/* gallery Hover effect ends */
 
 /* Media Query for gallery section */
 
