@@ -102,6 +102,7 @@ img {
   border-bottom: none;
   color: #000;
   text-transform: uppercase;
+  text-wrap: nowrap;
 }
 
 header a {
@@ -682,7 +683,7 @@ url("../images/DestinationPage/dest-banner.jpg");
     padding: 20px 20px 30px 20px;
     left: 90px;
     width: 80vw;
-    height: 30vh;
+    height: auto;
     z-index: +10;
     margin-top: -40px;
   }
@@ -704,7 +705,7 @@ url("../images/DestinationPage/dest-banner.jpg");
     top: 10%;
     padding: 20px 20px 30px 20px;
     width: 100vw;
-    height: 30vh;
+    height: auto;
     z-index: +10;
     left: 18%;
  
