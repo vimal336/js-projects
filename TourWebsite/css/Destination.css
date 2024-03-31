@@ -610,8 +610,9 @@ url("../images/DestinationPage/dest-banner.jpg");
   background-color: #ffffff;
   top: 90px;
   padding: 20px 20px 30px 20px;
-  left: 20%;
+  left: 14%;
   max-width: 500px;
+  width: auto;
   height: 48vh;
   z-index: +10;
 }
