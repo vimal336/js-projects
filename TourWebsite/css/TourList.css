@@ -452,7 +452,7 @@ header a {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 100px 50px 100px 50px;
+  margin: 50px 50px 100px 50px;
 }
 
 .card-left img {
@@ -477,20 +477,55 @@ header a {
   font-weight: 600;
 }
 
+.card-right .para-list {
+  font-family: var(--lexend-deca);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 600;
+  margin: 100px 100px;
+}
+
+
 .card-right .card-icons .right-icons .dollar {
   background-color: #9fcd32;
-  height: 50px;
+  font-size: 20px;
+  height: 40px;
   color: #fff;
-  width: 70px;
+  width: 40px;
   padding: 3px;
   margin: 3px;
 }
 
 .card-icons {
+  margin-bottom: 50px;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
+
+
+.bottom-left-icons .spaicon {
+  font-size: 15px;
+  color: #252721;
+  margin-left: 70px;
+}
+
+.bottom-right-icons{
+  font-size: 15px;
+  color: #252721;
+  margin-left: 70px;
+  color: #417703;
+  margin: 20px;
+  padding: 10px;
+}
+
+.bottom-left-icons span {
+  font-size: 15px;
+  color: #4c6611;
+  margin-right: 20px;
+}
+
 
 .bottom-icon {
   display: flex;
@@ -504,11 +539,6 @@ header a {
   justify-content: center;
   margin: 30px;
   padding: 50px 0px 50px 0px;
-}
-
-/* cards hover effect */
-.cards:hover {
-  height: 100vh;
 }
 
 .booking {
@@ -525,6 +555,58 @@ header a {
   font-weight: 900;
   transition: 0.5s;
 }
+
+@media all and (max-width: 1000px) {
+   .cards{
+    flex-direction: column;
+   }
+
+   
+.card-left img {
+  margin-top: 20px;
+  width: 85vw;
+  height: 400px;
+  background-position: center;
+}
+
+.card-icons {
+  margin: 50px 50px;
+  font-size: 15px;
+}
+
+.card-icons .left-icons h1,p,b{
+  font-size: 15px;
+}
+
+
+}
+
+@media all and (max-width: 800px) {
+  .cards{
+   flex-direction: column;
+  }
+
+  
+.card-left img {
+ margin-top: 20px;
+ width: 75vw;
+ height: 400px;
+ background-position: center;
+}
+
+.card-icons {
+  margin: 50px 50px;
+  font-size: 15px;
+}
+
+.card-icons .left-icons h1,p,b{
+  font-size: 15px;
+}
+
+
+}
+
+
 
 /* Gallery section */
 
