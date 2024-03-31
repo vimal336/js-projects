@@ -1,10 +1,14 @@
-// const nav = document.querySelector('.nav');
-// const navList = document.querySelector('.nav-list');
-// const closeBtn = document.querySelector('.close');
+// Nav bar active bacgroundcolor
+const activePage = window.location.pathname;
+console.log(activePage)
+const navLinks = document.querySelectorAll('.nav-list a');
+console.log(navLinks)
+navLinks.forEach(link => {
+    if(link.href.includes(activePage)) {
+        link.classList.add('activebg');
+    }
+});
 
-// closeBtn.addEventListener('click', ()=>{
-//   nav.classList.toggle('active')
-// })
 
 const navbar = document.querySelector(".nav");
 const hamburger = document.querySelector(".hamburger");
@@ -117,3 +121,6 @@ page.classList.add('page-opening');
 //     lazyLoad.classList.remove("lazy-load")
 //   );
 // });
+
+
+

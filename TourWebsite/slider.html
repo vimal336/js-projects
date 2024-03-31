@@ -28,76 +28,608 @@
      font-style: normal;
 }
 
-body{
-    font-family: var(--source-serif);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/* Gallery section */
+
+.gallery-head {
+  text-align: center;
+  font-family: var(--source-serif);
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 48px;
+  margin: 100px 50px 100px 50px;
+
 }
 
-.container{
-  width: 1000px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.gallery {
+  display: grid; 
+  margin: 20px auto;
+  grid-template-rows: repeat(6,1fr);
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+  height:140vh;
+  width:90vw;
+   
+}
+ 
+.gallery img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}      
+
+/* Gallery Hover Effects Starts */
+
+/* item 0 */
+
+#item-0 .hover-head{
+  margin: 150px 0px 0px 27px;
+  color: white;
+  font-family: var(--source-serif);
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
 }
 
-.card{
-  position: relative;
-  left: -6%;
-  width: 300px;
-  height: 370px;
-transition: 0.3s ease-out;
-}
-
-
-.card .imgbox img{
-  position: relative;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 80%;
-  display: block;
-  transition: 0.5s;
-}
-
-.card .imgbox{
-  position: relative;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.card .content{
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  padding: 12px;
-  transition: all 0.5s cubic-bezier(.48, -0.28, 0.41, 1.4);
-  box-sizing: border-box;
-  overflow: hidden;
-}
-
-.card:hover .content{
-  width: 100%;
-  height: 75%;
-  left: 0;
-  bottom: 0;
-}
-
-.content p{
-  margin: 10px 0 0;
-  padding: 1em 1em;
-  transform: translateY(2em);
-  transition: 0.3s;
-  text-align: justify;
-  opacity: 0;
+#item-0 .hover-price{
+  background-color: #9FCD32;
+  padding: 3px 20px 3px 20px ;
+  margin: 130px 0px 0px 27px;
+  color: white;
 }
 
 
+#item-0 .hover-text{
+  margin: 40px 0px 0px 27px;
+  color: white;
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+}
+
+#item-0 .hover-time{
+  margin: 10px 10px 0px 27px;
+  color: white;
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+
+}
+
+#item-0 .hover-head,
+#item-0 .hover-price,
+#item-0 .hover-text,
+#item-0 .hover-time {
+  transition: all 0.3s ease; 
+}
+
+
+.image-item {
+    position: relative;
+    overflow: hidden
+}
+
+#item-0 {
+    width: 100%;
+    height: 100%;
+    filter: brightness(75%);
+    transition: filter 0.3s
+}
+
+.image-caption {
+    width: 80%;
+    position: absolute;
+    left: 4rem;
+    bottom: 4rem;
+    color: #fff;
+    line-height: 1.2;
+    overflow: hidden;
+    transition: all 0.3s
+}
+
+.image-caption .hover-head{
+    margin-bottom: 1.2rem
+}
+
+.image-item .small-text {
+    position: absolute;
+    left: 0;
+    bottom: -10rem;
+    transition: all 0.3s
+}
+
+.small-text .hover-text {
+    margin-bottom: 1.2rem
+}
+
+.image-item:hover .image-caption {
+    padding-bottom: 7rem
+}
+
+.image-item:hover .small-text {
+    bottom: 0
+}
+
+.image-item:hover img{
+    filter: brightness(40%)
+}
+
+#item-0 {
+    width: 100%;
+    height: 100%;
+    filter: brightness(75%);
+    transition: filter 0.3s
+}
+
+.image-item:hover #item-0{
+  filter: brightness(40%)
+}
+
+@media only screen and (max-width: 1200px) {
+    .image-caption {
+        left:1.5rem;
+        bottom: 1.5rem
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .image-item:hover .image-caption {
+        padding-bottom:9rem
+    }
+
+    .image-item:hover .small-text {
+        bottom: 0
+    }
+
+    .hover-head {
+        font-size: 2.5rem
+    }
+}
+
+/* item 1 */
+
+#item-1 .hover-head{
+  margin: 150px 0px 0px 27px;
+  color: white;
+  font-family: var(--source-serif);
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+#item-1 .hover-price{
+  background-color: #9FCD32;
+  padding: 3px 20px 3px 20px ;
+  margin: 130px 0px 0px 27px;
+  color: white;
+}
+
+
+#item-1 .hover-text{
+  margin: 40px 0px 0px 27px;
+  color: white;
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+}
+
+#item-1 .hover-time{
+  margin: 10px 10px 0px 27px;
+  color: white;
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+
+}
+
+#item-1 .hover-head,
+#item-1 .hover-price,
+#item-1 .hover-text,
+#item-1 .hover-time {
+  transition: all 0.3s ease; 
+}
+
+
+/* item 2 */
+
+#item-2 .hover-head{
+  margin: 150px 0px 0px 27px;
+  color: white;
+  font-family: var(--source-serif);
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+#item-2 .hover-price{
+  background-color: #9FCD32;
+  padding: 3px 20px 3px 20px ;
+  margin: 130px 0px 0px 27px;
+  color: white;
+}
+
+
+#item-2 .hover-text{
+  margin: 40px 0px 0px 27px;
+  color: white;
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+}
+
+#item-2 .hover-time{
+  margin: 10px 10px 0px 27px;
+  color: white;
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+
+}
+
+#item-2 .hover-head,
+#item-2 .hover-price,
+#item-2 .hover-text,
+#item-2 .hover-time {
+  transition: all 0.3s ease; 
+}
+
+
+/* item 3 */
+
+#item-3 .hover-head{
+  margin: 150px 0px 0px 27px;
+  color: white;
+  font-family: var(--source-serif);
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+#item-3 .hover-price{
+  background-color: #9FCD32;
+  padding: 3px 20px 3px 20px ;
+  margin: 130px 0px 0px 27px;
+  color: white;
+}
+
+
+#item-3 .hover-text{
+  margin: 40px 0px 0px 27px;
+  color: white;
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+}
+
+#item-3 .hover-time{
+  margin: 10px 10px 0px 27px;
+  color: white;
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+
+}
+
+#item-3 .hover-head,
+#item-3 .hover-price,
+#item-3 .hover-text,
+#item-3 .hover-time {
+  transition: all 0.3s ease; 
+}
+
+
+/* item 4 */
+
+#item-4 .hover-head{
+  margin: 150px 0px 0px 27px;
+  color: white;
+  font-family: var(--source-serif);
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+#item-4 .hover-price{
+  background-color: #9FCD32;
+  padding: 3px 20px 3px 20px ;
+  margin: 130px 0px 0px 27px;
+  color: white;
+}
+
+
+#item-4 .hover-text{
+  margin: 40px 0px 0px 27px;
+  color: white;
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+}
+
+#item-4 .hover-time{
+  margin: 10px 10px 0px 27px;
+  color: white;
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+
+}
+
+#item-4 .hover-head,
+#item-4 .hover-price,
+#item-4 .hover-text,
+#item-4 .hover-time {
+  transition: all 0.3s ease; 
+}
+
+
+/* item 5 */
+
+#item-5 .hover-head{
+  margin: 150px 0px 0px 27px;
+  color: white;
+  font-family: var(--source-serif);
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+#item-5 .hover-price{
+  background-color: #9FCD32;
+  padding: 3px 20px 3px 20px ;
+  margin: 130px 0px 0px 27px;
+  color: white;
+}
+
+
+#item-5 .hover-text{
+  margin: 40px 0px 0px 27px;
+  color: white;
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+}
+
+#item-5 .hover-time{
+  margin: 10px 10px 0px 27px;
+  color: white;
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+
+}
+
+#item-5 .hover-head,
+#item-5 .hover-price,
+#item-5 .hover-text,
+#item-5 .hover-time {
+  transition: all 0.3s ease; 
+}
+
+/* item 6 */
+
+#item-6 .hover-head{
+  margin: 150px 0px 0px 27px;
+  color: white;
+  font-family: var(--source-serif);
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+#item-6 .hover-price{
+  background-color: #9FCD32;
+  padding: 3px 20px 3px 20px ;
+  margin: 130px 0px 0px 27px;
+  color: white;
+}
+
+
+#item-6 .hover-text{
+  margin: 40px 0px 0px 27px;
+  color: white;
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+}
+
+#item-6 .hover-time{
+  margin: 10px 10px 0px 27px;
+  color: white;
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+
+}
+
+#item-6 .hover-head,
+#item-6 .hover-price,
+#item-6 .hover-text,
+#item-6 .hover-time {
+  transition: all 0.3s ease; 
+}
+
+
+
+/* item 7 */
+
+#item-7 .hover-head{
+  margin: 150px 0px 0px 27px;
+  color: white;
+  font-family: var(--source-serif);
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+#item-7 .hover-price{
+  background-color: #9FCD32;
+  padding: 3px 20px 3px 20px ;
+  margin: 130px 0px 0px 27px;
+  color: white;
+}
+
+
+#item-7 .hover-text{
+  margin: 40px 0px 0px 27px;
+  color: white;
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+}
+
+#item-7 .hover-time{
+  margin: 10px 10px 0px 27px;
+  color: white;
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+
+}
+
+#item-7 .hover-head,
+#item-7 .hover-price,
+#item-7 .hover-text,
+#item-7 .hover-time {
+  transition: all 0.3s ease; 
+}
+
+
+/* gallery Hover effect ends */
+
+#item-0 {
+  color: white;
+  background-position: center;
+  grid-row-start: 1;
+  grid-column-start: 1;
+
+  grid-row-end: 3;
+  grid-column-end: 2;
+  
+}
+#item-1 {
+  background-position: center;
+  grid-row-start: 3;
+  grid-column-start: 1;
+
+  grid-row-end: 5;
+  grid-column-end: 2;
+  
+}
+#item-2 {
+  background-position: center;
+  grid-row-start: 5;
+  grid-column-start: 1;
+
+  grid-row-end: 7;
+  grid-column-end: 2;
+  
+}
+#item-3 {
+  background-position: center;
+  grid-row-start: 1;
+  grid-column-start: 2;
+
+  grid-row-end: 4;
+  grid-column-end: 3;
+  
+}
+#item-4 {
+  background-position: center;
+  grid-row-start: 4;
+  grid-column-start: 2;
+
+  grid-row-end: 7;
+  grid-column-end: 3;
+  
+}
+#item-5 {
+  background-position: center;
+
+  grid-row-start: 1;
+  grid-column-start: 3;
+
+  grid-row-end: 3;
+  grid-column-end: 4;
+  
+}
+#item-6 {
+  background-position: center;
+  grid-row-start: 3;
+  grid-column-start: 3;
+
+  grid-row-end: 5;
+  grid-column-end: 4;
+  
+}
+#item-7 {
+  background-position: center;
+  grid-row-start: 5;
+  grid-column-start: 3;
+
+  grid-row-end: 7;
+  grid-column-end: 4;
+  
+}
+
+/* Media Query for Gallery Section */
+
+@media all and (max-width: 917px) {
+  .gallery {
+    display: grid;
+    margin: 20px auto;
+    grid-template-rows: repeat(4, 300px);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    height: 190vh;
+    width: 90vw;
+  }
+
+  .gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  #item-0 {
+    grid-row-start: 2;
+    grid-column-start: 1;
+
+    grid-row-end: 3;
+    grid-column-end: 2;
+  }
+  #item-1 {
+    grid-row-start: 1;
+    grid-column-start: 1;
+
+    grid-row-end: 2;
+    grid-column-end: 2;
+  }
+  #item-2 {
+    grid-row-start: 1;
+    grid-column-start: 2;
+
+    grid-row-end: 2;
+    grid-column-end: 3;
+  }
+  #item-3 {
+    grid-row-start: 2;
+    grid-column-start: 2;
+
+    grid-row-end: 3;
+    grid-column-end: 3;
+  }
+  #item-4 {
+    grid-row-start: 3;
+    grid-column-start: 1;
+
+    grid-row-end: 4;
+    grid-column-end: 2;
+  }
+  #item-5 {
+    grid-row-start: 3;
+    grid-column-start: 2;
+
+    grid-row-end: 4;
+    grid-column-end: 3;
+  }
+  #item-6 {
+    grid-row-start: 4;
+    grid-column-start: 1;
+
+    grid-row-end: 5;
+    grid-column-end: 2;
+  }
+  #item-7 {
+    grid-row-start: 4;
+    grid-column-start: 2;
+
+    grid-row-end: 5;
+    grid-column-end: 3;
+  }
+}
 
 
 </style>
@@ -108,21 +640,99 @@ transition: 0.3s ease-out;
 
 <!-- Slider Section -->
 
-<div class="container">
- 
-  <div class="card">
-    <div class="imgbox">
-      <img src="./images/HomePage/travel-images/home-gal-1.jpg" alt="">
-    </div>
-    <div class="content">
-      <h2>Lorem ipsum dolor sit amet.</h2>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit
-        culpa molestiae sapiente adipisci est dolorem corporis nam.</p>
-    </div>
+ <!-- Gallery section -->
+
+ <h1 class="gallery-head">Featured Travel Experiences</h1>
+ <div class="gallery">
+  <div class="image-item" id="item-0">
+    <img src="./images/HomePage/travel-images/home-gal-1.jpg"alt="">
+    <div class="image-caption">
+     <p  class="hover-head">Sky Diving</p>
+     <span class="hover-price">$55</span>
+     <div class="small-text">
+    <p class="hover-text">Departing from: Barahon</p>
+    <i class="fa-solid fa-stopwatch hover-time">2-3 hours</i>
   </div>
-  
-</div>
-    
+   </div>
+   </div>
+     <div class="image-item" id="item-1">
+      <img src="./images/HomePage/travel-images/home-gal-2.jpg" alt="">
+      <div class="image-caption">
+       <p  class="hover-head">Sky Diving</p>
+       <span class="hover-price">$55</span>
+       <div class="small-text">
+      <p class="hover-text">Departing from: Barahon</p>
+      <i class="fa-solid fa-stopwatch hover-time">2-3 hours</i>
+    </div>
+     </div>
+     </div>
+     <div class="image-item" id="item-2">
+      <img src="./images/HomePage/travel-images/home-gal-3.jpg"  alt="">
+      <div class="image-caption">
+       <p  class="hover-head">Sky Diving</p>
+       <span class="hover-price">$55</span>
+       <div class="small-text">
+      <p class="hover-text">Departing from: Barahon</p>
+      <i class="fa-solid fa-stopwatch hover-time">2-3 hours</i>
+    </div>
+     </div>
+     </div>
+     <div class="image-item" id="item-3">
+      <img src="./images/HomePage/travel-images/home-gal-4.jpg" alt="">
+      <div class="image-caption">
+       <p  class="hover-head">Sky Diving</p>
+       <span class="hover-price">$55</span>
+       <div class="small-text">
+      <p class="hover-text">Departing from: Barahon</p>
+      <i class="fa-solid fa-stopwatch hover-time">2-3 hours</i>
+    </div>
+     </div>
+     </div>
+     <div class="image-item" id="item-4">
+      <img src="./images/HomePage/travel-images/home-gal-5.jpg" id="item-4" alt="">
+      <div class="image-caption">
+       <p  class="hover-head">Sky Diving</p>
+       <span class="hover-price">$55</span>
+       <div class="small-text">
+      <p class="hover-text">Departing from: Barahon</p>
+      <i class="fa-solid fa-stopwatch hover-time">2-3 hours</i>
+    </div>
+     </div>
+     </div>
+     <div class="image-item" id="item-5">
+      <img src="./images/HomePage/travel-images/home-gal-6.jpg" alt="">
+      <div class="image-caption">
+       <p  class="hover-head">Sky Diving</p>
+       <span class="hover-price">$55</span>
+       <div class="small-text">
+      <p class="hover-text">Departing from: Barahon</p>
+      <i class="fa-solid fa-stopwatch hover-time">2-3 hours</i>
+    </div>
+     </div>
+     </div>
+     <div class="image-item" id="item-6">
+      <img src="./images/HomePage/travel-images/home-gal-7.jpg"  alt="">
+      <div class="image-caption">
+       <p  class="hover-head">Sky Diving</p>
+       <span class="hover-price">$55</span>
+       <div class="small-text">
+      <p class="hover-text">Departing from: Barahon</p>
+      <i class="fa-solid fa-stopwatch hover-time">2-3 hours</i>
+    </div>
+     </div>
+     </div>
+     <div class="image-item" id="item-7">
+      <img src="./images/HomePage/travel-images/home-gal-8.jpg"alt="">
+      <div class="image-caption">
+       <p  class="hover-head">Sky Diving</p>
+       <span class="hover-price">$55</span>
+       <div class="small-text">
+      <p class="hover-text">Departing from: Barahon</p>
+       <i class="fa-solid fa-stopwatch hover-time">2-3 hours</i>
+    </div>
+     </div>
+     </div>
+ </div> 
 
 
  <script>

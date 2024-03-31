@@ -153,7 +153,7 @@ header a {
 }
 
 .nav-list li:hover {
-  background-color: #577909;
+  background-color: #668d09;
   width: 100%;
   padding: 0;
 }
@@ -164,6 +164,15 @@ header a {
 
 .active {
   display: block;
+}
+
+/* active navbar bg color */
+
+.nav-list a:is(:link, :active, :visited).activebg {
+  display: block;
+  background-color: #577909;
+  width: 100%;
+  padding: 0;
 }
   
 /* Banner Section */
