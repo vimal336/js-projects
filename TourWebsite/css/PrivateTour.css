@@ -547,7 +547,7 @@ header a {
   height: auto;
   display: flex;
   justify-content: space-evenly;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .popup-top label{
@@ -652,6 +652,12 @@ header a {
   margin: 20px;
   padding: 20px;
   color: #fff;
+}
+
+@media all and (max-width: 1065px) {
+  .popup-top{
+    flex-wrap: wrap;
+  }
 }
 
 @media all and (max-width: 800px){
