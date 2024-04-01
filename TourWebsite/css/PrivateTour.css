@@ -521,13 +521,161 @@ header a {
 
 /* popup Section */
 
-.popup{
+.popup {
+  text-align: center;
+  z-index: +500;
+  position: fixed; 
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .4s; 
+}
+
+.popup.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+
+.popup-top{
+  padding: 0 10px;
+  margin: 0 20px;
   background-color: #9fcd32;
+  width: 80vw;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .popup-top label{
+  font-size: 14px;
+  font-family: var(--lexend-deca);
+  font-weight: 600;
+  line-height: 22px;
   color: #fff;
 }
+
+.popup .details-1 input,
+.popup .details-2 input, 
+.popup .details-3 input, 
+.popup .details-4 input
+{
+  border: none;
+}
+
+.popup .details-1 input:focus,
+.popup .details-2 input:focus, 
+.popup .details-3 input:focus, 
+.popup .details-4 input:focus
+{
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.4);
+}
+
+
+.popup .details-1 input{
+  width: 300px;
+  height: 30px;
+}
+
+.popup .details-2 input, 
+.popup .details-3 input, 
+.popup .details-4 input
+{
+  width: 150px;
+  height: 30px;
+}
+
+
+.popup-close{
+  position: absolute;
+  right: 18px;
+  background-color: rgb(167, 15, 15);
+  color: #fff;
+  padding: 3px 5px;
+  cursor: pointer;
+}
+
+.popup-bottom{
+  padding-top: 20px;
+  margin: 0px 20px;
+  background-color: #E2E0E0;
+  width: 80vw;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.popup-bottom .details-5 label,
+.popup-bottom .details-6 label,
+.popup-bottom .details-7 label,
+.popup-bottom .details-8 label,
+.popup-bottom .details-9 label,
+.popup-bottom .details-10 label,
+.popup-bottom .details-11 label{
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+.popup-bottom .details-5 input,
+.popup-bottom .details-6 input,
+.popup-bottom .details-7 input,
+.popup-bottom .details-8 input,
+.popup-bottom .details-9 input,
+.popup-bottom .details-10 input{
+ border: none;
+ height: 30px;
+}
+
+.popup-bottom .details-9 input{
+  margin-top: 50px;
+  width: 60vw;
+  height: 200px;
+ }
+ 
+
+.popup-bottom .details-11 input{
+  border: none;
+}
+
+.travel-request{
+  font-family: var(--lexend-deca);
+  font-weight: 600;
+  border: none;
+  background-color: #9fcd32;
+  margin: 20px;
+  padding: 20px;
+  color: #fff;
+}
+
+@media all and (max-width: 800px){
+  .popup-bottom .details-9 input{
+    margin-top: 20px;
+    width: 30vw;
+    height: 100px;
+   }  
+
+   .travel-request{
+    font-family: var(--lexend-deca);
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    background-color: #9fcd32;
+    margin: 20px;
+    padding: 10px;
+    color: #fff;
+    width: 90%;
+  }
+}
+
+
+
 
 /* Gallery section */
 

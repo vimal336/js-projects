@@ -36,6 +36,26 @@ window.addEventListener("scroll", () => {
   }
 });
 
+
+// Private-tour popup
+
+window.onload = function () {
+  const btnOpen = document.querySelector(".booking-btn");
+  const btnClose = document.querySelector(".popup-close");
+  const popup = document.querySelector(".popup");
+
+  btnOpen.addEventListener("click", function () {
+      popup.classList.add("show");
+  });
+
+  btnClose.addEventListener("click", function () {
+      popup.classList.remove("show");
+  });
+};
+
+
+
+
 //--------------------------------Slider Section Code------------------------------------------//
 
 let slidePosition = 0;
