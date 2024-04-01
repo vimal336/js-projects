@@ -396,8 +396,9 @@ header a {
 /* Media Query for tour icons section */
 
 @media all and (max-width: 1097px) {
-  .Tour-icons .icon-Text {
+  .Tour-icons .icon-Text p {
     font-size: 12px;
+    text-align: center;
   }
 
   .Tour-icons .Tour-icon .trip-icon {
@@ -601,7 +602,6 @@ header a {
   font-size: 15px;
 }
 
-
 }
 
 @media all and (max-width: 800px) {
@@ -625,12 +625,7 @@ header a {
 .card-icons .left-icons h1,p,b{
   font-size: 15px;
 }
-
-
-
 }
-
-
 
 .gallery {
   display: grid; 
