@@ -632,179 +632,313 @@ header a {
 
 
 
-/* Gallery section */
-
-.tour-gallery {
-  margin: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
+.gallery {
+  display: grid; 
+  margin: 20px auto;
+  grid-template-rows: 300px;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
+  height:140vh;
+  width:90vw;
+   
 }
+ 
+.gallery img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}      
 
-.tour-image1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
-    url("../images/TourList/home-gal-8.jpg");
-  width: 350px;
-  height: 300px;
-  background-position: center;
-}
+/* Gallery Hover Effects Starts */
 
-.tour-image2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
-    url("../images/TourList/home-gal-6.jpg");
-  width: 350px;
-  height: 300px;
-  background-position: center;
-  transition: 1s;
-}
+/* item 0 */
 
-.tour-image3 {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
-    url("../images/TourList/home-gal-5.jpg");
-  width: 350px;
-  height: 300px;
-  background-position: center;
-}
-
-.tour-gallery .tour-image1,
-.tour-image2,
-.tour-image3 {
-  color: #fff;
-  background-color: #9fcd32;
+#item-0 .hover-head{
+  margin: 150px 0px 0px 27px;
+  color: white;
   font-family: var(--source-serif);
   font-weight: 500;
   font-size: 30px;
   line-height: 36px;
-  font-style: normal;
 }
 
-.tour-gallery .tour-image1 h1,
-.tour-image2 h1,
-.tour-image3 h1 {
+#item-0 .hover-price{
+  background-color: #9FCD32;
+  padding: 3px 20px 3px 20px ;
+  margin: 130px 0px 0px 27px;
+  color: white;
+}
+
+
+#item-0 .hover-text{
+  margin: 40px 0px 0px 27px;
+  color: white;
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+}
+
+#item-0 .hover-time{
+  margin: 10px 10px 0px 27px;
+  color: white;
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+
+}
+
+#item-0 .hover-head,
+#item-0 .hover-price,
+#item-0 .hover-text,
+#item-0 .hover-time {
+  transition: all 0.3s ease; 
+}
+
+
+.image-item {
+    position: relative;
+    overflow: hidden
+}
+
+#item-0 {
+    width: 100%;
+    height: 100%;
+    filter: brightness(75%);
+    transition: filter 0.3s
+}
+
+.image-caption {
+    width: 80%;
+    position: absolute;
+    left: 4rem;
+    bottom: 4rem;
+    color: #fff;
+    line-height: 1.2;
+    overflow: hidden;
+    transition: all 0.3s
+}
+
+.image-caption .hover-head{
+    margin-bottom: 1.2rem
+}
+
+.image-item .small-text {
+    position: absolute;
+    left: 0;
+    bottom: -10rem;
+    transition: all 0.3s
+}
+
+.small-text .hover-text {
+    margin-bottom: 1.2rem
+}
+
+.image-item:hover .image-caption {
+    padding-bottom: 7rem
+}
+
+.image-item:hover .small-text {
+    bottom: 0
+}
+
+.image-item:hover img{
+    filter: brightness(40%)
+}
+
+#item-0 {
+    width: 100%;
+    height: 100%;
+    filter: brightness(75%);
+    transition: filter 0.3s
+}
+
+.image-item:hover #item-0{
+  filter: brightness(40%)
+}
+
+@media only screen and (max-width: 1200px) {
+    .image-caption {
+        left:1.5rem;
+        bottom: 1.5rem
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .image-item:hover .image-caption {
+        padding-bottom:5rem
+    }
+
+    .image-item:hover .small-text {
+        bottom: 0
+    }
+
+    .hover-head {
+        font-size: 2.5rem
+    }
+}
+
+/* item 1 */
+
+#item-1 .hover-head{
+  margin: 150px 0px 0px 27px;
+  color: white;
   font-family: var(--source-serif);
   font-weight: 500;
   font-size: 30px;
   line-height: 36px;
-  font-style: normal;
-  margin: 200px 10px 10px 10px;
-  transition: 1s ease;
-  /* margin: 100px 10px 10px 10px; */
 }
 
-.tour-gallery .tour-image1 span,
-.tour-image2 span,
-.tour-image3 span {
-  background-color: #9fcd32;
-  margin-left: 20px;
-  padding: 3px 15px 3px 15px;
-  font-size: 20px;
-}
-
-.tour-gallery .tour-image1 i,
-.tour-image2 i,
-.tour-image3 i {
-  font-size: 12px;
-  margin-left: 20px;
- visibility: hidden;
-}
-
-.tour-gallery .tour-image1 p,
-.tour-image2 p,
-.tour-image3 p {
-  font-size: 16px;
-  margin-left: 20px;
- visibility: hidden;
-}
-
-/* hover effects */
-
-.tour-gallery .tour-image3 h1:hover {
-  margin: 100px 10px 10px 10px;
-}
-
-.tour-gallery .tour-image3:hover i {
- visibility: visible;
-  margin-top: 30px;
-}
-
-.tour-gallery .tour-image3:hover p {
-  visibility: visible;
-  margin-top: 30px;
-}
-
-.tour-gallery .tour-image2 h1:hover {
-  margin: 100px 10px 10px 10px;
-}
-
-.tour-gallery .tour-image2:hover i {
- visibility: visible;
-  margin-top: 30px;
-}
-
-.tour-gallery .tour-image2:hover p {
-  visibility: visible;
-  margin-top: 30px;
+#item-1 .hover-price{
+  background-color: #9FCD32;
+  padding: 3px 20px 3px 20px ;
+  margin: 130px 0px 0px 27px;
+  color: white;
 }
 
 
-.tour-gallery .tour-image1 h1:hover {
-  margin: 100px 10px 10px 10px;
+#item-1 .hover-text{
+  margin: 40px 0px 0px 27px;
+  color: white;
+  font-family: var(--lexend-deca);
+  font-size: 14px;
 }
 
-.tour-gallery .tour-image1:hover i {
- visibility: visible;
-  margin-top: 30px;
+#item-1 .hover-time{
+  margin: 10px 10px 0px 27px;
+  color: white;
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+
 }
 
-.tour-gallery .tour-image1:hover p {
-  visibility: visible;
-  margin-top: 30px;
+#item-1 .hover-head,
+#item-1 .hover-price,
+#item-1 .hover-text,
+#item-1 .hover-time {
+  transition: all 0.3s ease; 
 }
 
 
-@media all and (max-width: 1000px) {
+/* item 2 */
+
+#item-2 .hover-head{
+  margin: 150px 0px 0px 27px;
+  color: white;
+  font-family: var(--source-serif);
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+#item-2 .hover-price{
+  background-color: #9FCD32;
+  padding: 3px 20px 3px 20px ;
+  margin: 130px 0px 0px 27px;
+  color: white;
+}
+
+
+#item-2 .hover-text{
+  margin: 40px 0px 0px 27px;
+  color: white;
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+}
+
+#item-2 .hover-time{
+  margin: 10px 10px 0px 27px;
+  color: white;
+  font-family: var(--lexend-deca);
+  font-size: 14px;
+
+}
+
+#item-2 .hover-head,
+#item-2 .hover-price,
+#item-2 .hover-text,
+#item-2 .hover-time {
+  transition: all 0.3s ease; 
+}
+
+
+/* gallery Hover effect ends */
+
   
-  .tour-image1, .tour-image2, .tour-image3 {
+#item-0 {
+   grid-row-start: 1;
+   grid-column-start: 1;
 
-    width: 30vw;
-    height: 400px;
-    background-position: center;
+   grid-row-end: 2;
+   grid-column-end: 2;
+   
+}
+#item-1 {
+
+   grid-row-start: 1;
+   grid-column-start: 2;
+
+   grid-row-end: 2;
+   grid-column-end: 3;
+   
+}
+#item-2 {
+   grid-row-start: 1;
+   grid-column-start: 3;
+
+   grid-row-end: 2;
+   grid-column-end: 4;
+   
+}
+
+/* Media Query for Gallery Section */
+
+@media all and (max-width: 917px) {
+
+.gallery {
+   display: grid; 
+
+   grid-template-rows: repeat(3,200px);
+   margin: 20px auto;
+   grid-template-columns: 90vw;
+   
+   gap: 0px;
+   height: 100%;
+   
+}
+  
+#item-0 {
+
+   grid-row-start: 1;
+   grid-column-start: 1;
+
+   grid-row-end: 2;
+   grid-column-end: 2;
+   
+}
+#item-1 {
+   grid-row-start: 2;
+   grid-column-start: 1;
+
+   grid-row-end: 3;
+   grid-column-end: 2;
+   
+}
+#item-2 {
+   grid-row-start: 3;
+   grid-column-start: 1;
+
+   grid-row-end: 4;
+   grid-column-end: 2;
+   
+}
+
+
+
+  .gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
-  
 
 }
-
-
-@media all and (max-width: 600px){
-  
-.tour-gallery {
-  flex-direction: column;
-}
-
-.tour-image1 {
-  width: 90vw;
-  height: 300px;
-  background-position: center;
-}
-
-.tour-image2 {
-  width: 90vw;
-  height: 300px;
-  background-position: center;
-  transition: 1s;
-}
-
-.tour-image3 {
-  width: 90vw;
-  height: 300px;
-  background-position: center;
-}
-
-
-}
-
-
 
 /* footer Section */
 
