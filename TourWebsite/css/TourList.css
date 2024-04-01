@@ -484,6 +484,7 @@ header a {
   line-height: 22px;
   font-weight: 600;
   margin: 100px 100px;
+  text-align: center;
 }
 
 
@@ -528,13 +529,14 @@ header a {
 
 .card-right .extra-paragraph {
   font-family: var(--lexend-deca);
- display: none;
+  display: none;
   font-style: normal;
   font-size: 14px;
   line-height: 22px;
   font-weight: 300;
   margin: 50px 100px;
   transition: opacity 0.5s;
+  text-align: center;
 }
 
 .card-right:hover .extra-paragraph {

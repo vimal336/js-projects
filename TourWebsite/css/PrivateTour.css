@@ -519,6 +519,16 @@ header a {
   }
 }
 
+/* popup Section */
+
+.popup{
+  background-color: #9fcd32;
+}
+
+.popup-top label{
+  color: #fff;
+}
+
 /* Gallery section */
 
 .gallery-head,
