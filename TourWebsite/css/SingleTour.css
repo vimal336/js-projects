@@ -353,8 +353,8 @@ header a {
 }
 
 .map iframe{
-  height: 500px;
-  width: 500px;
+  height: 40vw;
+  width: 40vw;
 }
 
 .tab .tab-content .tab-page .location .location-info span{
@@ -581,14 +581,16 @@ header a {
   }
 
   .map{
-    margin: 50px auto;
+    margin: 0 auto;
     width:100vw;
   }
 
   .map iframe{
-    height: 500px;
+    display: grid;
+    place-items: center;
+    height: 50vw;
     width: 80vw;
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
   
 }
@@ -609,6 +611,30 @@ header a {
 }
 
 
+@media all and (max-width: 600px) {
+  .map iframe{
+    display: grid;
+    place-items: center;
+    height: 70vw;
+    width: 80vw;
+  }
+  
+}
+
+@media all and (max-width: 600px) {
+#nav-tab li{
+ margin-right: 30px;
+
+}
+
+#nav-tab{
+
+  border-bottom: 2px solid #9FCD32;
+  width: 20rem;
+}
+
+
+}
 
 
 /* Slider Section */
