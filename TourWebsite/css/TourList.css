@@ -752,6 +752,35 @@ header a {
 }
 
 
+@media all and (max-width: 600px){
+  
+.tour-gallery {
+  flex-direction: column;
+}
+
+.tour-image1 {
+  width: 90vw;
+  height: 300px;
+  background-position: center;
+}
+
+.tour-image2 {
+  width: 90vw;
+  height: 300px;
+  background-position: center;
+  transition: 1s;
+}
+
+.tour-image3 {
+  width: 90vw;
+  height: 300px;
+  background-position: center;
+}
+
+
+}
+
+
 
 /* footer Section */
 

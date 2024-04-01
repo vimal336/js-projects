@@ -114,13 +114,5 @@ const page=document.getElementById(id);
 page.classList.add('page-opening');
 }
 
-// window.addEventListener("load", () => {
-//   const lazyLoad = document.querySelector(".lazy-load");
-//   lazyLoad.src = lazyLoad.dataset.src;
-//   lazyLoad.addEventListener("load", () =>
-//     lazyLoad.classList.remove("lazy-load")
-//   );
-// });
-
 
 
