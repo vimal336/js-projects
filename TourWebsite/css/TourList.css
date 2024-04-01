@@ -638,7 +638,7 @@ header a {
   grid-template-rows: 300px;
   grid-template-columns: repeat(3,1fr);
   gap: 10px;
-  height:140vh;
+  height:auto;
   width:90vw;
    
 }
