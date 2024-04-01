@@ -526,6 +526,27 @@ header a {
   margin-right: 20px;
 }
 
+.card-right .extra-paragraph {
+  font-family: var(--lexend-deca);
+ display: none;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 300;
+  margin: 50px 100px;
+  transition: opacity 0.5s;
+}
+
+.card-right:hover .extra-paragraph {
+  display: block;
+}
+
+.cards:hover{
+  box-shadow: -45px -13px 288px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -45px -13px 288px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -45px -13px 288px 0px rgba(0,0,0,0.75);
+}
+
 
 .bottom-icon {
   display: flex;
@@ -602,6 +623,7 @@ header a {
 .card-icons .left-icons h1,p,b{
   font-size: 15px;
 }
+
 
 
 }
