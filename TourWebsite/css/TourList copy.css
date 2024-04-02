@@ -1,34 +1,125 @@
-@import url(https://db.onlinewebfonts.com/c/115792e2e8292773cdb8dd0ab76459f2?family=Font+Awesome+6+Free+Solid);
-@import url(https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Montserrat&family=Open+Sans:wght@500&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap);
+/* Travel-icons Section */
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  background-size: cover;
-  scroll-behavior: smooth;
+.Tour-icons {
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 50px 0px 0px 0px;
+  border-radius: 50%;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
-body {
+.Tour-icons .icon-Text {
   font-family: var(--lexend-deca);
-  font-size: 1.4rem;
-  line-height: 1.6;
-  font-weight: 300;
+  font-size: 14px;
 }
 
-img {
-  object-fit: cover;
+.Tour-icons .Tour-icon .trip-icon {
+  margin: 20px 0px 0px 0px;
+  background-color: rgba(180, 250, 17, 0.4);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  font-size: 55px;
+  text-align: center;
+  padding: 10%;
+  color: #000000;
 }
 
-:root {
-  --lexend-deca: "Lexend Deca", sans-serif;
-  --source-serif: "Source Serif 4", serif;
-  font-weight: 500;
-  font-style: normal;
+.card-section .icon-Text .Tour-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #d4d4d4;
+  width: 200px;
+  height: 200px;
 }
+
+.tourlist-cards .Tour-icons .icon-Text .BGgreen {
+  background-color: #d8d8d8;
+  width: 200px;
+  height: 200px;
+  color: #fff;
+}
+
+
+.Tour-icons .icon-Text .Tour-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.trip-icon{
+  margin-top: 10px;
+}
+
+.card-section .icon-Text .Tour-icon:hover {
+  background-color: yellowgreen;
+}
+
+.Tour-icons .Tour-icon .trip-icon:hover {
+  background-color: transparent;
+}
+
+/* Media Query for tour icons section */
+
+@media all and (max-width: 1097px) {
+  .Tour-icons .icon-Text p {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .Tour-icons .Tour-icon .trip-icon {
+    width: 80px;
+    height: 80px;
+    font-size: 45px;
+    padding: 10%;
+  }
+
+  .card-section .icon-Text .Tour-icon {
+    width: 150px;
+    height: 150px;
+  }
+
+  .tourlist-cards .Tour-icons .icon-Text .BGgreen {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media all and (max-width: 1097px) {
+  .Tour-icons .icon-Text {
+    font-size: 10px;
+  }
+
+  .Tour-icons .Tour-icon .trip-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    padding: 12%;
+  }
+
+  .card-section .icon-Text .Tour-icon {
+    width: 100px;
+    height: 100px;
+  }
+
+  .card-section .icon-Text .BGgreen {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/* card section */
 
 .tourlist-cards {
+  width: 100vw;
+  height: auto;
   padding: 10rem 0;
   background-color: #e9e9e9;
   text-align: center
@@ -44,8 +135,8 @@ img {
   position: relative;
   box-shadow: 0 10px 10px rgba(0,0,0,0.3);
   display: inline-grid;
-  grid-template-columns: 35rem 70rem;
-  grid-template-rows: 30rem
+  grid-template-columns: 15rem 40rem;
+  grid-template-rows: 30rem;
 }
 
 .tourlist-cards__img {
@@ -187,18 +278,6 @@ img {
   flex-wrap: wrap
 }
 
-.tourlist-features {
-  max-width: 130rem;
-  margin: 0 auto;
-  padding: 10rem 6vw;
-  max-height: 50rem;
-  display: flex;
-  gap: 1vw
-}
-
-.tourlist-features>* {
-  flex: 1
-}
 
 @media only screen and (max-width: 1200px) {
   .tourlist-cards__card {
