@@ -742,6 +742,18 @@ header a {
   width:90vw;
    
 }
+
+
+@media all and (max-width: 600px) {
+  .card-icons{
+    flex-direction: column;
+  }
+
+  .card-icons .card-right{
+    margin-top: 50px;
+  }
+
+}
  
 .gallery img{
    width: 100%;
