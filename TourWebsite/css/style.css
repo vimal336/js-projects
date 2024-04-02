@@ -220,6 +220,23 @@ header a {
   }
 }
 
+@media (max-width: 500px){
+.banner .content .head1, .banner .content .head2 {
+    font-size: 21px;
+    line-height: 24px;
+}
+}
+
+@media (max-width: 360px){
+  .banner .content .head1, .banner .content .head2 {
+      font-size: 15px;
+      line-height: 24px;
+  }
+  }
+  
+
+
+
 /* Media Query for Banner content Ends*/
 
 .nav {
