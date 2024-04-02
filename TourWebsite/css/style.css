@@ -1216,14 +1216,31 @@ header a {
 
 /* Media Query for Ecotour section */
 
-@media all and (max-width: 680px) {
-  .brief-image {
-    height: 120vh;
-  }
 
-  .brief .content {
-    text-align: center;
+@media all and (max-width: 800px) {
+  .brief-image {
+    margin-top: 100px;
   }
+}
+
+
+@media all and (max-width: 700px) {
+  .brief .content {
+    padding: 20px;
+    top: 10%;
+    color: white;
+  }
+  .brief-image{
+   
+    margin-bottom: 100px;
+  }
+}
+
+
+
+
+@media all and (max-width: 680px) {
+
 
   .brief .content h1 {
     font-size: 25px;
@@ -1246,7 +1263,7 @@ header a {
   }
 
   .brief .Ecotour .Ecotour-icons {
-    font-size: 40px;
+    font-size: 20px;
   }
 
   .brief .content .Ecotour {
@@ -1257,8 +1274,14 @@ header a {
     position: relative;
     z-index: +1;
     padding: 20px;
-    top: 20%;
+    top: 36%;
     color: white;
+    margin: 10px 10px 10px 10px;
+  }
+
+  .brief-image{
+    height: 120vh;
+    margin-bottom: 100px;
   }
 }
 
@@ -1372,7 +1395,21 @@ header a {
   }
 }
 
-@media all and (max-width: 600px) {
+
+@media all and (max-width: 800px) {
+  .opinion{
+    margin-top: 400px;
+  }
+}
+
+
+@media all and (max-width: 700px) {
+  .opinion{
+    margin-top: 300px;
+  }
+}
+
+@media all and (max-width: 700px) {
   .opinion{
     margin-top: 200px;
   }
