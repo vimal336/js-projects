@@ -436,7 +436,7 @@ header a {
     height: 100px;
   }
 
-  .card-section .icon-Text .BGgreen {
+  .card-section .icon-Text {
     width: 100px;
     height: 100px;
   }
@@ -484,8 +484,8 @@ header a {
   font-style: normal;
   font-size: 14px;
   line-height: 22px;
-  font-weight: 600;
-  margin: 50px 50px;
+  font-weight: 300;
+  margin: 20px 50px;
   text-align: left;
 }
 
@@ -524,9 +524,9 @@ header a {
 
 
 .bottom-left-icons .spaicon {
-  font-size: 15px;
+  font-size: 12px;
   color: #252721;
-  margin-left: 70px;
+  margin-left: 44px;
 }
 
 .bottom-right-icons{
@@ -539,15 +539,27 @@ header a {
 }
 
 .bottom-right-icons i{
- margin-right: 1rem;
+ margin-right: 0.2rem;
 }
 
 
 .bottom-left-icons span {
-  font-size: 15px;
+  font-size: 12px;
   color: #4c6611;
-  margin-right: 20px;
+  margin-right: 0px;
 }
+
+.bottom-icon .booking-button .booking{
+  display: none;
+}
+
+.cards:hover .bottom-icon .booking-button .booking{
+  display: block;
+}
+
+.cards:hover .bottom-right-icons{
+  display: none;
+} 
 
 .card-right .extra-paragraph {
   font-family: var(--lexend-deca);
@@ -556,10 +568,15 @@ header a {
   font-size: 14px;
   line-height: 22px;
   font-weight: 300;
-  margin: 50px 50px;
+  margin: 20px 50px;
   transition: opacity 0.5s;
   text-align: left;
 }
+
+/* .card-right .para-line{
+  border-left: 1px solid #c5bfbf;
+  height: 3rem;
+} */
 
 .cards:hover .extra-paragraph {
   display: block;
@@ -574,10 +591,9 @@ header a {
 
 .tourlist-cards__info-box {
   font-size: 14px;
-  grid-area: 2/1/3/2;
   display: none;
   padding: 3rem;
-  background-color: #eeeeee
+  background-color: #eeeeee;
 }
 
 .tourlist-cards__info-box--inner {
@@ -586,7 +602,7 @@ header a {
 }
 
 .tourlist-cards__info-item {
-  padding: 1.5rem 0
+  padding: 0.5rem 0
 }
 
 .tourlist-cards__info-item:not(:last-child) {
@@ -629,6 +645,7 @@ header a {
   font-weight: 900;
   transition: 0.5s;
 }
+
 
 @media all and (max-width: 1000px) {
    .cards{
