@@ -459,8 +459,12 @@ header a {
 
 .card-left img {
   width: 350px;
-  height: 400px;
+  height: 70vh;
   background-position: center;
+}
+
+.card-right{
+  min-height: auto;
 }
 
 .card-right h1 {
@@ -688,6 +692,10 @@ header a {
   font-size: 15px;
 }
 
+.bottom-icon{
+  flex-direction: column;
+}
+
 }
 
 @media all and (max-width: 800px) {
@@ -698,7 +706,7 @@ header a {
   
 .card-left img {
   margin-top: 0;
- width: 75vw;
+ width: 85vw;
  height: 400px;
  background-position: center;
 }
@@ -711,6 +719,17 @@ header a {
 .card-icons .left-icons h1,p,b{
   font-size: 15px;
 }
+}
+
+@media all and (max-width: 700px) {
+
+.card-left img {
+  margin-top: 0;
+ width: 78vw;
+ height: 400px;
+ background-position: center;
+}
+
 }
 
 .gallery {
