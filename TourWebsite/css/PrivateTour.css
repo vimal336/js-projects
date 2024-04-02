@@ -534,11 +534,18 @@ header a {
       }
     }
 
-    @media (max-width: 420px){
+    @media (max-width: 430px){
     .brief .content {
-        height: 40vh;
+        height: 60vh;
         top: 30%;
     }
+  }
+
+  @media (max-width: 375px){
+.brief .content {
+    height: 78vh;
+    top: 30%;
+}
   }
   
 
