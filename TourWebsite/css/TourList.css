@@ -451,7 +451,7 @@ header a {
 .cards {
   background-color: rgb(255, 255, 255);
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   margin: 50px 50px 100px 50px;
 }
@@ -540,7 +540,7 @@ header a {
   text-align: center;
 }
 
-.card-right:hover .extra-paragraph {
+.cards:hover .extra-paragraph {
   display: block;
 }
 
@@ -549,6 +549,35 @@ header a {
   -webkit-box-shadow: -45px -13px 288px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: -45px -13px 288px 0px rgba(0,0,0,0.75);
 }
+
+
+.tourlist-cards__info-box {
+  grid-area: 2/1/3/2;
+  display: none;
+  padding: 3rem;
+  background-color: #eeeeee
+}
+
+.tourlist-cards__info-box--inner {
+  margin-top: 1.2rem;
+  list-style: none
+}
+
+.tourlist-cards__info-item {
+  padding: 1.5rem 0
+}
+
+.tourlist-cards__info-item:not(:last-child) {
+  border-bottom: 2px solid darkgrey
+}
+
+.cards:hover .tourlist-cards__info-box {
+  display: block;
+}
+
+
+
+
 
 
 .bottom-icon {

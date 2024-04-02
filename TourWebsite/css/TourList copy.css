@@ -1,0 +1,308 @@
+@import url(https://db.onlinewebfonts.com/c/115792e2e8292773cdb8dd0ab76459f2?family=Font+Awesome+6+Free+Solid);
+@import url(https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Montserrat&family=Open+Sans:wght@500&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap);
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-size: cover;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--lexend-deca);
+  font-size: 1.4rem;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+img {
+  object-fit: cover;
+}
+
+:root {
+  --lexend-deca: "Lexend Deca", sans-serif;
+  --source-serif: "Source Serif 4", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.tourlist-cards {
+  padding: 10rem 0;
+  background-color: #e9e9e9;
+  text-align: center
+}
+
+.tourlist-cards__card-box {
+  margin-bottom: 6rem
+}
+
+.tourlist-cards__card {
+  margin-bottom: 2.5rem;
+  text-align: initial;
+  position: relative;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+  display: inline-grid;
+  grid-template-columns: 35rem 70rem;
+  grid-template-rows: 30rem
+}
+
+.tourlist-cards__img {
+  grid-area: 1/1/3/2;
+  width: 100%;
+  height: 100%;
+  max-height: 42rem
+}
+
+.tourlist-cards__info-box {
+  grid-area: 2/1/3/2;
+  display: none;
+  padding: 3rem;
+  background-color: #eeeeee
+}
+
+.tourlist-cards__info-box--inner {
+  margin-top: 1.2rem;
+  list-style: none
+}
+
+.tourlist-cards__info-item {
+  padding: 1.5rem 0
+}
+
+.tourlist-cards__info-item:not(:last-child) {
+  border-bottom: 2px solid darkgrey
+}
+
+.tourlist-cards__text-box {
+  grid-area: 1/2/3/3;
+  padding: 3rem;
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "t-info p-info" "textt textt" "r-box cta";
+  row-gap: 3rem
+}
+
+.tourlist-cards__title {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content
+}
+
+.tourlist-cards__trip-info {
+  grid-area: t-info
+}
+
+.tourlist-cards__trip-info>* {
+  margin-bottom: 0.5rem
+}
+
+.tourlist-cards__price-info {
+  grid-area: p-info;
+  text-align: right
+}
+
+.tourlist-cards__price-info>* {
+  margin-bottom: 0.5rem
+}
+
+.tourlist-cards__text {
+  grid-area: textt;
+  padding-left: 2rem;
+  border-left: 2px solid #d1d1d1
+}
+
+.tourlist-cards__text--extra {
+  display: none
+}
+
+.tourlist-cards__text::first-line {
+  font-weight: 500
+}
+
+.tourlist-cards__review-box {
+  grid-area: r-box
+}
+
+.tourlist-cards__cta {
+  grid-area: cta;
+  text-align: right
+}
+
+.tourlist-cards__cta-btn {
+  display: none
+}
+
+.tourlist-cards__card:hover {
+  z-index: 20
+}
+
+.tourlist-cards__card:hover+.tourlist-cards__overlay {
+  display: initial
+}
+
+.tourlist-cards__card:hover .tourlist-cards__img {
+  grid-area: 1/1/2/2
+}
+
+.tourlist-cards__card:hover .tourlist-cards__info-box {
+  display: initial
+}
+
+.tourlist-cards__card:hover .tourlist-cards__text--extra {
+  display: initial
+}
+
+.tourlist-cards__card:hover .tourlist-cards__icon-box {
+  display: none
+}
+
+.tourlist-cards__card:hover .tourlist-cards__cta-btn {
+  display: initial
+}
+
+.tourlist-trip {
+  width: 20rem;
+  height: 100%;
+  padding: 1.5rem;
+  background-color: #d4d4d4
+}
+
+.tourlist-trip--active {
+  color: white;
+  background-color: #417703 !important
+}
+
+.tourlist-trip:hover {
+  background-color: #9fcd32 !important
+}
+
+.tourlist-trips {
+  margin: 0 auto 6rem auto;
+  width: 105rem;
+  gap: 3vw;
+  justify-content: space-between;
+  flex-wrap: wrap
+}
+
+.tourlist-features {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 10rem 6vw;
+  max-height: 50rem;
+  display: flex;
+  gap: 1vw
+}
+
+.tourlist-features>* {
+  flex: 1
+}
+
+@media only screen and (max-width: 1200px) {
+  .tourlist-cards__card {
+      grid-template-columns:30rem 60rem
+  }
+
+  .tourlist-trips {
+      width: 90rem
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .tourlist-cards__card {
+      grid-template-columns:90vw;
+      grid-template-rows: 20rem
+  }
+
+  .tourlist-cards__img {
+      grid-area: 1/1/2/2
+  }
+
+  .tourlist-cards__info-box {
+      grid-area: 2/1/3/2
+  }
+
+  .tourlist-cards__text-box {
+      grid-area: 3/1/4/2
+  }
+
+  .tourlist-trips {
+      width: 85vw
+  }
+
+  .tourlist-trip {
+      width: 12rem;
+      background-color: transparent
+  }
+
+  .tourlist-features {
+      padding-left: 2vw;
+      padding-right: 3vw
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .tourlist-brief {
+      padding-top:8rem;
+      padding-bottom: 8rem
+  }
+
+  .tourlist-cards__text-box {
+      grid-template-columns: auto
+  }
+
+  .tourlist-cards__text-box {
+      grid-template-areas: "t-info" "p-info" "textt" "r-box" "cta";
+      text-align: center
+  }
+
+  .tourlist-cards__price-info,.tourlist-cards__cta {
+      text-align: center
+  }
+
+  .tourlist-cards__title {
+      margin-left: auto;
+      margin-right: auto
+  }
+
+  .tourlist-features {
+      max-height: initial;
+      flex-direction: column
+  }
+
+  .tourlist-features>* {
+      flex-basis: 25rem
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .tourlist-cards__title {
+      width:initial
+  }
+
+  .tourlist-trips {
+      justify-content: center
+  }
+}
+
+.bold {
+  font-weight: 600 !important
+}
+
+.color-prim {
+  color: #417703 !important
+}
+
+.hidden {
+  display: none !important
+}
+
+.mgn-top-2 {
+  margin-top: 6rem !important
+}
+
+.lazy-load {
+  filter: blur(8px) brightness(50%)
+}
