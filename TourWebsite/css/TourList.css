@@ -534,7 +534,7 @@ header a {
   color: #252721;
   margin-left: 70px;
   color: #417703;
-  margin: 20px;
+  margin-right: 3rem;
   padding: 10px;
 }
 
@@ -690,8 +690,6 @@ header a {
   font-size: 15px;
 }
 }
-
-
 
 .gallery {
   display: grid; 
@@ -990,8 +988,6 @@ header a {
    grid-column-end: 2;
    
 }
-
-
 
   .gallery img {
     width: 100%;
