@@ -1248,7 +1248,7 @@ header a {
     color: white;
   }
   .brief-image{
-   
+     height: 100vh;
     margin-bottom: 100px;
   }
 }
@@ -1297,14 +1297,13 @@ header a {
   }
 
   .brief-image{
-    height: 120vh;
     margin-bottom: 100px;
   }
 }
 
 @media all and (max-width: 500px) {
   .brief-image {
-    height: 120vh;
+    height: 90vh;
   }
 }
 
