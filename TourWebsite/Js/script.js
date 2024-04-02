@@ -36,7 +36,6 @@ window.addEventListener("scroll", () => {
   }
 });
 
-
 // Private-tour popup
 
 window.onload = function () {

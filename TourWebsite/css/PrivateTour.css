@@ -1289,3 +1289,8 @@ header a {
   color: #417703;
   font-weight: 600;
 }
+
+
+.lazy-load {
+  filter: blur(8px) brightness(50%)
+}
