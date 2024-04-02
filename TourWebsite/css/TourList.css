@@ -378,11 +378,16 @@ header a {
   height: 200px;
 }
 
+.card-section .icon-Text .BGgreen {
+  background-color: rgb(13, 63, 1);
+  color: white;
+}
+
 .icon-Text  {
   background-color: #417703;
   width: 200px;
   height: 200px;
-  color: #fff;
+  color: #000000;
 }
 
 .card-section .icon-Text .Tour-icon:hover {
@@ -557,8 +562,13 @@ header a {
   display: none;
 }
 
+.cards:hover .bottom-icon .booking-button{
+  margin: 0 30px;
+}
+
 .cards:hover .bottom-icon .booking-button .booking{
   display: block;
+  margin: 0;
 }
 
 .cards:hover .bottom-right-icons{
@@ -582,9 +592,9 @@ header a {
   height: 3rem;
 } */
 
-.cards:hover .extra-paragraph {
+/* .cards:hover .extra-paragraph {
   display: block;
-}
+} */
 
 .cards:hover{
   box-shadow: -45px -13px 288px 0px rgba(0,0,0,0.75);
@@ -613,9 +623,9 @@ header a {
   border-bottom: 2px solid darkgrey
 }
 
-.cards:hover .tourlist-cards__info-box {
+/* .cards:hover .tourlist-cards__info-box {
   display: block;
-}
+} */
 
 .bottom-right-icons i .fa-regular .fa-circle-question .color-prim{
   font-size: 14px;
@@ -698,11 +708,22 @@ header a {
 
 }
 
+@media all and (max-width: 900px) {
+  .card-right .para-list {
+    margin: 20px 20px;
+    text-align: center;
+}
+
+.card-right .extra-paragraph {
+  margin: 20px 20px;
+}
+
+}
+
 @media all and (max-width: 800px) {
   .cards{
    flex-direction: column;
   }
-
   
 .card-left img {
   margin-top: 0;
@@ -717,7 +738,7 @@ header a {
 }
 
 .card-icons .left-icons h1,p,b{
-  font-size: 15px;
+  font-size: 11px;
 }
 }
 
