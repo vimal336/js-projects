@@ -299,7 +299,7 @@ header a {
 .Tour-info b {
   font-family: var(--lexend-deca);
   font-style: normal;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 22px;
   font-weight: 600;
   width: 70%;
@@ -491,7 +491,7 @@ header a {
 .card-right .para-list {
   font-family: var(--lexend-deca);
   font-style: normal;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 22px;
   font-weight: 300;
   margin: 40px 50px;
