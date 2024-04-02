@@ -530,13 +530,18 @@ header a {
 }
 
 .bottom-right-icons{
-  font-size: 15px;
+  font-size: 12px;
   color: #252721;
   margin-left: 70px;
   color: #417703;
   margin-right: 3rem;
   padding: 10px;
 }
+
+.bottom-right-icons i{
+ margin-right: 1rem;
+}
+
 
 .bottom-left-icons span {
   font-size: 15px;
