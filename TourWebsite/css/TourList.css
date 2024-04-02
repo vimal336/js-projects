@@ -698,9 +698,12 @@ header a {
   font-size: 15px;
 }
 
-.card-icons .left-icons h1,p,b{
+.card-icons .left-icons p,b{
   font-size: 15px;
 }
+
+
+
 
 .bottom-icon{
   flex-direction: column;
@@ -737,7 +740,7 @@ header a {
   font-size: 15px;
 }
 
-.card-icons .left-icons h1,p,b{
+.card-icons .left-icons p,b{
   font-size: 11px;
 }
 }
