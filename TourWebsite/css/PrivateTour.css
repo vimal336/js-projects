@@ -439,7 +439,7 @@ header a {
 .brief .content {
   text-align: center;
   backdrop-filter: blur(50px);
-  height: 45vh;
+  height: auto;
   margin: 0px 80px 0px 80px;
   position: relative;
   z-index: +1;
@@ -495,7 +495,7 @@ header a {
 
 @media screen and (min-width: 800px) and (min-height: 1400px) {
   .brief .content {
-    height: 20vh;
+    height: auto;
 }
 }
 
