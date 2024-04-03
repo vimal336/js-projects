@@ -82,7 +82,7 @@ img {
 
 @media only screen and (max-width: 350px) {
   .header__logo {
-    height: 4rem;
+    height: 2rem;
   }
 }
 
@@ -320,6 +320,7 @@ header a {
 .trip .trip_icon p {
   font-family: var(--lexend-deca);
   font-size: 14px;
+  margin-top: 10px;
   font-weight: 300;
   line-height: 22px;
   font-style: normal;
@@ -452,6 +453,7 @@ header a {
   border: none;
   color: #fff;
   right: 0;
+  bottom: 0;
   margin-top: -3px;
 }
 
@@ -558,7 +560,7 @@ header a {
   text-align: center;
   font-family: var(--source-serif);
   font-weight: 500;
-  font-size: 30px;
+  font-size: 35px;
   line-height: 48px;
   margin: 100px 50px 100px 50px;
 

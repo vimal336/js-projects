@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Montserrat&family=Open+Sans:wght@500&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap);
 
-* {
+*{
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -82,7 +82,7 @@ img {
 
 @media only screen and (max-width: 350px) {
   .header__logo {
-    height: 4rem;
+    height: 2rem;
   }
 }
 
@@ -189,7 +189,7 @@ header a {
 }
 .banner img {
   width: 100%;
-  height: 70vh;
+  height: auto;
   filter: brightness(75%);
 }
 
@@ -575,9 +575,8 @@ header a {
   pointer-events: auto;
 }
 
-
 .popup-top{
-  padding: 0 10px;
+  padding: 20px 10px;
   margin: 0 20px;
   background-color: #9fcd32;
   width: 80vw;
@@ -615,6 +614,7 @@ header a {
 .popup .details-1 input{
   width: 300px;
   height: 30px;
+  text-align: center;
 }
 
 .popup .details-2 input, 
@@ -623,12 +623,13 @@ header a {
 {
   width: 150px;
   height: 30px;
+  text-align: center;
 }
 
 
 .popup-close{
   position: absolute;
-  right: 18px;
+  right: 20px;
   background-color: rgb(167, 15, 15);
   color: #fff;
   padding: 3px 5px;
@@ -668,6 +669,7 @@ header a {
 .popup-bottom .details-10 input{
  border: none;
  height: 30px;
+ margin-right: 10px;
 }
 
 .popup-bottom .details-9 input{
@@ -687,7 +689,7 @@ header a {
   border: none;
   background-color: #9fcd32;
   margin: 20px;
-  padding: 20px;
+  padding: 15px;
   color: #fff;
 }
 
