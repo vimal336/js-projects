@@ -536,7 +536,7 @@ url("../images/DestinationPage/dest-banner.jpg");
 
 @media all and (max-width: 600px){
   .brief-image {
-    height: 70vh;
+    height: auto;
   }
   
 }
