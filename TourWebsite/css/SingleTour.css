@@ -610,15 +610,23 @@ header a {
 }
 }
 
+@media all and (max-width: 900px) {
+  .route{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+}
 
-@media all and (max-width: 600px) {
-  .map iframe{
-    display: grid;
-    place-items: center;
-    height: 70vw;
-    width: 80vw;
+
+
+@media all and (max-width: 800px) {
+ 
+  .map{
+    margin-right: -50%;
+    width:100vw;
   }
-  
+
 }
 
 @media all and (max-width: 600px) {

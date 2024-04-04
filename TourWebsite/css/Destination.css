@@ -735,7 +735,6 @@ url("../images/DestinationPage/dest-banner.jpg");
 @media all and (max-width: 616px){
   .Video-section{
     top: -30px;
-    display: none;
   }
 
   #video-file {
