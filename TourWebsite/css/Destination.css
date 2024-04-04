@@ -739,7 +739,7 @@ url("../images/DestinationPage/dest-banner.jpg");
     top: 170px;
     padding: 20px 20px 30px 20px;
     width: 100vw;
-    height: 37vh;
+    height: auto;
     z-index: +10;
     left: 0;
     margin-bottom: 20px;
