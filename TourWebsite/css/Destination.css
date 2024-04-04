@@ -445,7 +445,6 @@ url("../images/DestinationPage/dest-banner.jpg");
 
 @media all and (max-width: 608px) {
 
-
   .geography {
     display: flex;
      flex-direction: column;
@@ -497,12 +496,23 @@ url("../images/DestinationPage/dest-banner.jpg");
   }
 }
 
+@media all and (max-width: 400px){
+  .geography-right p {
+    font-size: 12px;
+    line-height: 15px;
+    padding: 10px 0px;
+    width: 18rem;
+    margin: 0 auto;
+}
+}
+
+
 
 /* brief section */
 
 .brief {
   width: 100%;
-  height: 720px;
+  height: auto;
 }
 
 .brief-image {
@@ -606,13 +616,12 @@ url("../images/DestinationPage/dest-banner.jpg");
 
 .Video-section .Text-Box {
   position: absolute;
-  background-color: #f3f3f3;
-  top: 90px;
+  background-color: #e4e2e2;
+  top: 25%;
   padding: 20px 20px 30px 20px;
   left: 14%;
-  max-width: 500px;
-  width: auto;
-  height: 48vh;
+  width: 50vw;
+  height: auto;
   z-index: +10;
 }
 
@@ -677,7 +686,6 @@ url("../images/DestinationPage/dest-banner.jpg");
   }
 
   .Text-Box {
-    background-color: #ffffff;
     top: 90px;
     padding: 20px 20px 30px 20px;
     left: 90px;
@@ -714,20 +722,20 @@ url("../images/DestinationPage/dest-banner.jpg");
 
 @media all and (max-width: 700px){
   .Video-section .Text-Box {
-    top: 10%;
-    padding: 20px 20px 30px 20px;
-    width: 100vw;
+    width: 100%;
     height: auto;
-    z-index: +10;
-    left: 10%;
- 
+    padding: 2rem 2rem 6rem 2rem;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+    position: relative;
   }
 }
 
 @media all and (max-width: 616px){
   .Video-section{
     top: -30px;
-    background: url(../images/HomePage/homfo.jpg);
+    display: none;
   }
 
   #video-file {
@@ -735,7 +743,6 @@ url("../images/DestinationPage/dest-banner.jpg");
   }
 
   .Video-section .Text-Box {
-    background-color: #ffffff;
     top: 170px;
     padding: 20px 20px 30px 20px;
     width: 100vw;
@@ -764,6 +771,13 @@ url("../images/DestinationPage/dest-banner.jpg");
     line-height: 19px;
     margin-bottom: 0;
   }
+
+  .Text-Box Button {
+    margin-top: 34px;
+    padding: 3px 11px 10px 11px;
+  }
+
+
   
 } 
 
@@ -771,6 +785,7 @@ url("../images/DestinationPage/dest-banner.jpg");
 @media all and (max-width: 500px){
 .Text-Box Button {
   margin-top: 34px;
+  padding: 4px 6px 10px 12px;
 }
 }
 
