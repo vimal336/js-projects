@@ -623,7 +623,7 @@ header a {
 @media all and (max-width: 800px) {
  
   .map{
-    margin-right: -50%;
+    margin-left: -60px;
     width:100vw;
   }
 
