@@ -598,11 +598,11 @@ header a {
   display: block;
 } */
 
-/* .cards:hover{
+.cards:hover{
   box-shadow: -45px -13px 288px 0px rgba(0,0,0,0.75);
   -webkit-box-shadow: -45px -13px 288px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: -45px -13px 288px 0px rgba(0,0,0,0.75);
-} */
+}
 
 
 .tourlist-cards__info-box {
