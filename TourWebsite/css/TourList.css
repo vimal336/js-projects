@@ -535,7 +535,6 @@ header a {
   justify-content: space-around;
 }
 
-
 .bottom-left-icons .spaicon {
   font-size: 12px;
   color: #252721;
@@ -569,14 +568,14 @@ header a {
   margin: 0 30px;
 }
 
-.cards:hover .bottom-icon .booking-button .booking{
+/* .cards:hover .bottom-icon .booking-button .booking{
   display: block;
   margin: 0;
-}
+} */
 
-.cards:hover .bottom-right-icons{
+/* .cards:hover .bottom-right-icons{
   display: none;
-} 
+}  */
 
 .card-right .extra-paragraph {
   font-family: var(--lexend-deca);
@@ -595,9 +594,9 @@ header a {
   height: 3rem;
 } */
 
-.cards:hover .extra-paragraph {
+/* .cards:hover .extra-paragraph {
   display: block;
-}
+} */
 
 .cards:hover{
   box-shadow: -45px -13px 288px 0px rgba(0,0,0,0.75);
@@ -626,9 +625,9 @@ header a {
   border-bottom: 2px solid darkgrey
 }
 
-.cards:hover .tourlist-cards__info-box {
+/* .cards:hover .tourlist-cards__info-box {
   display: block;
-}
+} */
 
 .bottom-right-icons i .fa-regular .fa-circle-question .color-prim{
   font-size: 14px;
@@ -637,7 +636,7 @@ header a {
 .bottom-icon {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .booking-button {
