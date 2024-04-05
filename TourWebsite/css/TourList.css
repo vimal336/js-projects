@@ -663,6 +663,7 @@ header a {
 
 @media all and (max-width: 1000px) {
    .cards{
+    align-items: center;
     flex-direction: column;
    }
 
