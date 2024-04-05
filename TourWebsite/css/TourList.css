@@ -589,10 +589,24 @@ header a {
   text-align: left;
 }
 
-/* .card-right .para-line{
-  border-left: 1px solid #c5bfbf;
-  height: 3rem;
-} */
+.card-right .para-line{
+  position: relative;
+}
+
+.card-right .para-line::before{
+  content: "";
+  width: 2px;
+  height: 5rem;
+  position: absolute;
+  left: 1.5rem;
+  top: 0.3rem;
+  background-color: #c4c4c4;
+  opacity: 0.5;
+}
+
+.cards:hover .para-line::before{
+  height: 21.8rem;
+}
 
 .cards:hover .extra-paragraph {
   display: block;

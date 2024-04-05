@@ -413,7 +413,7 @@ header a {
   padding: 20px 20px 30px 20px;
   left: 90px;
   max-width: 500px;
-  height: 52vh;
+  height: auto;
   z-index: +10;
 }
 
@@ -540,7 +540,8 @@ header a {
     top: 118px;
     padding: 20px 20px 30px 20px;
     width: 100vw;
-    height: 37vh;
+    /* height: 37vh; */
+    height: auto;
     z-index: +10;
     left: 0;
     margin-bottom: 20px;
@@ -1201,6 +1202,7 @@ header a {
 
 .brief .content h1 {
   font-family: var(--source-serif);
+  margin-bottom: 30px;
   text-align: center;
   font-size: 30px;
   font-weight: 500;
