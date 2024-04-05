@@ -642,6 +642,22 @@ header a {
    margin-right: 10px;
   
   }
+
+  #nav-tab {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: stretch;
+    flex-wrap: wrap;
+}
+
+.tab .tab-head {
+  text-align: center;
+  line-height: 25px;
+  font-size: 20px;
+}
+
 }
 
 /* Slider Section */
