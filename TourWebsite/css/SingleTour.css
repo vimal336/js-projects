@@ -637,6 +637,12 @@ header a {
 
 }
 
+@media all and (max-width: 400px) {
+  #nav-tab li{
+   margin-right: 10px;
+  
+  }
+}
 
 /* Slider Section */
 .slider{
