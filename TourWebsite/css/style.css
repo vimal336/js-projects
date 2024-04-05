@@ -1273,9 +1273,8 @@ header a {
 
 @media all and (max-width: 680px) {
 
-
   .brief .content h1 {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 500;
     line-height: 40px;
     text-align: center;
@@ -1318,7 +1317,7 @@ header a {
 
 @media all and (max-width: 500px) {
   .brief-image {
-    height: 90vh;
+    height: 120vh;
   }
 }
 

@@ -690,6 +690,11 @@ header a {
     text-align: center;
 }
 
+.card-right .para-line::before{
+  height: 5rem;
+  left: 0.5rem;
+}
+
    .card-right .extra-paragraph {
     font-family: var(--lexend-deca);
     display: none;
