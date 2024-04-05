@@ -461,6 +461,10 @@ header a {
   margin: 50px 50px 100px 50px;
 }
 
+.card-left{
+  background-color: #eeeeee;
+}
+
 
 .card-left img {
   width: 350px;
