@@ -541,10 +541,12 @@ header a {
 
   @media (max-width: 375px){
 .brief .content {
-    height: 78vh;
+    height: 90vh;
     top: 30%;
 }
-  }
+}
+      
+    
   
 
 /* popup Section */
