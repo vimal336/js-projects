@@ -534,7 +534,7 @@ header a {
 
     @media (max-width: 430px){
     .brief .content {
-        height: 60vh;
+        height: 90vh;
         top: 30%;
     }
   }
