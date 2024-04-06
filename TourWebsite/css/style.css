@@ -533,11 +533,11 @@ header a {
   }
 
   #video-file {
-    top:-180px;
+    top:0;
   }
 
   .Text-Box {
-    background-color: #b5b5b5;
+    background-color: rgb(255, 255, 255);
     padding: 20px;
     width: 90%;
     text-align: center;
@@ -545,7 +545,7 @@ header a {
     left: 0;
     right: 0;
     margin: auto;
-    top: 0;
+    top: 13rem;
     transform: translateY(-50%);
   }
 
@@ -570,13 +570,15 @@ header a {
   
 }
 
-@media all and (max-width: 440px){
 
-  .Text-Box h3:nth-child(2) {
-  margin-top: 30px;
-  }
-  
-  }
+@media all and (max-width: 470px){
+.Text-Box h1 {
+    font-size: 19px;
+    line-height: 15px;
+    margin-bottom: 20px;
+}
+}
+
 
 /* Gallery section */
 
