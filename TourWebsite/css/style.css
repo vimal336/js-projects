@@ -479,13 +479,16 @@ header a {
 
   .Text-Box {
     background-color: #ffffff;
-    top: 90px;
-    padding: 20px 20px 30px 20px;
-    left: 90px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
     width: 80vw;
-    height: 52vh;
-    z-index: +10;
-    margin-top: -40px;
+    max-width: 90%;
+    max-height: 70%;
+    text-align: center;
+    z-index: 10;
   }
 
   #video-file {
@@ -499,31 +502,6 @@ header a {
     z-index: +9;
   }
 }
-
-@media all and (max-width: 900px){
-  .Text-Box {
-    top: 10%;
-    padding: 20px 20px 30px 20px;
-    width: 100vw;
-    height: 52vh;
-    z-index: +10;
-    left: 18%;
- 
-  }
-}
-
-@media all and (max-width: 700px){
-  .Text-Box {
-    top: 10%;
-    padding: 20px 20px 30px 20px;
-    width: 100vw;
-    height: 52vh;
-    z-index: +10;
-    left: 15%;
- 
-  }
-}
-
 
 @media all and (max-width: 616px){
   
@@ -569,6 +547,13 @@ header a {
   }
   
 }
+
+@media all and (max-width: 470px){
+  .Text-Box Button {
+      margin-bottom: -35px;
+  }
+  }
+  
 
 
 @media all and (max-width: 470px){
