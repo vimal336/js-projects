@@ -616,7 +616,36 @@ header a {
   justify-content: center;
   flex-direction: column;
 }
+
+.tab-route-box li {
+  list-style: none;
+  width: 80vw;
+  height: auto;
+  background-color: #EEEEEE;
+  margin: 30px 0;
 }
+
+.tab-route-box {
+  width: 80vw;
+}
+
+.tab-route-box p{
+  text-align: center;
+}
+
+.tab-route-marker::after{
+  content: "";
+  width: 2px;
+  height: 2.8rem;
+  position: absolute;
+  left: 0.4rem;
+  top: 1rem;
+  background-color: #9fcd32;
+}
+
+
+}
+
 
 
 

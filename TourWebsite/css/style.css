@@ -548,14 +548,12 @@ header a {
   
 }
 
-@media all and (max-width: 470px){
+@media all and (max-width: 500px){
   .Text-Box Button {
       margin-bottom: -35px;
   }
   }
   
-
-
 @media all and (max-width: 470px){
 .Text-Box h1 {
     font-size: 19px;
@@ -1256,7 +1254,7 @@ header a {
 @media all and (max-width: 700px) {
   .brief .content {
     padding: 20px;
-    top: 10%;
+    top:34%;
     color: white;
   }
   .brief-image{
