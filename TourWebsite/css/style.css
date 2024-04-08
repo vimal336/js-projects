@@ -1110,7 +1110,7 @@ header a {
     grid-template-rows: repeat(4, 300px);
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    height: 190vh;
+    height: 70rem;
     width: 90vw;
   }
 
