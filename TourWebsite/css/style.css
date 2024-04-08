@@ -495,7 +495,7 @@ header a {
     margin: 0 auto;
     position: absolute;
     top: 0%;
-    left: 7%;
+    left: 0%;
     transform: translateY(50%);
     height: 31rem;
     width: 100vw;
@@ -1266,9 +1266,10 @@ header a {
 
 @media all and (max-width: 700px) {
   .brief .content {
-    padding: 20px;
-    top:34%;
-    color: white;
+      padding: 20px;
+      top: 45%;
+      width: 100vw;
+      margin: 0;
   }
   .brief-image{
      height: 40rem;
