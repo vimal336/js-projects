@@ -550,25 +550,11 @@ header a {
 
 @media all and (max-width: 550px){
   #video-file {
-    top: -30rem;
+    top: 0px;
 }
 
 .Video-section{
-  height: 35rem;
-}
-
-.Text-Box Button {
-  position: absolute;
-  font-family: var(--lexend-deca);
-  background-color: #9fcd32;
-  font-weight: 700;
-  padding: 17px 10px 10px 4px;
-  border: none;
-  color: #fff;
-  right: 0;
-  bottom: 0;
-  margin-right: 66px;
-  margin-bottom: -8%;
+  height: 100vh;
 }
 
   }
@@ -1284,7 +1270,7 @@ header a {
     color: white;
   }
   .brief-image{
-     height: 100vh;
+     height: 40rem;
     margin-bottom: 100px;
   }
 }
@@ -1338,7 +1324,7 @@ header a {
 
 @media all and (max-width: 500px) {
   .brief-image {
-    height: 90vh;
+    height: 35rem;
   }
 }
 
@@ -1588,6 +1574,7 @@ header a {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+
   }
 
   .Date-section .booking h1 {
