@@ -549,10 +549,16 @@ header a {
 }
 
 @media all and (max-width: 550px){
-  .Text-Box Button {
-      margin-bottom: -35px;
+  #video-file {
+    top: -180px;
+}
+
+.Video-section{
+  height: 100vh;
+}
+
   }
-  }
+
 
 @media all and (max-width: 500px){
   .Text-Box Button {
