@@ -554,7 +554,21 @@ header a {
 }
 
 .Video-section{
-  height: 30rem;
+  height: 35rem;
+}
+
+.Text-Box Button {
+  position: absolute;
+  font-family: var(--lexend-deca);
+  background-color: #9fcd32;
+  font-weight: 700;
+  padding: 17px 10px 10px 4px;
+  border: none;
+  color: #fff;
+  right: 0;
+  bottom: 0;
+  margin-right: 66px;
+  margin-bottom: -8%;
 }
 
   }
