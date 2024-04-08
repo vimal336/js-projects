@@ -472,7 +472,7 @@ header a {
   .Video-section {
     position: relative;
     background: url(../images/HomePage/home-info.jpg);
-    height: 135vh;
+    height: 40rem;
     width: 100vw;
     background-size: cover;
   }
@@ -486,7 +486,7 @@ header a {
     padding: 20px;
     width: 80vw;
     max-width: 90%;
-    max-height: 70%;
+    /* max-height: 70%; */
     text-align: center;
     z-index: 10;
   }
