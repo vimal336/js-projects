@@ -1312,7 +1312,7 @@ header a {
 
 @media all and (max-width: 500px) {
   .brief-image {
-    height: 120vh;
+    height: 90vh;
   }
 }
 
