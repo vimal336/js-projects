@@ -1110,8 +1110,12 @@ header a {
   }
 
   .guide-gallery {
-    margin-left: 30%;
+    margin-left: 38%;
   }
+
+  .reviews {
+    width: 24rem;
+}
 
 }
 
