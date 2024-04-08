@@ -550,7 +550,7 @@ header a {
 
 @media all and (max-width: 550px){
   #video-file {
-    top: -180px;
+    top: 0px;
 }
 
 .Video-section{
