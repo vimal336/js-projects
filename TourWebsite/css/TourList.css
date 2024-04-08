@@ -589,7 +589,7 @@ header a {
   text-align: left;
 }
 
-.card-right .para-line{
+/* .card-right .para-line{
   position: relative;
 }
 
@@ -602,11 +602,11 @@ header a {
   top: 0.3rem;
   background-color: #c4c4c4;
   opacity: 0.5;
-}
+} */
 
-.cards:hover .para-line::before{
+/* .cards:hover .para-line::before{
   height: 21.8rem;
-}
+} */
 
 .cards:hover .extra-paragraph {
   display: block;
