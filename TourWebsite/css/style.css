@@ -401,7 +401,7 @@ header a {
 .Video-section {
   position: relative;
   background: url(../images/HomePage/home-info.jpg);
-  height: 80vh;
+  height: 50rem;
   width: 100vw;
   background-size: cover;
 }
