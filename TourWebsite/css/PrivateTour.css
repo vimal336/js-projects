@@ -500,7 +500,7 @@ header a {
   }
 
   .brief .content {
-        height: 70vh;
+        height: 30rem;
         top: 40%;
     }
   }
@@ -527,21 +527,21 @@ header a {
     }
   
     .brief .content {
-          height: 70vh;
+          height: 30rem;
           top: 40%;
       }
     }
 
     @media (max-width: 430px){
     .brief .content {
-        height: 90vh;
+        height: 30rem;
         top: 30%;
     }
   }
 
   @media (max-width: 375px){
 .brief .content {
-    height: 90vh;
+    height: 30rem;
     top: 30%;
 }
 }
@@ -1101,6 +1101,18 @@ header a {
   .guide-gallery .booking-btn{
     margin-right: -200%;
   }
+}
+
+
+@media all and (max-width: 400px) {
+  .guide {
+   width: 500px;
+  }
+
+  .guide-gallery {
+    margin-left: 30%;
+  }
+
 }
 
 /* Date-Section */
