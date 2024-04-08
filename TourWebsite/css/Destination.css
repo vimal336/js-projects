@@ -609,7 +609,7 @@ url("../images/DestinationPage/dest-banner.jpg");
 .Video-section {
   position: relative;
   background: url(../images/DestinationPage/dest-info.jpg);
-  height: 80vh;
+  height: 50rem;
   width: 100vw;
   background-size: cover;
 }
@@ -680,7 +680,7 @@ url("../images/DestinationPage/dest-banner.jpg");
   .Video-section {
     position: relative;
     background: url(../images/DestinationPage/dest-info.jpg);
-    height: 135vh;
+    height: 40rem;
     width: 100vw;
     background-size: cover;
   }
@@ -694,7 +694,7 @@ url("../images/DestinationPage/dest-banner.jpg");
     padding: 20px;
     width: 80vw;
     max-width: 90%;
-    max-height: 70%;
+    /* max-height: 70%; */
     text-align: center;
     z-index: 10;
   }
@@ -705,7 +705,7 @@ url("../images/DestinationPage/dest-banner.jpg");
     top: 0%;
     left: 0;
     transform: translateY(50%);
-    height: 100vh;
+    height: 30rem;
     width: 100vw;
     z-index: +9;
   }
@@ -719,7 +719,7 @@ url("../images/DestinationPage/dest-banner.jpg");
   }
 
   #video-file {
-    top:-3rem;
+    top:0;
   }
 
   .Text-Box {
@@ -731,7 +731,7 @@ url("../images/DestinationPage/dest-banner.jpg");
     left: 0;
     right: 0;
     margin: auto;
-    top: 6rem;
+    top: 13rem;
     transform: translateY(-50%);
   }
 
@@ -756,6 +756,18 @@ url("../images/DestinationPage/dest-banner.jpg");
   
 }
 
+@media all and (max-width: 550px){
+  #video-file {
+    top: 0px;
+}
+
+.Video-section{
+  height: 40rem;
+}
+
+  }
+
+
 @media all and (max-width: 500px){
   .Text-Box Button {
       margin-bottom: -35px;
@@ -769,8 +781,6 @@ url("../images/DestinationPage/dest-banner.jpg");
     margin-bottom: 20px;
 }
 }
-
-  
 
 /* Date-Section */
 
