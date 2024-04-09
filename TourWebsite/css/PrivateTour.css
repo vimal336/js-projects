@@ -971,6 +971,7 @@ header a {
 
 .tour-review-staffs .head-3{
   font-family: var(--source-serif);
+  font-weight: 500;
 }
 
 .tour-review-user-review {
