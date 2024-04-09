@@ -324,7 +324,7 @@ header a {
 
 .tab-page{
   display: none;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 .tab-page.page-opening{

@@ -468,7 +468,7 @@ header a {
 
 .card-left img {
   width: 350px;
-  height: 70vh;
+  height: 29rem;
   background-position: center;
 }
 
@@ -505,10 +505,10 @@ header a {
 
 .card-right .card-icons .right-icons .dollar {
   background-color: #9fcd32;
-  font-size: 20px;
-  height: 45px;
+  font-size: 25px;
+  height: 42px;
   color: #fff;
-  width: 40px;
+  width: 43px;
   margin: 3px;
 }
 
@@ -765,15 +765,22 @@ header a {
 }
 
 @media all and (max-width: 700px) {
-
-.card-left img {
-  margin-top: 0;
- width: 78vw;
- height: 400px;
- background-position: center;
+  .card-left img {
+      margin-top: 0;
+      width: 78vw;
+      height: 400px;
+      background-position: center;
+  }
 }
 
+@media (max-width: 450px){
+
+.card-left img{
+  width: 72vw;
 }
+}
+
+
 
 .gallery {
   display: grid; 
