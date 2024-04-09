@@ -527,6 +527,11 @@ header a {
   font-size: 12px;
 }
 
+.bottom-right-icons .icon-text {
+  margin-left: 5px; /* Adjust this value to increase/decrease space */
+}
+
+
 .card-icons {
   margin-bottom: 50px;
   display: flex;
@@ -558,6 +563,7 @@ header a {
   color: #4c6611;
   margin-right: 0px;
 }
+
 
 .bottom-icon .booking-button .booking{
   display: none;
