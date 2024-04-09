@@ -680,7 +680,7 @@ url("../images/DestinationPage/dest-banner.jpg");
   .Video-section {
     position: relative;
     background: url(../images/DestinationPage/dest-info.jpg);
-    height: 40rem;
+    height: 50rem;
     width: 100vw;
     background-size: cover;
   }
