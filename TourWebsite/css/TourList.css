@@ -504,12 +504,11 @@ header a {
 
 
 .card-right .card-icons .right-icons .dollar {
+  display: inline-block;
+  font-size: 1.8rem;
+  color: white;
+  padding: 0.1rem .5rem;
   background-color: #9fcd32;
-  font-size: 25px;
-  height: 42px;
-  color: #fff;
-  width: 43px;
-  margin: 3px;
 }
 
 .card-right .card-icons .right-icons p{
@@ -526,11 +525,6 @@ header a {
 .card-right .card-icons .right-icons b{
   font-size: 12px;
 }
-
-.bottom-right-icons .icon-text {
-  margin-left: 5px; /* Adjust this value to increase/decrease space */
-}
-
 
 .card-icons {
   margin-bottom: 50px;
