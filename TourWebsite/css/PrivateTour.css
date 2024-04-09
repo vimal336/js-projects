@@ -748,6 +748,7 @@ header a {
   gap: 1px;
   width: 90vw;
   margin: 0 auto;
+  margin-bottom: 5rem;
 }
 
 .gal-grid div img {
@@ -943,180 +944,127 @@ header a {
 
 /* Guides Section */
 
-.guide {
-
-  height: auto;
-  margin: 100px 0px 0px 0px;
+.tour-review {
   background-color: #eeeeee;
+  padding: 10rem 6vw;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  gap: 5vw;
+  justify-content: center
 }
 
-.guides {
-  margin-right: 300px;
+.tour-review-staffs {
+  flex: 0 0 40%
 }
 
-.reviews {
-  position: relative;
-  left: -250px;
-  display: flex;
+.tour-review-staff-box {
+  margin: 6rem 0;
+  display: grid;
+  gap: 2vw;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr))
+}
+
+.tour-review-staff {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%
+}
+
+.tour-review-user-review {
   flex: 0 0 40%;
   padding: 3rem;
-  flex-direction: column;
-  margin-bottom: 6rem;
-  width: 1000px;
-  margin-right: 50px;
-  padding: 50px 50px 50px 50px;
   background-color: #fff;
+  margin-bottom: 6rem
 }
 
-.brand-review {
+.tour-review-user-review .fa-spa{
+  font-size: 1rem;
+}
+
+.tour-review-user-review>* {
+  margin-bottom: 1.2rem
+}
+
+.tour-review-user-name {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+  margin: 2.5rem auto
+}
+
+.tour-review-brand-review {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  gap: 2.5rem;
+  align-items: center
 }
 
-.brand-review img {
-  height: 4rem;
-  margin-right: 20px;
+.tour-review-brand-review h4, span{
+ font-size: .7rem;
 }
 
-.brand-review .brand-rating p {
-  font-size: 14px;
-  line-height: 22px;
-  font-family: var(--lexend-deca);
+
+.tour-review-brand-review span{
+color: #9fcd32;
+ }
+ 
+
+.tour-review-icon-quote {
+  font-size: 5rem
+}
+
+.tour-review-icon-brand {
+  height: 6rem
+}
+
+.guide-button {
+  background-color: #9fcd32;
+  color: white;
   font-weight: 700;
-}
-
-.brand-review .brand-rating span {
-  font-size: 14px;
-  line-height: 22px;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
   font-family: var(--lexend-deca);
-  font-weight: 700;
-  color: #417703;
+ display: grid;
+ place-items: center;
+  padding: 1rem;
+  width: auto;
+  display: inline-block;
 }
 
-.guide .guides .booking-btn {
-  padding: 18px 40px;
+.tour-review-user-review p{
+font-family: var(--lexend-deca);
+font-size: 15px;
 }
 
-.brand-review .brand-rating .review-count {
-  font-size: 11px;
-  line-height: 18px;
-  font-weight: 300;
-  font-family: var(--lexend-deca);
-  color: #595a58;
-}
+.tour-review-user-review span{
+  font-size: 1rem;
+  color: #9fcd32;
+  }
 
-.guide-gallery {
-  margin: 6rem 2rem;
-  display: grid;
-  place-items: center;
-  gap: 3vw;
-  grid-template-columns: repeat(3, 1fr);
-}
+  .tour-review-user-review .para-small{
+    color: #000000;
+    font-size: .5rem;
+    }
 
-/* .guides h1 {
-  margin-top: 45px;
-  margin-right: -400px;
-  font-weight: 500;
-  font-size: 30px;
-  font-family: var(--source-serif);
-  text-align: center;
-} */
+@media only screen and (max-width: 900px) {
+  .tour-review {
+      flex-direction: column;
+      text-align: center
+  }
 
-.reviews p {
-  font-family: var(--lexend-deca);
-  font-size: 14px;
-  line-height: 22px;
-  font-style: normal;
-}
+  .tour-review-staff-box {
+      justify-items: center;
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr))
+  }
 
-.reviews span {
-  font-family: var(--lexend-deca);
-  font-size: 14px;
-  line-height: 22px;
-  font-style: normal;
-}
-
-
-.guide .guides {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.guide-head {
-  text-align: center;
-}
-
-.guide-gallery img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  margin-top: 30px;
-}
-
-/* Media Query for Guide Section */
-
-@media all and (max-width: 1300px) {
-  .guide-gallery {
-    grid-template-columns: repeat(2, 1fr);
+  .tour-review-brand-review {
+      justify-content: center
   }
 }
 
-@media all and (max-width: 900px) {
-  .guide {
-    height: auto;
-    margin: 300px 0px 300px 0px;
-    background-color: #eeeeee;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
+@media only screen and (max-width: 600px) {
+  .tour-review-staff-box {
+      grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr))
   }
-
-  .reviews {
-    position: static;
-    width: 400px;
-    margin-right: 50px;
-    margin: 0 auto;
-    padding: 50px 50px 50px 50px;
-    background-color: #fff;
-  }
-
-  .guide-gallery {
-    margin-left: 30%;
-    place-items: center;
-    grid-template-columns: repeat(3, 33.33vw);
-  }
-
-  .guide-gallery img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    margin-top: 30px;
-  }
-
-  .guide-gallery .booking-btn{
-    margin-right: -200%;
-  }
-}
-
-
-@media all and (max-width: 400px) {
-  .guide {
-   width: 500px;
-  }
-
-  .guide-gallery {
-    margin-left: 38%;
-  }
-
-  .reviews {
-    width: 24rem;
-}
-
 }
 
 /* Date-Section */
