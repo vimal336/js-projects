@@ -49,16 +49,35 @@ console.log(result);
 
 let bill = 200;
 
-let tip = 0;
+let tipbill = 0;
+
+let tip = 
 
 if(tip>=50 && tip<=300){
-  tipbill = bill * 0.20;
-  console.log(tipbill);
+
+
+ (bill * 0.15)
+
+ elseif(
+    (bill * 0.20)
+ )
+
 }
 
+console.log(tip);
 
 
 
+
+bills = 10;
+
+if(bills<=50){
+    bills*0.15
+}
+
+elseif(
+    bills*0.20
+)
 
 
 
