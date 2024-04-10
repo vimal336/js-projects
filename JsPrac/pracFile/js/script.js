@@ -9,7 +9,7 @@ function learnToDebug()
 }
     
 function first() {
-    console.log('First function');B
+    console.log('First function');
     second();
     return 100;
 
@@ -19,6 +19,8 @@ function second() {
 console.log('Second function');
 
 }
+
+debugger;
 
 let result = learnToDebug();
 console.log(result);
