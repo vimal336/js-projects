@@ -47,27 +47,6 @@ console.log(result);
 
 
 
-let bill = 200;
-
-let tipbill = 0;
-
-let tip = 
-
-if(tip>=50 && tip<=300){
-
-
- (bill * 0.15)
-
- elseif(
-    (bill * 0.20)
- )
-
-}
-
-console.log(tip);
-
-
-
 
 bills = 10;
 
@@ -78,6 +57,8 @@ if(bills<=50){
 elseif(
     bills*0.20
 )
+
+console.log(bills);
 
 
 
