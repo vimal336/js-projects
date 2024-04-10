@@ -343,7 +343,8 @@ header a {
 
 
 .tab .tab-content .tab-page .location .location-info{
-  padding: 25px;
+  /* padding: 25px; */
+  padding: 2rem 2rem;
   width: 50%;
   margin: 10px 100px 50px 3px;
 }
@@ -353,7 +354,7 @@ header a {
 }
 
 .map iframe{
-  height: 40vw;
+  height: 40rem;
   width: 40vw;
 }
 
