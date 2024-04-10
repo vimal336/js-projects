@@ -1315,6 +1315,7 @@ header a {
     z-index: +1;
     padding: 20px;
     top: 36%;
+    left: -3%;
     color: white;
     margin: 10px 10px 10px 10px;
   }
