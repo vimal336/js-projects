@@ -20,7 +20,7 @@ console.log('Second function');
 
 }
 
-debugger;
+
 
 let result = learnToDebug();
 console.log(result);
