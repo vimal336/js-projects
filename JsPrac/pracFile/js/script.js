@@ -48,17 +48,17 @@ console.log(result);
 
 
 
-bills = 10;
+let bills = 200;
 
-if(bills<=50){
-    bills*0.15
+if(bills<=50 && bills>=300){
+    c = bills+ (15/100)
 }
 
-elseif(
-    bills*0.20
+else(
+    c= bills+ (20/100)
 )
 
-console.log(bills);
+console.log("Total amount including tip: rs" + c);
 
 
 
