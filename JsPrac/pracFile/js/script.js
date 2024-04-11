@@ -57,12 +57,12 @@ console.log("Total amount including tip: rs" + total);
 
 
 var a1="A",a2="a",b1="B",b2="b",c1="C",c2="c",d1="D",d2="d",e1="E",e2="e",n1="N",n2="n"
-function Dad(){
+function Mad(){
   //select some variable to combine "Dad"
-  let dad = d1 + a2 + d2;
+  let dad = b1 + a2 + d2;
   return dad;
 }
-console.log(Dad());
+console.log(Mad());
 
 
 
@@ -73,6 +73,8 @@ const students = {
 }
 
 function studentdata(info){
-   console.log(studentdata);
+   console.log(students.names);
 }
+
+studentdata();
 
