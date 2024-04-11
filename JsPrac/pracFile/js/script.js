@@ -63,3 +63,12 @@ function Dad(){
   return dad;
 }
 console.log(Dad());
+
+
+
+const students = {
+  names: 'vasanth',
+  age: 20,
+  id: 101
+}
+
