@@ -72,9 +72,9 @@ const students = {
   id: 101
 }
 
-function studentdata(info){
-   console.log(students.names);
+function studentdata(...info){
+   console.log(info);
 }
 
-studentdata();
+studentdata(students.names, students.id, students.age);
 
