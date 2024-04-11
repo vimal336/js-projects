@@ -72,3 +72,7 @@ const students = {
   id: 101
 }
 
+function studentdata(info){
+
+}
+
