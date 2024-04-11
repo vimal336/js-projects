@@ -73,6 +73,6 @@ const students = {
 }
 
 function studentdata(info){
-
+   console.log(studentdata);
 }
 
