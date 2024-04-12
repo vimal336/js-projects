@@ -136,5 +136,4 @@ console.log(avgDolhins);
 let avgKoalas = calcAverage2(20, 30, 20);
 console.log(avgKoalas);
 
-
 console.log(checkWinner(avgDolhins, avgKoalas));
