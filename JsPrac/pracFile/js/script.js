@@ -125,7 +125,7 @@ let checkWinner = () =>{
 if(calcAverage >= 2*calcAverage2){
   console.log("dolhins wins");
 }else{
-  console.log("")
+  console.log("koalas wins")
 }
 
 }
