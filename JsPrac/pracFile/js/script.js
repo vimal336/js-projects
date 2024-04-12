@@ -120,6 +120,16 @@ let calcAverage2 = (s1, s2, s3) => {
 
 console.log(calcAverage2(85,54,41));
 
+let checkWinner = () =>{
+
+if(calcAverage >= 2*calcAverage2){
+  console.log("dolhins wins");
+}else{
+  console.log("")
+}
+
+}
+
 
 
 
