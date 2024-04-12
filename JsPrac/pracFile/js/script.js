@@ -127,11 +127,9 @@ console.log(calcAverage2(85, 54, 41));
 let checkWinner = () => {
   if (calcAverage >= 2 * calcAverage2) {
     console.log("dolhins wins");
-  } else if (calcAverage2 >= 2 * calcAverage) {
+  } else if(calcAverage2 >= 2 * calcAverage) {
     console.log("koalas wins");
-  }
-
-  else{
-    console.log("Match draw")
+  } else {
+    console.log("Match draw");
   }
 };
