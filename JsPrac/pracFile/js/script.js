@@ -119,17 +119,20 @@ let calcAverage2 = (s1, s2, s3) => {
   return score2;
 };
 
-
 let checkWinner = (avg1, avg2) => {
-  if(avg1 >= 2 * avg2) {
-    console.log("dolhins wins");
-  } else if(avg2 >= 2 * avg1) {
-    console.log("koalas wins");
+  if (avg1 >= 2 * avg2) {
+    return "Dolphins win!";
+  } else if (avg2 >= 2 * avg1) {
+    return "Koalas win!";
   } else {
-    console.log("Match draw");
+    return "It's a draw!";
   }
 };
 
-let
+let avgDolhins = calcAverage(80, 20, 50);
 
-console.log(checkWinner(calcAverage, calcAverage2));
+
+let avgKoalas = calcAverage2(80, 30, 60);
+
+
+console.log(checkWinner(avgDolhins, avgKoalas));
