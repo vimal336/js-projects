@@ -110,7 +110,7 @@ let calcAverage = (s1, s2, s3) => {
    return score
 }
 
-calcAverage(44,23,71);
+console.log(calcAverage(44,23,71));
 
 
 
