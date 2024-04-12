@@ -69,7 +69,8 @@ console.log(Mad());
 const students = {
   names: 'vasanth',
   age: 20,
-  id: 101
+  id: 101,
+  rollno: 1001
 }
 
 function studentdata(...info){
