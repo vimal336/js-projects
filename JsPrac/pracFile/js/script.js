@@ -130,4 +130,8 @@ let checkWinner = () => {
   } else if (calcAverage2 >= 2 * calcAverage) {
     console.log("koalas wins");
   }
+
+  else{
+    console.log("Match draw")
+  }
 };
