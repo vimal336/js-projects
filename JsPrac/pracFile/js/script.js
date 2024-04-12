@@ -121,7 +121,7 @@ let calcAverage2 = (s1, s2, s3) => {
 
 let checkWinner = (avg1, avg2) => {
   if (avg1 >= 2 * avg2) {
-    return "Dolphins win!";
+    return "Dolhins win!";
   } else if (avg2 >= 2 * avg1) {
     return "Koalas win!";
   } else {
@@ -129,10 +129,11 @@ let checkWinner = (avg1, avg2) => {
   }
 };
 
-let avgDolhins = calcAverage(80, 20, 50);
+let avgDolhins = calcAverage(80, 80, 80);
+console.log(avgDolhins);
 
 
-let avgKoalas = calcAverage2(80, 30, 60);
+let avgKoalas = calcAverage2(20, 30, 20);
 
 
 console.log(checkWinner(avgDolhins, avgKoalas));
