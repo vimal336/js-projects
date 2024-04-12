@@ -77,5 +77,5 @@ function studentdata(...info){
    console.log(info);
 }
 
-studentdata(students.names, students.id, students.age);
+studentdata(students.names, students.id, students.age, students.rollno);
 
