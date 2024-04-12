@@ -114,22 +114,24 @@ let calcAverage = (s1, s2, s3) => {
   return score;
 };
 
-console.log(calcAverage(44, 23, 71));
+console.log(calcAverage(20, 20, 20));
 // console.log(calcAverage(65,54,49));
 
 let calcAverage2 = (s1, s2, s3) => {
-  let score = (s3 + s2 + s1) / 3;
-  return score;
+  let score2 = (s3 + s2 + s1) / 3;
+  return score2;
 };
 
-console.log(calcAverage2(85, 54, 41));
+console.log(calcAverage2(85, 84, 81));
 
-let checkWinner = () => {
-  if (calcAverage >= 2 * calcAverage2) {
+let checkWinner = (avg1, avg2) => {
+  if(avg1 >= 2 * avg2) {
     console.log("dolhins wins");
-  } else if(calcAverage2 >= 2 * calcAverage) {
+  } else if(avg2 >= 2 * avg1) {
     console.log("koalas wins");
   } else {
     console.log("Match draw");
   }
 };
+
+console.log(checkWinner(calcAverage, calcAverage2));
