@@ -114,15 +114,11 @@ let calcAverage = (s1, s2, s3) => {
   return score;
 };
 
-console.log(calcAverage(20, 20, 20));
-// console.log(calcAverage(65,54,49));
-
 let calcAverage2 = (s1, s2, s3) => {
   let score2 = (s3 + s2 + s1) / 3;
   return score2;
 };
 
-console.log(calcAverage2(85, 84, 81));
 
 let checkWinner = (avg1, avg2) => {
   if(avg1 >= 2 * avg2) {
@@ -133,5 +129,7 @@ let checkWinner = (avg1, avg2) => {
     console.log("Match draw");
   }
 };
+
+let
 
 console.log(checkWinner(calcAverage, calcAverage2));
