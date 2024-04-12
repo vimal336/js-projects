@@ -106,6 +106,11 @@ studentdata(students.names, students.id, students.age, students.rollno);
 
 
 let calcAverage = (s1, s2, s3) => {
-   s3 + s2 + s1 / 3
+   let score = s3 + s2 + s1 / 3
+   return score
 }
+
+calcAverage(44,23,71);
+
+
 
