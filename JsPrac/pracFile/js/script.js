@@ -18,7 +18,6 @@ function second() {
 let result = learnToDebug();
 console.log(result);
 
-
 //problem 1
 
 // Steven wants to build a very simple tip calculator for whenever he goes eating in a
@@ -38,7 +37,6 @@ console.log(result);
 // § To calculate 20% of a value, simply multiply it by 20/100 = 0.2
 // § Value X is between 50 and 300, if it's >= 50 && <= 300
 
-
 let bills = 275;
 
 let tip = 0;
@@ -55,45 +53,52 @@ console.log("tip amount: rs" + tip);
 
 console.log("Total amount including tip: rs" + total);
 
-
-var a1="A",a2="a",b1="B",b2="b",c1="C",c2="c",d1="D",d2="d",e1="E",e2="e",n1="N",n2="n"
-function Mad(){
+var a1 = "A",
+  a2 = "a",
+  b1 = "B",
+  b2 = "b",
+  c1 = "C",
+  c2 = "c",
+  d1 = "D",
+  d2 = "d",
+  e1 = "E",
+  e2 = "e",
+  n1 = "N",
+  n2 = "n";
+function Mad() {
   //select some variable to combine "Dad"
   let dad = b1 + a2 + d2;
   return dad;
 }
 console.log(Mad());
 
-
-
 const students = {
-  names: 'vasanth',
+  names: "vasanth",
   age: 20,
   id: 101,
-  rollno: 1001
-}
+  rollno: 1001,
+};
 
-function studentdata(...info){
-   console.log(info);
+function studentdata(...info) {
+  console.log(info);
 }
 
 studentdata(students.names, students.id, students.age, students.rollno);
 
-
-// Back to the two gymnastics teams, the Dolphins and the Koalas! There is a new 
+// Back to the two gymnastics teams, the Dolphins and the Koalas! There is a new
 // gymnastics discipline, which works differently.
-// Each team competes 3 times, and then the average of the 3 scores is calculated (so 
+// Each team competes 3 times, and then the average of the 3 scores is calculated (so
 // one average score per team).
-// A team only wins if it has at least double the average score of the other team. 
+// A team only wins if it has at least double the average score of the other team.
 // Otherwise, no team wins!
 // Your tasks:
 // 1. Create an arrow function 'calcAverage' to calculate the average of 3 scores
 // 2. Use the function to calculate the average for both teams
-// 3. Create a function 'checkWinner' that takes the average score of each team 
-// as parameters ('avgDolhins' and 'avgKoalas'), and then logs the winner 
-// to the console, together with the victory points, according to the rule above. 
+// 3. Create a function 'checkWinner' that takes the average score of each team
+// as parameters ('avgDolhins' and 'avgKoalas'), and then logs the winner
+// to the console, together with the victory points, according to the rule above.
 // Example: "Koalas win (30 vs. 13)"
-// 4. Use the 'checkWinner' function to determine the winner for both Data 1 and 
+// 4. Use the 'checkWinner' function to determine the winner for both Data 1 and
 // Data 2
 // 5. Ignore draws this time
 // Test data:
@@ -101,38 +106,28 @@ studentdata(students.names, students.id, students.age, students.rollno);
 // § Data 2: Dolphins score 85, 54 and 41. Koalas score 23, 34 and 27
 // Hints:
 // § To calculate average of 3 values, add them all together and divide by 3
-// § To check if number A is at least double number B, check for A >= 2 * B. 
-// Apply this to the team's average scores 
-
+// § To check if number A is at least double number B, check for A >= 2 * B.
+// Apply this to the team's average scores
 
 let calcAverage = (s1, s2, s3) => {
-   let score = (s3 + s2 + s1) / 3
-   return score
-}
+  let score = (s3 + s2 + s1) / 3;
+  return score;
+};
 
-console.log(calcAverage(44,23,71));
+console.log(calcAverage(44, 23, 71));
 // console.log(calcAverage(65,54,49));
 
 let calcAverage2 = (s1, s2, s3) => {
-  let score = (s3 + s2 + s1) / 3
-  return score
-}
+  let score = (s3 + s2 + s1) / 3;
+  return score;
+};
 
-console.log(calcAverage2(85,54,41));
+console.log(calcAverage2(85, 54, 41));
 
-let checkWinner = () =>{
-
-if(calcAverage >= 2*calcAverage2){
-  console.log("dolhins wins");
-}
-
- else if(calcAverage2 >= 2*calcAverage){
-    console.log("koalas wins")
- }
-  
-
-}
-
-
-
-
+let checkWinner = () => {
+  if (calcAverage >= 2 * calcAverage2) {
+    console.log("dolhins wins");
+  } else if (calcAverage2 >= 2 * calcAverage) {
+    console.log("koalas wins");
+  }
+};
