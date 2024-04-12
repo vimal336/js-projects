@@ -105,5 +105,7 @@ studentdata(students.names, students.id, students.age, students.rollno);
 // Apply this to the team's average scores 
 
 
-let team1 = function(){}
+let calcAverage = (s1, s2, s3) => {
+   s3 + s2 + s1 / 3
+}
 
