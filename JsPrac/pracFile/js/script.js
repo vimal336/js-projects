@@ -111,6 +111,7 @@ let calcAverage = (s1, s2, s3) => {
 }
 
 console.log(calcAverage(44,23,71));
+console.log(calcAverage(65,54,49));
 
 
 
