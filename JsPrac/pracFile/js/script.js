@@ -111,7 +111,15 @@ let calcAverage = (s1, s2, s3) => {
 }
 
 console.log(calcAverage(44,23,71));
-console.log(calcAverage(65,54,49));
+// console.log(calcAverage(65,54,49));
+
+let calcAverage2 = (s1, s2, s3) => {
+  let score = (s3 + s2 + s1) / 3
+  return score
+}
+
+console.log(calcAverage2(85,54,41));
+
 
 
 
