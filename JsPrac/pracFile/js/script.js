@@ -187,10 +187,10 @@ let Arraybills = [125, 555, 44];
 let Arraytip = 0;
 
 if (Arraybills[0] >= 50 && Arraybills[0] <= 300) {
-  Arraytip = Arraybills * 0.15;
+  Arraytip = Arraybills[0] * 0.15;
   arraytotal = Arraytip + Arraybills[0];
 } else {
-  Arraytip = Arraybills * 0.2;
+  Arraytip = Arraybills[0] * 0.2;
   arraytotal = Arraytip + Arraybills[0];
 }
 
