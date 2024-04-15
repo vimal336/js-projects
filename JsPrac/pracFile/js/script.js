@@ -138,11 +138,12 @@ console.log(avgKoalas);
 console.log(checkWinner(avgDolhins, avgKoalas));
 
 
-ArrayMethods = ['one', 'two', 'three', 'four'];
+const ArrayMethods = ['one', 'two', 'three', 'four'];
 
-newPush = ArrayMethods.push('five');
+// newPush = ArrayMethods.push('five');
+// console.log(ArrayMethods);
+// console.log(newPush);
+
+const unshiftMethod = ArrayMethods.unshift('Zero');
+console.log(unshiftMethod);
 console.log(ArrayMethods);
-console.log(newPush);
-
-let unshiftMethod = ArrayMethods.unshift('six');
-console.log(unshiftMethod)
