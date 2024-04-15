@@ -187,8 +187,8 @@ let Arraybills = [125, 555, 44];
 let Arraytip = 0;
 
 if (Arraybills >= 50 && Arraybills <= 300) {
-  tip = bills * 0.15;
-  total = tip + bills;
+  Arraytip = Arraybills * 0.15;
+  total = Arraytip + Arraybills;
 } else {
   tip = bills * 0.2;
   total = tip + bills;
