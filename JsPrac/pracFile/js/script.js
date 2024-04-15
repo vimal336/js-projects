@@ -223,8 +223,8 @@ miller = {
 
 smith = {
   fullname: "John Smith",
-  mass: "60",
-  height: "160",
+  mass: 60,
+  height: 160,
   calcBmi: function () {
     bmi = mass / (height * height);
     return bmi;
