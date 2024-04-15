@@ -138,7 +138,9 @@ console.log(avgKoalas);
 console.log(checkWinner(avgDolhins, avgKoalas));
 
 
-pushMethod = ['one', 'two', 'three', 'four'];
+ArrayMethods = ['one', 'two', 'three', 'four'];
+
 newPush = pushMethod.push('five');
 console.log(pushMethod);
 console.log(newPush);
+
