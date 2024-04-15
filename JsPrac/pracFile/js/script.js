@@ -125,13 +125,12 @@ let checkWinner = (avg1, avg2) => {
   } else if (avg2 >= 2 * avg1) {
     return "Koalas win!";
   } else {
-    return "It's a draw!";
+    return "It's draw!";
   }
 };
 
 let avgDolhins = calcAverage(80, 80, 80);
 console.log(avgDolhins);
-
 
 let avgKoalas = calcAverage2(20, 30, 20);
 console.log(avgKoalas);
