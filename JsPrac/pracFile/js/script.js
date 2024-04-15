@@ -140,7 +140,7 @@ console.log(checkWinner(avgDolhins, avgKoalas));
 
 ArrayMethods = ['one', 'two', 'three', 'four'];
 
-newPush = pushMethod.push('five');
-console.log(pushMethod);
+newPush = ArrayMethods.push('five');
+console.log(ArrayMethods);
 console.log(newPush);
 
