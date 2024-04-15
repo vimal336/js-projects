@@ -139,3 +139,4 @@ console.log(checkWinner(avgDolhins, avgKoalas));
 
 
 pushMethod = ['one', 'two', 'three', 'four'];
+console.log(pushMethod);
