@@ -229,6 +229,7 @@ smith = {
   height : '160',
   calcBmi: function() { 
     bmi = weight / (heightInMeters * heightInMeters);
+    return bmi
 }
 
 }
