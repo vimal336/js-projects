@@ -138,7 +138,7 @@ console.log(avgKoalas);
 console.log(checkWinner(avgDolhins, avgKoalas));
 
 
-const ArrayMethods = ['one', 'two', 'three', 'four'];
+const ArrayMethods = ['one', 'two', 'three', 'four', 7];
 
 // newPush = ArrayMethods.push('five');
 // console.log(ArrayMethods);
@@ -155,5 +155,5 @@ console.log(ArrayMethods);
 //includes method in JavaScript is used to check whether an array includes a certain value among its elements. 
 //It returns true if the array contains the specified value, and false otherwise.
 
-let includesMethod = ArrayMethods.includes('one');
+let includesMethod = ArrayMethods.includes(7);
 console.log(includesMethod);
