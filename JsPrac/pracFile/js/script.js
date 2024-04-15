@@ -154,3 +154,6 @@ console.log(ArrayMethods);
 
 //includes method in JavaScript is used to check whether an array includes a certain value among its elements. 
 //It returns true if the array contains the specified value, and false otherwise.
+
+ArrayMethods.includes('one');
+console.log(ArrayMethods);
