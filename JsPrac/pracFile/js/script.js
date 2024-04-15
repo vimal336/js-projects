@@ -182,7 +182,7 @@ console.log(includesMethod);
 // GOOD LUCK 
 
 
-let Arraybills = 275;
+let Arraybills = [125, 555, 44];
 
 let Arraytip = 0;
 
