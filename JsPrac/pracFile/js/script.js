@@ -216,8 +216,8 @@ miller = {
   mass: "50",
   height: "170",
   calcBmi: function () {
-    bmi = weight / (heightInMeters * heightInMeters);
-    return bmi;
+    bmi = mass / (height * height);
+    return `${this.mass/this.height*this.height}`
   },
 };
 
@@ -227,7 +227,7 @@ smith = {
   height: 160,
   calcBmi: function () {
     bmi = mass / (height * height);
-    return bmi;
+    return `${this.mass/this.height*this.height}`
   },
 };
 
