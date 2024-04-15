@@ -226,7 +226,7 @@ smith = {
   mass: 60,
   height: 160,
   calcBmi: function () {
-    bmi = mass / (height * height);
+    const bmi = mass / (height * height);
     return `${this.mass/this.height*this.height}`
   },
 };
