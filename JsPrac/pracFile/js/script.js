@@ -233,3 +233,7 @@ smith = {
 
 console.log(smith.calcBmi());
 console.log(miller.calcBmi());
+
+if(smith.calcBmi >= miller.calcBmi){
+  console.log(`${smith.fullname} BMI ${smith.calcBmi} is higher than ${miller.fullname} ${miller.calcBmi}!`)
+}
