@@ -180,3 +180,20 @@ console.log(includesMethod);
 // values (so don't store the tip values in separate variables first, but right in the new 
 // array) 
 // GOOD LUCK 
+
+
+let Arraybills = 275;
+
+let Arraytip = 0;
+
+if (Arraybills >= 50 && Arraybills <= 300) {
+  tip = bills * 0.15;
+  total = tip + bills;
+} else {
+  tip = bills * 0.2;
+  total = tip + bills;
+}
+
+console.log("tip amount: rs" + tip);
+
+console.log("Total amount including tip: rs" + total);
