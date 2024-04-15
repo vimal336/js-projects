@@ -215,6 +215,10 @@ miller = {
   fullname: "Mark Miller",
   mass: "50",
   height: "170",
+  calcBmi: function () {
+    bmi = weight / (heightInMeters * heightInMeters);
+    return bmi;
+  },
 };
 
 smith = {
@@ -222,7 +226,9 @@ smith = {
   mass: "60",
   height: "160",
   calcBmi: function () {
-    bmi = weight / (heightInMeters * heightInMeters);
+    bmi = mass / (height * height);
     return bmi;
   },
 };
+
+console.log(smith.calcBmi());
