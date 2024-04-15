@@ -156,4 +156,4 @@ console.log(ArrayMethods);
 //It returns true if the array contains the specified value, and false otherwise.
 
 let includesMethod = ArrayMethods.includes('one');
-console.log(ArrayMethods);
+console.log(includesMethod);
