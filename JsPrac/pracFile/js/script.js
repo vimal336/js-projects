@@ -144,3 +144,5 @@ newPush = ArrayMethods.push('five');
 console.log(ArrayMethods);
 console.log(newPush);
 
+ArrayMethods.unshift('six');
+console.log(ArrayMethods)
