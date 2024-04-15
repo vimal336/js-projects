@@ -147,3 +147,10 @@ const ArrayMethods = ['one', 'two', 'three', 'four'];
 const unshiftMethod = ArrayMethods.unshift('Zero');
 console.log(unshiftMethod);
 console.log(ArrayMethods);
+
+// push adds elements to the end of an array, while unshift adds elements to the beginning of an array.
+
+//shift removes the first element from an array, while unshift adds elements to the beginning of an array.
+
+//includes method in JavaScript is used to check whether an array includes a certain value among its elements. 
+//It returns true if the array contains the specified value, and false otherwise.
