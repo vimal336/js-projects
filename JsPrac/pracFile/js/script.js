@@ -188,12 +188,12 @@ let Arraytip = 0;
 
 if (Arraybills >= 50 && Arraybills <= 300) {
   Arraytip = Arraybills * 0.15;
-  total = Arraytip + Arraybills;
+  arraytotal = Arraytip + Arraybills;
 } else {
-  tip = bills * 0.2;
-  total = tip + bills;
+  Arraytip = Arraybills * 0.2;
+  arraytotal = Arraytip + Arraybills;
 }
 
-console.log("tip amount: rs" + tip);
+console.log("tip amount: rs" + Arraytip);
 
-console.log("Total amount including tip: rs" + total);
+console.log("Total amount including tip: rs" + arraytotal);
