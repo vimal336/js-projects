@@ -2,6 +2,8 @@
 
 const guessInputs = document.querySelectorAll('section.left input.guess');
 
+console.log(guessInputs);
+
 let GenerateRandom = Math.floor(Math.random()*20);
 
 console.log(GenerateRandom);
