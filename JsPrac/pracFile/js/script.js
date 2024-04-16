@@ -241,6 +241,11 @@ if(smith.calcBmi() >= miller.calcBmi()){
 }
 
 
-for(i=0; i<=miller; i++){
-  console.log(miller);
+
+const phil = [
+  
+]
+
+for (let i=0; i < miller.length; i++){
+  console.log(miller[i]);
 }
