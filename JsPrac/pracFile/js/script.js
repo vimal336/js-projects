@@ -214,7 +214,7 @@ console.log("Total amount including tip: rs" + arraytotal);
 miller = {
   fullname: "Mark Miller",
   mass: "50",
-  height: "170",
+  height: "180",
   calcBmi: function () {
     const bmi = this.mass / ((this.height / 100) ** 2);
     return bmi;
@@ -234,9 +234,9 @@ smith = {
 console.log(smith.calcBmi());
 console.log(miller.calcBmi());
 
-if(smith.calcBmi >= miller.calcBmi){
-  console.log(`${smith.fullname} BMI ${smith.calcBmi} is higher than ${miller.fullname} ${miller.calcBmi}!`);
+if(smith.calcBmi() >= miller.calcBmi()){
+  console.log(`${smith.fullname} BMI ${smith.calcBmi()} is higher than ${miller.fullname} ${miller.calcBmi()}!`);
 } else{
-  console.log(`${miller.fullname} BMI ${miller.calcBmi} is higher than ${smith.fullname} ${smith.calcBmi}!`);
+  console.log(`${miller.fullname} BMI ${miller.calcBmi()} is higher than ${smith.fullname} ${smith.calcBmi()}!`);
 }
 
