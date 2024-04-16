@@ -243,7 +243,11 @@ if(smith.calcBmi() >= miller.calcBmi()){
 
 
 const phil = [
-  
+  'phil',
+  'sam',
+  2037 - 1991,
+  'teacher',
+  ['Michael, Peter, Steven']
 ]
 
 for (let i=0; i < miller.length; i++){
