@@ -11,7 +11,7 @@ button.addEventListener('click', function() {
 
 
   let GenerateRandom = Math.floor(Math.random()*20);
-  console.log(GenerateRandom);
+console.log(GenerateRandom);
 
 if(GenerateRandom == guessInputs){
    message.innerText="Correct guess";
@@ -20,13 +20,13 @@ if(GenerateRandom == guessInputs){
    
 }else if(GenerateRandom < guessInputs){
     message.innerText="too low";
-    main.style.backgroundColor ="#c600d5";
+    main.style.backgroundColor ="orange";
     highscore =`${guessInputs}`;
 }
 
 else if(GenerateRandom > guessInputs){
     message.innerText="too high";
-    main.style.backgroundColor ="blue";
+    main.style.backgroundColor ="red";
     highscore =`${guessInputs}`;
 }
 
