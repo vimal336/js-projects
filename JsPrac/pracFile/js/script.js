@@ -250,6 +250,10 @@ const phil = [
   ['Michael, Peter, steve, Steven']
 ]
 
-for (let i=0; i < miller.length; i++){
-  console.log(miller[i]);
+for (let i=0; i < phil.length; i++){
+  console.log(phil[i]);
 }
+
+
+years = [1999, 1889, 2002, 2010];
+
