@@ -247,7 +247,7 @@ const phil = [
   'sam',
   2037 - 1991,
   'teacher',
-  ['Michael, Peter, Steven']
+  ['Michael, Peter, steve, Steven']
 ]
 
 for (let i=0; i < miller.length; i++){
