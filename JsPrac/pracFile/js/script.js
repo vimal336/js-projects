@@ -257,3 +257,5 @@ for (let i=0; i < phil.length; i++){
 
 years = [1999, 1889, 2002, 2010];
 
+ages = []
+
