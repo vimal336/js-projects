@@ -257,10 +257,10 @@ for (let i=0; i < phil.length; i++){
 
 years = [1999, 1889, 2002, 2010];
 
-ages = [];
+const ages = [];
 
 for (let i = 0; i<years.length; i++)
 {
-  console.log(ages.push(years[i] - 20))
+  console.log(ages.push(2037 - years[i]))
 }
 
