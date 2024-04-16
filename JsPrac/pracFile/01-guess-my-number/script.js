@@ -1,6 +1,6 @@
 'use strict';
 
-let guess = document.querySelectorAll('guess');
+let guess = document.querySelectorAll('number');
 console.log(guess);
 
 let GenerateRandom = Math.floor(Math.random()*20);
