@@ -1,12 +1,9 @@
 'use strict';
 
 
-const guessInputs = document.querySelector('.left .guess');
+const guessInputs = document.querySelector('input[type= "number"]').value;
 
-console.log(inputNumber.value);
-
-
-console.log(guessInputs.value);
+console.log(guessInputs);
 
 let GenerateRandom = Math.floor(Math.random()*20);
 
