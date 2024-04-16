@@ -1,9 +1,16 @@
 'use strict';
 
+const button = document.querySelector('.check');
 
-const guessInputs = document.querySelector('input[type= "number"]').value;
 
-console.log(guessInputs);
+
+
+
+button.addEventListener('click', function() {
+  console.log('Button clicked!');
+
+  const guessInputs = document.querySelector('guess').value;
+  console.log(guessInputs);
 
 let GenerateRandom = Math.floor(Math.random()*20);
 
@@ -14,3 +21,6 @@ if(GenerateRandom == guessInputs){
 } else{
     console.log("your guessed is wrong")
 }
+
+
+});
