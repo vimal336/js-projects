@@ -4,16 +4,21 @@ const button = document.querySelector('.check');
 const message = document.querySelector('.message');
 const main = document.querySelector('main');
 let highscore = document.querySelector('.highscore');
-const guessInputs = document.querySelector('.guess').value;
 
 button.addEventListener('click', function() {
-  console.log('Button clicked!');
+
+  let guessInputs = document.querySelector('.guess').value;
   console.log(guessInputs);
   console.log(highscore);
 
+  if(!guessInputs){
+    
+  }
 
-let GenerateRandom = Math.floor(Math.random()*20);
-console.log(GenerateRandom);
+
+let GenerateRandom = Math.trunc(Math.random()*20);
+
+document.querySelector('.number').textContent = GenerateRandom;
 
 if(GenerateRandom == guessInputs){
    message.innerText="Correct guess";
