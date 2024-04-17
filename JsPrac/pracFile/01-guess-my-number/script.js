@@ -12,7 +12,7 @@ button.addEventListener('click', function() {
   console.log(highscore);
 
   if(!guessInputs){
-    
+document.querySelector('.message').textContent = 'No number';
   }
 
 
