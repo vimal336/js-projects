@@ -8,43 +8,31 @@ let score = 20;
 
 button.addEventListener('click', function () {
   let guessInputs = Number(document.querySelector('.guess').value);
-  console.log(typeof guessInputs);
-  console.log(highscore);
 
   document.querySelector('.number').style.width = '30rem';
 
+  // when guess input is not a number
   if (!guessInputs) {
     message.textContent = 'No number';
     return;
   }
 
+  //Generate random number between 0 to 20
   let GenerateRandom = Math.trunc(Math.random() * 20);
 
   document.querySelector('.number').textContent = GenerateRandom;
-    
+
+     //When guess is correct
     if (GenerateRandom == guessInputs) {
     message.innerText = 'Correct guess';
+    highscore++;
     main.style.backgroundColor = 'green';
-    highscore.innerText = `${guessInputs}`;
-  } else  
-    if (GenerateRandom < guessInputs) {
-    if(score>1){
-    message.innerText = 'too low';
-    main.style.backgroundColor = 'orange';
-    highscore.innerText = `${guessInputs}`;
-    score--;
-    document.querySelector('.score').textContent = score;
-    }
-    else{
-      message.innerText = 'You lost the game';
-      document.querySelector('.score').textContent = 0;
+  } 
 
-    }
-  } else if (GenerateRandom > guessInputs) {
+   //When guess is low or high
+   if (message.innerText = GenerateRandom > guessInputs ? 'too high' : 'too low') {
     if(score>1){
-    message.innerText = 'too high';
     main.style.backgroundColor = 'red';
-    highscore.innerText = `${guessInputs}`;
     score--;
     document.querySelector('.score').textContent = score;
     }else{
@@ -55,6 +43,7 @@ button.addEventListener('click', function () {
 });
 
 
+// game reset button
 document.querySelector('.again').addEventListener('click', function () {
   
   let score = 20;
