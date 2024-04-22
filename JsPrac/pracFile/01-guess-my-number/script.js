@@ -7,13 +7,13 @@ let highscore = document.querySelector('.highscore');
 
 button.addEventListener('click', function() {
 
-  let guessInputs = document.querySelector('.guess').value;
-  console.log(guessInputs);
+  let guessInputs = Number(document.querySelector('.guess').value);
+  console.log(typeof guessInputs);
   console.log(highscore);
 
-  if(!guessInputs){
+
 document.querySelector('.message').textContent = 'No number';
-  }
+  
 
 
 let GenerateRandom = Math.trunc(Math.random()*20);
