@@ -17,6 +17,12 @@ message.textContent = 'No number';
 return;
 }
 
+let score = 20;
+
+score--;
+
+score.textContent = score;
+
 
 let GenerateRandom = Math.trunc(Math.random()*20);
 
