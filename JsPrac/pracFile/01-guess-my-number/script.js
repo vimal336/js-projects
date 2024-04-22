@@ -4,6 +4,7 @@ const button = document.querySelector('.check');
 const message = document.querySelector('.message');
 const main = document.querySelector('main');
 let highscore = document.querySelector('.highscore');
+let score = document.querySelector('.score');
 
 button.addEventListener('click', function() {
 
