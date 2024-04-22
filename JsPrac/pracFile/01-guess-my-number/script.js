@@ -38,4 +38,8 @@ button.addEventListener('click', function () {
     score--;
     document.querySelector('.score').textContent = score;
   }
+
+  if(score<0){
+    message.innerText = 'You lost the game';
+  }
 });
