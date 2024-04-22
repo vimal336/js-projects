@@ -11,6 +11,8 @@ button.addEventListener('click', function () {
   console.log(typeof guessInputs);
   console.log(highscore);
 
+  document.querySelector('.number').style.width = '30rem';
+
   if (!guessInputs) {
     message.textContent = 'No number';
     return;
@@ -54,9 +56,13 @@ button.addEventListener('click', function () {
 
 
 document.querySelector('.again').addEventListener('click', function () {
-
+  
+  let score = 20;
   message.textContent = 'Start guessing...';
-  main.style.backgroundColor = '#530aff;';
-
-
-});
+  main.style.backgroundColor ='#530aff';
+  document.querySelector('.score').textContent = score;
+  document.querySelector('.number').textContent = '?';
+  document.querySelector('.guess').value = '';
+  document.querySelector('.number').style.width = '15rem';
+  
+})
