@@ -54,5 +54,9 @@ button.addEventListener('click', function () {
 
 
 document.querySelector('.again').addEventListener('click', function () {
- alert('again')
+
+  message.textContent = 'Start guessing...';
+  main.style.backgroundColor = '#530aff;';
+
+
 });
