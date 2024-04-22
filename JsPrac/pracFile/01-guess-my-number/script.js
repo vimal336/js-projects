@@ -11,14 +11,15 @@ button.addEventListener('click', function() {
   console.log(typeof guessInputs);
   console.log(highscore);
 
-
-document.querySelector('.message').textContent = 'No number';
-  
+  if (!guessInputs) {
+message.textContent = 'No number';
+return;
+  }
 
 
 let GenerateRandom = Math.trunc(Math.random()*20);
 
-
+document.querySelector('.number').textContent = GenerateRandom;
 
 if(GenerateRandom == guessInputs){
    message.innerText="Correct guess";
@@ -32,10 +33,9 @@ if(GenerateRandom == guessInputs){
 }
 
 else if(GenerateRandom > guessInputs){
-    // message.innerText="too high";
+    message.innerText="too high";
     main.style.backgroundColor ="red";
     highscore.innerText = `${guessInputs}`; 
-    document.querySelector('.number').textContent = GenerateRandom;
 }
 
 });
