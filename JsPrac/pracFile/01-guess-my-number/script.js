@@ -53,6 +53,6 @@ button.addEventListener('click', function () {
 });
 
 
-button.addEventListener('click', function () {
- 
+again.addEventListener('click', function () {
+ alert('again')
 });
