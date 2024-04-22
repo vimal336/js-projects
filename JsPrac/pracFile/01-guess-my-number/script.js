@@ -19,12 +19,13 @@ button.addEventListener('click', function () {
   let GenerateRandom = Math.trunc(Math.random() * 20);
 
   document.querySelector('.number').textContent = GenerateRandom;
-
-  if (GenerateRandom == guessInputs) {
+    
+    if (GenerateRandom == guessInputs) {
     message.innerText = 'Correct guess';
     main.style.backgroundColor = 'green';
     highscore.innerText = `${guessInputs}`;
-  } else if (GenerateRandom < guessInputs) {
+  } else  
+    if (GenerateRandom < guessInputs) {
     message.innerText = 'too low';
     main.style.backgroundColor = 'orange';
     highscore.innerText = `${guessInputs}`;
