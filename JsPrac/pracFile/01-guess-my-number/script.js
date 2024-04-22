@@ -26,20 +26,28 @@ button.addEventListener('click', function () {
     highscore.innerText = `${guessInputs}`;
   } else  
     if (GenerateRandom < guessInputs) {
+    if(score>1){
     message.innerText = 'too low';
     main.style.backgroundColor = 'orange';
     highscore.innerText = `${guessInputs}`;
     score--;
     document.querySelector('.score').textContent = score;
+    }
+    else{
+      message.innerText = 'You lost the game';
+      document.querySelector('.score').textContent = 0;
+
+    }
   } else if (GenerateRandom > guessInputs) {
+    if(score>1){
     message.innerText = 'too high';
     main.style.backgroundColor = 'red';
     highscore.innerText = `${guessInputs}`;
     score--;
     document.querySelector('.score').textContent = score;
-  }
-
-  if(score<0){
-    message.innerText = 'You lost the game';
+    }else{
+      message.innerText = 'You lost the game';
+      document.querySelector('.score').textContent = 0;
+    }
   }
 });
