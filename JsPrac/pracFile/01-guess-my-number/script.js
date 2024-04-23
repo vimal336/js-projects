@@ -27,14 +27,11 @@ button.addEventListener('click', function () {
   document.querySelector('.number').textContent = GenerateRandom;
 
      //When guess is correct
-     GenerateRandom === guessInputs ? (
-      displayMessage('correct Guess'),
-      highscore++,
-      main.style.backgroundColor = 'green'
-  ) : (
-      main.style.backgroundColor = '#530aff';
-  );
-  
+    if (GenerateRandom == guessInputs) {
+      displayMessage('correct Guess');
+    highscore++;
+    main.style.backgroundColor = 'green';
+  } 
 
    //When guess is low or high
     GenerateRandom > guessInputs ? displayMessage('too high') : displayMessage('too low');{
