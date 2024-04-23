@@ -28,3 +28,15 @@ overlay.addEventListener('click', commonCloseModals);
 //   modalButtons[i].addEventListener('click', function(){
 //   modal.classList.remove('hidden');
 // });
+
+for(let i=0; i<=modalButtons.length; i++)
+  modalButtons[i].addEventListener('click', function(){
+  modal.classList.remove('hidden');
+});
+
+document.addEventListener('keydown', function(){
+
+});
+
+
+
