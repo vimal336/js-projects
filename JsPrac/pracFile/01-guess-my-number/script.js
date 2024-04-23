@@ -5,8 +5,8 @@ const main = document.querySelector('main');
 let highscore = document.querySelector('.highscore');
 let score = 20;
 
-const displayMessage = function(message){
-  const message = document.querySelector('.message').textContent;
+const displayMessage = function(text){
+  const message = document.querySelector('.message').textContent = text;
 }
 
 button.addEventListener('click', function () {
@@ -17,6 +17,7 @@ button.addEventListener('click', function () {
   // when guess input is not a number
   if (!guessInputs) {
     // message.textContent = 'No number';
+    displayMessage('no number');
     return;
   }
 
@@ -27,19 +28,19 @@ button.addEventListener('click', function () {
 
      //When guess is correct
     if (GenerateRandom == guessInputs) {
-    message.innerText = 'Correct guess';
+      displayMessage('correct Guess');
     highscore++;
     main.style.backgroundColor = 'green';
   } 
 
    //When guess is low or high
-   if (message.innerText = GenerateRandom > guessInputs ? 'too high' : 'too low') {
+   if (displayMessage (GenerateRandom > guessInputs ? 'too high' : 'too low')) {
     if(score>1){
     main.style.backgroundColor = 'red';
     score--;
     document.querySelector('.score').textContent = score;
     }else{
-      message.innerText = 'You lost the game';
+      displayMessage('You lost the game'); 
       document.querySelector('.score').textContent = 0;
     }
   }
@@ -50,7 +51,7 @@ button.addEventListener('click', function () {
 document.querySelector('.again').addEventListener('click', function () {
   
   let score = 20;
-  message.textContent = 'Start guessing...';
+  displayMessage('Start Guessing...'); 
   main.style.backgroundColor ='#530aff';
   document.querySelector('.score').textContent = score;
   document.querySelector('.number').textContent = '?';
