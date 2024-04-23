@@ -6,6 +6,10 @@ const main = document.querySelector('main');
 let highscore = document.querySelector('.highscore');
 let score = 20;
 
+const displayMessage = function(message){
+  
+}
+
 button.addEventListener('click', function () {
   let guessInputs = Number(document.querySelector('.guess').value);
 
