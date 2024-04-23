@@ -2,6 +2,7 @@
 
 let modalButtons = document.querySelectorAll('.show-modal');
 let modal = document.querySelector('.modal');
+let closeModal = document.querySelector('.close-modal');
 
 modalButtons.forEach((button) => {
     button.addEventListener('click', () => {
