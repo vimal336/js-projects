@@ -5,16 +5,16 @@ let modal = document.querySelector('.modal');
 let overlay = document.querySelector('.overlay');
 let closeModal = document.querySelector('.close-modal');
 
-modalButtons.forEach(button => {
-  button.addEventListener('click', commonOpenModals);
-});
 
 const commonOpenModals = function () {
     modal.classList.remove('hidden');
     overlay.classList.remove('hidden');
   };
-  
 
+modalButtons.forEach(button => {
+button.addEventListener('click', commonOpenModals);
+});
+  
 const commonCloseModals = function () {
   modal.classList.add('hidden');
   overlay.classList.add('hidden');
