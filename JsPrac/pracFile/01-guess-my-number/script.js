@@ -1,13 +1,12 @@
 'use strict';
 
 const button = document.querySelector('.check');
-const message = document.querySelector('.message');
 const main = document.querySelector('main');
 let highscore = document.querySelector('.highscore');
 let score = 20;
 
 const displayMessage = function(message){
-  
+  const message = document.querySelector('.message').textContent;
 }
 
 button.addEventListener('click', function () {
@@ -17,7 +16,7 @@ button.addEventListener('click', function () {
 
   // when guess input is not a number
   if (!guessInputs) {
-    message.textContent = 'No number';
+    // message.textContent = 'No number';
     return;
   }
 
