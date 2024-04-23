@@ -13,8 +13,8 @@ modalButtons.forEach(button => {
 });
 
 const commonOpenModals = function () {
-    modal.classList.add('hidden');
-    overlay.classList.add('hidden');
+    modal.classList.remove('hidden');
+    overlay.classList.remove('hidden');
   };
   
 
