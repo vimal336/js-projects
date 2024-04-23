@@ -34,7 +34,7 @@ button.addEventListener('click', function () {
   } 
 
    //When guess is low or high
-   if (displayMessage (GenerateRandom > guessInputs ? 'too high' : 'too low')) {
+    GenerateRandom > guessInputs ? displayMessage('too high') : displayMessage('too low');{
     if(score>1){
     main.style.backgroundColor = 'red';
     score--;
