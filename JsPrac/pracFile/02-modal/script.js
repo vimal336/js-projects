@@ -34,8 +34,9 @@ overlay.addEventListener('click', commonCloseModals);
 //   modal.classList.remove('hidden');
 // });
 
-document.addEventListener('keydown', function(){
- console.log('A key was pressed')
+document.addEventListener('keydown', function(e){
+//  console.log('A key was pressed')
+console.log(e);
 });
 
 
