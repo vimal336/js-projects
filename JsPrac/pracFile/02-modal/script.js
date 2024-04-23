@@ -6,10 +6,7 @@ let overlay = document.querySelector('.overlay');
 let closeModal = document.querySelector('.close-modal');
 
 modalButtons.forEach(button => {
-  button.addEventListener('click', () => {
-    modal.classList.remove('hidden');
-    overlay.classList.remove('hidden');
-  });
+  button.addEventListener('click', commonOpenModals);
 });
 
 const commonOpenModals = function () {
