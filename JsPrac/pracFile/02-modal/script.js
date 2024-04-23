@@ -11,6 +11,14 @@ modalButtons.forEach((button) => {
 });
 
 
+modalButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+        closeModal.classList.add('hidden');
+    });
+});
+
+
+
 
 // for(let i=0; i<=modalButtons.length; i++)
 //   modalButtons[i].addEventListener('click', function(){
