@@ -28,9 +28,16 @@ body {
   margin: 5rem 2rem;
   border: none;
   background-color: #fff;
-  color: #444;
+  color: #f00000;
+  background-color: #fff;
   border-radius: 10rem;
   cursor: pointer;
+  transition: .5s;
+}
+
+.show-modal:hover{
+  background-color:#f00000;
+  color: white;
 }
 
 .close-modal {
