@@ -18,7 +18,7 @@ body {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  background: linear-gradient(to top left, #a828b4, #ff8800);
+  background: linear-gradient(to top left, #a828b4, #18ff52);
 }
 
 .show-modal {
@@ -32,6 +32,7 @@ body {
   background-color: #fff;
   border-radius: 10rem;
   cursor: pointer;
+  border: 2px solid black;
   transition: .5s;
 }
 
