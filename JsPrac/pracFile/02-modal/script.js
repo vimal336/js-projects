@@ -35,7 +35,7 @@ for(let i=0; i<=modalButtons.length; i++)
 });
 
 document.addEventListener('keydown', function(){
- console.log('')
+ console.log('A key was pressed')
 });
 
 
