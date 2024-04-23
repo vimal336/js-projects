@@ -36,7 +36,7 @@ overlay.addEventListener('click', commonCloseModals);
 
 document.addEventListener('keydown', function(e){
 //  console.log('A key was pressed')
-console.log(e);
+console.log(e.key);
 });
 
 
