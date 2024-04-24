@@ -24,17 +24,17 @@ console.log(randomDice);
 diceEl.classList.remove('hidden');
 
 if (randomDice === 1) {
-    document.querySelector(".img1").src = "dice-1.png";
+    diceEl.src = "dice-1.png";
 } else if (randomDice === 2) {
-    document.querySelector(".img1").src = "dice-2.png";
+    diceEl.src = "dice-2.png";
 } else if (randomDice === 3) {
-    document.querySelector(".img1").src = "dice-3.png";
+    diceEl.src = "dice-3.png";
 } else if (randomDice === 4) {
-    document.querySelector(".img1").src = "dice-4.png";
+    diceEl.src = "dice-4.png";
 } else if (randomDice === 5) {
-    document.querySelector(".img1").src = "dice-5.png";
+    diceEl = "dice-5.png";
 } else {
-    document.querySelector(".img1").src = "dice-6.png";
+    diceEl.src = "dice-6.png";
 }
 
 
