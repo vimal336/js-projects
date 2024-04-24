@@ -23,17 +23,15 @@ console.log(randomDice);
 
 diceEl.classList.remove('hidden');
 
-let N = Math.random() * 6;
-N = Math.floor(N);
-if (N === 1) {
+if (randomDice === 1) {
     document.querySelector(".img1").src = "dice-1.png";
-} else if (N === 2) {
+} else if (randomDice === 2) {
     document.querySelector(".img1").src = "dice-2.png";
-} else if (N === 3) {
+} else if (randomDice === 3) {
     document.querySelector(".img1").src = "dice-3.png";
-} else if (N === 4) {
+} else if (randomDice === 4) {
     document.querySelector(".img1").src = "dice-4.png";
-} else if (N === 5) {
+} else if (randomDice === 5) {
     document.querySelector(".img1").src = "dice-5.png";
 } else {
     document.querySelector(".img1").src = "dice-6.png";
