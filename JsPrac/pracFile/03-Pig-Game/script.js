@@ -17,7 +17,7 @@ score1El.textContent = 0;
 
 diceEl.classList.add('hidden');
 
-currentScore = 0;
+let currentScore = 0;
 
 //Rolling Dice Functionality
 btnRoll.addEventListener('click', function(){
@@ -28,8 +28,8 @@ diceEl.classList.remove('hidden');
 
 diceEl.src = `dice-${randomDice}.png`;
 
-if(randomDice !==1){
-    currentScore += dice;
+if (randomDice !==1){
+    currentScore += randomDice;
     current0El.textContent = currentScore;
 } else{
 
