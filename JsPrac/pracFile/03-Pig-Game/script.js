@@ -7,7 +7,8 @@ const diceEl = document.querySelector('.dice');
 const btnNew = document.querySelector('.btn--new');
 const btnRoll = document.querySelector('.btn--roll');
 const btnHold = document.querySelector('.btn--hold');
-const currentScore = document.querySelector('.current-score');
+const current0El = document.getElementById('current--0');
+const current0E2 = document.getElementById('current--1');
 
 
 //Starting Conditions
@@ -25,9 +26,7 @@ diceEl.classList.remove('hidden');
 
 diceEl.src = `dice-${randomDice}.png`;
 
-let p1 = randomDice + 0;
 
-currentScore.textContent = p1;
 
 });
 
