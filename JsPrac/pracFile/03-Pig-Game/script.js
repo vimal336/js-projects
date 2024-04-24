@@ -28,5 +28,13 @@ diceEl.classList.remove('hidden');
 
 diceEl.src = `dice-${randomDice}.png`;
 
+if(randomDice !==1){
+    currentScore += dice;
+    current0El.textContent = currentScore;
+} else{
+
+
+}
+
 });
 
