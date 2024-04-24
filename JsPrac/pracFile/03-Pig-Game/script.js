@@ -32,7 +32,7 @@ if (randomDice === 1) {
 } else if (randomDice === 4) {
     diceEl.src = "dice-4.png";
 } else if (randomDice === 5) {
-    diceEl = "dice-5.png";
+    diceEl.src = "dice-5.png";
 } else {
     diceEl.src = "dice-6.png";
 }
