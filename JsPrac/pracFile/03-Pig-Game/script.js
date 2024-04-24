@@ -33,7 +33,7 @@ if (randomDice !==1){
     current0El.textContent = currentScore;
 } else{
 
-
+   current0El.textContent = 0;
 }
 
 });
