@@ -21,5 +21,7 @@ btnRoll.addEventListener('click', function(){
 let randomDice = Math.trunc(Math.random()*6) + 1;
 console.log(randomDice);
 
+diceEl.classList.remove('hidden');
+
 
 });
