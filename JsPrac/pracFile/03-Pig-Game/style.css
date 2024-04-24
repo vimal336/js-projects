@@ -17,7 +17,9 @@ body {
   height: 100vh;
   color: #333;
   background-image: linear-gradient(to top left, #43ee00 0%, #3e0feb 100%);
-  background: url(../03-Pig-Game/bg);
+  background: url(https://www.pixelstalk.net/wp-content/uploads/2016/10/3D-Dice-in-Water-HD-Wallpapers.jpg);
+  object-fit: cover;
+  background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -60,7 +62,7 @@ main {
 .score {
   font-size: 8rem;
   font-weight: 300;
-  color: #3e0feb ;
+  color: #fa420a ;
   margin-bottom: auto;
 }
 
@@ -79,7 +81,7 @@ main {
 }
 
 .current {
-  background-color: #3e0feb ;
+  background-color: #175cdd ;
   opacity: 0.8;
   border-radius: 9px;
   color: #fff;
@@ -164,7 +166,7 @@ main {
 
 .player--winner .name {
   font-weight: 700;
-  color: #3e0feb ;
+  color: #175cdd ;
 }
 
 .hidden{
