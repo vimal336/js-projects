@@ -62,7 +62,7 @@ main {
 .score {
   font-size: 8rem;
   font-weight: 300;
-  color: #fa420a ;
+  color: #fa420a;
   margin-bottom: auto;
 }
 
@@ -81,7 +81,7 @@ main {
 }
 
 .current {
-  background-color: #175cdd ;
+  background-color: #175cdd;
   opacity: 0.8;
   border-radius: 9px;
   color: #fff;
@@ -89,6 +89,12 @@ main {
   padding: 2rem;
   text-align: center;
   transition: all 0.75s;
+  box-shadow: rgba(11, 255, 161, 0.17) 0px -23px 25px 0px inset,
+    rgba(9, 239, 255, 0.15) 0px -36px 30px 0px inset,
+    rgba(8, 239, 255, 0.1) 0px -79px 40px 0px inset,
+    rgba(9, 239, 255, 0.06) 0px 2px 1px, rgba(13, 199, 255, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(5, 255, 255, 0.09) 0px 16px 8px,
+    rgba(1, 255, 242, 0.09) 0px 32px 16px;
 }
 
 .current-label {
@@ -166,9 +172,9 @@ main {
 
 .player--winner .name {
   font-weight: 700;
-  color: #175cdd ;
+  color: #175cdd;
 }
 
-.hidden{
+.hidden {
   display: none;
 }
