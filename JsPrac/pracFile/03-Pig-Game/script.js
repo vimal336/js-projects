@@ -16,3 +16,10 @@ score1El.textContent = 0;
 diceEl.classList.add('hidden');
 
 //Rolling Dice Functionality
+btnRoll.addEventListener('click', function(){
+
+let randomDice = Math.trunc(Math.random()*6) + 1;
+console.log(randomDice);
+
+
+});
