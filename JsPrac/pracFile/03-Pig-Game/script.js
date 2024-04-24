@@ -7,6 +7,7 @@ const diceEl = document.querySelector('.dice');
 const btnNew = document.querySelector('.btn--new');
 const btnRoll = document.querySelector('.btn--roll');
 const btnHold = document.querySelector('.btn--hold');
+const currentScore = document.querySelector('.current-score');
 
 
 //Starting Conditions
@@ -19,11 +20,14 @@ diceEl.classList.add('hidden');
 btnRoll.addEventListener('click', function(){
 
 let randomDice = Math.trunc(Math.random()*6) + 1;
-console.log(randomDice);
 
 diceEl.classList.remove('hidden');
 
-diceEl.src = "dice-1.png";
+diceEl.src = `dice-${randomDice}.png`;
+
+let p1 = randomDice + 0;
+
+currentScore.textContent = p1;
 
 });
 
