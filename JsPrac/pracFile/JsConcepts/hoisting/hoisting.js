@@ -7,14 +7,14 @@ let y = 10; // declaration and initialization
 console.log(b); // undefined
 var b = 5;
 
-
+// hoisting in function
 sayHello(); // Output: "Hello, world!"
 
 function sayHello() {
   console.log("Hello, world!");
 }
 
-
+// hoisting in function expression
 sayHi(); // Throws a TypeError
 
 var sayHi = function() {
