@@ -1,5 +1,5 @@
 'use strict';
 
 
-var foo = 'foo';
-console.log(foo);
+var foo = 'fo';
+console.log(fo);
