@@ -35,3 +35,5 @@ var sayHi = function() {
 console.log(myVar); // Throws a ReferenceError
 let myVar = 10;
 
+
+
