@@ -47,4 +47,4 @@ function example() {
   
   example();
   
-  example('')
+  example();
