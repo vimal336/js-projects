@@ -48,3 +48,5 @@ function example() {
   example();
   
 let ar = ['a', 'b', 'c', 'd']
+
+[u, i, h, k] = ar
