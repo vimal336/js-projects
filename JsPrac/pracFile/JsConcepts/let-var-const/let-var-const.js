@@ -51,4 +51,6 @@ let ar = ['a', 'b', 'c', 'd']
 
 let ne = [u, i, h, k] = ar;
 
+console.log(ne[0]);
+
 
