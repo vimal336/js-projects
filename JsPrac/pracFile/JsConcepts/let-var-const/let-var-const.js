@@ -47,3 +47,4 @@ function example() {
   
   example();
   
+let ar = ['a', 'b', 'c', 'd']
