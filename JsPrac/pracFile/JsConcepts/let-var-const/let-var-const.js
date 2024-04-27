@@ -49,4 +49,6 @@ function example() {
   
 let ar = ['a', 'b', 'c', 'd']
 
-[u, i, h, k] = ar
+let ne = [u, i, h, k] = ar;
+
+
