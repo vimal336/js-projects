@@ -55,7 +55,7 @@ function example() {
       let x = "inside if"; // x is scoped to the if block
     }
     
-    console.log(x); // ReferenceError: x is not defined
+    console.log(x); 
   }
   
   example();
