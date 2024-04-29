@@ -84,7 +84,6 @@ console.log(strs)
 // Then, call the function again with players from game.scored
 
 
-
  const game = {
  team1: 'Bayern Munich',
  team2: 'Borrussia Dortmund',
@@ -126,3 +125,10 @@ console.log(strs)
  team2: 6.5,
  },
  }
+
+
+ const fruits = ["apple", "banana", "orange"];
+
+for (const fruit of fruits) {
+    console.log(fruit);
+}
