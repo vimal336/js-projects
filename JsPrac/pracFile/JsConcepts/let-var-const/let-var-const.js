@@ -49,13 +49,3 @@ function example() {
 
 
   
-
-  function example() {
-    if (true) {
-      let x = "inside if"; // x is scoped to the if block
-    }
-    
-    console.log(x); 
-  }
-  
-  example();
