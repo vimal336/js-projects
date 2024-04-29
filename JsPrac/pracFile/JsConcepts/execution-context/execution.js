@@ -18,3 +18,4 @@
 
 // -Single threaded means JavaScript can execute once command at a time
 // -Synchronous single-threaded that means JavaScript can execute one command at a time in a specific order.
+
