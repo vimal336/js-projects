@@ -28,10 +28,15 @@ const restaurant = {
   },
 };
 
-
-
 let arr = ['1', '2', '3', '4'];
 
 console.log(arr);
 
 let arr2 = ['5', '6', '7', '8'];
+
+let arr3 = ['9', ...arr];
+
+console.log(arr3);
+
+let arr4 = [...arr, ...arr2];
+console.log(arr4)
