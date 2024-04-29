@@ -68,13 +68,3 @@ myMap.forEach((value, key) => {
 });
 
 
-
-let mapfun  = new Map;
-
-mapfun.set('name', 'vimal');
-
-console.log(mapfun)
-
-for(const [k,v] of mapfun){
-    console.log(mapfun)
-}
