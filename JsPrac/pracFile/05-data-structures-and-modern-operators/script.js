@@ -40,3 +40,10 @@ console.log(arr3);
 
 let arr4 = [...arr, ...arr2];
 console.log(arr4)
+
+
+let str = 'spread';
+
+let strs = [...str]
+
+console.log(strs)
