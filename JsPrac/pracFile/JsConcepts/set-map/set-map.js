@@ -29,5 +29,9 @@ mySet.add(setobj2);
 
 console.log(mySet);
 
+//Map//
 
-
+// Map is a built-in object that allows you to store key-value pairs, 
+// where both the keys and the values can be of any data type. 
+// This makes Map a more flexible alternative to plain objects 
+// when you need to associate arbitrary values with keys.
