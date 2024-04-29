@@ -17,4 +17,8 @@ const adventurer = {
   
   console.log(adventurer.someNonExistentMethod?.());
   // Expected output: undefined
+
+  const catName = adventurer.cat?.name;
+  console.log(catName);
+  // Expected output: Dinah
   
