@@ -11,9 +11,3 @@ const baz = 0 ?? 42;
 console.log(baz);
 // Expected output: 0
 
-
-if (true) {
-    console.log("1");
-} else if (true) {
-    console.log("2");
-}
