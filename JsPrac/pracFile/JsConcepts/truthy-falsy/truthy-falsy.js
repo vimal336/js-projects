@@ -28,3 +28,33 @@
 // null
 // undefined
 // false
+
+
+if ("hello") {
+    console.log("Truthy"); // This will be executed because "hello" is truthy
+}
+
+if (0) {
+    console.log("Truthy"); // This will not be executed because 0 is falsy
+} else {
+    console.log("Falsy"); // This will be executed because 0 is falsy
+}
+
+if ([]) {
+    console.log("Truthy"); // This will be executed because an empty array is truthy
+}
+
+if (null) {
+    console.log("Truthy"); // This will not be executed because null is falsy
+} else {
+    console.log("Falsy"); // This will be executed because null is falsy
+}
+if ({}) {
+    // Empty object is truthy
+}
+
+if (function() {}) {
+    // This will be executed because an empty function is truthy
+} else {
+    // This will not be executed
+}
