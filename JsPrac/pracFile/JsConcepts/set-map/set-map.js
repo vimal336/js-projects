@@ -35,3 +35,46 @@ console.log(mySet);
 // where both the keys and the values can be of any data type. 
 // This makes Map a more flexible alternative to plain objects 
 // when you need to associate arbitrary values with keys.
+
+const myMap = new Map();
+myMap.set("name", "John");
+myMap.set("age", 30);
+
+// Or using an iterable of key-value pairs
+// const myMap = new Map([["name", "John"], ["age", 30]]);
+
+
+console.log(myMap.get("name")); // Output: "John"
+myMap.set("age", 31);
+console.log(myMap.get("age")); // Output: 31
+
+
+console.log(myMap.has("name")); // Output: true
+console.log(myMap.has("gender")); // Output: false
+
+
+//Iterating Over a Map:
+
+
+//You can iterate over the entries of a Map using a for...of loop or using the forEach() method.
+
+
+for (const [key, value] of myMap) {
+    console.log(`${key}: ${value}`);
+}
+
+myMap.forEach((value, key) => {
+    console.log(`${key}: ${value}`);
+});
+
+
+
+let mapfun  = new Map;
+
+mapfun.set('name', 'vimal');
+
+console.log(mapfun)
+
+for(const [k,v] of mapfun){
+    console.log(mapfun)
+}
