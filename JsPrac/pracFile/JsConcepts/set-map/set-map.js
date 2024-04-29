@@ -5,3 +5,10 @@
 
 const mySet = new Set([1, 2, 3, 3]);
 console.log(mySet); // Output: Set { 1, 2, 3 }
+
+
+mySet.add(4);
+console.log(mySet); // Output: Set { 1, 2, 3, 4 }
+
+mySet.delete(2);
+console.log(mySet); // Output: Set { 1, 3, 4 }
