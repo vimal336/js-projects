@@ -19,3 +19,15 @@ let setobj = {a:1, b:2};
 mySet.add(setobj);
 
 console.log(mySet);
+
+
+// Set unique value ony for primitive data types only 
+
+let setobj2 = {a:1, b:2};
+
+mySet.add(setobj2);
+
+console.log(mySet);
+
+
+
