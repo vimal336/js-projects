@@ -11,5 +11,24 @@ function multiply(a, b = 3) {
   // Expected output: 10
   
   console.log(multiply(5));
-  // Expected output: 5
+  // Expected output: 15
+
+
+  num1 = 10;
+  num2 = 20;
+
+  console.log(num2);
+
+  let num2 = num1
+
+  console.log(num2);
+
+  console.log(num1);
+  console.log(num2);
   
+
+  num1 = 30;
+
+  console.log(num1);
+
+  console.log(num2);
