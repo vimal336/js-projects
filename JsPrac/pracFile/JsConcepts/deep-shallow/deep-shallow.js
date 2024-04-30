@@ -28,3 +28,7 @@ originalArray[0] = 100;
 
 console.log(originalArray); // Output: [100, 2, 3]
 console.log(copiedArray);   // Output: [1, 2, 3] (copiedArray remains unchanged)
+
+
+
+
