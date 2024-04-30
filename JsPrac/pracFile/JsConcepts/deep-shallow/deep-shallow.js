@@ -33,6 +33,8 @@ console.log(copiedArray);   // Output: [1, 2, 3] (copiedArray remains unchanged)
 
 
 const nonprimtive = ["stringone", "stringtwo"];
+
+
 console.log(nonprimtive);
 
 
@@ -40,6 +42,13 @@ let conv = JSON.stringify(nonprimtive);
 
 console.log(conv);
 
+nonprimtive.push("stringthree");
+
 let newconv = JSON.parse(conv);
 
 console.log(newconv)
+
+console.log(nonprimtive)
+
+
+// spread operator only deep copy on primitive datatypes only
