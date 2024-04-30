@@ -32,3 +32,4 @@ console.log(copiedArray);   // Output: [1, 2, 3] (copiedArray remains unchanged)
 
 
 
+const nonprimtive = ["stringone", "stringtwo"];
