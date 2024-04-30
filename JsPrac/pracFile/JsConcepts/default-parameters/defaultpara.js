@@ -19,7 +19,7 @@ function multiply(a, b = 3) {
 
   console.log(num2);
 
-  let num2 = num1
+  num2 = num1
 
   console.log(num2);
 
