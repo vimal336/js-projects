@@ -19,3 +19,9 @@ let array2 = [1, 2, 3, 4, 5];
 let reversedArray = array2.slice().reverse();
 console.log(reversedArray); // Output: [5, 4, 3, 2, 1]
 console.log(array2); // Output: [1, 2, 3, 4, 5] (original array remains unchanged
+
+
+let array3 = ['apple', 'banana', 'orange'];
+let result = array3.join();
+console.log(result); // Output: "apple,banana,orange"
+console.log(array3);
