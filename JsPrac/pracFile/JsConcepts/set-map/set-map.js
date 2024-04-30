@@ -69,3 +69,9 @@ myMap.forEach((value, key) => {
 
 
 
+function names(){
+    console.log("hello")
+}
+
+names();
+
