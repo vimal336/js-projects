@@ -402,7 +402,7 @@ header a {
   position: relative;
   background: url(../images/HomePage/home-info.jpg);
   height: 50rem;
-  width: 84rem;
+  width: 100vw;
   background-size: cover;
 }
 
