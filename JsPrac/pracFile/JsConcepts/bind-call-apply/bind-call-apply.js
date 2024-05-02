@@ -1,4 +1,18 @@
 
+
+//Call Method
+
+// call method: It invokes a function with a specified this value and arguments provided individually.
+
+
+
+
+
+
+
+
+
+
 //Example -1
 
 function myfun(){
