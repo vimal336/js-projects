@@ -4,6 +4,15 @@
 
 // call method: It invokes a function with a specified this value and arguments provided individually.
 
+function sayHello() {
+    console.log('Hello, ' + this.name);
+}
+
+var person = {
+    name: 'Vimal'
+};
+
+sayHello.call(person); // Output: Hello, Vimal
 
 
 
