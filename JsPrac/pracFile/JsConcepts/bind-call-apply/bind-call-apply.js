@@ -5,3 +5,5 @@ function myfun(){
 let obj = {
     name:'joining'
 };
+
+myfun = myfun.bind
