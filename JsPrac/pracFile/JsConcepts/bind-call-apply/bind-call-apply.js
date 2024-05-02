@@ -3,7 +3,8 @@ function myfun(){
 }
 
 let obj = {
-    name:'joining'
+    name:'joining',
+    concept:'bind method'
 };
 
 myfun = myfun.bind(obj);
