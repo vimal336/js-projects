@@ -4,15 +4,17 @@
 
 // call method: It invokes a function with a specified this value and arguments provided individually.
 
-function sayHello() {
-    console.log('Hello, ' + this.name);
+
+
+function sayHi(a, b) {
+    console.log('Hi, ' + this.name, a + b);
 }
 
 var person = {
     name: 'Vimal'
 };
 
-sayHello.call(person); // Output: Hello, Vimal
+sayHi.call(person, 5, 6); // Output: Hello, Vimal 11
 
 
 
@@ -21,6 +23,11 @@ sayHello.call(person); // Output: Hello, Vimal
 
 
 
+//Bind Method
+
+// bind method: It returns a new function with the this value set to the provided value. 
+// Unlike call and apply, it doesn't immediately invoke the function;
+//  instead, it creates a new function with the specified context.
 
 //Example -1
 
