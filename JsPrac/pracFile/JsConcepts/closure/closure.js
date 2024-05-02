@@ -22,6 +22,8 @@ function init() {
 //In other words, a closure gives you access to an outer function's scope from an inner function.
 
 
+a =100;
+
 function outer(name){
     let outerVariable = 'Bread'
     function inner(){
@@ -34,7 +36,7 @@ function outer(name){
     return inner
 }   
 
-let call1 = outer('Vidya')
+let call1 = outer('Vimal')
 call1()
 
 let call2 = outer('John')
