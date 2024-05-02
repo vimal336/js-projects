@@ -3,5 +3,5 @@ function myfun(){
 }
 
 let obj = {
-    name:'joining';
-}
+    name:'joining'
+};
