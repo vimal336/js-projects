@@ -76,6 +76,8 @@ movements.forEach(function (mov,i){
   containerMovements.insertAdjacentHTML('afterbegin', html);
 })
 };
+
+displayMovements(account1.movements);
 /////////////////////////////////////////////////
 /////////////////////////////////////////////////
 // LECTURES
