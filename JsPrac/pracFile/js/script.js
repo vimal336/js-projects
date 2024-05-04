@@ -301,7 +301,23 @@ const julia = [3, 5, 2, 12, 7];
 const kate = [4, 1, 15, 8, 3];
 
 
-function checkDogs(){
-  
+
+  function checkDogs(julia, kate) {
+    // Check if arrays have the same length
+    if (arr1.length !== arr2.length) {
+        return false;
+    }
+
+    // Iterate through the arrays and compare elements
+    for (let i = 0; i < arr1.length; i++) {
+        if (arr1[i] !== arr2[i]) {
+            return false;
+        }
+    }
+
+    // If all elements are the same, return true
+    return true;
 }
+
+
 
