@@ -216,7 +216,7 @@ miller = {
   mass: "50",
   height: "180",
   calcBmi: function () {
-    const bmi = this.mass / ((this.height / 100) ** 2);
+    const bmi = this.mass / (this.height / 100) ** 2;
     return bmi;
   },
 };
@@ -226,7 +226,7 @@ smith = {
   mass: 60,
   height: 160,
   calcBmi: function () {
-    const bmi = this.mass / ((this.height / 100) ** 2);
+    const bmi = this.mass / (this.height / 100) ** 2;
     return bmi;
   },
 };
@@ -234,58 +234,61 @@ smith = {
 console.log(smith.calcBmi());
 console.log(miller.calcBmi());
 
-if(smith.calcBmi() >= miller.calcBmi()){
-  console.log(`${smith.fullname} BMI ${smith.calcBmi()} is higher than ${miller.fullname} ${miller.calcBmi()}!`);
-} else{
-  console.log(`${miller.fullname} BMI ${miller.calcBmi()} is higher than ${smith.fullname} ${smith.calcBmi()}!`);
+if (smith.calcBmi() >= miller.calcBmi()) {
+  console.log(
+    `${smith.fullname} BMI ${smith.calcBmi()} is higher than ${
+      miller.fullname
+    } ${miller.calcBmi()}!`
+  );
+} else {
+  console.log(
+    `${miller.fullname} BMI ${miller.calcBmi()} is higher than ${
+      smith.fullname
+    } ${smith.calcBmi()}!`
+  );
 }
-
-
 
 const phil = [
-  'phil',
-  'sam',
+  "phil",
+  "sam",
   2037 - 1991,
-  'teacher',
-  ['Michael, Peter, steve, Steven']
-]
+  "teacher",
+  ["Michael, Peter, steve, Steven"],
+];
 
-for (let i=0; i < phil.length; i++){
+for (let i = 0; i < phil.length; i++) {
   console.log(phil[i]);
 }
-
 
 years = [1999, 1889, 2002, 2010, 1999];
 
 const ages = [];
 
-for (let i = 0; i<years.length; i++)
-{
+for (let i = 0; i < years.length; i++) {
   console.log(ages.push(2037 - years[i]));
 }
 
-
 // Coding Challenge #1
 
-// Julia and Kate are doing a study on dogs. So each of them asked 5 dog owners 
-// about their dog's age, and stored the data into an array (one array for each). For 
+// Julia and Kate are doing a study on dogs. So each of them asked 5 dog owners
+// about their dog's age, and stored the data into an array (one array for each). For
 // now, they are just interested in knowing whether a dog is an adult or a puppy.
-// A dog is an adult if it is at least 3 years old, and it's a puppy if it's less than 3 years 
+// A dog is an adult if it is at least 3 years old, and it's a puppy if it's less than 3 years
 // old.
 
 // Your tasks:
-// Create a function 'checkDogs', which accepts 2 arrays of dog's ages 
+// Create a function 'checkDogs', which accepts 2 arrays of dog's ages
 // ('dogsJulia' and 'dogsKate'), and does the following things:
 
-// 1. Julia found out that the owners of the first and the last two dogs actually have 
-// cats, not dogs! So create a shallow copy of Julia's array, and remove the cat 
-// ages from that copied array (because it's a bad practice to mutate function 
+// 1. Julia found out that the owners of the first and the last two dogs actually have
+// cats, not dogs! So create a shallow copy of Julia's array, and remove the cat
+// ages from that copied array (because it's a bad practice to mutate function
 // parameters)
 
 // 2. Create an array with both Julia's (corrected) and Kate's data
 
-// 3. For each remaining dog, log to the console whether it's an adult ("Dog number 1 
-// is an adult, and is 5 years old") or a puppy ("Dog number 2 is still a puppy 
+// 3. For each remaining dog, log to the console whether it's an adult ("Dog number 1
+// is an adult, and is 5 years old") or a puppy ("Dog number 2 is still a puppy
 // �
 // ")
 
@@ -294,30 +297,38 @@ for (let i = 0; i<years.length; i++)
 // § Data 1: Julia's data [3, 5, 2, 12, 7], Kate's data [4, 1, 15, 8, 3]
 // § Data 2: Julia's data [9, 16, 6, 8, 3], Kate's data [10, 5, 6, 1, 4]
 
-// Hints: Use tools from all lectures in this section so far 
+// Hints: Use tools from all lectures in this section so far
 
 const julia = [3, 5, 2, 12, 7];
 
 const kate = [4, 1, 15, 8, 3];
 
+console.log(julia);
+
+function checkDogs(julia, kate) {
+
+  const juliaOnlyDogs = julia.slice();
+
+  juliaOnlyDogs.splice(0, 1);
+
+  juliaOnlyDogs.splice(-2);
+
+  console.log(juliaOnlyDogs);
 
 
-  function checkDogs(julia, kate) {
-    // Check if arrays have the same length
-    if (arr1.length !== arr2.length) {
-        return false;
-    }
+  let allkate = kate.forEach(element => {
+      console.log(element);
+  });
 
-    // Iterate through the arrays and compare elements
-    for (let i = 0; i < arr1.length; i++) {
-        if (arr1[i] !== arr2[i]) {
-            return false;
-        }
-    }
+  let alljulia = juliaOnlyDogs.forEach(element => {
+    console.log(element);
+});
 
-    // If all elements are the same, return true
-    return true;
+
+
+  
+
+
 }
 
-
-
+checkDogs(julia, kate);
