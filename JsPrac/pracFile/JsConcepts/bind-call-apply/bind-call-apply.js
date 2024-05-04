@@ -75,3 +75,5 @@ let objec = {
     names:'vimal',
     age:20,
 }
+
+var greet = fun.bind();
