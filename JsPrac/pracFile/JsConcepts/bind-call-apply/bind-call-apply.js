@@ -68,7 +68,7 @@ function fun(){
  console.log("hello" + this.names);
 }
 
-fun();
+// fun();
 
 
 let objec = {
@@ -76,4 +76,6 @@ let objec = {
     age:20,
 }
 
-var greet = fun.bind();
+var greet = fun.bind(objec.names);
+
+greet();
