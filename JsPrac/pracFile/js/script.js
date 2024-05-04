@@ -306,7 +306,6 @@ const kate = [4, 1, 15, 8, 3];
 console.log(julia);
 
 function checkDogs(julia, kate) {
-
   const juliaOnlyDogs = julia.slice();
 
   juliaOnlyDogs.splice(0, 1);
@@ -315,25 +314,22 @@ function checkDogs(julia, kate) {
 
   console.log(juliaOnlyDogs);
 
-
-  let allkate = kate.forEach(element => {
-      console.log(element);
+  let allkate = kate.forEach((element, i) => {
+    if (element > 3) {
+      console.log(`Dog number ${i+1} is an adult dog.`);
+    } else {
+      console.log(`Dog number ${i+1} is an puppy dog.`);
+    }
   });
 
-  let alljulia = juliaOnlyDogs.forEach(element => {
-    console.log(element);
-});
+  let alljulia = juliaOnlyDogs.forEach((element, i) => {
+    if (element > 3) {
+      console.log(`Dog number ${i+1} is an adult dog.`);
+    } else {
+      console.log(`Dog number ${i+1} is an puppy dog.`);
+    }
+  });
 
-
-if(alljulia > 3){
-  console.log("its a adult dog");
-} else{
-  console.log("its a puppy");
-}
-
-
-
-  
 
 
 }
