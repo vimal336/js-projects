@@ -325,6 +325,13 @@ function checkDogs(julia, kate) {
 });
 
 
+if(alljulia > 3){
+  console.log("its a adult dog");
+} else{
+  console.log("its a puppy");
+}
+
+
 
   
 
