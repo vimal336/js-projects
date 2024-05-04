@@ -305,7 +305,7 @@ const kate = [4, 1, 15, 8, 3];
 
 console.log(julia);
 
-function checkDogs(julia, kate) {
+function checkDogs() {
   const juliaOnlyDogs = julia.slice();
 
   juliaOnlyDogs.splice(0, 1);
@@ -330,8 +330,6 @@ function checkDogs(julia, kate) {
     }
   });
 
-
-
 }
 
-checkDogs(julia, kate);
+checkDogs();
