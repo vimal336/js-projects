@@ -43,3 +43,11 @@ let call2 = outer('John')
 call2()
 call1()
   
+
+const addtax = (rate, value) => value + value * rate;
+console.log(addtax(0.1, 200)); // Calculates the total value after adding 10% tax to $200
+
+const addvat = addtax.bind(null, 0.23); // Creates a new function addvat with a preset tax rate of 23%
+
+console.log(addvat(100)); // Calculates the total value after adding 23% VAT to $100
+console.log(addvat(23)); // This seems to be an error or unnecessary, as it's not using the function addvat

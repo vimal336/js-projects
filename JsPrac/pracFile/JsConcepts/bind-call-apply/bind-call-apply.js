@@ -60,3 +60,18 @@ var person = {
 
 var greetPerson = sayHello.bind(person);
 greetPerson(); // Output: Hello, Charlie
+
+
+
+
+function fun(){
+ console.log("hello" + this.names);
+}
+
+fun();
+
+
+let objec = {
+    names:'vimal',
+    age:20,
+}
