@@ -300,3 +300,8 @@ const julia = [3, 5, 2, 12, 7];
 
 const kate = [4, 1, 15, 8, 3];
 
+
+function checkDogs(){
+  
+}
+
