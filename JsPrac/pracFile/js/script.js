@@ -296,3 +296,7 @@ for (let i = 0; i<years.length; i++)
 
 // Hints: Use tools from all lectures in this section so far 
 
+const julia = [3, 5, 2, 12, 7];
+
+const kate = [4, 1, 15, 8, 3];
+
