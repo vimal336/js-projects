@@ -65,7 +65,7 @@ greetPerson(); // Output: Hello, Charlie
 
 
 function fun(){
- console.log("hello, " + this.names);
+ console.log("Hi, " + this.names);
 }
 
 // fun();
