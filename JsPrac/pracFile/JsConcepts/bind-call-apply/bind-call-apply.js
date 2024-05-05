@@ -79,3 +79,5 @@ let objec = {
 var greet = fun.bind(objec);
 
 greet();
+
+//bind method
