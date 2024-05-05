@@ -65,7 +65,7 @@ greetPerson(); // Output: Hello, Charlie
 
 
 function fun(){
- console.log("hello" + this.names);
+ console.log("hello, " + this.names);
 }
 
 // fun();
@@ -76,6 +76,6 @@ let objec = {
     age:20,
 }
 
-var greet = fun.bind(objec.names);
+var greet = fun.bind(objec);
 
 greet();
