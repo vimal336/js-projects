@@ -1,2 +1,5 @@
-// The filter() method of Array instances creates a shallow copy of a portion of a given array, 
-// filtered down to just the elements from the given array that pass the test implemented by the provided function.
+// The filter method in JavaScript is designed as a higher-order function that iterates over each element of an array, 
+// allowing developers to apply a specific condition to filter out elements.
+
+// The filter method doesn't modify the original array, but instead creates and returns 
+// a new array containing only the elements that meet the specified condition.
