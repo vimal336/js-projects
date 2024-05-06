@@ -60,24 +60,3 @@ var person = {
 
 var greetPerson = sayHello.bind(person);
 greetPerson(); // Output: Hello, Charlie
-
-
-
-
-function fun(){
- console.log("Hi, " + this.names);
-}
-
-// fun();
-
-
-let objec = {
-    names:'vimal',
-    age:20,
-}
-
-var greet = fun.bind(objec);
-
-greet();
-
-//bind method
