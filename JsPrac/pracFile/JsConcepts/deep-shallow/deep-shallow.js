@@ -13,8 +13,6 @@ console.log(originalString); // Output: Hi
 console.log(copiedString);   // Output: Hello (copiedString remains unchanged)
 
 
-
-
 // In JavaScript, non-primitive data types like arrays and objects are mutable, 
 // meaning their values can be changed. When you assign an array or an object to another variable, 
 // you're creating a reference to the original array or object, not a copy of it. This means that changes
