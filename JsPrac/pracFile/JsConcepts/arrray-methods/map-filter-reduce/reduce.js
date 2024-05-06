@@ -16,6 +16,9 @@ const reducearray = reducemethod.reduce((prev, curr, i, arr)=>{
 });
 
 
+array.reduce(callback(accumulator, currentValue, currentIndex, array), initialValue)
+
+
 // A callback function: This function is executed for each element in the array. 
 // It can take four arguments:
 // Accumulator: The accumulated result of previous iterations. 
