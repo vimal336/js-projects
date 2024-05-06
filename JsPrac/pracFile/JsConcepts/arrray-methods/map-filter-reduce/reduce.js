@@ -4,7 +4,6 @@
 // resulting in a single output value.
 
 
-
 let reducemethod = ['20', '50', '60', '577', '845'];
 
 const reducearray = reducemethod.reduce((prev, curr, i, arr)=>{
@@ -15,6 +14,17 @@ const reducearray = reducemethod.reduce((prev, curr, i, arr)=>{
     return prev + curr;
  
 });
+
+
+
+const numbers = [1, 2, 3, 4, 5];
+
+const sum = numbers.reduce((accumulator, currentValue) => {
+  return accumulator + currentValue;
+}, 0); // Initial value of accumulator is 0
+
+console.log(sum); // Output: 15 (1 + 2 + 3 + 4 + 5)
+
 
 
 
