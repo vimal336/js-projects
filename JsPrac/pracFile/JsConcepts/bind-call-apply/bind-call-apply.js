@@ -71,27 +71,8 @@ greetPerson(); // Output: Hello, Charlie
 
 
 
-function out() {
-  let a = 23;
-
-  function inner() {
-    let c = a + 20;
-    return c;
-  }
-
-  inner();
-}
-
-out();
 
 
-const numbers = [1, 2, 3];
+  
 
-function double() {
-  return this * 2;
-}
-
-const doubledNumbers = numbers.map(double, 3); 
-
-console.log(doubledNumbers); 
 
