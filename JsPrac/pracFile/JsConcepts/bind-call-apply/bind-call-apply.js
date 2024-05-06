@@ -52,11 +52,18 @@ myfun();
 
 function sayHello() {
     console.log('Hello, ' + this.name);
+    
 }
 
 var person = {
-    name: 'Charlie'
+    name: 'Charlie',
+    age:'20'
 };
 
+
 var greetPerson = sayHello.bind(person);
+
+var greetPerson2 = sayHello.bind(person);
+
+greetPerson2();
 greetPerson(); // Output: Hello, Charlie

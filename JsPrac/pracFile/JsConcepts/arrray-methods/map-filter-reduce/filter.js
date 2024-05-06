@@ -11,6 +11,8 @@ const evenNumbers = numbers.filter(num => num % 2 === 0);
 // evenNumbers: [2, 4]
 
 
-const filternum = numbers.filter((fil))
+const filternum = numbers.filter((fil)=>{
+    return fil >=2;
+})
 
-console.log(filt);
+console.log(filternum);
