@@ -72,7 +72,6 @@ greetPerson(); // Output: Hello, Charlie
 
 
 
-
   
 
 

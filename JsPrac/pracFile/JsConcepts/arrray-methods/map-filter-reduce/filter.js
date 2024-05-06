@@ -16,3 +16,36 @@ const filternum = numbers.filter((fil)=>{
 })
 
 console.log(filternum);
+
+
+
+function sum(a,b,cb){
+ var result = a + b;
+ cb(result);
+}
+
+function cb(r){
+  console.log("result:" + r)
+}
+
+sum(10,20,cb);
+
+
+const obj = {
+    x: 42,
+    getX: function() {
+      return this.x;
+    }
+  };
+  
+const unboundGetX = obj.getX; // Unbound function
+  console.log(unboundGetX());
+  
+const boundGetX = unboundGetX.bind(null); // Binding with null
+  
+const addTax = (rate, value) => value + value * rate;
+console.log(addTax(0.1, 200));
+
+const addVAT = addTax.bind(null, 0.23);
+console.log(addVAT(200));
+console.log(addVAT(23));
