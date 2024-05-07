@@ -3,7 +3,7 @@
 // in the array that satisfies the provided testing function. If no such element is found, it returns -1.
 
 
-array.findIndex(callback(element[, index[, array]])[, thisArg])
+//array.findIndex(callback(element[, index[, array]])[, thisArg])
 
 const array = [5, 12, 8, 130, 44];
 
