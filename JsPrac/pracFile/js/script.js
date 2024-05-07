@@ -381,3 +381,6 @@ const poll = {
   options: ['0: JavaScipt', '1: Python', '2: Rust', '3: C++'],
   answers: new Array(4).fill(0),
 }
+
+console.log(poll.answers);
+
