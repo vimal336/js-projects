@@ -375,3 +375,9 @@ checkDogs();
 // § Data 1: [5, 2, 3]
 // § Data 2: [1, 5, 3, 9, 6, 1]
 // Hints: Use many of the tools you learned about in this and the last section 
+
+const poll = {
+  question: 'what is ur fav programming lang?',
+  options: ['0: JavaScipt', '1: Python', '2: Rust', '3: C++'],
+  answers: new Array(4).fill(0),
+}
