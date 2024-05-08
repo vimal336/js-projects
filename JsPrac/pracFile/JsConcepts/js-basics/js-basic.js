@@ -121,21 +121,15 @@ fun(5,5);
 })();
 
 
-//nan
+//nan(not a number) also known as invalid number
 
-let notanum = 4;
+console.log(4 * 'fruit');
 
-let fruit = "apple"
-
-nanex = notanum*fruit;
-
-console.log(nanex);
-
-//type casting
+//type casting also known as explicit type conversion.
 
 let num3 = 5;
 
-let num4 = "23";
+let num4 = "24";
 
 num = Number(num4);
 
@@ -148,3 +142,6 @@ console.log(num5);
 
 console.log(5 + true); // Output: 6 (true is coerced to 1)
 console.log(10 - false); // Output: 10 (false is coerced to 0)
+
+
+
