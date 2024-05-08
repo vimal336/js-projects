@@ -11,6 +11,15 @@
 
 let arr = [1, 2, 3, 4, 5];
 
-for (let i = 0; i < arr.length; i++) {
+for (let i = arr.length; i>=1; i--) {
     console.log(i);
 }
+
+
+let  rev = arr.reverse();
+
+console.log(rev);
+
+setTimeout(function(){
+    console.log("set interval");
+},5000)
