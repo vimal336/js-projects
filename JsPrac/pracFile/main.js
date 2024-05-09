@@ -13,17 +13,17 @@
 
 
 
-// let arr = [1,2,3,4,5];
+let arr = [1,2,3,4,5];
 
-// for(let i=arr.length; i>=0; i--){
-//   console.log(arr[i]);
-// }
-
-let arr = [1, 2, 3, 4, 5];
-
-for (let i = arr.length; i>=1; i--) {
-    console.log(i);
+for(let i=arr.length; i>=0; i--){
+  console.log(arr[i]);
 }
+
+// let arr = [1, 2, 3, 4, 5];
+
+// for (let i = arr.length; i>=1; i--) {
+//     console.log(i);
+// }
 
 
 let  rev = arr.reverse();
@@ -232,5 +232,33 @@ const counter = createCounter();
 counter.increment();
 counter.increment();
 counter.increment();
+
+
+let ucase = "uppercase";
+
+// let upper = ucase.toUpperCase() + slice(0,1);
+// // let u = upper + ucase.slice(1)
+// console.log(upper);
+
+function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+console.log(capitalizeFirstLetter("vimal"));
+
+
+
+function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+console.log(capitalizeFirstLetter("vi")); // Output: Vimal
+
+
+function func(...rest){
+     return rest.reduce((a,b)=>a+b)  ;
+}
+
+console.log(func(5,10,30,10));
 
 
