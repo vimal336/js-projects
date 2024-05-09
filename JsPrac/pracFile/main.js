@@ -186,6 +186,9 @@ people.sort(function(a, b) {
 
 console.log(people);
 
+//closure 
+
+//example 1
 
 function outer(){
 
@@ -204,6 +207,8 @@ console.log(message)
 
 outer();
 
+
+//example 2
 
 function createCounter() {
 
@@ -227,3 +232,5 @@ const counter = createCounter();
 counter.increment();
 counter.increment();
 counter.increment();
+
+
