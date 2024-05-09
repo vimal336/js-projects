@@ -185,3 +185,45 @@ people.sort(function(a, b) {
 });
 
 console.log(people);
+
+
+function outer(){
+
+    const message = "Hello";
+
+    function inner(){
+        console.log(message);
+    }
+
+    inner();
+}
+
+message = "Goodbye";
+
+console.log(message)
+
+outer();
+
+
+function createCounter() {
+
+    let count = 0;
+
+    function increment() {
+        count++;
+        console.log(`Count increased to ${count}`);
+    }
+
+    function getCount() {
+        return count;
+    }
+
+    return {increment, getCount};
+}
+
+
+const counter = createCounter();
+
+counter.increment();
+counter.increment();
+counter.increment();
