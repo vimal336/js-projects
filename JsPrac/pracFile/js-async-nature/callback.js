@@ -1,6 +1,7 @@
 function one(to){
   console.log("call one");
-  to()
+  to();
+ 
 }
 
 one(two);
@@ -8,6 +9,14 @@ one(two);
 function two(){
     console.log("call two");
 }
-  
 
 
+
+function execute(a,b,cb){
+    var add = a+b;
+    cb(add);
+}
+
+execute(10,20,function(add){
+   console.log(add/2);
+})
