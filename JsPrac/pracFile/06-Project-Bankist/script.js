@@ -74,7 +74,7 @@ movements.forEach(function (mov, i) {
   </div>
   `;
 
-  containerMovements.insertAdjacentHTML('afterbegin', html);
+  containerMovements.insertAdjacentHTML('afterend', html);
 });
 };
 
