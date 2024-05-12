@@ -256,7 +256,7 @@ console.log(capitalizeFirstLetter("vi")); // Output: Vimal
 
 
 function func(...restpara){
-     return rest.reduce((a,b)=>a+b)  ;
+     return restpara.reduce((a,b)=>a+b)  ;
 }
 
 console.log(func(5,10,30,10));
