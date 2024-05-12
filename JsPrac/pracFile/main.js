@@ -255,7 +255,7 @@ function capitalizeFirstLetter(string) {
 console.log(capitalizeFirstLetter("vi")); // Output: Vimal
 
 
-function func(...rest){
+function func(...restpara){
      return rest.reduce((a,b)=>a+b)  ;
 }
 
