@@ -259,6 +259,6 @@ function func(...restpara){
      return restpara.reduce((a,b)=>a+b)  ;
 }
 
-console.log(func(5,10,30,10));
+console.log(func(15,10,30,10));
 
 
