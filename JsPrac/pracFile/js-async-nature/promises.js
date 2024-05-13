@@ -1,1 +1,3 @@
-const mypromise = new Promise()
+const mypromise = new Promise(()=>{
+    
+})
