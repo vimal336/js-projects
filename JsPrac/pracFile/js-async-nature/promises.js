@@ -1,9 +1,17 @@
+// file read using promise method
 const fs = require('fs');
 
+fs.promises.readFile('./text.txt',{encoding: 'utf-8'}).then( (data)=> console.log(data) ).catch( (error)=>  console.log(error));
 
-// fs.promises.readFile('./text.txt',{encoding: 'utf-8'}).then((data)=> console.log(data)).catch((error)=>console.log(error));
 
-
+// file read using callback method
+fs.readFile('./text.txt', 'utf8', (error, data) => {
+  if (error) {
+    console.error('Error reading file:', error);
+    return;
+  }
+  console.log('File content:', data);
+});
 
 
 
@@ -19,6 +27,8 @@ const jspromise =  new Promise((resolve, reject)=>{
 });
 
 jspromise.then(()=>console.log("Success")).catch(()=>console.log("failure"));
+
+
 
 
 
