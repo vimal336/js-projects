@@ -1,6 +1,8 @@
-// file read using promise method
+//This imports the Node.js built-in fs module, which provides file system-related functionality.
 const fs = require('fs');
 
+
+// file read using promise method
 fs.promises.readFile('./text.txt',{encoding: 'utf-8'}).then( (data)=> console.log(data) ).catch( (error)=>  console.log(error));
 
 
@@ -12,8 +14,6 @@ fs.readFile('./text.txt', 'utf8', (error, data) => {
   }
   console.log('File content:', data);
 });
-
-
 
 //promise method example 1 :
 const jspromise =  new Promise((resolve, reject)=>{
