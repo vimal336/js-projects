@@ -20,3 +20,8 @@ function execute(a,b,cb){
 execute(10,20,function(add){
    console.log(add/2);
 })
+
+
+function(){
+  
+}
