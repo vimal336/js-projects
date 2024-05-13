@@ -8,4 +8,4 @@ const mypromise = new Promise((resolve, reject)=>{
   }
 });
 
-mypromise.then(console.log("success"));
+mypromise.then( ()=>console.log("Success")).catch(()=> console.log("failure") )
