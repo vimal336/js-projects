@@ -23,5 +23,5 @@ execute(10,20,function(add){
 
 
 function callback(){
-  console.log("execute")
+  console.log("execute");
 }
