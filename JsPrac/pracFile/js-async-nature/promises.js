@@ -1,6 +1,6 @@
 const mypromise = new Promise((resolve, reject)=>{
   if(true){
-    console.log(resolve);
+    console.log(resolve + "resolve");
   } else{
     console.log(reject);
   }
