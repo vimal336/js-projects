@@ -22,6 +22,11 @@ execute(10,20,function(add){
 })
 
 
-function callback(){
+setTimeout(function callback(){
   console.log("execute");
-}
+},3000)
+
+// setTimeout(callback, 3000);
+
+
+
