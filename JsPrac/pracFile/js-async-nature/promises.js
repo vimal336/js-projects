@@ -10,3 +10,8 @@
 
 // mypromise.then( ()=>console.log("Success")).catch(()=> console.log("failure") )
 
+
+
+const jspromise =  new Promise(()=>{
+  
+});
