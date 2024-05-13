@@ -1,5 +1,12 @@
-//promise method example 1 :
 
+const fs = require('fs');
+
+
+fs.promises.readFile('./text.txt')
+
+
+
+//promise method example 1 :
 const jspromise =  new Promise((resolve, reject)=>{
   const rand = Math.floor(Math.random()*2);
   console.log(rand);
