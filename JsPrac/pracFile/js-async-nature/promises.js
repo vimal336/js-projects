@@ -1,10 +1,11 @@
 const mypromise = new Promise((resolve, reject)=>{
-  let random = Math.floor(Math.random*2);
-  if(random == 0){
-    console.log(resolve);
+  let randomnum = Math.floor(Math.random()*2);
+  console.log(randomnum);
+  if(randomnum == 0){
+    resolve();
   } else{
-    console.log(reject);
+    reject();
   }
 });
 
-console.log(random);
+mypromise.then(console.log("success"));
