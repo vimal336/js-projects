@@ -1,9 +1,10 @@
 const mypromise = new Promise((resolve, reject)=>{
-  if(true){
-    console.log(resolve + "resolve");
+  let random = Math.floor(Math.random*2);
+  if(random == 0){
+    console.log(resolve);
   } else{
     console.log(reject);
   }
-})
+});
 
-console.log(mypromise);
+console.log(random);
