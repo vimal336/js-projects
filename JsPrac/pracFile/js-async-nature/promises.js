@@ -1,3 +1,5 @@
+//promise method example 1 :
+
 const jspromise =  new Promise((resolve, reject)=>{
   const rand = Math.floor(Math.random()*2);
   console.log(rand);
@@ -9,4 +11,6 @@ const jspromise =  new Promise((resolve, reject)=>{
 });
 
 jspromise.then(()=>console.log("Success")).catch(()=>console.log("failure"));
+
+
 
