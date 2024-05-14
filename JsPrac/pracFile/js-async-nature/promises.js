@@ -1,6 +1,9 @@
 //This imports the Node.js built-in fs module, which provides file system-related functionality.
 const fs = require('fs');
 
+// imports axios
+const axios = require('axios');
+
 
 // file read using promise method
 fs.promises.readFile('./text.txt',{encoding: 'utf-8'}).then( (data)=> console.log(data) ).catch( (error)=>  console.log(error));
@@ -30,5 +33,11 @@ jspromise.then(()=>console.log("Success")).catch(()=>console.log("failure"));
 
 
 
+//Axios Promise
 
+const url = 'https://jsonplaceholder.typicode.com/users/'
+
+fs.promises.readFile('./text.txt', {encoding:'utf-8'}).then((data) => console.log(data)).catch((error) => console.log(error));
+
+axios.get(url+1).then( (data)=>console.log(data.data.name) )
 
