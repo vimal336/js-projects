@@ -20,6 +20,13 @@ console.log(access);
 let dom = document.getElementsByClassName('dom');
 console.log(dom);
 
+let domtag = document.getElementsByTagName('p');
+console.log(domtag);
+
+domtag[0].style.backgroundColor = "blue";
+domtag[1].style.backgroundColor = "red";
+
+
 
 document // select entire html 
 document.title = "dom practice"; // to change title
