@@ -23,8 +23,13 @@ console.log(dom);
 let domtag = document.getElementsByTagName('p');
 console.log(domtag);
 
-domtag[0].style.backgroundColor = "blue";
-domtag[1].style.backgroundColor = "red";
+console.log(domtag.nodeType);
+
+domtag[0].style.textAlign = 'center';
+
+domtag[0].style.backgroundColor = "grey";
+domtag[1].style.backgroundColor = "green";
+domtag[1].style.color = "white";
 
 
 
