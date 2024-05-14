@@ -15,6 +15,10 @@ let filterobj = [
   {name: "randy",age: 24}
 ];
 
+let filtering =  filterobj.filter(filterobj.age>=20);
+
+console.log(filtering);
+
 const filternum = numbers.filter((fil) => {
   return fil >= 2;
 });
