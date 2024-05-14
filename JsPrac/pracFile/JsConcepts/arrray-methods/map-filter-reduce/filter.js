@@ -8,6 +8,7 @@ const numbers = [1, 0, 2, 3, 4, 10, 5];
 const evenNumbers = numbers.filter((num) => num % 2 === 0);
 // evenNumbers: [2, 4]
 
+//filter method in object
 let filterobj = [
   {name: "raj",age: 15},
   {name: "ram",age: 18},
@@ -15,10 +16,11 @@ let filterobj = [
   {name: "randy",age: 24}
 ];
 
-let filtering =  filterobj.filter(filterobj.age>=20);
+let filtering =  filterobj.filter(filters=>filters.age<=20);
 
 console.log(filtering);
 
+//filter method
 const filternum = numbers.filter((fil) => {
   return fil >= 2;
 });
