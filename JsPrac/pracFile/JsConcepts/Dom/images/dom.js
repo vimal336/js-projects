@@ -13,4 +13,19 @@
 
 // dom was designed to be independent of any particular prog lang.
 
+// document
+// console.log(document) // select entire html 
+// document.title = "dom practice"; // to change title
+// console.dir(document); // to get all properties
 
+var a=0;
+var b=0;
+
+function hary(a,b,c){
+    var c = a + b;
+   console.log(c)
+   return c;
+
+}
+
+console.log(hary(10,50));
