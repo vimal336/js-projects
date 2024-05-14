@@ -13,19 +13,22 @@
 
 // dom was designed to be independent of any particular prog lang.
 
-// document
-// console.log(document) // select entire html 
-// document.title = "dom practice"; // to change title
-// console.dir(document); // to get all properties
 
-var a=0;
-var b=0;
+let access = document.getElementById('access');
+console.log(access);
 
-function hary(a,b,c){
-    var c = a + b;
-   console.log(c)
-   return c;
+let dom = document.getElementsByClassName('dom');
+console.log(dom);
 
-}
 
-console.log(hary(10,50));
+document // select entire html 
+document.title = "dom practice"; // to change title
+console.dir(document); // to get all properties
+
+//Selecting Elements
+document.getElementById() //returns an element object
+document.getElementsByClassName() //returns an HTML collection
+document.getElementsByTagName() //returns an html collection
+document.querySelector() //returns an element object
+document.querySelectorAll() //returns a nodelist
+document.getElementsByName() //returns an nodelist
