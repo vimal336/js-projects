@@ -1,0 +1,1 @@
+//Dom is not part of the js language but is instead a web api used to build websites.
