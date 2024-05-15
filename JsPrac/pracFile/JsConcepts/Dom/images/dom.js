@@ -27,8 +27,6 @@ console.log(parent);
 parent.style.margin = "1rem";
 
 
-
-
 h2tag[0].parentNode.style.backgroundColor = "grey";
 
 //selecting child node  or //selecting first child element 
@@ -37,18 +35,23 @@ let child = parent.firstChild;
 
 console.log(child);
 
-//If any empty space there it will select a text node 
+//when we use firstchild lastchild method If any empty space there, it will select a text node 
 
-//So we have to give FirstElementChild not firstChild
+//So we have to give FirstElementChild not firstChild also LastElementChild not lastchild
 
 //example:
 
-let childElement = parent.firstElementChild;
+//selcting firstchildElement
 
-console.log(childElement);
+let firstchildElement = parent.firstElementChild;
 
+console.log(firstchildElement);
 
+//selcting lastchildElement
 
+let lastchildElement = parent.lastElementChild;
+
+console.log(lastchildElement);
 
 let h1tag = document.getElementsByTagName('h1');
 console.log(h1tag);
