@@ -14,8 +14,60 @@
 // dom was designed to be independent of any particular prog lang.
 
 
+//Selecting parentnode
+
+let h2tag = document.getElementsByTagName('h2');
+console.log(h2tag);
+
+let parent = h2tag[0].parentNode;
+
+console.log(parent);
+
+
+parent.style.margin = "1rem";
+
+
+
+
+h2tag[0].parentNode.style.backgroundColor = "grey";
+
+//selecting child node  or //selecting first child element 
+
+let child = parent.firstChild;
+
+console.log(child);
+
+//If any empty space there it will select a text node 
+
+//So we have to give FirstElementChild not firstChild
+
+//example:
+
+let childElement = parent.firstElementChild;
+
+console.log(childElement);
+
+
+
+
+let h1tag = document.getElementsByTagName('h1');
+console.log(h1tag);
+
+h1tag[0].style.textAlign = "center";
+
+let h1parent = h1tag[0].parentNode.style.padding = "1.5rem";
+console.log(h1parent);
+
+h1tag[0].parentNode.style.backgroundColor = "palegreen";
+
+
+//checking Nodetype
+
 let access = document.getElementById('access');
 console.log(access.nodeType);
+
+
+//selecting Elements
 
 let dom = document.getElementsByClassName('dom');
 console.log(dom);
@@ -38,6 +90,7 @@ domtag[1].style.color = "white";
 
 for(let i=0; i< domtag.length; i++ ){
     domtag[i].style.backgroundColor = "green";
+    domtag[i].style.textAlign = "center";
 }
 
 //example
@@ -61,4 +114,3 @@ document.querySelectorAll() //returns a nodelist
 document.getElementsByName() //returns an nodelist
 
 
-let parent = domtag.parentNode.style.backgroundColor = "blue";

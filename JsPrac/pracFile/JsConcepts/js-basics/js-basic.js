@@ -141,7 +141,7 @@ console.log(num5);
 //Type coercion, also known as implicit type conversion, is the process of automatically 
 //converting values from one data type to another during operations or comparisons.
 
-console.log(5 + true); // Output: 6 (true is coerced to 1)
+console.log(5 + true + true); // Output: 6 (true is coerced to 1)
 console.log(10 - false); // Output: 10 (false is coerced to 0)
 
 
