@@ -65,13 +65,11 @@ h1tag[0].parentNode.style.backgroundColor = "palegreen";
 
 
 //checking Nodetype
-
 let access = document.getElementById('access');
 console.log(access.nodeType);
 
 
 //selecting Elements
-
 let dom = document.getElementsByClassName('dom');
 console.log(dom);
 
