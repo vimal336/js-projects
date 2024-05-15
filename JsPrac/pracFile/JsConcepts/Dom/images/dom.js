@@ -15,7 +15,7 @@
 
 
 let access = document.getElementById('access');
-console.log(access);
+console.log(access.nodeType);
 
 let dom = document.getElementsByClassName('dom');
 console.log(dom);
@@ -23,7 +23,8 @@ console.log(dom);
 let domtag = document.getElementsByTagName('p');
 console.log(domtag);
 
-console.log(domtag.nodeType);
+let queryall = document.querySelectorAll('.dom');
+console.log(queryall);
 
 domtag[0].style.textAlign = 'center';
 
@@ -31,7 +32,21 @@ domtag[0].style.backgroundColor = "grey";
 domtag[1].style.backgroundColor = "green";
 domtag[1].style.color = "white";
 
+//foreach not works in html collection but for loop will work because html collection is not a array type
 
+//example
+
+for(let i=0; i< domtag.length; i++ ){
+    domtag[i].style.backgroundColor = "green";
+}
+
+//example
+
+//foreach only works in node list(queryselectorall and getelementbyname) because node list is a array type
+
+queryall.forEach(element => {
+    element.style.color = "white";
+});
 
 document // select entire html 
 document.title = "dom practice"; // to change title

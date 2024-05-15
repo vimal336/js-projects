@@ -83,9 +83,10 @@ if(num1>=19){
 
 let array = ['1', '2', '4', '5']
 
-let maps  =  array.map((i)=>{
-    console.log(i);
+let maps  =  array.map((v)=>{
+    console.log(v);
 });
+
 
 
 // let filt = array.filter((fill)=>{
@@ -97,7 +98,7 @@ let maps  =  array.map((i)=>{
 
 
 let filt = array.filter((fill) => {
-  let va = fill >= 2;
+  let va = fill >= 3;
   return va; // Return the result of the condition
 });
 
@@ -123,7 +124,7 @@ fun(5,5);
 
 //nan(not a number) also known as invalid number
 
-console.log(4 * 'fruit');
+console.log(4 * "invalid");
 
 //type casting also known as explicit type conversion.
 
