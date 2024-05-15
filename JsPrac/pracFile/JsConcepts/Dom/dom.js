@@ -43,6 +43,25 @@ console.log(child);
 
 //example:
 
+//selecting previous siblings and prev element siblings
+
+let prevElementsiblings = document.getElementsByTagName('p')[4];
+console.log(prevElementsiblings);
+
+console.log(prevElementsiblings.previousSibling);
+
+console.log(prevElementsiblings.previousElementSibling);
+
+//selecting next siblings and next element siblings
+
+let nextElementsiblings = document.getElementsByTagName('p')[4];
+console.log(nextElementsiblings);
+
+console.log(nextElementsiblings.nextSibling);
+
+console.log(nextElementsiblings.nextElementSibling);
+
+
 //selecting firstchildElement
 let firstchildElement = parent.firstElementChild;
 
