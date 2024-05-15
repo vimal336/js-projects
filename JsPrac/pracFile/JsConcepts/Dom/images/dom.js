@@ -32,7 +32,7 @@ domtag[0].style.backgroundColor = "grey";
 domtag[1].style.backgroundColor = "green";
 domtag[1].style.color = "white";
 
-//foreach not works in html collection but for loop will work because html collection is not a array type
+//foreach not works in html collection but for loop only will work because html collection is not a array type
 
 //example
 
@@ -59,3 +59,6 @@ document.getElementsByTagName() //returns an html collection
 document.querySelector() //returns an element object
 document.querySelectorAll() //returns a nodelist
 document.getElementsByName() //returns an nodelist
+
+
+let parent = domtag.parentNode.style.backgroundColor = "blue";
