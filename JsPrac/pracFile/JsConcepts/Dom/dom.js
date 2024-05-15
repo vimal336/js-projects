@@ -39,19 +39,24 @@ console.log(child);
 
 //So we have to give FirstElementChild not firstChild also LastElementChild not lastchild
 
+//same concept apply for nextsiblings previoussiblings and nextelementsiblings, previouselementsiblings.
+
 //example:
 
-//selcting firstchildElement
-
+//selecting firstchildElement
 let firstchildElement = parent.firstElementChild;
 
 console.log(firstchildElement);
 
-//selcting lastchildElement
-
+//selecting lastchildElement
 let lastchildElement = parent.lastElementChild;
 
 console.log(lastchildElement);
+
+//selecting body child
+let bodytag = document.body.lastElementChild;
+
+console.log(bodytag);
 
 let h1tag = document.getElementsByTagName('h1');
 console.log(h1tag);
