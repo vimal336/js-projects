@@ -14,6 +14,14 @@
 // dom was designed to be independent of any particular prog lang.
 
 
+// selecting closest section in dom 
+
+const closestmethod  = document.querySelector('section');
+const closestParent = closestmethod.closest('h1');
+
+console.log(closestmethod);
+console.log(closestParent);
+
 //Selecting parentnode
 
 let h2tag = document.getElementsByTagName('h2');
@@ -54,7 +62,7 @@ console.log(prevElementsiblings.previousElementSibling);
 
 //selecting next siblings and next element siblings
 
-let nextElementsiblings = document.getElementsByTagName('p')[4];
+let nextElementsiblings = document.getElementsByTagName('h2')[0];
 console.log(nextElementsiblings);
 
 console.log(nextElementsiblings.nextSibling);
