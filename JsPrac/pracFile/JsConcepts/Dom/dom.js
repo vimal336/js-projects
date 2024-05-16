@@ -16,8 +16,8 @@
 
 // selecting closest section in dom 
 
-const closestmethod  = document.querySelector('section');
-const closestParent = closestmethod.closest('h1');
+const closestmethod  = document.querySelector('h1');
+const closestParent = closestmethod.closest('section');
 
 console.log(closestmethod);
 console.log(closestParent);
