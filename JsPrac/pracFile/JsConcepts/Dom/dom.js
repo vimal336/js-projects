@@ -14,6 +14,17 @@
 // dom was designed to be independent of any particular prog lang.
 
 
+let btnremove = document.querySelectorAll('.Btn-remove');
+
+btnremove.forEach((btn)=>{
+  btn.addEventListener("click", "btnremove")
+});
+
+console.log(btnremove);
+
+btnremove(){
+    alert("button removed");
+}
 
 
 // create Element
