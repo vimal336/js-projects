@@ -14,6 +14,8 @@
 // dom was designed to be independent of any particular prog lang.
 
 
+
+
 // create Element
 
 let creatEle = document.createElement('h3');
