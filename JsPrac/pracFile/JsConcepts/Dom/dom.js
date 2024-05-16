@@ -14,6 +14,19 @@
 // dom was designed to be independent of any particular prog lang.
 
 
+// create Element
+
+let creatEle = document.createElement('p');
+creatEle.innerText ="Create Element";
+creatEle.style.color = "red";
+console.log(creatEle);
+
+// Append element 
+
+let appendEle = document.body.append(creatEle);
+
+console.log(appendEle);
+
 // selecting closest section in dom 
 
 const closestmethod  = document.querySelector('h1');
