@@ -16,9 +16,17 @@
 
 // create Element
 
-let creatEle = document.createElement('p');
-creatEle.innerText ="Create Element";
-creatEle.style.color = "red";
+let creatEle = document.createElement('h3');
+
+//innerText is a property that represents the visible text content within an element, 
+creatEle.innerText ="<i>Create Element Method<i>";
+
+//while innerHTML is a property that represents the HTML content within an element, including its tags.
+creatEle.innerHTML ="<i>Create Element Method<i>";
+
+
+creatEle.style.color = "black";
+creatEle.style.textAlign = "center";
 console.log(creatEle);
 
 // Append element 
@@ -46,7 +54,6 @@ console.log(parent);
 
 
 parent.style.margin = "1rem";
-
 
 h2tag[0].parentNode.style.backgroundColor = "grey";
 
