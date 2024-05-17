@@ -13,10 +13,13 @@
 
 // dom was designed to be independent of any particular prog lang.
 
+
+//after method
 let menu = document.getElementById("menu");
 menu.after("hello")
 console.log(menu);
 
+//using after method
 let afterMethod = document.createElement('li');
 afterMethod.innerText = "after method";
 menu.append(afterMethod);
