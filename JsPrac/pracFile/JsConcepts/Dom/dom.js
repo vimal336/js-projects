@@ -33,11 +33,12 @@ function buttonremove(){
 
 //cloneNode
 
-let h3tag = document.querySelector('h3');
-console.log(h3tag);
+let h4tag = document.querySelector('h4');
+console.log(h4tag);
 
-h3tag.style.backgroundColor = "blue";
+h4tag.style.backgroundColor = "blue";
 
+h4tag.style.textAlign = "center";
 
 
 
