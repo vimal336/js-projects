@@ -19,7 +19,12 @@ function clock(){
     console.log(date);
     console.log(date.getHours());
     console.log(date.getMinutes());
-    console.log(date.getMilliseconds());
+    console.log(date.getSeconds());
+    const displaytime = date.getHours() + ":" + date.getMinutes() + ":" + date.getMinutes() + ":" + date.getSeconds();
+    let creatediv = document.createElement("div");
+    let append = document.body.appendChild(creatediv);
+    append.innerHTML = displaytime;
+
 }
 
 console.log(clock());
