@@ -30,25 +30,30 @@ function buttonremove() {
 }
 
 //cloneNode
-
 let h4tag = document.querySelector("h4");
 console.log(h4tag);
 h4tag.style.backgroundColor = "yellow";
 h4tag.style.border = "1px solid black";
 h4tag.style.textAlign = "center";
 
-let cloneNodeMEthod = h4tag.cloneNode(true);
-
-//selecting section to clone that h4tag
-
+//Selecting section to clone that h4tag
 let selectSection = document.querySelector('section');
-
 console.log(selectSection);
 
+//Executing clone method
+let cloneNodeMEthod = h4tag.cloneNode(true);
+selectSection.appendChild(cloneNodeMEthod);
 console.log(cloneNodeMEthod);
 
-// create Element
+function clonemethod(){
+    selectSection.appendChild(cloneNodeMEthod);
+    console.log(cloneNodeMEthod)
+}
 
+clonemethod()
+
+
+//Create Element
 let creatEle = document.createElement("h3");
 
 //innerText is a property that represents the visible text content within an element,
@@ -61,12 +66,10 @@ creatEle.style.color = "black";
 creatEle.style.textAlign = "center";
 console.log(creatEle);
 
-// Append element
-
+//Append element
 let appendEle = document.body.append(creatEle);
 
-// selecting closest section in dom
-
+//Selecting closest section in dom
 const closestmethod = document.querySelector("h1");
 const closestParent = closestmethod.closest("section");
 
@@ -74,7 +77,6 @@ console.log(closestmethod);
 console.log(closestParent);
 
 //Selecting parentnode
-
 let h2tag = document.getElementsByTagName("h2");
 console.log(h2tag);
 
@@ -87,9 +89,7 @@ parent.style.margin = "1rem";
 h2tag[0].parentNode.style.backgroundColor = "grey";
 
 //selecting child node  or //selecting first child element
-
 let child = parent.firstChild;
-
 console.log(child);
 
 //when we use firstchild lastchild method If any empty space there, it will select a text node
