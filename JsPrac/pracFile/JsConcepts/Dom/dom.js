@@ -222,3 +222,6 @@ document.getElementsByTagName(); //returns an html collection
 document.querySelector(); //returns an element object
 document.querySelectorAll(); //returns a nodelist
 document.getElementsByName(); //returns an nodelist
+
+
+
