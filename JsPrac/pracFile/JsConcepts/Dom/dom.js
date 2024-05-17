@@ -13,6 +13,15 @@
 
 // dom was designed to be independent of any particular prog lang.
 
+let menu = document.getElementById("menu");
+menu.after("hello")
+console.log(menu);
+
+let afterMethod = document.createElement('li');
+afterMethod.innerText = "after method";
+menu.append(afterMethod);
+menu.after(afterMethod);
+
 
 function clock(){
     let date = new Date()
@@ -27,7 +36,9 @@ function clock(){
 
 }
 
-console.log(clock());
+clock();
+
+// setInterval(clock, 1000);
 
 let btnremove = document.querySelectorAll(".Btn-remove");
 
