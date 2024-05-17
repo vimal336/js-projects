@@ -33,12 +33,19 @@ function buttonremove() {
 
 let h4tag = document.querySelector("h4");
 console.log(h4tag);
-
 h4tag.style.backgroundColor = "yellow";
-
 h4tag.style.border = "1px solid black";
-
 h4tag.style.textAlign = "center";
+
+let cloneNodeMEthod = h4tag.cloneNode(true);
+
+//selecting section to clone that h4tag
+
+let selectSection = document.querySelector('section');
+
+console.log(selectSection);
+
+console.log(cloneNodeMEthod);
 
 // create Element
 
