@@ -45,6 +45,12 @@ let cloneNodeMEthod = h4tag.cloneNode(true);
 selectSection.appendChild(cloneNodeMEthod);
 console.log(cloneNodeMEthod);
 
+function clonemethod(){
+    let cloneNodeMEthod = h4tag.cloneNode(true);
+    document.body.appendChild(cloneNodeMEthod);
+};
+
+clonemethod();
 
 
 
