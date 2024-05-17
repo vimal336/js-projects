@@ -17,14 +17,28 @@
 let btnremove = document.querySelectorAll('.Btn-remove');
 
 btnremove.forEach((btn)=>{
-  btn.addEventListener("click", "btnremove")
+  btn.addEventListener("click", buttonremove)
 });
 
 console.log(btnremove);
 
-btnremove(){
-    alert("button removed");
+function buttonremove(){
+    const tr = this.parentNode.parentNode;
+    // tr.remove();
+    let tabdata  = tr.childNodes[5];
+    console.log(tabdata);
+    tr.removeChild(td);
 }
+
+
+//cloneNode
+
+let h3tag = document.querySelector('h3');
+console.log(h3tag);
+
+h3tag.style.backgroundColor = "blue";
+
+
 
 
 // create Element
@@ -46,8 +60,6 @@ console.log(creatEle);
 
 let appendEle = document.body.append(creatEle);
 
-console.log(appendEle);
-
 // selecting closest section in dom 
 
 const closestmethod  = document.querySelector('h1');
@@ -60,6 +72,8 @@ console.log(closestParent);
 
 let h2tag = document.getElementsByTagName('h2');
 console.log(h2tag);
+
+
 
 let parent = h2tag[0].parentNode;
 
