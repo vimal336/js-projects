@@ -13,6 +13,17 @@
 
 // dom was designed to be independent of any particular prog lang.
 
+
+function clock(){
+    let date = new Date()
+    console.log(date);
+    console.log(date.getHours());
+    console.log(date.getMinutes());
+    console.log(date.getMilliseconds());
+}
+
+console.log(clock());
+
 let btnremove = document.querySelectorAll(".Btn-remove");
 
 btnremove.forEach((btn) => {
@@ -23,7 +34,7 @@ console.log(btnremove);
 
 function buttonremove() {
   const tr = this.parentNode.parentNode;
-  // tr.remove();
+  tr.remove();
   let tabdata = tr.childNodes[5];
   console.log(tabdata);
   tr.removeChild(td);
@@ -48,8 +59,8 @@ console.log(cloneNodeMEthod);
 function clonemethod(){
     let cloneNodeMEthod = h4tag.cloneNode(true);
     document.body.appendChild(cloneNodeMEthod);
+    cloneNodeMEthod.innerText = "Clone node in function"
 };
-
 clonemethod();
 
 
