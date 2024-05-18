@@ -139,7 +139,7 @@ callback("ram", callb);
 function callbac(name, gret){
     console.log("hello" + " " + name);
     gret();
-  }
+}
 
 function gret(){
     console.log("how are you?")

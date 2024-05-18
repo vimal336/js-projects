@@ -1,15 +1,13 @@
-function one(to){
+function one(to) {
   console.log("call one");
   to();
- 
 }
 
 one(two);
 
-function two(){
-    console.log("call two");
+function two() {
+  console.log("call two");
 }
-
 
 //callback function
 
@@ -28,7 +26,6 @@ function cb(a, b, operation) {
 console.log(cb(2, 2, add));
 console.log(cb(2, 2, div));
 
-
 //callback example 2
 
 function greet(name, callback) {
@@ -42,33 +39,29 @@ function sayGoodbye() {
 
 //callback example 3
 
-function execute(a,b,cb){
-    var add = a+b;
-    cb(add);
+function execute(a, b, cb) {
+  var add = a + b;
+  cb(add);
 }
 
-execute(10,20,function(add){
-   console.log(add/2);
-})
-
-
+execute(10, 20, function (add) {
+  console.log(add / 2);
+});
 
 //callback hell
 
-setTimeout(()=>{
+setTimeout(() => {
   console.log("1");
-  setTimeout(()=>{
+  setTimeout(() => {
     console.log("2");
-    setTimeout(()=>{
+    setTimeout(() => {
       console.log("3");
-      setTimeout(()=>{
+      setTimeout(() => {
         console.log("4");
-        setTimeout(()=>{
+        setTimeout(() => {
           console.log("5");
-        },5000);
-      },4000);
-    },3000);
-  },2000);
-},1000);
-
-
+        }, 5000);
+      }, 4000);
+    }, 3000);
+  }, 2000);
+}, 1000);
