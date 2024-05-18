@@ -42,6 +42,7 @@
 // axios.get(url+1).then( (data)=>console.log(data.data.name) )
 
 
+// promise simple method
 
 const prom = new Promise((resolve,reject)=>{
   if(2==="2"){
