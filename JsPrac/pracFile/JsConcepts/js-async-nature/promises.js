@@ -41,3 +41,9 @@ fs.promises.readFile('./text.txt', {encoding:'utf-8'}).then((data) => console.lo
 
 axios.get(url+1).then( (data)=>console.log(data.data.name) )
 
+
+
+const prom = new Promise(()=>{
+  
+})
+
