@@ -11,6 +11,36 @@ function two(){
 }
 
 
+//callback function
+
+function add(a, b) {
+  return a + b;
+}
+
+function div(a, b) {
+  return a / b;
+}
+
+function cb(a, b, operation) {
+  return operation(a, b);
+}
+
+console.log(cb(2, 2, add));
+console.log(cb(2, 2, div));
+
+
+//callback example 2
+
+function greet(name, callback) {
+  console.log("Hello, " + name + "!");
+  callback(); // Call the callback function
+}
+
+function sayGoodbye() {
+  console.log("Goodbye!");
+}
+
+//callback example 3
 
 function execute(a,b,cb){
     var add = a+b;
