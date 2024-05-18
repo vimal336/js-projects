@@ -44,12 +44,15 @@
 
 
 const prom = new Promise((resolve,reject)=>{
-  if(true){
-    resolve()
+  if(2==="2"){
+    resolve("ok")
   }else{
-    reject()
+    reject("not ok")
   }
 })
 
-prom.then("resolve");
-prom.catch("rejected");
+prom.then((msg)=>{
+  console.log(msg)
+}).catch((error)=>{
+  console.log(error)
+});
