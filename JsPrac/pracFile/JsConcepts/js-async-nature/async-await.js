@@ -1,4 +1,4 @@
-async function exampleFunction() {
+async function reachA() {
     try {
       const promise = new Promise((resolve, reject) => {
         setTimeout(() => reject("Promise rejected!"), 2000);
@@ -20,6 +20,29 @@ async function exampleFunction() {
 
   console.log(fn());
 
+
+  //example1
+
+  let reachA = new Promise((resolve,reject)=>{
+   const reached =  false;
+   if(reached){
+    setTimeout(resolve,3000,"Reached")
+   }else{
+    reject("Not Reached")
+   }
+  });
+
+  async function asyncstate(){
+    try{
+        console.log("hi...")
+        res = await reachA
+        console.log(res);
+        console.log("bye")
+    }
+    catch(err){
+        console.log(err)
+    }
+  }
 
 
 
