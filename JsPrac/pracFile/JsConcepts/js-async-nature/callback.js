@@ -42,16 +42,7 @@ function sayGoodbye() {
 // Call the greet function with a callback function
 greet("John", sayGoodbye);
 
-function fun1(f,f2){
-  console.log("this is" + f);
-  f2();
-}
 
-function fun2(){
-  console.log("this is function2");
-}
-
-fun1("function1",fun2);
 
 //callback example 3
 
