@@ -44,13 +44,15 @@ greet("John", sayGoodbye);
 
 
 function fun1(f1,f2){
-  console.log("hi", + f1);
+  console.log("hi," + f1);
   f2();
 }
 
 function fun2(){
   console.log("bye");
 }
+
+fun1("vimal",fun2);
 
 
 //callback example 3
