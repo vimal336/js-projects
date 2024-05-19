@@ -1,29 +1,7 @@
-async function reachA() {
-    try {
-      const promise = new Promise((resolve, reject) => {
-        setTimeout(() => reject("Promise rejected!"), 2000);
-      });
-  
-      const result = await promise; // This will throw an error
-      console.log(result); // This line will not be executed
-    } catch (error) {
-      console.log(error); // Output: "Promise rejected!"
-    }
-  }
-  
-  exampleFunction();
 
-  
-  async function fn(){
-     console.log("hi")
-  }
+//example1
 
-  console.log(fn());
-
-
-  //example1
-
-  let reachA = new Promise((resolve,reject)=>{
+  let reach = new Promise((resolve,reject)=>{
    const reached =  false;
    if(reached){
     setTimeout(resolve,3000,"Reached")
@@ -35,7 +13,7 @@ async function reachA() {
   async function asyncstate(){
     try{
         console.log("hi...")
-        res = await reachA
+        res = await reach
         console.log(res);
         console.log("bye")
     }
@@ -43,6 +21,8 @@ async function reachA() {
         console.log(err)
     }
   }
+
+  asyncstate();
 
 
 
