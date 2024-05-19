@@ -26,6 +26,8 @@ function cb(a, b, operation) {
 console.log(cb(2, 2, add));
 console.log(cb(2, 2, div));
 
+
+
 //callback example 2
 
 function greet(name, callback) {
@@ -36,6 +38,20 @@ function greet(name, callback) {
 function sayGoodbye() {
   console.log("Goodbye!");
 }
+
+// Call the greet function with a callback function
+greet("John", sayGoodbye);
+
+function fun1(fun2){
+  console.log("fun1")
+  fun2();
+}
+
+function fun2(){
+  console.log("fun2")
+}
+
+fun2();
 
 //callback example 3
 

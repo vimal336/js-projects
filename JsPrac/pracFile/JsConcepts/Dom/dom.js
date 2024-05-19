@@ -14,6 +14,18 @@
 // dom was designed to be independent of any particular prog lang.
 
 
+
+localStorage.clear();
+
+localStorage.setItem("name","vimal");
+
+let get= localStorage.getItem("name");
+console.log(get);
+
+
+sessionStorage.setItem("name","vimal")
+
+
 //after method
 let menu = document.getElementById("menu");
 menu.after("hello")
