@@ -44,31 +44,35 @@
 
 // promise simple method
 
-const prom = new Promise((resolve,reject)=>{
-  if(2==="2"){
-    resolve("ok")
-  }else{
-    reject("not ok")
+const prom = new Promise((resolve, reject) => {
+  if (2 === "2") {
+    resolve("ok");
+  } else {
+    reject("not okay");
   }
-})
+});
 
-prom.then((msg)=>{
-  console.log(msg)
-}).catch((error)=>{
-  console.log(error)
+const promis = new Promise((resolve, reject) => {
+  if (2 === "2") {
+    resolve("ok");
+  } else {
+    reject("not ok");
+  }
 });
 
 
-let promis = new Promise((res,rej)=>{
- if(2=="2"){
-  console.log("rsolve")
- }else{
-  console.log("reject")
- }
+Promise.race([prom,promis]).then((result)=>{
+  result.forEach((resolve)=>{
+    console.log(resolve)
+  });
+}).catch((error)=>{
+  console.log(error);
 });
 
-promis.then((resol)=>{
-console.log(resol);
-}).catch((error)=>{
-console.log(error);
-})
+
+// prom.then((resol) => {
+//   console.log(resol);
+// }).catch((error) => {
+//   console.log(error);
+// });
+
