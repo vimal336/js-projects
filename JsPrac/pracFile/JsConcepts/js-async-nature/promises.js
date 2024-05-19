@@ -57,3 +57,18 @@ prom.then((msg)=>{
 }).catch((error)=>{
   console.log(error)
 });
+
+
+let promis = new Promise((res,rej)=>{
+ if(2=="2"){
+  console.log("rsolve")
+ }else{
+  console.log("reject")
+ }
+});
+
+promis.then((resol)=>{
+console.log(resol);
+}).catch((error)=>{
+console.log(error);
+})
