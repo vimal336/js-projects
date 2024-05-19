@@ -20,3 +20,24 @@ async function exampleFunction() {
 
   console.log(fn());
 
+
+
+
+  //fetch method
+
+  async function fetchData() {
+    try {
+      const response = await fetch('https://jsonplaceholder.typicode.com/posts/1');
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      const data = await response.json(); // Convert the response to JSON
+      console.log(data); // Log the data
+    } catch (error) {
+      console.error('Error:', error); // Log any errors
+    }
+  }
+  
+  fetchData();
+  
+
