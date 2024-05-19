@@ -43,6 +43,15 @@ function sayGoodbye() {
 greet("John", sayGoodbye);
 
 
+function fun1(f1,f2){
+  console.log("hi", + f1);
+  f2();
+}
+
+function fun2(){
+  console.log("bye");
+}
+
 
 //callback example 3
 
