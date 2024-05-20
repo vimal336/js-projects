@@ -72,12 +72,12 @@ body {
   position: relative;
 }
 
-.weather-icons {
+/* .weather-icons {
   width: 10rem;
   z-index: 2;
-}
+} */
 
-.weather-img {
+/* .weather-img {
   width: 90px;
   height: 90px;
   position: relative;
@@ -86,12 +86,12 @@ body {
   justify-content: center;
   align-items: center;
   transition: 0.5s;
-}
+} */
 
-.weather-title h3 {
+/* .weather-title h3 {
   color: #333;
   margin-top: 0.5rem;
-}
+} */
 
 
 /* Media Query */
