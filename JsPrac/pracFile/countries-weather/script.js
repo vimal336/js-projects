@@ -23,17 +23,6 @@ const commonCloseModals = function () {
 closeModal.addEventListener('click', commonCloseModals);
 overlay.addEventListener('click', commonCloseModals);
 
-
-// for(let i=0; i<=modalButtons.length; i++)
-//   modalButtons[i].addEventListener('click', function(){
-//   modal.classList.remove('hidden');
-// });
-
-// for(let i=0; i<=modalButtons.length; i++)
-//   modalButtons[i].addEventListener('click', function(){
-//   modal.classList.remove('hidden');
-// });
-
 document.addEventListener('keydown', function(e){
 //  console.log('A key was pressed')
 console.log(e.key);
