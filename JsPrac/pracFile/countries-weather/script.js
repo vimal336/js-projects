@@ -1,32 +1,37 @@
-'use strict';
-
-let modalButtons = document.querySelectorAll('.show-modal');
-let modal = document.querySelector('.modal');
-let overlay = document.querySelector('.overlay');
-let closeModal = document.querySelector('.close-modal');
-
-
-const commonOpenModals = function () {
-    modal.classList.remove('hidden');
-    overlay.classList.remove('hidden');
-  };
-
-modalButtons.forEach(button => {
-button.addEventListener('click', commonOpenModals);
-});
-  
-const commonCloseModals = function () {
-  modal.classList.add('hidden');
-  overlay.classList.add('hidden');
-};
-
-closeModal.addEventListener('click', commonCloseModals);
-overlay.addEventListener('click', commonCloseModals);
-
-document.addEventListener('keydown', function(e){
-//  console.log('A key was pressed')
-console.log(e.key);
-});
+async function fetchData() {
+  try {
+      const response = await fetch('https://restcountries.com/v3.1/all')
+      const data = await response.json();
+      return data;
+  } catch (error) {
+      console.error('Error fetching data:', error);
+  }
+}
 
 
+async function renderData() {
+  const container = document.querySelector('.container');
+  const data = await fetchData();
 
+  if (!data) {
+      return;
+  }
+
+  data.forEach(item => {
+      const card = document.createElement('div');
+      card.classList.add('card');
+
+      const title = document.createElement('h2');
+      title.textContent = item.title;
+
+      const body = document.createElement('p');
+      body.textContent = item.body;
+
+      card.appendChild(title);
+      card.appendChild(body);
+      container.appendChild(card);
+  });
+}
+
+// Call the renderData function to display data
+renderData();
