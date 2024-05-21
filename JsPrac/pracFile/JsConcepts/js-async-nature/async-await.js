@@ -59,7 +59,7 @@
       });
   
       if (!response.ok) {
-        throw new Error("Request not successfull");
+        throw new Error("Request not successful");
       }
   
       const data = await response.json();
