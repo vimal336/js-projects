@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Poppins:wght@500&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap"); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  --body-clr: #f6f9fe;
+  --primary-clr: #01176f;
+  --primary-light-clr: #eaf3fa;
+  --links-clr: black;
+  --text-clr: #3f7277;
+}
+
+.input-form{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  /* background: url(https://wallpapercave.com/wp/wp9118271.jpg); */
+  width: 100%;
+  min-height: 100vh;
+}
+
+.crud-data2{
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+input{
+  margin: 1rem;
+  font-family: "Poppins", sans-serif;
+  border: 2px solid blue;
+  border-radius: 1rem;
+  background-color: #ffffff;
+  width: 400px;
+  height: 50px;
+  outline: none;
+}
+
+.body-input{
+  border: none;
+  background-color: rgb(233 233 233);
+}
+
+textarea{
+  font-family: "Poppins", sans-serif;
+}
+
+/* input:focus {
+  outline: 3px solid rgb(52, 9, 155);
+} */
+
+.comment{
+  background-color: rgb(233 233 233);
+}
+
+.comment:hover{
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.comment p{
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+
+.buttons{
+  margin-bottom: 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.buttons .edit-btn{
+  border-radius: 0.8rem;
+  padding: 0.5rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(12, 86, 160);
+  border: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.buttons .edit-btn:hover{
+  background-color: rgb(9, 60, 110);
+}
+
+.buttons .delete-btn{
+  border-radius: 0.8rem;
+  padding: 0.5rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(247, 7, 7);
+  border: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.buttons .delete-btn:hover{
+
+  background-color:  rgb(233, 67, 67);;
+}
+
+.add-btn{
+  padding: 0.5rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(48, 214, 15);
+  border: none;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.add-btn:hover{
+background-color: rgb(31, 141, 9);
+
+}
+
+@media screen and (max-width: 768px) {
+    .crud-data2 {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+   
+  @media screen and (max-width: 568px) {
+    .crud-data2 {
+      grid-template-columns: 1fr;
+    }
+  }
+
+.add-div{
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.comment-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.comment-section-btn{
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  padding: 0.5rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(48, 214, 15);
+  border: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.comment-section-btn:hover{
+  background-color: rgb(31, 141, 9);
+  
+  }
+
+.form-container{
+  position: fixed;
+  border: 1px solid grey;
+  position: fixed;
+  background-color: #9edf79;
+    display: none;
+} 
+
+.like-btn{
+  color: blue;
+  text-align: center;
+}
+
+
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #e60000;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-btn:hover{
+  background-color: #f32b2b;
+}
+
+
+.username-input{
+  /* display: none; */
+}
