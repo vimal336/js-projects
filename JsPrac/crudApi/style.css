@@ -25,6 +25,10 @@ body {
   /* background: url(https://wallpapercave.com/wp/wp9118271.jpg); */
   width: 100%;
   min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .crud-data2{
