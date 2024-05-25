@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comment Form</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment Form</title>
+  </head>
+  <body>
+
+
+    <div class="comment-section">
+      <button class="comment-section-btn" onclick="addform()">ADD YOUR COMMENT HERE</button>
+    </div>
+
+    <div>
+      <input type="search" placeholder="Search here" class="comment-search">
+    </div>
+ 
+<div class="form-container">
+  <form id="comment-form" class="input-form">
+    <span class="close-btn" onclick="closebutton()">X</span>
+    <div class="username-input">
+      <input type="text" id="username" placeholder="Username" required>
+    </div>
+    <div>
+      <textarea id="comment-body" placeholder="Your comment" required></textarea>
+    </div>
+    <div>
+      <input type="number" id="post-id" placeholder="Post ID" required>
+    </div>
+    <div>
+      <input type="number" id="user-id" placeholder="User ID" required>
+    </div>
+    <div class="add-div">
+      <button type="submit" class="add-btn">Save Comment</button>
+    </div>
+  
+  </form>
+</div>
+
+
+    
+
+
+
+  
+  <div class="crud-data2">
+   
+  </div>
+
+    <!-- Pagination buttons -->
+    <div class="pagination">
+      <button id="prev-page" disabled>Previous</button>
+      <button id="next-page">Next</button>
+  </div>
+
+  
+  <script src="script.js"></script>
+  </body>
+  </html>
+  
+
