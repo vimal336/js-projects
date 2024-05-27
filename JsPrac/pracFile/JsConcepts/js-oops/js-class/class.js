@@ -19,5 +19,29 @@ class Employee{
 }
 
 //creating object for class
-
 let employee = new Employee();
+
+console.log(employee.employeeName);
+
+//changing employee name
+
+employee.employeeName="raj";
+
+console.log(employee.employeeName);
+
+let employee2 = new Employee();
+
+employee2.employeeName = "Raghul";
+
+console.log(employee2.employeeName);
+
+//adding function in class
+
+class Student{
+    studentName = 'prabhu';
+    print(){
+        console.log(this.studentName);
+    }
+}
+console.log(Student.print())
+
