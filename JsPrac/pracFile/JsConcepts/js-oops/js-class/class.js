@@ -43,5 +43,5 @@ class Student{
         console.log(this.studentName);
     }
 }
-console.log(Student.print)
+console.log(Student.studentName)
 
