@@ -1,5 +1,9 @@
 //Object
 
+//constructor
+
+//constructor is a special method for defining the properties and objects
+
 class car{
     constructor(model,price,color){
         this.model = model;
@@ -10,4 +14,4 @@ class car{
 
 let car1 = new car("bmw","2c","white");
 
-console.log(car1);
+console.log(car1.price);
