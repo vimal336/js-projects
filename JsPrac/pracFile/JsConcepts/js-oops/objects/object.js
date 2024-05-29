@@ -87,7 +87,11 @@ class schoolstudents{
         // this.std = std;
     }
     dd(){
-        console.log(`${this.student} gfgfdfgdg`)
+        console.log(`${this.student} `)
+    }
+
+    staticmethod(){
+        console.log(` static method:${schoolstudents.staticvar} `)
     }
 }
 
@@ -107,7 +111,8 @@ let stu3 = new School("vasanth", 'school name:rkvm');
 
 
 console.log(stu2.dd());
-console.log(schoolstudents.staticvar)
+console.log(schoolstudents.staticvar) //static variables
+// console.log(schoolstudents.staticmethod());
 
 
 //creating wrapper class using primitive data types
@@ -115,4 +120,35 @@ console.log(schoolstudents.staticvar)
 let wrap = new String("wrapper class")
 
 console.log(wrap);
+
+
+
+class Animal {
+    constructor(name, age, email) {
+      this.name1 = name;
+      this.age2 = age;
+      this.email3 = email;
+    }
+  
+    speak() {
+      console.log(`${this.name1} makes a noise`);
+    }
+  }
+  
+  // Derived class (Child)
+  
+  class Tiger extends Animal {
+    constructor(name1,name2,name3,breed) {
+      super(name1, name2, name3);
+      this.breed = breed;
+    }
+  
+    speak() {
+      console.log(`${this.name1} barks ${this.age2} contact id : ${this.email3}`);
+    }
+  }
+  
+  const dog1 = new Tiger("alabai",22, "dubai breed");
+  console.log(dog1.email3);
+  dog1.speak();
 
