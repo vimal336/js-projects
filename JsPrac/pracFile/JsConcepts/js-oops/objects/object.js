@@ -33,7 +33,9 @@ class schoolstudents{
 }
 
 class school extends schoolstudents(){
-    
+    constructor(){
+        super()
+    }
 }
 
 
