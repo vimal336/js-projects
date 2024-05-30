@@ -175,11 +175,16 @@ class collegestudents{
   constructor(student){
       collegestudents.staticvar++;
       this.student = student;
-      // this.age = age;
-      // this.std = std;
   }
-  dd(){
-      console.log(`${this.student}`)
+
+  name = "vimal";
+
+  set clg(name){
+      this.name = name;
+  }
+
+  get getname(){
+    return this.name;
   }
 
   staticmethod(){
@@ -190,17 +195,30 @@ class collegestudents{
 class college extends collegestudents{
   constructor(student,collegename){
       super(student);
-      this.schoolname = collegename;
+      this.collegename = collegename;
   }
   clg(){
-      return this.student;
+      return (`student:${this.student} college name:${this.collegename}`);
+  }
+
+  static staticvariable(){ //static method
+    console.log(collegestudents.staticvar++)
   }
   
 }
 
-let clg2 = new School("vimal", 'college name:rkvm');
-let clg3 = new School("vasanth", 'college name:rkvm');
+let clg2 = new collegestudents("vimal", 'rkvm');
+let clg3 = new college("vasanth", 'rkvm');
+let clg4 = new college("vasanth", 'rkvm');
 
+console.log(clg2.getname);
 
-console.log(clg2.clg());
+console.log(clg2);
+
+console.log(clg3.clg());
 console.log(collegestudents.staticvar); //static variables
+college.staticvariable();
+college.staticvariable();
+college.staticvariable();
+
+
