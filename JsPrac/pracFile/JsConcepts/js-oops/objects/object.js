@@ -138,17 +138,69 @@ class Animal {
   // Derived class (Child)
   
   class Tiger extends Animal {
+    static animalCount = 0;
     constructor(name1,name2,name3,breed) {
       super(name1, name2, name3);
       this.breed = breed;
     }
-  
     speak() {
       console.log(`${this.name1} barks ${this.age2} contact id : ${this.email3}`);
     }
+    static animalnumber() {
+        console.log(Tiger.animalCount++); //static method
+      }
   }
   
   const dog1 = new Tiger("alabai",22, "dubai breed");
+  const dog2 = new Animal("tiger",4,"ROAR");
+  console.log(dog2);
   console.log(dog1.email3);
   dog1.speak();
+  Tiger.animalnumber();
 
+const dog4 = new Tiger("dog",2,"hello","b");
+
+console.log(dog4);
+
+Tiger.animalnumber();
+Tiger.animalnumber();
+Tiger.animalnumber();
+
+
+
+//------------------------------------------getter setter---------------------------------------//
+
+class collegestudents{
+  static staticvar = 0;
+  constructor(student){
+      collegestudents.staticvar++;
+      this.student = student;
+      // this.age = age;
+      // this.std = std;
+  }
+  dd(){
+      console.log(`${this.student}`)
+  }
+
+  staticmethod(){
+      console.log(` static method:${collegestudents.staticvar} `)
+  }
+}
+
+class college extends collegestudents{
+  constructor(student,collegename){
+      super(student);
+      this.schoolname = collegename;
+  }
+  clg(){
+      return this.student;
+  }
+  
+}
+
+let clg2 = new School("vimal", 'college name:rkvm');
+let clg3 = new School("vasanth", 'college name:rkvm');
+
+
+console.log(clg2.clg());
+console.log(collegestudents.staticvar); //static variables
