@@ -222,3 +222,41 @@ college.staticvariable();
 college.staticvariable();
 
 
+
+function add(...args){
+  let total = 0;
+  for (let i = 0; i < args.length; i++) {
+      total *= args[i];
+  }
+  return total
+}
+console.log(add(1,2,3,4,5))
+
+let a = [1,2,3,4,5,5];
+
+let reducemethod =  a.reduce((acc,prev)=>{
+       return sum = acc+prev
+});
+
+console.log(reducemethod);
+
+function sums(...rest){
+ return rest.reduce((acc,prev)=>{
+      return acc * prev;
+  })
+}
+
+console.log(sums(1,2,3,4,5));
+
+
+
+let arr = {
+  value0:"1",
+  value1:"2",
+}
+
+let ar = JSON.stringify(arr);
+
+let mt = JSON.parse(ar);
+
+console.log(typeof mt);

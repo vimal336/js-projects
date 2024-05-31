@@ -262,3 +262,4 @@ function func(...restpara){
 console.log(func(15,10,30,10));
 
 
+

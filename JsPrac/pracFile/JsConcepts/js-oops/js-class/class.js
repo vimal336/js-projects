@@ -45,3 +45,15 @@ class Student{
 }
 console.log(Student.studentName)
 
+
+//currying
+
+function arithmetic(a){
+  return function(b){
+    return function(c){
+        return a+b+c;
+    }
+  }
+
+}
+ console.log(arithmetic(1)(2)(3));
