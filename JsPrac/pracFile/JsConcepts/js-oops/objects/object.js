@@ -279,10 +279,35 @@ let twodarray = [[1,2,3],
 
 console.log(twodarray[1][2]);
 
-let sumallarray = twodarray.forEach(()=>{
-  
+let sumarr  = 0; 
+
+twodarray.forEach((row)=>{
+    row.forEach((col)=>{
+      sumarr += col;
+    })
 })
 
+console.log(sumarr);
+
+let numberArr = [
+  [10, 20, 60],
+  [8, 10, 52],
+  [15, 5, 24],
+  [26, 28, 43],
+  [12, 16, 51]
+];
+
+//sum of 2d array
+
+var sum = 0;
+numberArr.forEach((row) => {
+  row.forEach((element) => {
+    sum += element;
+  });
+});
+console.log(sum); 
 
 
-
+let proms = new Promise((resolve,reject)=>{
+  
+});
