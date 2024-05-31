@@ -383,7 +383,94 @@ let filterdata = arraymeth.filter((filtering)=>{
 
 console.log(filterdata);
 
-let mapdata = arraymeth.find(()=>{
-  console.log()
-})
+//switch case
+
+let score = 85;
+
+switch (true) {
+  case (score >= 90):
+    console.log('Grade: A');
+    break;
+  case (score >= 80):
+    console.log('Grade: B');
+    break;
+  case (score >= 70):
+    console.log('Grade: C');
+    break;
+  case (score >= 60):
+    console.log('Grade: D');
+    break;
+  default:
+    console.log('Grade: F');
+}
+
+
+let maxmeth = [3,4,2,9,34];
+
+let maxnum = Math.max(1,4,53,32,45,66);
+
+console.log(maxnum);
+
+
+let numbers = [3, 4, 2, 9, 34];
+numbers.sort((a, b) => a - b);
+console.log(numbers); // Output: [2, 3, 4, 9, 34]
+
+function flatten2DArray(arr) {
+  return arr.reduce((acc, curr) => acc.concat(curr), []);
+}
+
+let matrix1 = [
+  [1, 2, 3],
+  [4, 5],
+  [6, 7, 8, 9]
+];
+
+console.log(flatten2DArray(matrix1)); // Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+
+function findMaxIn2DArray(arr) {
+  let max = arr[0][0];
+  for (let i = 0; i < arr.length; i++) {
+      for (let j = 0; j < arr[i].length; j++) {
+          if (arr[i][j] > max) {
+              max = arr[i][j];
+          }
+      }
+  }
+  return max;
+}
+
+let matrix = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+];
+
+console.log(findMaxIn2DArray(matrix)); // Output: 9
+
+function findMinIn2DArray(arr) {
+  let min = arr[0][0]; // Initialize min with the value of the first element
+
+  // Iterate through each element in the 2D array
+  for (let i = 0; i < arr.length; i++) {
+      for (let j = 0; j < arr[i].length; j++) {
+          if (arr[i][j] < min) {
+              min = arr[i][j]; // Update min if a smaller value is found
+          }
+      }
+  }
+
+  return min;
+}
+
+// Example 2D array
+let matrixmin = [
+  [1, 4, 3],
+  [5, 1, 7],
+  [2, 8, 6]
+];
+
+console.log(findMinIn2DArray(matrixmin)); // Output: 1
+
 
