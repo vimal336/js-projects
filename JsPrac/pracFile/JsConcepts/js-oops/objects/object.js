@@ -309,5 +309,34 @@ console.log(sum);
 
 
 let proms = new Promise((resolve,reject)=>{
-  
+  if(""){
+    resolve("resolved");
+  }else{
+    reject("rejected");
+  }
 });
+
+let proms1 = new Promise((resolve,reject)=>{
+  if(""){
+    resolve("resolved");
+  }else{
+    reject("rejected");
+  }
+});
+
+
+let proms2 = new Promise((resolve,reject)=>{
+  if(""){
+    resolve("resolved");
+  }else{
+    reject("rejected");
+  }
+});
+
+let promises = p
+
+proms.then((message)=>{
+ console.log(message);
+}).catch((error)=>{
+ console.log(error);
+}).finally(console.log("finshed"))
