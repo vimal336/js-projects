@@ -57,3 +57,5 @@ function arithmetic(a){
 
 }
  console.log(arithmetic(1)(2)(3));
+
+

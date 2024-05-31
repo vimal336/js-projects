@@ -309,16 +309,16 @@ console.log(sum);
 
 
 let proms = new Promise((resolve,reject)=>{
-  if(""){
-    resolve("resolved");
+  if([]){
+    resolve("resolved1");
   }else{
     reject("rejected");
   }
 });
 
 let proms1 = new Promise((resolve,reject)=>{
-  if(""){
-    resolve("resolved");
+  if([]){
+    resolve("resolved2");
   }else{
     reject("rejected");
   }
@@ -326,17 +326,64 @@ let proms1 = new Promise((resolve,reject)=>{
 
 
 let proms2 = new Promise((resolve,reject)=>{
-  if(""){
-    resolve("resolved");
+  if([]){
+    resolve("resolved3");
   }else{
     reject("rejected");
   }
 });
 
-let promises = p
-
-proms.then((message)=>{
+Promise.allSettled([proms],[proms1],[proms2]).then((message)=>{
  console.log(message);
 }).catch((error)=>{
  console.log(error);
 }).finally(console.log("finshed"))
+
+
+async function fetchData() {
+  try {
+      let response = await fetch('https://jsonplaceholder.typicode.com/todos/1')
+      let data = await response.json();
+      console.log(data);
+  } catch (error) {
+      console.error('Error:', error);
+  }
+}
+
+console.log(fetchData()) ;
+
+
+async function fetchDatas(){
+  try{
+  let response = await fetch('https://jsonplaceholder.typicode.com/todos/1')
+  let data = await response.json();
+  console.log(data);
+  }
+  catch(error){
+   console.log(error);
+  }
+  finally{
+    console.log("solved")
+  }
+} 
+
+fetchDatas();
+
+let arraymeth = [1,2,3,6,5,6];
+
+let arraymeth2 = [1,9,[3,[6,8,8]],5,6];
+
+let arraymerge = arraymeth2.flat(1)
+
+console.log(arraymerge);
+
+let filterdata = arraymeth.filter((filtering)=>{
+      return filtering%2==0;
+})
+
+console.log(filterdata);
+
+let mapdata = arraymeth.find(()=>{
+  console.log()
+})
+
