@@ -260,3 +260,29 @@ let ar = JSON.stringify(arr);
 let mt = JSON.parse(ar);
 
 console.log(typeof mt);
+
+
+// Date Object having date and time
+const currentDate = new Date()
+
+// date object's string value
+const currentDate_String = currentDate.toString()
+
+console.log(currentDate_String);
+
+
+//2d array
+
+let twodarray = [[1,2,3],
+                [4,5,6],
+                [7,8,9]]
+
+console.log(twodarray[1][2]);
+
+let sumallarray = twodarray.forEach(()=>{
+  
+})
+
+
+
+

@@ -25,7 +25,6 @@
   asyncstate();
 
 
-
   //fetch method
 
   // async function fetchData() {
