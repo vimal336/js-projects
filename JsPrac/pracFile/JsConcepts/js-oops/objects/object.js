@@ -207,7 +207,7 @@ class college extends collegestudents{
   
 }
 
-let clg2 = new collegestudents("vimal", 'rkvm');
+let clg2 = new collegestudents("vimal");
 let clg3 = new college("vasanth", 'rkvm');
 let clg4 = new college("vasanth", 'rkvm');
 
@@ -218,8 +218,8 @@ console.log(clg2);
 console.log(clg3.clg());
 console.log(collegestudents.staticvar); //static variables
 college.staticvariable();
-college.staticvariable();
-college.staticvariable();
+
+
 
 
 
@@ -529,3 +529,139 @@ for(let i=0;i<rowsnum;i++){
   }
 }
 console.log(twoarr);
+
+let findindex = [1, 3, 8, 45, 56, 7];
+let finding = findindex.findIndex(element => element === 45);
+
+console.log(finding);
+
+
+
+let includesmethod = ["1","3","4"];
+let findinclude = includesmethod;
+
+console.log(findinclude);
+
+
+let sathiyam = new Promise((resolve,reject)=>{
+  if(false){
+    resolve("resolved");
+  }else{
+    reject("rejected");
+  }
+});
+
+
+let sathiyam1 = new Promise((resolve,reject)=>{
+  if(false){
+    resolve("resolved");
+  }else{
+    reject("rejected");
+  }
+});
+
+
+let sathiyam2 = new Promise((resolve,reject)=>{
+  if(false){
+    resolve("resolved");
+  }else{
+    reject("rejected");
+  }
+});
+
+
+let sathiyam3 = new Promise((resolve,reject)=>{
+  if(true){
+    resolve("resolved");
+  }else{
+    reject("rejected");
+  }
+});
+
+
+Promise.allSettled([sathiyam],[sathiyam1],[sathiyam3]).then((message)=>{
+ console.log(message);
+}).catch((error)=>{
+ console.log(error);
+}).finally(console.log("finally finished"));
+
+
+async function asyncfunc(){
+  try{
+   let res = await fetch("https://jsonplaceholder.typicode.com/todos/1");
+   let data = await res.json();
+   console.log(data);
+  } 
+
+  catch(error) {
+    console.log('error',error);
+  }
+}
+
+asyncfunc();
+
+
+
+class fruit{
+  constructor(fruitname,fruitcolor){
+    this.fruitname = fruitname;
+    this.fruitcolor = fruitcolor;
+  }
+  set getfunc(setfruitname){
+    console.log(this.setfruitname = setfruitname);
+  }
+
+  print(){
+    console.log(`sdbfjhdbfs ${this.setfruitname}`)
+  }
+}
+
+class guava extends fruit{
+  static stativar = 0;
+  constructor(fruitname,fruitcolor,fruitweight){
+    guava.staticvar++
+    super(fruitname,fruitcolor)
+    this.fruitweight = fruitweight;
+    this.fruitname = fruitname;
+    this.fruitcolor = fruitcolor;
+  }
+
+  fruits(){
+    console.log(`fruit name:${this.fruitname}kg:${this.fruitweight}`)
+  }
+
+
+  get getfun(){
+    console.log(this.fruitcolor) 
+  }
+
+ 
+
+  // fruitsset(){
+  //   console.log(`fruit name:${this.setfruitname}`)
+  // }
+  
+
+
+}
+
+let fruit1 = new fruit("guava","green");
+console.log(fruit1); 
+
+fruit1.getfunc ="grape";
+fruit1.print();
+
+let guavafruit = new guava("guava","green","50");
+
+console.log(guavafruit)
+
+guava.stativar();
+
+
+let fore = [4,45,67,666];
+
+fore.forEach((i)=>{
+ console.log(i);
+})
+
+// console.log(fore);

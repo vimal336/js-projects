@@ -59,3 +59,10 @@ function arithmetic(a){
  console.log(arithmetic(1)(2)(3));
 
 
+
+
+ let arry = [1,44,66,77,88,8,6];
+
+ arry.splice(2,3,"a","b","c","d",'y.','u');
+
+ console.log(arry);
