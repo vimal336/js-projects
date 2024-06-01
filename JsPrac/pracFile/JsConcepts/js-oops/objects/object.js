@@ -226,16 +226,16 @@ college.staticvariable();
 function add(...args){
   let total = 0;
   for (let i = 0; i < args.length; i++) {
-      total *= args[i];
+      total += args[i];
   }
   return total
 }
 console.log(add(1,2,3,4,5))
 
-let a = [1,2,3,4,5,5];
+let a = [1,2,19,4,5,5];
 
 let reducemethod =  a.reduce((acc,prev)=>{
-       return sum = acc+prev
+       return acc+prev
 });
 
 console.log(reducemethod);
@@ -473,4 +473,59 @@ let matrixmin = [
 
 console.log(findMinIn2DArray(matrixmin)); // Output: 1
 
+let string = "saravanan";
 
+let caps = string.charAt(0).toUpperCase();
+let caps1 = caps.slice(1) + caps
+console.log(caps);
+
+
+//first letter case
+
+let caps2 = string.charAt(0).toUpperCase()+string.slice(1);
+console.log(caps2);
+
+
+//palindrome
+function palindrome(arr){
+  let newarr = arr.split("").reverse().join("")
+  if(arr===newarr){
+    console.log("palindrome")}
+    else{
+      console.log("not a palindrome")
+    }
+  }
+
+palindrome("madam");
+
+
+
+let arra = [];
+let rows = 4;
+let columns = 3;
+
+// creating two-dimensional array
+for (let i = 0; i < rows; i++) {
+  arra[i] = [];
+  for (let j = 0; j < columns; j++) {
+    arra[i][j] = j;
+  }
+}
+
+console.log(arra);
+
+
+
+let twoarr = [];
+
+let rowsnum =4;
+
+let colnum = 3;
+
+for(let i=0;i<rowsnum;i++){
+  twoarr[i] = [];
+  for(let j=0;j<colnum;j++){
+    twoarr[i][j]=j;
+  }
+}
+console.log(twoarr);
