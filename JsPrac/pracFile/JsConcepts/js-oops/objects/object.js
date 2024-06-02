@@ -664,4 +664,5 @@ fore.forEach((i)=>{
  console.log(i);
 })
 
-// console.log(fore);
+
+
