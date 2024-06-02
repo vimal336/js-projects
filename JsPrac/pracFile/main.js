@@ -78,8 +78,6 @@ var person = {
     city: "New York"
 };
 
-
-
 for (var key in person) {
     console.log(key + ": " + person[key]);
 }
@@ -261,5 +259,17 @@ function func(...restpara){
 
 console.log(func(15,10,30,10));
 
+
+
+function factorial(fact){
+  if(fact==0||fact==1){
+    return 1;
+  }
+  else{
+    return fact * factorial(fact-1);
+  }
+}
+
+console.log(factorial(4))
 
 
