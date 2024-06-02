@@ -1,46 +1,41 @@
-// Function to perform a GET request
 async function getMethod() {
     try {
-      let response = await fetch("https://jsonplaceholder.typicode.com/todos/1");
+      let response = await fetch("https://jsonplaceholder.typicode.com/todos/");
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
       let data = await response.json();
       console.log(data);
-
-  }catch(error){
-    console.log("fetch error", error)
+  
+      // Select the HTML element to append the results
+      let getResults = document.getElementById("get-result");
+  
+      // Clear previous results
+      getResults.innerHTML = "";
+  
+      // Loop through the fetched data and append each item to the HTML
+      data.forEach((todo) => {
+        let div = document.createElement("div");
+        div.className = "json-container";
+        div.textContent = `ID: ${todo.id}, Title: ${todo.title}, Completed: ${todo.completed}`;
+        getResults.appendChild(div);
+      });
+    } catch (error) {
+      console.log("Fetch error:", error);
+      document.getElementById("get-result").textContent = `Error: ${error.message}`;
+    }
   }
-
-}
-
   
-  // Function to perform a POST request
-//   async function postMethod() {
-//     try {
-//       let response = await fetch("https://jsonplaceholder.typicode.com/posts", {
-//         method: "POST",
-//         headers: {
-//           "Content-Type": "application/json",
-//         },
-//         body: JSON.stringify({
-//           title: "foo",
-//           body: "bar",
-//           userId: 1,
-//         }),
-//       });
-//       if (!response.ok) {
-//         throw new Error(`HTTP error! Status: ${response.status}`);
-//       }
-//       let data = await response.json();
-//       console.log("POST response:", data);
-      
-//       // Append the result to the HTML
-//       document.getElementById('post-result').textContent = JSON.stringify(data, null, 2);
-//     } catch (error) {
-//       console.log("Fetch error (POST):", error);
-//       document.getElementById('post-result').textContent = `Error: ${error.message}`;
-//     }
-//   }
-  
-  // Call the GET and POST methods
+  // Call the GET method
   getMethod();
-  postMethod();
   
+  
+async function postmethod(){
+    
+    let response = await fetch("https://jsonplaceholder.typicode.com/posts",{
+        method: "POST",
+        headers:{
+            "Content-Type":"application/json",
+        },
+    });
+}
