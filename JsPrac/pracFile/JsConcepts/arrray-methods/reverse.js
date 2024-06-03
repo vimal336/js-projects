@@ -21,4 +21,14 @@ console.log(reversedArray); // Output: [5, 4, 3, 2, 1]
 console.log(array2); // Output: [1, 2, 3, 4, 5] (original array remains unchanged
 
 
+//reverse method without inbuilt function
 
+function stringreverse(rev){
+    let reversed = ""
+  for(let i=rev.length-1;i>-1;i--){
+    reversed+=rev[i];
+  }
+  return reversed
+}
+
+console.log(stringreverse("reverse method "));
