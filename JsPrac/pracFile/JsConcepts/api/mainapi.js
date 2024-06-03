@@ -31,44 +31,61 @@ async function getMethod() {
   
   
 // Function to perform a POST request
-async function postMethod() {
-    try {
-      let response = await fetch("https://jsonplaceholder.typicode.com/posts", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          title: "foo",
-          body: "bar",
-          userId: 1,
-        }),
-      });
-      if (!response.ok) {
-        throw new Error(`HTTP error! Status: ${response.status}`);
-      }
-      let data = await response.json();
-      console.log(data);
+// async function postMethod() {
+//     try {
+//       let response = await fetch("https://jsonplaceholder.typicode.com/posts", {
+//         method: "POST",
+//         headers: {
+//           "Content-Type": "application/json",
+//         },
+//         body: JSON.stringify({
+//           title: "foo",
+//           body: "bar",
+//           userId: 1,
+//         }),
+//       });
+//       if (!response.ok) {
+//         throw new Error(`HTTP error! Status: ${response.status}`);
+//       }
+//       let data = await response.json();
+//       console.log(data);
   
-      // Select the HTML element to append the results
-      let postResults = document.getElementById("post-result");
+//       // Select the HTML element to append the results
+//       let postResults = document.getElementById("post-result");
   
-      // Clear previous results
-      postResults.innerHTML = "";
+//       // Clear previous results
+//       postResults.innerHTML = "";
   
-      // Append the result to the HTML
-      let div = document.createElement("div");
-      div.className = "json-container";
-      div.textContent = `ID: ${data.id}, Title: ${data.title}, Body: ${data.body}, UserID: ${data.userId}`;
-      postResults.appendChild(div);
-    } catch (error) {
-      console.log("Fetch error:", error);
-      document.getElementById("post-result").textContent = `Error: ${error.message}`;
-    }
-  }
+//       // Append the result to the HTML
+//       let div = document.createElement("div");
+//       div.className = "json-container";
+//       div.textContent = `ID: ${data.id}, Title: ${data.title}, Body: ${data.body}, UserID: ${data.userId}`;
+//       postResults.appendChild(div);
+//     } catch (error) {
+//       console.log("Fetch error:", error);
+//       document.getElementById("post-result").textContent = `Error: ${error.message}`;
+//     }
+//   }
   
 
-  postMethod();
+  // postMethod();
+
+
+  async function postmethod(){
+    let response = await fetch("https://jsonplaceholder.typicode.com/todos/",{
+      method:"POST",
+      headers:{
+        "Content-Type":"application/json",
+      },
+      body:JSON.stringify({
+
+      })
+    });
+  
+    let data = await response.json();
+    console.log(data);
+
+  }
 
   //find max arr
 
