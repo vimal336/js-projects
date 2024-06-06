@@ -14,6 +14,21 @@ isplaindrome("madam");
 
 let arr = [2,3,4,4,2,5,6];
 
-let unique = new Set(arr);
+let arr1 = [2,8,4,4,2,5,6];
 
-console.log(unique);
+// let unique = new Set(arr);
+
+// console.log(unique);
+
+
+let foe = arr.forEach((i)=>{
+    console.log(i);
+})
+
+console.log(foe)
+
+let mapm = arr1.map((inn)=>{
+    return inn;
+})
+
+console.log(mapm);
