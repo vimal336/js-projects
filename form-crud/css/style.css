@@ -13,6 +13,7 @@
   --main-purple: #9b59b6;
   --main-grey: #ccc;
   --sub-grey: #d9d9d9;
+  --bg-col: white;
 }
 
 body {
@@ -65,7 +66,7 @@ body {
     border-radius: 4px;
     cursor: pointer;
     background-color: #1266e4;
-    color: white;
+    color: var(--bg-col);
   }
 
   .filter-options .add {
@@ -75,7 +76,7 @@ body {
     cursor: pointer;
     background-color: rgb(36, 241, 36);
     font-weight: 400;
-    color: white;
+    color: var(--bg-col);
 
   }
   
@@ -206,7 +207,7 @@ body {
   
   .form-actions button[type="submit"] {
     background-color: black;
-    color: white;
+    color: var(--bg-col);
   }
   
   .form-actions button[type="button"] {

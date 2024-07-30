@@ -15,8 +15,6 @@ let materials = [
   const add = document.querySelector('.add');
   const openForm = document.querySelector('.open-form');
 
-
-
   // Function to render the table
   function renderTable() {
     const tableBody = document.querySelector('#material-table tbody');
@@ -114,7 +112,7 @@ let materials = [
   });
   
 
-// edit form
+//Edit form
 const edit = document.querySelector('.edit-button');
 edit.addEventListener('click', () => {
     confirm("Are you sure want to edit!");
