@@ -205,4 +205,12 @@ body {
   .form-actions button[type="button"] {
     background-color: var(--main-grey);
   }
+
   
+  .open-form {
+    visibility: hidden;
+}
+
+.open-form.block {
+    visibility: visible;
+}

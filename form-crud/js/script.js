@@ -11,6 +11,12 @@ let materials = [
     }
   ];
   
+  
+  const edit = document.querySelector('.edit-button');
+  const add = document.querySelector('.add');
+  const openForm = document.querySelector('.open-form');
+
+  
   // Function to render the table
   function renderTable() {
     const tableBody = document.querySelector('#material-table tbody');
@@ -43,6 +49,8 @@ let materials = [
     const mode = document.getElementById('delivery-mode').value;
     const date = document.getElementById('required-date').value;
     const address = document.getElementById('address').value;
+    //console.log(address)
+
     
     if (id === '') {
       // Create
@@ -89,4 +97,17 @@ let materials = [
   
   // Initial render
   renderTable();
+  
+  // Display form
+  add.addEventListener('click', () => {
+      openForm.classList.toggle('block');
+  });
+  
+
+  
+  
+  // edit to display form
+  edit.addEventListener('click', () => {
+      openForm.classList.toggle('block');
+  });
   
