@@ -126,7 +126,7 @@ edit.addEventListener('click', () => {
 const refreshButton = document.querySelector('.refresh');
 
 refreshButton.addEventListener('click', () => {
-    confirm("Are you sure want to refresh this page!");
+    // confirm("Are you sure want to refresh this page!");
     location.reload(); 
 });
 
