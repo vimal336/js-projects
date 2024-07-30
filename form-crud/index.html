@@ -5,105 +5,100 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Material Request Form</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
 
-    <div class="container">
+<div class="container">
+    
         <header>
           <h2>Material Request</h2>
           <div class="filter-options">
             <!-- <button>Filter</button> -->
-            <button>Refresh</button>
-            <button>Add New</button>
+            <button class="refresh">Refresh</button>
+            <button class="add">Add New</button>
           </div>
         </header>
     
-        <div class="table-responsive">
-          <table>
-            <thead>
-              <tr>
-                <th><input type="checkbox"></th>
-                <th>Material</th>
-                <th>Material Type</th>
-                <th>MR Date</th>
-                <th>Material Detail</th>
-                <th>Delivery Mode</th>
-                <th>Quantity</th>
-                <th>Status</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
+    <!-- Table -->
+  <div class="table-responsive">
+    <table id="material-table">
+      <thead>
+        <tr>
+          <th>Material</th>
+          <th>Material Type</th>
+          <th>MR Date</th>
+          <th>Material Detail</th>
+          <th>Delivery Mode</th>
+          <th>Address</th>
+          <th>Edit</th>
+          <th>Delete</th>
+        </tr>
+      </thead>
+      <tbody>
+                <tr>
                 <td><input type="checkbox"></td>
                 <td>Petrol</td>
                 <td>Ansheel Steel</td>
                 <td>01/02/2023</td>
                 <td>Steel</td>
                 <td>Local Delivery</td>
-                <td>19.51</td>
-                <td><span class="status pending">Pending</span></td>
-              </tr>
-            </tbody>
-          </table>
+                <td>KK Road Chennai</td>
+                <td><button class="edit-button"><i class="fas fa-edit"></i></button></td>
+                <td><button class="delete-button"><i class="fas fa-trash-alt"></i></button></td>
+              </tr> 
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Form -->
+  <div class="form-center">
+    <div class="form-container">
+      <h2>Material Request</h2>
+      <form id="material-form">
+        <input type="hidden" id="material-id" />
+        <div class="form-group">
+          <label for="material">Material</label>
+          <input type="text" id="material" placeholder="Material">
         </div>
-    
-        <div class="form-center">
-            <div class="form-container">
-                <h2>Material Request</h2>
-                <form>
-                  <div class="form-group">
-                    <label for="material">Material</label>
-                    <input type="text" id="material" placeholder="Material">
-                  </div>
-            
-                  <div class="form-group">
-                    <label for="activity">Material Type</label>
-                    <select id="activity">
-                        <option>Ansheel Steel</option>
-                        <option>Ansheel Electronics</option>
-                        <option>Ansheel cements</option>
-                        <option>Ansheel Pipes</option>
-                    </select>
-                  </div>
-            
-                  <div class="form-group">
-                    <label for="material-detail">Material Detail</label>
-                    <input type="text" id="material-detail" placeholder="Material Detail">
-                  </div>
-            
-                  <div class="form-group">
-                    <label for="delivery-mode">Delivery Mode</label>
-                    <select id="delivery-mode">
-                      <option>Local Delivery</option>
-                      <option>Pick up</option>
-                    </select>
-                  </div>
-            
-                  <div class="form-group">
-                    <label for="required-date">Required Date</label>
-                    <input type="date" id="required-date">
-                  </div>
-            
-                  <div class="form-group">
-                    <label for="notes">Notes</label>
-                    <textarea id="notes" placeholder="Notes"></textarea>
-                  </div>
-            
-                  <div class="form-group form-actions">
-                    <button type="button">Edit Full Form</button>
-                    <button type="submit">Submit</button>
-                  </div>
-                </form>
-              </div>
-            
+        <div class="form-group">
+          <label for="activity">Material Type</label>
+          <select id="activity">
+            <option>Ansheel Steel</option>
+            <option>Ansheel Electronics</option>
+            <option>Ansheel cements</option>
+            <option>Ansheel Pipes</option>
+          </select>
         </div>
-  
-</div>
+        <div class="form-group">
+          <label for="material-detail">Material Detail</label>
+          <input type="text" id="material-detail" placeholder="Material Detail">
+        </div>
+        <div class="form-group">
+          <label for="delivery-mode">Delivery Mode</label>
+          <select id="delivery-mode">
+            <option>Local Delivery</option>
+            <option>Pick up</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="required-date">Required Date</label>
+          <input type="date" id="required-date">
+        </div>
+        <div class="form-group">
+          <label for="address">Address</label>
+          <textarea id="address" placeholder="address"></textarea>
+        </div>
+        <div class="form-group form-actions">
+          <button type="button" id="edit-button">Edit Full Form</button>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
 
 
-<!-------------------------------------------form---------------------------------------------------------->
 
-
-
+<script src="./js/script.js"></script>
 </body>
 </html>

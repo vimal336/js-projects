@@ -53,12 +53,24 @@ body {
     gap: 10px;
   }
   
-  .filter-options button {
+  .filter-options .refresh {
     padding: 8px 15px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    background-color: #f0f2f5;
+    background-color: #1266e4;
+    color: white;
+  }
+
+  .filter-options .add {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgb(36, 241, 36);
+    font-weight: 400;
+    color: white;
+
   }
   
   .table-responsive {
@@ -85,7 +97,17 @@ body {
   tbody tr:hover {
     background-color: #f5f5f5;
   }
-  
+
+  .edit-button{
+    border: none;
+    color: rgb(60, 10, 240);
+  }
+  .delete-button{
+    border: none;
+    color: rgb(247, 54, 29);
+  }
+
+/*   
   .status {
     display: inline-block;
     padding: 5px 10px;
@@ -98,7 +120,7 @@ body {
   .status.approved { background-color: green; }
   .status.cancelled { background-color: red; }
   .status.draft { background-color: blue; }
-  .status.rejected { background-color: darkred; }
+  .status.rejected { background-color: darkred; } */
   
 
   @media (max-width: 768px) {
