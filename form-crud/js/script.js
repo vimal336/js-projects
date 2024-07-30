@@ -7,16 +7,16 @@ let materials = [
       date: "2023-02-01",
       detail: "Steel",
       mode: "Local Delivery",
-      address: "KK Road Chennai"
+      address: "VK Road Chennai"
     }
   ];
   
-  
-  const edit = document.querySelector('.edit-button');
+
   const add = document.querySelector('.add');
   const openForm = document.querySelector('.open-form');
 
-  
+
+
   // Function to render the table
   function renderTable() {
     const tableBody = document.querySelector('#material-table tbody');
@@ -49,10 +49,18 @@ let materials = [
     const mode = document.getElementById('delivery-mode').value;
     const date = document.getElementById('required-date').value;
     const address = document.getElementById('address').value;
-    //console.log(address)
+    const errorMessage = document.getElementById('error-message');
 
-    
-    if (id === '') {
+  // Form validation
+  if (!material || !type || !detail || !mode || !date || !address) {
+    errorMessage.textContent = "***Please fill out all fields***";
+    errorMessage.style.display = 'block';
+    return;
+  }
+
+  errorMessage.style.display = 'none';
+
+   if (id === '') {
       // Create
       materials.push({
         id: materials.length + 1,
@@ -91,6 +99,7 @@ let materials = [
   
   // Function to delete material
   function deleteMaterial(index) {
+    confirm("Are you sure want to Delete!");
     materials.splice(index, 1);
     renderTable();
   }
@@ -101,13 +110,24 @@ let materials = [
   // Display form
   add.addEventListener('click', () => {
       openForm.classList.toggle('block');
+      add.textContent = openForm.classList.contains('block') ? 'Close' : 'Add New';
   });
   
 
-  
-  
-  // edit to display form
-  edit.addEventListener('click', () => {
-      openForm.classList.toggle('block');
-  });
+// edit form
+const edit = document.querySelector('.edit-button');
+edit.addEventListener('click', () => {
+    confirm("Are you sure want to edit!");
+      openForm.classList.add('block');
+});
+
+
+//refresh button
+const refreshButton = document.querySelector('.refresh');
+
+refreshButton.addEventListener('click', () => {
+    confirm("Are you sure want to refresh this page!");
+    location.reload(); 
+});
+
   

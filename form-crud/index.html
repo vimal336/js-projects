@@ -12,7 +12,7 @@
 <div class="container">
     
         <header>
-          <h2>Material Request</h2>
+          <h2 class="head">Material Request</h2>
           <div class="filter-options">
             <!-- <button>Filter</button> -->
             <button class="refresh">Refresh</button>
@@ -52,53 +52,54 @@
   </div>
 
   <!-- Form -->
-  <div class="form-center open-form">
-    <div class="form-container">
+  <div class="form-center">
+    <div class="form-container open-form">
       <h2>Material Request</h2>
       <form id="material-form">
         <input type="hidden" id="material-id" />
         <div class="form-group">
           <label for="material">Material</label>
-          <input type="text" id="material" placeholder="Material" required>
+          <input type="text" id="material" placeholder="Material" >
         </div>
         <div class="form-group">
           <label for="activity">Material Type</label>
-          <select id="activity">
-            <option>Ansheel Steel</option>
-            <option>Ansheel Electronics</option>
-            <option>Ansheel cements</option>
-            <option>Ansheel Pipes</option>
+          <select id="activity" >
+            <option value="">Select a type</option>
+            <option value="Ansheel Steel">Ansheel Steel</option>
+            <option value="Ansheel Electronics">Ansheel Electronics</option>
+            <option value="Ansheel Cements">Ansheel Cements</option>
+            <option value="Ansheel Pipes">Ansheel Pipes</option>
           </select>
         </div>
         <div class="form-group">
           <label for="material-detail">Material Detail</label>
-          <input type="text" id="material-detail" placeholder="Material Detail" required>
+          <input type="text" id="material-detail" placeholder="Material Detail" >
         </div>
         <div class="form-group">
           <label for="delivery-mode">Delivery Mode</label>
-          <select id="delivery-mode" required>
-            <option>Local Delivery</option>
-            <option>other state</option>
-            <option>other district</option>
-            <option>Pick up</option>
+          <select id="delivery-mode">
+            <option value="">Select delivery mode</option>
+            <option value="Local Delivery">Local Delivery</option>
+            <option value="Other State">Other State</option>
+            <option value="Other District">Other District</option>
+            <option value="Pick up">Pick up</option>
           </select>
         </div>
         <div class="form-group">
           <label for="required-date">Required Date</label>
-          <input type="date" id="required-date" required>
+          <input type="date" id="required-date" >
         </div>
         <div class="form-group">
           <label for="address">Address</label>
-          <textarea id="address" placeholder="address" required></textarea>
+          <textarea id="address" placeholder="Address" ></textarea>
         </div>
         <div class="form-group form-actions">
-          <button type="button" id="edit-button">Edit Full Form</button>
           <button type="submit">Submit</button>
         </div>
       </form>
+      <p id="error-message" style="display: none;"><p>
     </div>
   </div>
-
 
 
 <script src="./js/script.js"></script>

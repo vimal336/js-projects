@@ -22,19 +22,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url("https://img.freepik.com/free-photo/empty-warehouse-logistic-centerwarehouse-storage-distribution-centers_41470-4823.jpg?w=2000");
   }
 
 
 /*------------------------------container--------------------------------------*/
 
   .container {
-    background-color: white;
+    background-color: rgb(248, 242, 242);
     width: 100%;
     max-width: 1200px;
     margin: 20px;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-repeat: no-repeat;
   }
   
   header {
@@ -42,6 +44,9 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+  }
+  .head{
+    color: rgb(0, 0, 0);
   }
   
   header h2 {
@@ -92,10 +97,11 @@ body {
   tbody td {
     padding: 10px;
     border-bottom: 1px solid #ddd;
+    background-color: rgb(224, 229, 231);
   }
   
   tbody tr:hover {
-    background-color: #f5f5f5;
+    background-color: #e5ff00;
   }
 
   .edit-button{
@@ -209,8 +215,16 @@ body {
   
   .open-form {
     visibility: hidden;
+    display: none;
 }
 
 .open-form.block {
     visibility: visible;
+    display: block;
+}
+
+#error-message{
+    font-weight: 800;
+    text-align: center;
+    color: red;
 }
