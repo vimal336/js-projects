@@ -132,7 +132,7 @@ body {
 
   @media (max-width: 768px) {
     header, .filter-options {
-      flex-direction: column;
+      /* flex-direction: column; */
       align-items: flex-start;
     }
   
