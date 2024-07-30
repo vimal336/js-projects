@@ -23,6 +23,7 @@ body {
     justify-content: center;
     align-items: center;
     background: url("https://img.freepik.com/free-photo/empty-warehouse-logistic-centerwarehouse-storage-distribution-centers_41470-4823.jpg?w=2000");
+    background-repeat: no-repeat;
   }
 
 
