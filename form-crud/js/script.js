@@ -1,4 +1,3 @@
-// Sample data array to store material requests
 let materials = [
     {
       id: 1,
@@ -15,10 +14,9 @@ let materials = [
   const add = document.querySelector('.add');
   const openForm = document.querySelector('.open-form');
 
-  // Function to render the table
   function renderTable() {
     const tableBody = document.querySelector('#material-table tbody');
-    tableBody.innerHTML = ''; // Clear the table
+    tableBody.innerHTML = ''; 
   
     materials.forEach((material, index) => {
       const row = document.createElement('tr');
@@ -35,13 +33,13 @@ let materials = [
       tableBody.appendChild(row);
     });
   }
-  
-  // Function to handle form submission
+
   document.getElementById('material-form').addEventListener('submit', function(e) {
     e.preventDefault();
     
     const id = document.getElementById('material-id').value;
     const material = document.getElementById('material').value;
+    const materialplaceholder = document.getElementById('material')
     const type = document.getElementById('activity').value;
     const detail = document.getElementById('material-detail').value;
     const mode = document.getElementById('delivery-mode').value;
@@ -49,17 +47,17 @@ let materials = [
     const address = document.getElementById('address').value;
     const errorMessage = document.getElementById('error-message');
 
-  // Form validation
   if (!material || !type || !detail || !mode || !date || !address) {
     errorMessage.textContent = "***Please fill out all fields***";
     errorMessage.style.display = 'block';
+    // materialplaceholder.value = "Please fill out this fields";
+    // materialplaceholder.style.color = 'red'
     return;
   }
 
   errorMessage.style.display = 'none';
 
    if (id === '') {
-      // Create
       materials.push({
         id: materials.length + 1,
         material,
@@ -70,20 +68,18 @@ let materials = [
         address
       });
     } else {
-      // Update
       const index = materials.findIndex(mat => mat.id === parseInt(id));
       materials[index] = { id: parseInt(id), material, type, date, detail, mode, address };
     }
   
-    // Clear form and reset id
+
     document.getElementById('material-id').value = '';
     this.reset();
     
-    // Render table
     renderTable();
   });
   
-  // Function to edit material
+
   function editMaterial(index) {
     const material = materials[index];
     document.getElementById('material-id').value = material.id;
@@ -94,35 +90,34 @@ let materials = [
     document.getElementById('required-date').value = material.date;
     document.getElementById('address').value = material.address;
   }
-  
-  // Function to delete material
+
   function deleteMaterial(index) {
     confirm("Are you sure want to Delete!");
     materials.splice(index, 1);
     renderTable();
   }
   
-  // Initial render
+
   renderTable();
-  
-  // Display form
+
   add.addEventListener('click', () => {
       openForm.classList.toggle('block');
       add.textContent = openForm.classList.contains('block') ? 'Close' : 'Add New';
   });
   
 
-//Edit form
+
 const edit = document.querySelector('.edit-button');
 edit.addEventListener('click', () => {
     confirm("Are you sure want to edit!");
       openForm.classList.add('block');
+      add.textContent = openForm.classList.contains('block') ? 'Close' : 'Add New';
+      
 });
 
 
-//refresh button
-const refreshButton = document.querySelector('.refresh');
 
+const refreshButton = document.querySelector('.refresh');
 refreshButton.addEventListener('click', () => {
     // confirm("Are you sure want to refresh this page!");
     location.reload(); 
