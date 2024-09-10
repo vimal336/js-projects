@@ -24,7 +24,7 @@ fetch("https://664d8fdcede9a2b55653e94f.mockapi.io/test/user")
 
 for (;;) {
     console.log("This will run forever");
-    // Add some condition to break out of the loop, if needed
-    // if (someCondition) break;
+    Add some condition to break out of the loop, if needed
+    if (someCondition) break;
   }
   
