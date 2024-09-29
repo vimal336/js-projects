@@ -271,7 +271,7 @@ function factorial(fact){
 }
 
 console.log(factorial(4))
-console.log(factorial(5))
+
 
 
 
