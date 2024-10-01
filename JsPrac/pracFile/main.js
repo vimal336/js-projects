@@ -272,7 +272,17 @@ function factorial(fact){
 
 console.log(factorial(4))
 
-
+function factorial(fact){
+    if(fact==0||fact==1){
+      return 1;
+    }
+    else{
+      return fact * factorial(fact-1);
+    }
+  }
+  
+  console.log(factorial(4))
+  
 
 
 
