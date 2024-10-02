@@ -285,6 +285,14 @@ function factorial(fact){
   console.log(factorial(5))
   
 
+  
+setTimeout(()=>{
+    console.log("1");
+    setTimeout(()=>{
+     console.log("2")
+    },2000);
+   },1000);
+
 
 
 
