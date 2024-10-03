@@ -290,7 +290,7 @@ setTimeout(()=>{
     console.log("1");
     setTimeout(()=>{
      console.log("2")
-    },3000);
+    },1000);
    },5000);
 
 
