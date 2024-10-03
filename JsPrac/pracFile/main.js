@@ -291,7 +291,7 @@ setTimeout(()=>{
     setTimeout(()=>{
      console.log("2")
     },1000);
-   },5000);
+   },3000);
 
 
 
