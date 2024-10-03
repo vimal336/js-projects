@@ -290,8 +290,8 @@ setTimeout(()=>{
     console.log("1");
     setTimeout(()=>{
      console.log("2")
-    },1000);
-   },2000);
+    },3000);
+   },5000);
 
 
 
