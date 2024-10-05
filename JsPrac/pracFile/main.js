@@ -307,3 +307,6 @@ setTimeout(()=>{
 if  console.log("Falsy");
 if (0) console.log("Falsy");
 if ("") console.log("Falsy");
+
+if (true) console.log("Truthy");
+if (1) console.log("Truthy");
