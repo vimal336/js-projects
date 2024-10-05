@@ -302,3 +302,6 @@ setTimeout(()=>{
      console.log("2")
     },1000);
    },2000);
+
+   // Falsy
+if (false) console.log("Falsy");
