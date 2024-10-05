@@ -303,11 +303,12 @@ setTimeout(()=>{
     },1000);
    },2000);
 
-   // Falsy
-if  console.log("Falsy");
+// Falsy
+if (false) console.log("Falsy");
 if (0) console.log("Falsy");
 if ("") console.log("Falsy");
 
+// Truthy
 if (true) console.log("Truthy");
 if (1) console.log("Truthy");
 if ("hello") console.log("Truthy");
