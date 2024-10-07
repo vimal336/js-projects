@@ -312,3 +312,5 @@ if ("") console.log("Falsy");
 if (true) console.log("Truthy");
 if (1) console.log("Truthy");
 if ("hellojs") console.log("Truthy");
+
+let promise = new Promise((resolve, reject) => {
