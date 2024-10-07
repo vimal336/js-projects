@@ -314,3 +314,4 @@ if (1) console.log("Truthy");
 if ("hellojs") console.log("Truthy");
 
 let promise = new Promise((resolve, reject) => {
+      // Asynchronous operation
