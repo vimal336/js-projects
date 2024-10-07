@@ -316,3 +316,6 @@ if ("hellojs") console.log("Truthy");
 let promise = new Promise((resolve, reject) => {
       // Asynchronous operation
  let success = true; // Simulate success or failure
+  if (success) {
+    resolve('Operation successful!');  // Fulfilled
+  } else {
