@@ -324,3 +324,7 @@ reject('Operation failed.');  // Rejected
 });
 
 promise
+  .then((result) => {
+    console.log(result);  // Output if the promise is fulfilled
+  })
+ 
