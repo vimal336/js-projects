@@ -322,3 +322,5 @@ let promise = new Promise((resolve, reject) => {
 reject('Operation failed.');  // Rejected
   }
 });
+
+promise
