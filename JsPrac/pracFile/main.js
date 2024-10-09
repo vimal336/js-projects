@@ -319,7 +319,7 @@ let promise = new Promise((resolve, reject) => {
   if (success) {
     resolve('Operation successful!');  // Fulfilled
   } else {
-reject('Operation failed.');  // Rejected
+reject('Operation is failed.');  // Rejected
   }
 });
 
