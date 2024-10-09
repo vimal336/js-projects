@@ -328,5 +328,5 @@ promise
     console.log(result);  // Output if the promise is fulfilled
   })
   .catch((error) => {
-    console.error(error);  // Output if the promise is rejected
+   // Output if the promise is rejected
   });
