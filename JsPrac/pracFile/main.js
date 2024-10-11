@@ -330,3 +330,6 @@ promise
   .catch((error) => {
     console.error(error);  // Output if the promise is rejected
   });
+
+
+  const numbers = [1, 2, 3, 4];
