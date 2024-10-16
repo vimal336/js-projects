@@ -341,6 +341,7 @@ const doubled = numbers.map(num => num * 2);
 console.log(doubled); // Output: [2, 4, 6, 8]
 
 
+const array = ['apple', 'banana', 'cherry'];
 
 for (const element of iterable) {
   
