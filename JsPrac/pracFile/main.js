@@ -348,7 +348,7 @@ for (const ele of array) {
   
 }
 
-for (const ele of array) {
+for (const ele in array) {
   console.log(ele);
   
 }
