@@ -348,4 +348,10 @@ for (const ele of array) {
   
 }
 
+for (const ele of array) {
+  console.log(ele);
+  
+}
+
+
 
