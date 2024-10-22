@@ -353,5 +353,9 @@ for (const ele in array) {
   
 }
 
-
+const person = {
+  name: 'Alice',
+  age: 30,
+  city: 'Wonderland'
+};
 
