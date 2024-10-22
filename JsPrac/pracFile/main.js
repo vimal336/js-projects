@@ -359,3 +359,4 @@ const person = {
   city: 'Wonderland'
 };
 
+for (let key in person) {
