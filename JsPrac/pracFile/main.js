@@ -355,7 +355,7 @@ for (const ele in array) {
 
 const person = {
   name: 'vimal',
-  age: 30,
+  age: 20,
   city: 'Wonderland'
 };
 
