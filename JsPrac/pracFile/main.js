@@ -361,7 +361,7 @@ const person = {
 
 
 const person = {
-  name: 'vimal',
+  name: 'vasanth',
   age: 20,
   city: 'Wonderland'
 };
