@@ -359,6 +359,13 @@ const person = {
   city: 'Wonderland'
 };
 
+
+const person = {
+  name: 'vimal',
+  age: 20,
+  city: 'Wonderland'
+};
+
 for (let key in person) {
   console.log(`${key}: ${person[key]}`);
 
