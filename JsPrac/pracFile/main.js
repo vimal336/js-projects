@@ -362,7 +362,7 @@ const person = {
 
 const person = {
   name: 'vasanth',
-  age: 20,
+  age: 10,
   city: 'Wonderland'
 };
 
