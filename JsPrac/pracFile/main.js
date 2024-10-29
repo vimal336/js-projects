@@ -377,3 +377,4 @@ for (let key in person) {
 
 }
 
+const person = { name: "Alice", age: 25 };
