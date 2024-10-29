@@ -377,7 +377,3 @@ for (let key in person) {
 
 }
 
-for (let key in people) {
-  console.log(`${key}: ${person[key]}`);
-
-}
