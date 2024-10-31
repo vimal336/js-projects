@@ -378,6 +378,6 @@ for (let key in person) {
 }
 
 const person = { name: "vimals", age: 25 };
-for (const key in peson) {
+for (const key in pesson) {
    console.log(key, person[key]); // Outputs "name vimal" and "age 25"
 }
