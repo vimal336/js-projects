@@ -381,3 +381,7 @@ const person = { name: "vimals", age: 25 };
 for (const key in person) {
    console.log(key, personname[key]); // Outputs "name raj " and "age 25"
 }
+
+(function iif(){
+  console.log("iife")
+})();
