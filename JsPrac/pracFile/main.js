@@ -383,5 +383,5 @@ for (const key in person) {
 }
 
 (function iif(){
-  console.log("iife")
+  console.log("iife function")
 })();
