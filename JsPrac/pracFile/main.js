@@ -386,4 +386,4 @@ for (const key in person) {
   console.log("iife function")
 })();
 
-iifo
+iif
