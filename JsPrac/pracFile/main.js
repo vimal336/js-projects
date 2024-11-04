@@ -383,7 +383,7 @@ for (const key in person) {
 }
 
 (function iif(){
-  console.log("iife function")
+  console.log("iife ")
 })();
 
 iifun
