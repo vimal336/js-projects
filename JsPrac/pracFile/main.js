@@ -392,4 +392,4 @@ function fun(a, b){
   c = b+c;
   return c
 }
-fun(5,5);
+fun(5,6);
