@@ -389,7 +389,7 @@ for (const key in person) {
 iifunc
 
 function fun(a, b){
-  c = b+c;
+  c = a+c;
   return c
 }
 fun(8,6);
