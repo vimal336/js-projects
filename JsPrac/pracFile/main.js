@@ -393,3 +393,9 @@ function fun(a, b){
   return c
 }
 fun(8,6);
+
+function fun(a, b){
+  c = a+c;
+  return c
+}
+fun(8,6);
