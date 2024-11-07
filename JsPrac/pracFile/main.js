@@ -395,7 +395,7 @@ function fun(a, b){
 fun(8,6);
 
 function fun(a, b){
-  c = a+c;
+  c = 6+c;
   return c
 }
 fun(9,6);
