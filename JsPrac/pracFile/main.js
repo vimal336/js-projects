@@ -398,4 +398,4 @@ function fun(a, b){
   c = 6+c;
   return c
 }
-fun(9,6);
+func(9,6);
