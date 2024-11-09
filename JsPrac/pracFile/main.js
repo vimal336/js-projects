@@ -409,4 +409,4 @@ class Employee{
 let employee = new Employee();
 
 console.log(employee.employeeName);
-console.log()
+console.log(employee.employeeage)
