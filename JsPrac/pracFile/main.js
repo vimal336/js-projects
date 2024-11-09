@@ -399,3 +399,12 @@ function fun(a, b){
   return c
 }
 func(9.96);
+
+class Employee{
+  employeeName = 'vimal';
+}
+
+//creating object for class
+let employee = new Employee();
+
+console.log(employee.employeeName);
