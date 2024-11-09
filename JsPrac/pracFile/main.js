@@ -402,9 +402,11 @@ func(9.96);
 
 class Employee{
   employeeName = 'vimal';
+  employeeage = 23
 }
 
 //creating object for class
 let employee = new Employee();
 
 console.log(employee.employeeName);
+console.log()
