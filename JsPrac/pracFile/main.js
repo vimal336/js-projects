@@ -400,6 +400,8 @@ function fun(a, b){
 }
 func(9.96);
 
+//creating class
+
 class Employee{
   employeeName = 'vimal';
   employeeage = 23
