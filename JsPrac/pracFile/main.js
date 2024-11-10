@@ -407,7 +407,7 @@ class Employee{
   employeeage = 23
 }
 
-//creating object for class
+//creating object for classess
 let employee = new Employee();
 
 console.log(employee.employeeName);
