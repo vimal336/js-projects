@@ -412,4 +412,4 @@ let employee = new Employee();
 
 console.log(employee.employeeName);
 console.log(employee.employeeage);
-console.log(emp
+console.log(employee.employeeName)
