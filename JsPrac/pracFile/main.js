@@ -418,7 +418,7 @@ console.log(employee.employeeName);
 
 function example() {
   if (true) {
-    var x = "inside if"; // x is scoped to the function example()
+    var x = "inside if";
   }
   
   console.log(x); 
