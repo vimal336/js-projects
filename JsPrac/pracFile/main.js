@@ -418,7 +418,7 @@ console.log(employee.employeeName);
 
 function example() {
   if (true) {
-    var x = "inside if";
+    var x = "inside if cause";
   }
   
   console.log(x); 
