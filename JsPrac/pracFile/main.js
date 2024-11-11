@@ -412,4 +412,16 @@ let employee = new Employee();
 
 console.log(employee.employeeName);
 console.log(employee.employeeage);
-console.log(employee.employeeName)
+console.log(employee.employeeName);
+
+
+
+function example() {
+  if (true) {
+    var x = "inside if"; // x is scoped to the function example()
+  }
+  
+  console.log(x); // Output: "inside if"
+}
+
+example();
