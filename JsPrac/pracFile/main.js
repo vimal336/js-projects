@@ -421,7 +421,7 @@ function example() {
     var x = "inside if"; // x is scoped to the function example()
   }
   
-  console.log(x); // Output: "inside if"
+  console.log(x); 
 }
 
 example();
