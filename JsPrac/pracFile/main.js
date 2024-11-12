@@ -417,7 +417,7 @@ console.log(employee.employeeName);
 
 
 function example() {
-  if (true) {
+  if (flase) {
     var x = "inside if ";
   }
   
