@@ -418,8 +418,8 @@ console.log(employee.employeeName);
 
 function example() {
   if (flase) {
-    var x = "inside if ";
+    var y = "inside if ";
   }
   
-  console.log(x); 
+  console.log(y); 
 }
