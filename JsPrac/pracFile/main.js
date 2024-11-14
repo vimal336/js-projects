@@ -416,7 +416,7 @@ console.log(employee.employeeName);
 
 
 
-function example() {
+function func() {
   if (flase) {
     var yz = "inside if ";
   }
