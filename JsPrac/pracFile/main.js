@@ -418,8 +418,8 @@ console.log(employee.employeeName);
 
 function fun1() {
   if (flase) {
-    var yz = "inside iif ";
+    var z = "inside iif ";
   }
   
-  console.log(yz); 
+  console.log(z); 
 }
