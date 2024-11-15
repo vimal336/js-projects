@@ -418,7 +418,7 @@ console.log(employee.employeeName);
 
 function fun1() {
   if (flase) {
-    var yz = "inside if ";
+    var yz = "inside iif ";
   }
   
   console.log(yz); 
