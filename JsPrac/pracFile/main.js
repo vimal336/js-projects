@@ -417,7 +417,7 @@ console.log(employee.employeeName);
 
 
 function fun1() {
-  if (flase) {
+  if (false) {
     var z = "inside a function ";
   }
   
