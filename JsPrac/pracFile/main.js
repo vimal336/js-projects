@@ -421,7 +421,7 @@ function fun1() {
     let val = "inside aa function ";
   }
   
-  console.log(z); 
+  console.log(val); 
 }
 
 const mySet = new Set([1, 4, 3, 5]);
