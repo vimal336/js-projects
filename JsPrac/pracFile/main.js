@@ -417,7 +417,7 @@ console.log(employee.employeeName);
 
 
 function fun1() {
-  if (false) {
+  if (true) {
     let z = "inside aa function ";
   }
   
