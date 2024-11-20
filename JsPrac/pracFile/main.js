@@ -426,3 +426,8 @@ function fun1() {
 
 const mySet = new Set([4, 4, 3, 5]);
 console.log(mySet); // Output: Set { 1, 2, 3 }
+
+
+
+const mySet = new Set([4, 4, 3, 5]);
+console.log(mySet); // Output: Set { 1, 2, 3 }
