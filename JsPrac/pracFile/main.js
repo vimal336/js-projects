@@ -424,5 +424,5 @@ function fun1() {
   console.log(val); 
 }
 
-const mySet = new Set([1, 4, 3, 5]);
+const mySet = new Set([4, 4, 3, 5]);
 console.log(mySet); // Output: Set { 1, 2, 3 }
