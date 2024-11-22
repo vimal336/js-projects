@@ -430,4 +430,4 @@ console.log(mySet); // Output: Set { 1, 2, 3 }
 
 
 const mySets = new Set([8, 4, 3, 5]);
-console.log(mySet); // Output: Set { 1, 2, 3 }
+console.log(mySets); // Output: Set { 1, 2, 3 }
