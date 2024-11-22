@@ -429,5 +429,5 @@ console.log(mySet); // Output: Set { 1, 2, 3 }
 
 
 
-const mySets = new Set([4, 4, 3, 5]);
+const mySets = new Set([7, 4, 3, 5]);
 console.log(mySet); // Output: Set { 1, 2, 3 }
