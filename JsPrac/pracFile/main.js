@@ -433,7 +433,7 @@ const mySets = new Set([9, 7, 3, 5]);
 console.log(mySets); // Output: Set { 1, 2, 3 }
 
 const func = () =>{
-  console.log("function")
+  console.log("function call")
 }
 
 func();
