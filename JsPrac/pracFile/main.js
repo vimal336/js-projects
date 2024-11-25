@@ -437,3 +437,10 @@ const func = () =>{
 }
 
 func();
+
+
+const func = () =>{
+  console.log("function call")
+}
+
+func();
