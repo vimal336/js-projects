@@ -440,7 +440,7 @@ func();
 
 
 const func = () =>{
-  console.log("call method")
+  console.log(" func call method")
 }
 
 func();
