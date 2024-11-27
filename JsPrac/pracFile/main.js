@@ -439,7 +439,7 @@ const func = () =>{
 func();
 
 
-const func = () =>{
+const funct = () =>{
   console.log(" func call method")
 }
 
