@@ -429,7 +429,7 @@ console.log(mySet); // Output: Set { 1, 2, 3 }
 
 
 
-const mySets = new Set([9, 7, 3, 5]);
+const mySets = new Set([10, 7, 3, 5]);
 console.log(mySets); // Output: Set { 1, 2, 3 }
 
 const func = () =>{
