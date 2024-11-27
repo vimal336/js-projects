@@ -408,9 +408,9 @@ class Employee{
 }
 
 //creating object for classess
-let employee = new Employee();
+let employees = new Employee();
 
-console.log(employee.employeeName);
+console.log(employees.employeeName);
 console.log(employee.employeeage);
 console.log(employee.employeeName);
 
