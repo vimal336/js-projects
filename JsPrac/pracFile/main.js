@@ -445,7 +445,7 @@ const funct = () =>{
 
 func();
 
-const funct = () =>{
+const func = () =>{
   console.log(" func call method")
 }
 
