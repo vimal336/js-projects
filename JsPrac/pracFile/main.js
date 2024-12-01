@@ -451,4 +451,4 @@ const func = () =>{
 
 func();
 
-setTimeout((console/)=>{})
+setTimeout((console.log)=>{})
