@@ -451,4 +451,4 @@ const func = () =>{
 
 func();
 
-setTimeout()
+setTimeout(2000)
