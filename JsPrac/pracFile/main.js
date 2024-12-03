@@ -446,7 +446,7 @@ const funct = () =>{
 func();
 
 const func = () =>{
-  console.log(" function call method")
+  console.log(" function  method")
 }
 
 func();
