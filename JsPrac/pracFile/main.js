@@ -451,5 +451,5 @@ for(let i=arr.length; i>=1; i--){
 }
 
 for(let i=arr.length; i>=1; i--){
-  console.log(arr[i]);
+  console.log(arr[j]);
 }
