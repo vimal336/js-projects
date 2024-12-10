@@ -452,4 +452,4 @@ for(let i=arr.length; i>=1; i--){
 
 for(let i=arr.length; i<=5; i++){
   console.log(arr[j]);
-}
+
