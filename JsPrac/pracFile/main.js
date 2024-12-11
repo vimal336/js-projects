@@ -444,11 +444,6 @@ func();
 setTimeout()
 
 
-let arr1 = [1,2,3,4,5];
-
-for(let i=arr.length; i>=1; i--){
-  console.log(arr[j]);
-}
 
 
 
