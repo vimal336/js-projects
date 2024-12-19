@@ -449,7 +449,7 @@ const func = () =>{
 
 func();
 
-setTimeout()
+
 
 
 
