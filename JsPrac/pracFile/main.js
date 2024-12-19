@@ -443,6 +443,15 @@ func();
 
 setTimeout()
 
+const func = () =>{
+  console.log(" function")
+}
+
+func();
+
+setTimeout()
+
+
 
 
 
