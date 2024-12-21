@@ -447,7 +447,7 @@ const func = () =>{
   console.log(" function")
 }
 
-func();
+// func();
 
 
 
