@@ -450,7 +450,7 @@ const func = () =>{
 
 func();
 
-gret
+gret()
 
 
 
