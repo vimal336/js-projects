@@ -444,7 +444,7 @@ func();
 setTimeout()
 
 const func = () =>{
-  console.log("function declaration")
+
   console.log("function declaration")
 }
 
