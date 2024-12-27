@@ -450,6 +450,8 @@ const func = () =>{
 
 func();
 
+func();
+
 
 
 
