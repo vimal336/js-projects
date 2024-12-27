@@ -450,8 +450,6 @@ const func = () =>{
 
 func();
 
-gret()
-
 
 
 
