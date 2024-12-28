@@ -285,16 +285,6 @@ function factorial(fact){
   console.log(factorial(5))
   
 
-  
-setTimeout(()=>{
-    console.log("1");
-    setTimeout(()=>{
-     console.log("2")
-    },1000);
-   },3000);
-
-
-
 
    setTimeout(()=>{
     console.log("1");
@@ -451,6 +441,8 @@ const func = () =>{
 func();
 
 func();
+
+
 
 
 
