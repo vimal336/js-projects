@@ -10,4 +10,4 @@ checkEven
     .catch((error) => console.error(error)); // On failure
 
     .then((message) => console.log(message)) // On success
-    .catch((error) => console.error(error)); // On failure
+    .catch((error) => .error(error)); // On failure
