@@ -20,4 +20,4 @@ checkEven
     });
     
     checkEven
-        .then((msg) => console.log(message)) // On success
+        .then((msg) => console.log(msg)) // On success
