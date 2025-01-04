@@ -16,7 +16,7 @@ checkEven
         let number = 4;
     
         if (number % 2 === 0) resolve("The number is even!");
-        else reject("The number is odd!");
+        else reject("number is odd!");
     });
     
     checkEven
