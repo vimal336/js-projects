@@ -22,4 +22,4 @@ checkEven
     checkEven
         .then((msg) => console.log(msg)) // On success
         checkEven
-        .then((message) => console.log(message)) // On success
+/ On success
