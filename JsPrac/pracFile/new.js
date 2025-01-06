@@ -12,8 +12,7 @@ checkEven
     .then((message) => console.log(message)) 
 
 
-    let checkOdd = new Promise((resolve, reject) => {
-        let number = 4;
+
     
         if (number % 2 === 0) resolve("The number is even!");
         else reject("number is odd!");
