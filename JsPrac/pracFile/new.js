@@ -13,8 +13,8 @@ checkEven
     let positive = new Promise((resolve, reject) => {
         let number = 4;
     
-        if (number % 2 === 0) resolve("The number is positive!");
-        else reject("The number is odd!");
+        if (number >= 0) resolve("The number is positive!");
+        else reject("The number is megative!");
     });
     
     checkEven
