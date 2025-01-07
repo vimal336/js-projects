@@ -14,7 +14,7 @@ checkEven
         let number = 4;
     
         if (number >= 0) resolve("The number is positive!");
-        else reject("The number is megative!");
+        else reject("The number is negative!");
     });
     
     checkEven
