@@ -21,8 +21,6 @@ checkEven
         .then((msg) => console.log(msg)) // On success
         .catch((error) => console.error(error)); // On failure
 
-        checkEven
-        .then((msg) => console.log(msg))
  
 
 
