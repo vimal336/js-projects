@@ -23,7 +23,7 @@ checkEven
 
         checkEven
         .then((msg) => console.log(msg))
-        .catch((error) => console.error(error)); 
+ 
 
-        
+
   
