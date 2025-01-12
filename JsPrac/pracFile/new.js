@@ -28,7 +28,7 @@ checkEven
         .catch((error) => console.error(error)); 
 
         
-        checkEven
+CheckOdd
         .then((msg) => console.log(message))
  
  
