@@ -32,4 +32,10 @@ CheckOdd
         .then((msg) => console.log(message))
  
  
-  
+
+        const fun = () =>{
+            console.log("function")
+        }
+        
+        fun();
+        
