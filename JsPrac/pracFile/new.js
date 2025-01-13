@@ -36,6 +36,5 @@ CheckOdd
         const fun = () =>{
             console.log("function")
         }
-        
-        fun();
+
         
