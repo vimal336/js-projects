@@ -37,4 +37,4 @@ CheckOdd
             console.log("function")
         }
 
-        
+        Func()
