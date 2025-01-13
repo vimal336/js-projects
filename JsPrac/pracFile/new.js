@@ -33,7 +33,7 @@ CheckOdd
  
  
 
-        const fun = () =>{
+        const func = () =>{
             console.log("function")
         }
 
