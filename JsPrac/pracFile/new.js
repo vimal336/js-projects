@@ -34,6 +34,6 @@ CheckOdd
  
 
         const func = () =>{
-            console.log("function")
+            console.log("function call")
         }
 
