@@ -40,3 +40,5 @@ CheckOdd
 
 
 function isBigEnough(value) {
+  return value >= 10;
+
