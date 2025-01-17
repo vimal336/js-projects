@@ -37,3 +37,6 @@ CheckOdd
             console.log("function")
         }
 
+
+
+function isBigEnough(value) {
