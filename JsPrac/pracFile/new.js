@@ -40,7 +40,7 @@ CheckOdd
 
 
 function isBigEnough(value) {
-  return value >= 10;
+  return value >= 5;
 }
 
 const filtered = [12, 45, 8, 130, 44].filter(isBigEnough);
