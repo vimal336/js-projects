@@ -43,5 +43,5 @@ function isBigEnough(value) {
   return value >= 5;
 }
 
-const filtered = [12, 45, 8, 130, 44].filter(isBigEnough);
-// filtered is [12, 45, 130, 44]
+const filtered = [12, 35, 8, 130, 44].filter(isBigEnough);
+// filtered is [12, 5, 130, 44]
