@@ -50,4 +50,4 @@ function isSmallEnough(value) {
     return value >= 5;
   }
   
-  const filteredSmall = [1, 5, 8, 130, 34].filter(isSmallEnough);
+  const filteredSmall = [1, 35, 8, 130, 34].filter(isSmallEnough);
