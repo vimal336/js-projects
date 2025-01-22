@@ -46,8 +46,3 @@ function isBigEnough(value) {
 const filtered = [12, 5, 8, 130, 34].filter(isBigEnough);
 // filtered is [12, 5, 130, 34]
 
-function isSmall(value) {
-    return value >= 5;
-  }
-  
-  const filteredSmall = [1, 35, 8, 10, 34].filter(isSmall);
