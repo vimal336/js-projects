@@ -61,3 +61,8 @@ function isSmall(value) {
         return false;
     }
 }
+
+let str1 = "racecar";
+let str2 = "nitin";
+let str3 = "Rama";
+
