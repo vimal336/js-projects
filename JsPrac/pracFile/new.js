@@ -71,3 +71,14 @@ console.log(isPalindrome(str1));
 console.log(isPalindrome(str2));
 console.log(isPalindrome(str3));
 console.log(isPalindrome(str4));
+
+
+// Define the API URL
+const apiUrl = 'https://api.example.com/data';
+
+// Make a GET request
+fetch(apiUrl)
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
