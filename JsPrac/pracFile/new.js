@@ -74,7 +74,7 @@ console.log(isPalindrome(str4));
 
 
 // Define the API URL
-const apiUrl = 'https://api.example.com/data';
+const apiUrl = '';
 
 // Make a GET request
 fetch(apiUrl)
