@@ -74,7 +74,7 @@ console.log(isPalindrome(str4));
 
 
 // Define the API URL
-const apiUrl = '';
+const apiUrl = "https://jsonplaceholder.typicode.com/posts";
 
 // Make a GET request
 fetch(apiUrl)
