@@ -95,7 +95,7 @@ fetch(apiUrl)
   const apiUrl2 = "https://jsonplaceholder.typicode.com/posts";
 
 // Make a GET request
-fetch(apiUrl)
+fetch(apiUrl2)
   .then(response => {
     if (!response.ok) {
       throw new Error('Network response was not ok');
