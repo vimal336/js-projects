@@ -92,7 +92,7 @@ fetch(apiUrl)
   });
 
 
-  const apiUrl2 = "https://jsonplaceholder.typicode.com/";
+  const apiUrl2 = "https://jsonplaceholder.typicode.com/posts";
 
 // Make a GET request
 fetch(apiUrl2)
