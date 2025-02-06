@@ -108,3 +108,7 @@ fetch(apiUrl2)
   .catch(error => {
     console.error('Error:', error);
   });
+
+  let myprom = new Promise((resolve, reject))=>{
+    
+  }
