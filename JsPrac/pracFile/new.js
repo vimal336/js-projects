@@ -110,5 +110,9 @@ fetch(apiUrl2)
   });
 
   let myprom = new Promise((resolve, reject)=>{
-
+if(2 === 2){
+  resolve("ok")
+} else {
+  reject("not ok")
+}
   })
