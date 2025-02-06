@@ -113,6 +113,6 @@ fetch(apiUrl2)
 if(2 === 2){
   resolve("ok")
 } else {
-  reject("not ok")
+  reject("not okay")
 }
   })
