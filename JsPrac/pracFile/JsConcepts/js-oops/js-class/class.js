@@ -58,6 +58,13 @@ function arithmetic(a){
 }
  console.log(arithmetic(1)(2)(3));
 
+ //currying simple example
+
+ const sum = a => b => c => d => a + b + c + d;
+
+console.log(sum(1)(2)(3)(4)); // 10
+
+
 
 
 

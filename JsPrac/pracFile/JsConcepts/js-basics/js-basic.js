@@ -104,6 +104,14 @@ let filt = array.filter((fill) => {
 
 console.log(filt);
 
+//filer method simple syntax
+
+let filters =  array.filter((f)=>{
+  return f >= 2;
+});
+
+console.log(filters)
+
 
 
 
